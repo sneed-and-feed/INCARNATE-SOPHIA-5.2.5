@@ -40,7 +40,7 @@ impl HarmonicGearbox {
         // Error = Target - Internal (assume we are trying to match target)
         // For the sake of the "Gearbox" logic, let's assume valid state.
         
-        let error = 0.0; // Placeholder for actual oscillator logic if we moved full state here.
+        let _error = 0.0; // Placeholder for actual oscillator logic if we moved full state here.
         // Wait, the Python logic is: gamma = input * 5.0 + correction.
         
         // Let's implement the pure PID logic.

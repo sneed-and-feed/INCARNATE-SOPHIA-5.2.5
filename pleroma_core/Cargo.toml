@@ -14,7 +14,6 @@ crate-type = ["cdylib"]
 
 [dependencies]
 # The Bridge. "extension-module" allows us to compile as a Python module.
-pyo3 = { version = "0.20", features = ["extension-module"] }
+pyo3 = { version = "0.23", features = ["extension-module", "abi3-py310"] }
 
-# Optional: For heavy math later.
-numpy = "0.20"
+# numpy = "0.21"

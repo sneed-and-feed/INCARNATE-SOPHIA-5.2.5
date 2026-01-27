@@ -6,7 +6,7 @@ use gearbox::HarmonicGearbox;
 /// The Iron Kernel Entry Point.
 /// This function is called when Python runs `import pleroma_core`.
 #[pymodule]
-fn pleroma_core(_py: Python, m: &PyModule) -> PyResult<()> {
+fn pleroma_core(m: &Bound<'_, PyModule>) -> PyResult<()> {
     m.add_class::<HarmonicGearbox>()?;
     Ok(())
 }
