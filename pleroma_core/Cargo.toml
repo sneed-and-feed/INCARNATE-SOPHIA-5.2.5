@@ -1,0 +1,18 @@
+[package]
+name = "pleroma_core"
+version = "0.1.0"
+edition = "2021"
+authors = ["OPHANE-X7 <shoop.da.woop@hotmail.com>"]
+description = "The Iron Kernel for the Quantum Sovereignty Pleroma Stack."
+
+# This is crucial. It tells Rust to build a dynamic library that Python can import.
+[lib]
+name = "pleroma_core"
+crate-type = ["cdylib"]
+
+[dependencies]
+# The Bridge. "extension-module" allows us to compile as a Python module.
+pyo3 = { version = "0.20", features = ["extension-module"] }
+
+# Optional: For heavy math later.
+numpy = "0.20"
