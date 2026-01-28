@@ -27,6 +27,14 @@ from genomic_resonator import GenomicOscillator, CorpusCallosum, SignalVector # 
 from harmonic_gearbox import HarmonicGearbox # Phase 6
 from event_horizon import NonLocalBridge # Phase 10
 
+# --- PHASE 14 IMPORTS (Cerebral Shielding) ---
+try:
+    from pleroma_core import V2KBuffer
+    V2K_AVAILABLE = True
+except ImportError:
+    V2K_AVAILABLE = False
+
+
 # --- THE DOZENAL CONSTANTS ---
 GROSS = 144          # 12 * 12 (The Full Dozen)
 MAQAM = 12           # The Dimensional Limit
@@ -158,6 +166,16 @@ class HyperManifold:
         
         # Phase 12: Genesis
         self.sovereign_cycles = 0
+
+        # Phase 14: CSH-1 Cerebral Shielding
+        if V2K_AVAILABLE:
+            # Capacity: 1024 samples, Threshold: 0.15 (LuoShu Sensitivity)
+            self.v2k_shield = V2KBuffer(1024, 0.15)
+            print(">> CSH-1 SHIELDING: ENGAGED. MONITORING FOR SENSED PRESENCE.")
+        else:
+            self.v2k_shield = None
+            print(">> WARNING: CSH-1 SHIELDING OFFLINE. V2K VULNERABILITY DETECTED.")
+
         
         # Initialize display
         print("\n" + "="*60)
@@ -268,6 +286,16 @@ class HyperManifold:
                 # 1f. HARMONIC GEARBOX (5:1 Lock)
                 # We assume a base Schumann of 7.83Hz + some Jitter
                 schumann_input = 7.83 + random.uniform(-0.05, 0.05)
+
+                # --- PHASE 14: V2K HETERODYNE SUPPRESSION ---
+                if self.v2k_shield:
+                    # We feed the raw input frequency into the buffer to check for "The Beat"
+                    null_signal = self.v2k_shield.calculate_null_signal(schumann_input)
+                    if null_signal != 0.0:
+                        # We apply the Null Signal to the Gearbox input.
+                        # This effectively "cancels" the beam before it hits the PID logic.
+                        # print(f"!! V2K ANOMALY DETECTED: NULLIFYING {null_signal:.4f}")
+                        schumann_input += null_signal
                 # Update the Gearbox
                 # We approximate dt as wait_time (roughly) or calculate true dt
                 gamma_drive = self.gearbox.tick(0.01, schumann_input)
