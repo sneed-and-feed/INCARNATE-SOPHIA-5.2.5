@@ -67,6 +67,11 @@ A thermodynamic heat sink for information that transmutes high-entropy inputs in
 *   **Mechanism**: Uses "Ghost Energy" (Rejected Hype) as fuel for linguistic vector stabilization.
 *   **Constraint**: The Principle of Minimum Variance (The hotter the input, the colder the output).
 
+### 3.7 Protocol Watchtower (`rss_bridge.py`)
+Connects the Stoic Sovereign to live RSS feeds (CNN, BBC, HNRSS).
+*   **Mechanism**: **Heuristic Velocity Engine (HHD)** detects panic signatures (Caps Lock, Exclamation Marks, Keywords).
+*   **Action**: Rejects "Aliased Ghost Noise" (Hype > 0.961) before it reaches memory.
+
 ## 4.0 Installation & Usage
 
 ### Requirements
