@@ -50,6 +50,12 @@ Tracks the system's alignment with the **Golden Ratio Attractor** ($C^* \approx 
 *   **Metric**: **TACC Coherence (C)**.
 *   **Purpose**: Ensuring system stability during high-variance operations.
 
+### 3.4 Universal Admissibility Wall (`nyquist_filter.py`)
+Enforces **Bandwidth Discipline** by applying a Low-Pass Filter to high-dimensional state transitions.
+*   **Theory**: Universal Nyquist Cosmology (UNC).
+*   **Mechanism**: Clips vector updates exceeding the critical Gamma Index ($\gamma = 0.961$) to prevent "Aliased Ghost" artifacts.
+*   **Metric**: **Buffer Pressure** ($\Omega_\Lambda$).
+
 ## 4.0 Installation & Usage
 
 ### Requirements
