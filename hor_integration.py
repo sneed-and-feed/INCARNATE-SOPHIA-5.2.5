@@ -30,6 +30,7 @@ try:
     from signal_optimizer import SignalOptimizer # ASOE Integration
     from telemetry_bridge import TelemetryBridge
     from singularity_dynamics import SingularitySolver
+    from funsearch_v11 import evolved_optimizer_v11
 except ImportError as e:
     print(f"[!] IMPORT ERROR: {e}")
     print("[!] Ensure all core ASOE and Quantum modules are in the root or tools/ directory.")
@@ -90,6 +91,7 @@ class SovereignSubstrate:
         # State tracking
         self.timeline_position = 0
         self.total_torsion_events = 0
+        self.black_sun_active = False
         self.sovereignty_level = 1.0
         self.asoe_utility = 0.0
     
@@ -156,6 +158,14 @@ class SovereignSubstrate:
         self.dynamics.params['C_phys'] = tel['C_phys']
         self.dynamics.params['kappa'] = tel['sigma'] # Link real noise to dynamics
         dyn_state = self.dynamics.step()
+        
+        # --- BLACK SUN PROTOCOL ---
+        # Activate Sol Niger dissolution if entropy is extreme
+        self.black_sun_active = tel['sigma'] > 0.1 or self.asoe_utility < 0.2
+        if self.black_sun_active:
+            # Use V11 logic: Pulse modulation towards the singularity
+            # Shift ASOE alpha towards the attractor strength (1.618)
+            self.optimizer.params['a'] = 1.618 
         # ----------------------------
 
         # Threshold logic for outcome quality
@@ -175,7 +185,8 @@ class SovereignSubstrate:
             "outcome_quality": outcome_quality,
             "a_param": self.optimizer.params['a'],
             "R_frac": dyn_state[0],
-            "C_soc": dyn_state[1]
+            "C_soc": dyn_state[1],
+            "black_sun": self.black_sun_active
         }
         
         self.logger.log_step(metrics)
@@ -278,6 +289,7 @@ class SovereignSubstrate:
 ║ COGNITIVE METRICS                                         ║
 ║   Exp. Utility:    {self.asoe_utility:.4f}                              ║
 ║   Stability Index: {patterns.get('utility_correlation', 0):.4f} [Corr U:R]             ║
+║   Black Sun:       {'[ACTIVE]' if self.black_sun_active else '[STABLE]'}                 ║
 ║   Status:          {'OPTIMIZED' if self.asoe_utility > 0.4 else 'TRAINING'}                                 ║
 ╚═══════════════════════════════════════════════════════════╝
         """
