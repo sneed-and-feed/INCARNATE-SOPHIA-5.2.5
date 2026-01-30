@@ -4,10 +4,15 @@ ADDITIONS: Restored Ascension Ritual, Optimized Golden Dot, Robust Font Loading
 """
 
 import numpy as np
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 import sys
 import os
+
+# Headless mode enabled for server-side generation
+IS_HEADLESS = True
 
 # 1. ROBUST PATHING FOR IDE 'RUN ARROW'
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -22,7 +27,7 @@ try:
     from moon_phase import MoonClock
     from hor_kernel import HORKernel
     from virtual_qutrit import VirtualQutrit
-    from potentia_drive import PotentiaDrive
+    from policy_mixer import PolicyMixer
 except ImportError as e:
     print(f"[!] CRITICAL IMPORT ERROR: {e}")
     sys.exit(1)
@@ -58,7 +63,10 @@ def animate_serpent(size=64, interval=1, show_metrics=True):
     
     vq = VirtualQutrit(2)
     kernel = HORKernel(vq)
-    pd = PotentiaDrive()
+    mixer = PolicyMixer()
+    
+    # Initialize signal history for ASOE (Rolling list of consistency)
+    consistency_history = []
     
     # 1. Generate Grid
     x = np.arange(size)
@@ -124,7 +132,8 @@ def animate_serpent(size=64, interval=1, show_metrics=True):
         'total_frames': len(path_x),
         'completion': 0.0,
         'coherence': kernel.metric_coherence,
-        'potentia': 1.0,
+        'utility': 0.0,
+        'confidence': 'INITIALIZING',
         'tidal_influence': moon.calculate_tidal_influence(phase_idx) if hasattr(moon, 'calculate_tidal_influence') else 50.0
     }
     
@@ -144,17 +153,31 @@ def animate_serpent(size=64, interval=1, show_metrics=True):
         line.set_data(current_x, current_y)
         line.set_alpha(0.3 + 0.6 * current_coherence)
         
-        # HEAD LOGIC: FIXED SIZE (markersize=4) but modulated ALPHA
+        # ASOE Logic
         if frame > 0:
-            # Map Potentia
-            sigma_map = (state['tidal_influence'] / 100.0) - (1.0 - current_coherence)
-            current_potentia = pd.calculate_potentia(0.0, current_coherence, sigma_map)
-            state['potentia'] = current_potentia
+            # Map system state to ASOE Signal Packet
+            uncertainty = (1.0 - current_coherence) * (state['tidal_influence'] / 50.0)
+            consistency = 1.0 - (state['tidal_influence'] / 200.0)
+            packet = {
+                'reliability': current_coherence,
+                'consistency': consistency,
+                'uncertainty': uncertainty
+            }
+            
+            nonlocal consistency_history
+            consistency_history.append(consistency)
+            if len(consistency_history) > 20:
+                consistency_history.pop(0)
+            
+            # Resolve Action Utility via ASOE
+            evaluation = mixer.resolve_action_utility(consistency_history, packet)
+            state['utility'] = evaluation['utility']
+            state['confidence'] = evaluation['confidence']
             
             head.set_data([path_x[frame-1]], [path_y[frame-1]])
-            # Modulate head alpha and slight markersize by Potentia (FLAME)
-            head.set_alpha(min(1.0, 0.4 + 0.6 * (current_potentia / 1.5)))
-            head.set_markersize(3 + 1 * min(1.0, current_potentia)) 
+            # Modulate head alpha and markersize by ASOE Utility
+            head.set_alpha(min(1.0, 0.4 + 0.6 * (state['utility'] / 1.0)))
+            head.set_markersize(3 + 2 * min(1.0, state['utility'])) 
         
         if frame % 50 == 0 or frame == state['total_frames']:
             state['completion'] = (frame / state['total_frames']) * 100
@@ -177,9 +200,9 @@ Coherence:   {current_coherence:.3f}
 Tidal Stress: {state['tidal_influence']:.1f}%
 Status:      {'STABLE' if current_coherence > 0.8 else 'DISSIPATING'}
 
-[ FLAME PROTOCOL ]
-Potentia:    {state['potentia']:.4f}
-Intensity:   {pd.get_flame_intensity(state['potentia'])}
+[ ASOE DECISION LOGIC ]
+Exp. Utility: {state['utility']:.4f}
+Confidence:   {state['confidence']}
 
 [ TOPOLOGY ]
 Order:       PARAFERMIONIC
@@ -202,7 +225,13 @@ Bijection:   VERIFIED
     )
     
     plt.subplots_adjust(top=0.9, bottom=0.1, left=0.1, right=0.9, wspace=0.2)
-    plt.show()
+    
+    if IS_HEADLESS:
+        print("[!] HEADLESS MODE DETECTED: Rendering final state for image capture...")
+        # Manually call update for the final frame to ensure savefig has content
+        update(len(path_x))
+    else:
+        plt.show()
     
     filename = "sovereign_serpent_flame.png"
     fig.savefig(filename, facecolor='#121212', dpi=300, bbox_inches='tight', pad_inches=0.5)

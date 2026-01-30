@@ -1,13 +1,4 @@
-"""
-MODULE: context_classifier.py
-VERSION: ASOE v1.0
-DESCRIPTION:
-    Classifies the operational context based on signal dynamics. 
-    Routes decision policies based on environmental stability.
-"""
-
 import numpy as np
-import pandas as pd
 
 class ContextClassifier:
     def __init__(self):
@@ -17,7 +8,19 @@ class ContextClassifier:
             "DISRUPTED": "High Failure Risk / Signal Collapse"
         }
 
-    def classify(self, signal_history: pd.Series, uncertainty: float) -> str:
+    def _autocorr(self, x, lag=1):
+        """Standard NumPy implementation of autocorrelation."""
+        if len(x) < lag + 2:
+            return 0.0
+        n = len(x)
+        x_mean = np.mean(x)
+        x_var = np.var(x)
+        if x_var == 0:
+            return 0.0
+        x_centered = x - x_mean
+        return np.sum(x_centered[lag:] * x_centered[:-lag]) / ((n - lag) * x_var)
+
+    def classify(self, signal_history: np.ndarray, uncertainty: float) -> str:
         """
         Evaluates context based on signal consistency and uncertainty.
         """
@@ -29,7 +32,7 @@ class ContextClassifier:
             return "DISRUPTED"
             
         # 2. Check for Stability via temporal consistency (Autocorr)
-        consistency = signal_history.autocorr(lag=1)
+        consistency = self._autocorr(signal_history, lag=1)
         
         if abs(consistency) > 0.4:
             return "STABLE"

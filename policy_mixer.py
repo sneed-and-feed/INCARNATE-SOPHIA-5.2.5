@@ -1,27 +1,20 @@
-"""
-MODULE: policy_mixer.py
-VERSION: ASOE v1.0
-DESCRIPTION:
-    Dynamic Policy Engine.
-    Mixes and weights candidate decision policies based on detected context.
-"""
-
 from signal_optimizer import SignalOptimizer
 from context_classifier import ContextClassifier
-import pandas as pd
+import numpy as np
 
 class PolicyMixer:
     def __init__(self):
         self.optimizer = SignalOptimizer(a=1.2, b=0.8, c=1.1)
         self.classifier = ContextClassifier()
         
-    def resolve_action_utility(self, signal_history: pd.DataFrame, current_metrics: dict) -> dict:
+    def resolve_action_utility(self, consistency_history: list, current_metrics: dict) -> dict:
         """
         Calculates the optimal action utility by mixing policies.
+        history: list of consistency values.
         """
         # 1. Classify Context
         uncertainty = current_metrics['uncertainty']
-        consistency_stream = signal_history['consistency'] if 'consistency' in signal_history else pd.Series([current_metrics['consistency']])
+        consistency_stream = np.array(consistency_history) if consistency_history else np.array([current_metrics['consistency']])
         
         context = self.classifier.classify(consistency_stream, uncertainty)
         weights = self.classifier.get_context_weights(context)
@@ -40,7 +33,7 @@ class PolicyMixer:
         category = self.optimizer.get_confidence_category(final_utility)
         
         return {
-            'expected_utility': float(final_utility),
+            'utility': float(final_utility),
             'context': context,
             'confidence': category,
             'weights': weights,
