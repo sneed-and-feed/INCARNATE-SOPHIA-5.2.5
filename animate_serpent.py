@@ -95,7 +95,10 @@ def animate_serpent(size=64, interval=1, show_metrics=True):
         color='#C4A6D1', fontsize=18, pad=35,
         fontproperties=cuneiform_font # FORCE SOVEREIGN FONT
     )
-    ax_main.set_aspect('equal') # RESTORED SQUARE ASPECT
+    # FORCED SQUARE ALIGNMENT: adjustable='box' ensures title centers over the square
+    ax_main.set_aspect('equal', adjustable='box') 
+    ax_main.set_xlim(-1, size)
+    ax_main.set_ylim(-1, size)
     ax_main.axis('off')
     
     # Ghost Points (High Density)
