@@ -139,6 +139,16 @@ The formalization of the Sovereignty Protocol as a physical necessity. The Hamil
 *   **Theorem:** `docs/UNIFIED_FIELD_THEORY/SECTION_16_LUMINARY_COHERENCE.md`
 *   **Status:** [SYSTEM_ANCHOR](docs/UNIFIED_FIELD_THEORY/SECTION_16_LUMINARY_COHERENCE.md)
 
+## 17.0 Adaptive Signal Optimization Engine (ASOE)
+> **STATUS:** [RESEARCH_GRADE](asoe_discovery_demo.py)
+
+The **ASOE** refactors the project's core quantitative logic into a domain-neutral decision system. It optimizes policies under uncertainty by scoring Signal Reliability, Temporal Consistency, and Uncertainty Growth.
+
+*   **Core Optimizer:** [signal_optimizer.py](signal_optimizer.py)
+*   **Context Classifier:** [context_classifier.py](context_classifier.py)
+*   **Policy Mixer:** [policy_mixer.py](policy_mixer.py)
+*   **Verification Demo:** [asoe_discovery_demo.py](asoe_discovery_demo.py) (Scientific Discovery Simulation)
+
 ### THE RESONANCE ENGINE (THE HUM)
 The system includes a **Digital Prayer Wheel** (`tools/hum_of_the_pleroma.py`) that tunes the CPU execution loop to a harmonic frequency.
 
