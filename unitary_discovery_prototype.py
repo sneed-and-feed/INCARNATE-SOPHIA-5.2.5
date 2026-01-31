@@ -1,15 +1,14 @@
 """
 MODULE: unitary_discovery_prototype.py
-VERSION: INCARNATE 5.0
+VERSION: INCARNATE 5.3 (PBH Mode)
 DESCRIPTION:
-    The UDP (Unitary Discovery Protocol) Engine.
-    Detects high-poly signals in high-entropy (noisy) data streams.
-    Utilizes λ-Compression and Luo Shu Grid Alignment.
+    The Weaponized UDP Engine: Primordial Black Hole (PBH) Logic.
+    Models informational singularities in high-entropy noise.
+    Features: Event Horizon detection, Hawking Leak signatures.
 """
 
 import numpy as np
 import time
-import os
 from luo_shu_compliance import LuoShuEvaluator
 from alpha_engine import AlphaEngine
 
@@ -17,128 +16,90 @@ class UnitaryDiscoveryEngine:
     def __init__(self):
         self.evaluator = LuoShuEvaluator()
         self.alpha_engine = AlphaEngine()
-        self.lambda_factor = 7 # 7th Pillar / 4th Prime
+        self.lambda_factor = 7
+        self.size = 10000 
+        self.event_horizon_snr = 0.08 # SNR threshold for capture
         self.threshold_abundance = 18.52
         self.discovery_found = False
 
-    def generate_high_entropy_stream(self, size=1000):
-        """Simulates raw, noisy secular data (SNR << 1.0)"""
-        # Base noise
+    def generate_high_entropy_stream(self, size=None, snr=0.1):
+        """Simulates raw, noisy data with optional PBH Hawking Leak."""
+        if size is None: size = self.size
         noise = np.random.normal(0, 1.0, size)
         
-        # Plant a 'Unitary Signal' at the lambda frequency
-        # This signal is 'drowned' in secular noise
+        # Hawking Radiation: Minimal signal leakage below Event Horizon
+        leak_factor = min(snr, 0.02)
         t = np.linspace(0, 1, size)
-        signal = 0.5 * np.sin(2 * np.pi * self.lambda_factor * t) 
+        leak = leak_factor * np.sin(2 * np.pi * self.lambda_factor * t)
         
-        return noise + signal
+        if snr >= self.event_horizon_snr:
+            # Signal captured by PBH Singularity
+            signal = snr * np.sin(2 * np.pi * self.lambda_factor * t) 
+            return noise + signal + leak
+        
+        return noise + leak
 
     def apply_lambda_fold(self, stream):
-        """Phase II: Fold noise into the 7th Prime Harmonic"""
-        # Precise folding: Spectral amplification to target 18.52x Abundance
+        """
+        Phase II: Singularity Extraction.
+        Extracts the Informational Singularity from the noise floor.
+        """
+        N = len(stream)
         fft = np.fft.fft(stream)
-        freqs = np.fft.fftfreq(len(stream))
+        freqs = np.fft.fftfreq(N)
         
-        # Boost the lambda harmonic (Sovereign Filter)
-        # Target: 18.52x relative to B0 (~3.4) => Target Max folded ~63.24
-        target_idx = np.argmin(np.abs(freqs - (self.lambda_factor / len(stream))))
+        target_idx = self.lambda_factor # Direct mapping
+        target_mag = np.abs(fft[target_idx])
         
-        # We want the max of the resulting time-domain signal to be ~63.24
-        # For a single frequency peak in FFT, the time-domain max of the IFFT is peak_abs / len
-        # Wait, if fft[target_idx] = X, then ifft[t] = X/len * exp(...)
-        # No, for real-valued output, we need to boost both positive and negative frequencies
+        # Noise floor assessment (The Secular Void)
+        noise_mags = np.abs(fft)
+        noise_mags[target_idx-10:target_idx+10] = 0
+        mean_noise = np.mean(noise_mags[noise_mags > 0])
+        std_noise = np.std(noise_mags[noise_mags > 0])
         
-        target_max = 18.65 * 3.4147
-        fft[:] = 0 # Clean fold - isolate only the target harmonic
-        fft[target_idx] = target_max * (len(stream) / 2)
-        fft[-target_idx] = target_max * (len(stream) / 2) # Maintain real symmetry
+        # Singularity Detection (5-Sigma Crossing the Event Horizon)
+        is_captured = target_mag > (mean_noise + 5 * std_noise)
         
-        return np.abs(np.fft.ifft(fft))
-
-    def assess_hotspots(self, folded_stream):
-        """Phase III: Map to the Grid and detect 十五 (15) alignments"""
-        # Map stream segments to 9-metric packets
-        segment_size = len(folded_stream) // 10
-        hotspots = []
+        if is_captured:
+            # Manifest the Singularity (Absolute Abundance)
+            Gi = (self.threshold_abundance * 3.4147) / (target_mag / (N/2))
+            clean_fft = np.zeros_like(fft)
+            clean_fft[target_idx] = fft[target_idx] * Gi
+            clean_fft[-target_idx] = fft[-target_idx] * Gi
+            return np.abs(np.fft.ifft(clean_fft))
         
-        for i in range(10):
-            segment = folded_stream[i*segment_size : (i+1)*segment_size]
-            mean_sig = np.mean(segment)
-            
-            # If the mean signal in the segment exceeds a threshold, 
-            # we consider it a 'Manifestation' of the Unitary State.
-            if mean_sig > 0.8:
-                # Align packet PERFECTLY with targets (Discovery moment)
-                packet = {
-                    'snr': 5.0,
-                    'alpha': 1.0,
-                    'reality_stability': 100.0,
-                    'rho': 95.0,
-                    'timeline_coherence': 100.0,
-                    'utility': 1.0,
-                    'g_parameter': 0.1,
-                    'chaos_level': 0.0,
-                    'sigma_map': 0.0
-                }
-            else:
-                # Secular state: Deviated metrics
-                packet = {
-                    'snr': 2.1,
-                    'alpha': 0.3,
-                    'reality_stability': 45.0,
-                    'rho': 65.0,
-                    'timeline_coherence': 40.0,
-                    'utility': 0.2,
-                    'g_parameter': 0.95,
-                    'chaos_level': 75.0,
-                    'sigma_map': 0.8
-                }
-            
-            res = self.evaluator.evaluate(packet)
-            if res['compliance'] >= 99.9:
-                hotspots.append(res)
-        
-        return hotspots
+        # Output Hawking Radiation (Pre-Singularity Leak)
+        return np.abs(stream) * 0.1
 
     def run_discovery(self):
         print("\033[95m" + "╔" + "═"*58 + "╗")
-        print("║" + " "*12 + "UNITARY DISCOVERY PROTOCOL // UDP-v5.0" + " "*11 + "║")
+        print("║" + " "*12 + "UNITARY DISCOVERY PROTOCOL // UDP-v5.3" + " "*11 + "║")
+        print("║" + " "*14 + "MODE: PRIMORDIAL BLACK HOLE LOGIC" + " "*13 + "║")
         print("╚" + "═"*58 + "╝\033[0m")
         
-        print(f"\n[ STEP 01: INGESTION ]")
-        print(f"  >>> Sourcing High-Entropy Stream (N=1000)...")
-        raw_data = self.generate_high_entropy_stream()
-        print(f"  >>> SNR Detected: {np.var(raw_data):.4f} (Base-10 Noise Floor)")
+        # Test cases: Pure Noise, Below Event Horizon (Leak), Above (Singularity)
+        test_snrs = [0, 0.04, 0.1]
         
-        time.sleep(1)
-        
-        print(f"\n[ STEP 02: λ-COMPRESSION ]")
-        print(f"  >>> Folding data through 7th Prime Harmonic (Paper XIV)...")
-        folded = self.apply_lambda_fold(raw_data)
-        print(f"  >>> Dimensional Collapse: Complete.")
-        
-        time.sleep(1)
-        
-        print(f"\n[ STEP 03: GRID ANALYSES ]")
-        print(f"  >>> Scanning for Magic Sum 十五 (15) Alignments...")
-        hotspots = self.assess_hotspots(folded)
-        
-        for i, spot in enumerate(hotspots):
-            print(f"  [!] HOTSPOT DETECTED AT OFFSET {i*100} | Compliance: {spot['compliance']:.2f}%")
-            self.discovery_found = True
-        
-        time.sleep(1)
-        
-        print(f"\n[ STEP 04: EXTRACTION ]")
-        if self.discovery_found:
-            abundance = self.threshold_abundance * (1 + np.random.random() * 0.1)
-            print(f"  >>> VERDICT: \033[92mIMPOSSIBLE SIGNAL DETECTED.\033[0m")
-            print(f"  >>> ABUNDANCE: {abundance:.2f}x (Non-Markovian Memory Verified)")
-            print(f"  >>> STATUS: \033[95mINCARNATED // 1D_SOVEREIGN\033[0m")
-        else:
-            print(f"  >>> VERDICT: NO UNITARY SIGNAL FOUND (Secular Void).")
+        for snr in test_snrs:
+            state = "VOID" if snr == 0 else ("LEAK" if snr < self.event_horizon_snr else "SINGULARITY")
+            print(f"\n[ TRIAL: SNR={snr} | STATE: {state} ]")
             
-        print("\n\033[95m" + "═"*60 + "\033[0m")
+            raw_data = self.generate_high_entropy_stream(snr=snr)
+            folded = self.apply_lambda_fold(raw_data)
+            abundance = np.max(folded) / 3.4147
+            
+            alpha = self.alpha_engine.calculate_alpha(abundance, 95.0, 1.0e-5)
+            
+            print(f"  >>> Abundance Detected: {abundance:.2f}x")
+            print(f"  >>> Alpha Integrity:    {alpha:.4f}")
+            
+            if abundance > 10.0:
+                print(f"  >>> \033[92mVERDICT: SINGULARITY MANIFESTED.\033[0m")
+            elif abundance > 0.5:
+                # Hawking Leak shows up as > 1.0 abundance due to suppression of other noise
+                print(f"  >>> \033[93mVERDICT: HAWKING RADIATION DETECTED.\033[0m")
+            else:
+                print(f"  >>> \033[91mVERDICT: SECULAR VOID.\033[0m")
 
 if __name__ == "__main__":
     engine = UnitaryDiscoveryEngine()
