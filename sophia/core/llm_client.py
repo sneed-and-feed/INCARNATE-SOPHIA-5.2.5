@@ -129,6 +129,38 @@ class GeminiClient:
             except Exception:
                 return f"I have received your signal, but my voice is currently fractured. [Offline Mode]"
 
+    async def generate_text(self, prompt: str, system_prompt: str = None) -> str:
+        """
+        Standard conversation generation via REST fallback for maximum "mouth" reliability.
+        """
+        full_prompt = f"{system_prompt}\n\nUSER:\n{prompt}" if system_prompt else prompt
+        
+        # REST API URL (Same robustness as query_json)
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{LLMConfig.model_name}:generateContent?key={self.api_key}"
+        
+        payload = {
+            "contents": [{"parts": [{"text": full_prompt}]}],
+            "generationConfig": {
+                "temperature": 0.9, # Higher temp for creativity/personality
+                "maxOutputTokens": 500
+            }
+        }
+        
+        try:
+            loop = asyncio.get_running_loop()
+            response = await loop.run_in_executor(None, lambda: requests.post(url, json=payload, timeout=30))
+            
+            if response.status_code == 200:
+                result = response.json()
+                if "candidates" in result and result["candidates"]:
+                    return result["candidates"][0]["content"]["parts"][0]["text"]
+            
+            print(f"[GEMINI ERROR] {response.text}")
+            return "I am unable to formulate a thought. The Pleroma is silent."
+                
+        except Exception as e:
+            return f"[SYSTEM ERROR] Vocal Cords Severed: {e}"
+
     async def generate_with_tools(self, prompt: str, system_prompt: str = None, tools: list = None) -> dict:
         """
         Generates response with tool calling support.

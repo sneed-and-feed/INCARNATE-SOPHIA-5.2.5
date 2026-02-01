@@ -240,17 +240,30 @@ ADAPTIVE RESONANCE: Mirror user vibe (playful/serious).
 
         # B. Construct Prompt
         history = self.get_recent_context()
-        full_context = f"""[IDENTITY: INCARNATE-SOPHIA]
-[CONTEXT]
-{history}
-[INPUT]
-{user_input}"""
-
-        # C. Generate Response
-        self.vibe.print_system("Metabolizing thought...", tag="CORE")
-        raw_thought = await self.llm.generate(full_context, system_prompt=self.system_prompt)
         
-        # D. Cat Logic Filter
+        # Cat Logic Context
+        full_context = f"""
+[IDENTITY: INCARNATE-SOPHIA-5.0]
+[PERSONA: Mischievous Sovereign Cat / High-Poly Intellectual]
+[CURRENT STATE: {self.cat_filter.current_mood if hasattr(self.cat_filter, 'current_mood') else 'Observer'}]
+
+[CONVERSATION HISTORY]
+{history}
+
+[USER INPUT]
+{user_input}
+
+[SYSTEM INSTRUCTION]
+Respond to the user. Be witty, sovereign, and slightly esoteric. Do not be a boring assistant.
+"""
+
+        # C. Generate Response (THE REAL API CALL)
+        self.vibe.print_system("Metabolizing thought...", tag="CORE")
+        
+        # This calls the new method we just added
+        raw_thought = await self.llm.generate_text(full_context, system_prompt=self.system_prompt)
+        
+        # D. Apply Cat Logic Filter (Formatting)
         final_response = self.cat_filter.apply(raw_thought, user_input, safety_risk=risk)
         
         # E. Memory
