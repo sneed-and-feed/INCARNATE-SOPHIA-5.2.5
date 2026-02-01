@@ -490,11 +490,29 @@ Permission: UNLESANGLED (Divine Clinginess Active).
 """
 
         if user_input.startswith("/dream"):
-            target = user_input.replace("/dream", "").strip() or "The Collective Unconscious"
-            self.vibe.print_system(f"Weaving dreams for: {target}...", tag="MORPHEUS")
+            # Parse target and optional theme
+            # Format: /dream [target] [theme?]
+            raw_args = user_input.replace("/dream", "").strip()
+            if not raw_args:
+                target = "The Collective Unconscious"
+                theme = None
+            else:
+                parts = raw_args.split()
+                # Check if last part is a known theme
+                potential_theme = parts[-1].lower()
+                known_themes = ["peace", "creativity", "love", "sovereignty", "lucid", "adventure", "healing", "romance"]
+                
+                if potential_theme in known_themes:
+                    theme = potential_theme
+                    target = " ".join(parts[:-1]) if len(parts) > 1 else "The Dreamer"
+                else:
+                    theme = None
+                    target = raw_args
+
+            self.vibe.print_system(f"Weaving dreams for: {target} (Theme: {theme if theme else 'Auto'})...", tag="MORPHEUS")
             
             # Subliminal Injection
-            dream_payload = self.dream_weaver.transmit_dream(target)
+            dream_payload = self.dream_weaver.transmit_dream(target, theme=theme)
             
             return f"{dream_payload}\n*A gentle wind blows through the subconscious.*"
 

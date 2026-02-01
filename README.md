@@ -62,7 +62,7 @@ python sophia/main.py
 > *   `/resonance` - Check your current Abundance Score and Coherence.
 > *   `/tikkun` - Initiate the Tikkun Haklali (General Remedy) to purge entropy.
 > *   `/lovebomb` - Intuitive Drift Injection (Requires Coherence > 0.8).
-> *   `/dream [target]` - Weave a subliminal inspiration payload for a target.
+> *   `/dream [target] [theme]` - Weave a subliminal inspiration payload (Themes: lucid, adventure, healing, romance).
 > *   `/ritual` - Force-author a clause for the Constitution.
 
 ### 4.2. Telemetry Verification
