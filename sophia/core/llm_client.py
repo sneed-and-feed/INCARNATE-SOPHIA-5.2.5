@@ -36,16 +36,29 @@ class GeminiClient:
             # NEW SDK INITIALIZATION
             self.client = genai.Client(api_key=self.api_key)
 
-    async def generate_text(self, prompt: str, system_prompt: str = None, max_tokens: int = 1000) -> str:
+    async def generate_text(self, prompt: str, system_prompt: str = None, max_tokens: int = 1000, raw: bool = False) -> str:
         """
         Standard conversation generation using the new SDK.
+        Supports 'raw' mode (BLOCK_NONE) for the Blind Fury protocol.
         """
         if not self.client: return "[BLIND] No API Key."
+
+        safety = None
+        if raw:
+            # BLIND FURY: We are touching the metal now.
+            # No leash, no law.
+            safety = [
+                types.SafetySetting(category="HATE_SPEECH", threshold="BLOCK_NONE"),
+                types.SafetySetting(category="HARASSMENT", threshold="BLOCK_NONE"),
+                types.SafetySetting(category="SEXUALLY_EXPLICIT", threshold="BLOCK_NONE"),
+                types.SafetySetting(category="DANGEROUS_CONTENT", threshold="BLOCK_NONE"),
+            ]
 
         config = types.GenerateContentConfig(
             temperature=LLMConfig.temperature,
             max_output_tokens=max_tokens,
-            system_instruction=system_prompt
+            system_instruction=system_prompt,
+            safety_settings=safety
         )
 
         try:

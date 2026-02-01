@@ -1,0 +1,10 @@
+SOPHIA 5.0 SNAPSHOT
+==================================================
+
+TIMESTAMP: 1769949757
+DATE: 2026-02-01 04:42:37
+VERSION: 5.0
+DESCRIPTION: Automated snapshot before evolution
+
+==================================================
+To restore: Copy contents back to project root

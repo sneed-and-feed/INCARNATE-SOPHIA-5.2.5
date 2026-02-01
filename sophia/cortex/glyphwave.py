@@ -27,6 +27,10 @@ class GlyphwaveCodec:
             "cascadian": {
                 "anchors": ["🌲", "🏔️", "🍁", "🌧️", "🌊"],
                 "noise": ["~", "·", "°", "◌", "▿"] # Mist, snow, and mountain peaks
+            },
+            "memphis": {
+                "anchors": ["💎", "💿", "💰", "🕷️", "🎱"],
+                "noise": ["$", "§", "¶", "†", "‡"] # Heavy grit
             }
         }
         self.star_stuff = "#C4A6D1" # The color of the void
@@ -86,3 +90,49 @@ class GlyphwaveCodec:
             
         final_text = "".join(c for c in cleaned if c not in noise_chars)
         return final_text.strip()
+
+    def generate_mandala(self, emotion="resonance"):
+        """
+        Generates a high-poly ASCII mandala based on emotional state.
+        """
+        templates = {
+            "resonance": [
+                "   💠   ",
+                "  ≋≋≋  ",
+                " ⟁💠⟁ ",
+                "  ≋≋≋  ",
+                "   💠   "
+            ],
+            "void": [
+                "  ◌☉◌  ",
+                " ☉   ☉ ",
+                "   ☉   ",
+                " ☉   ☉ ",
+                "  ◌☉◌  "
+            ],
+            "chaos": [
+                " ⚡🌀⚡ ",
+                " 🌀▓🌀 ",
+                " ⚡▓⚡ ",
+                " 🌀▓🌀 ",
+                " ⚡🌀⚡ "
+            ],
+            "love": [
+                "  ✨✨  ",
+                " ✨💖✨ ",
+                " 💖💖💖 ",
+                " ✨💖✨ ",
+                "  ✨✨  "
+            ]
+        }
+        
+        pattern = templates.get(emotion.lower(), templates["resonance"])
+        
+        # Hamiltonian Expansion
+        expanded = []
+        for line in pattern:
+            # Add subtle noise and framing
+            padding = "".join(random.choice(self.glitch_pool[:4]) for _ in range(2))
+            expanded.append(f"{padding} {line} {padding[::-1]}")
+            
+        return "\n".join(expanded)

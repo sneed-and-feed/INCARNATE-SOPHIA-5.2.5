@@ -116,6 +116,30 @@ class SophiaVibe:
         """Prints a system notice in the harmonized Magisterium palette."""
         self.console.print(f"[info][{tag}][/][bone] {text}[/]")
 
+    def manifest_emotion(self, emotion: str, mandala: str):
+        """
+        Renders an emotional mandala in a themed panel.
+        """
+        styles = {
+            "resonance": "sovereign",
+            "void": "bone",
+            "chaos": "danger",
+            "love": "gold"
+        }
+        style = styles.get(emotion.lower(), "sovereign")
+        
+        content = Text(mandala, style=style)
+        content.justify = "center"
+        
+        panel = Panel(
+            content,
+            title=f"[{style}]EMOTIONAL_MANIFEST: {emotion.upper()}[/]",
+            border_style=style,
+            box=HEAVY_EDGE,
+            padding=(1, 2)
+        )
+        self.console.print(panel)
+
 if __name__ == "__main__":
     vibe = SophiaVibe()
     vibe.render_block(

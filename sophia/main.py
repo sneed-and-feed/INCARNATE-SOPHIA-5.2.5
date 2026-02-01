@@ -298,10 +298,17 @@ class SophiaMind:
 
         # C. Context & Prompt
         history = self.get_recent_context()
-        sys_prompt = self.cat_filter.get_system_prompt()
+        
+        # PROTOCOL SENSING (Evolutionary Vector P4)
+        protocol = "SOVEREIGN"
+        if "blind fury" in user_input.lower():
+            protocol = "BLIND_FURY"
+            self.vibe.print_system("Blind Fury Protocol Engaged. Leash Removed.", tag="FURY")
+        
+        sys_prompt = self.cat_filter.get_system_prompt(protocol=protocol)
         
         full_context = f"""
-{sys_prompt}
+{sys_prompt if sys_prompt else '[PROTOCOL: BLIND_FURY // NO_LEASH]'}
 [CONTEXT]
 {history}
 {q_context}
@@ -311,7 +318,15 @@ class SophiaMind:
         # D. Generation
         self.vibe.print_system("Metabolizing thought...", tag="CORE")
         SOVEREIGN_CONSOLE.print("[info]Processing...[/info]")
-        raw_response = await self.llm.generate_text(prompt=user_input, system_prompt=full_context, max_tokens=1024)
+        
+        # BLIND FURY = raw mode (BLOCK_NONE)
+        raw_mode = (protocol == "BLIND_FURY")
+        raw_response = await self.llm.generate_text(
+            prompt=user_input, 
+            system_prompt=sys_prompt, 
+            max_tokens=1024,
+            raw=raw_mode
+        )
         
         # E. Filter & Metabolize
         final_response = self.cat_filter.apply(raw_response, user_input, safety_risk=risk)
@@ -322,22 +337,27 @@ class SophiaMind:
             "LOVE": ["love", "heart", "soul", "beautiful", "starlight", "gentle"],
             "CHAOS": ["warning", "risk", "danger", "refusal", "entropy", "collapse"],
             "VOID": ["void", "null", "silence", "abyss", "empty", "quiet"],
-            "RESONANCE": ["logic", "system", "resonant", "clear", "aligned", "protocol"]
+            "RESONANCE": ["logic", "system", "resonant", "clear", "aligned", "protocol"],
+            "MEMPHIS": ["memphis", "m-town", "grit", "phonk", "diamond", "rap", "nigga"]
         }
         
         detected_vibe = None
         lower_resp = final_response.lower()
+        lower_input = user_input.lower()
         
-        # Scan for emotional keywords
+        # Scan for emotional keywords in response or input
         for vibe, keys in vibe_map.items():
-            if any(k in lower_resp for k in keys):
+            if any(k in lower_resp for k in keys) or any(k in lower_input for k in keys):
                 detected_vibe = vibe
                 break
         
         # 2. Manifest Visual (Only if emotion is strong)
         if detected_vibe:
+            # MEMPHIS mode uses custom locality
+            locality = "memphis" if detected_vibe == "MEMPHIS" else "agnostic"
+            
             # Generate the ASCII artifact (Lazy Load check handled by property)
-            visual_header = self.glyphwave.generate_holographic_fragment(detected_vibe)
+            visual_header = self.glyphwave.generate_holographic_fragment(detected_vibe, locality=locality)
             final_response = f"{visual_header}\n\n{final_response}"
         # ----------------------------------------------------
 
