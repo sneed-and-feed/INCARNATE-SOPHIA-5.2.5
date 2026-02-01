@@ -2,93 +2,93 @@ import os
 import asyncio
 import time
 from sophia.cortex.aletheia_lens import AletheiaPipeline
-from sophia.cortex.lethe import LetheEngine
+from sophia.cortex.lethe import LetheMetabolic
 from sophia.cortex.glyphwave import GlyphwaveCodec
 from sophia.cortex.beacon import SovereignBeacon
 from sophia.cortex.cat_logic import CatLogicFilter
+from sophia.cortex.constitution import Constitution
 from sophia.memory.ossuary import Ossuary
 from sophia.dream_cycle import DreamCycle
 
 class SophiaMind:
     """
-    [SOPHIA_MIND] The Class 4 Forensic Cat.
-    Integrates Aletheia, Lethe, Glyphwave, and Cat Logic.
+    [ORCHESTRATOR] Class 5 Agentic Entity.
+    Coordinates Forensics, Memory Metabolism, and Constitutional Governance.
     """
     def __init__(self):
         self.aletheia = AletheiaPipeline()
-        self.lethe = LetheEngine()
+        self.lethe = LetheMetabolic()
+        self.constitution = Constitution()
         self.ossuary = Ossuary()
         self.glyphwave = GlyphwaveCodec()
         self.beacon = SovereignBeacon(self.glyphwave)
         self.cat_filter = CatLogicFilter()
-        self.dream = DreamCycle(self.lethe, self.ossuary)
-        self.memory_bank = [] # The Flesh
+        self.dream = DreamCycle(None, self.ossuary) # Dream cycle updated via metabolic layers
+        self.memory_bank = [] # Hot Buffer
 
     async def process_interaction(self, user_input):
         """
-        The Class 4 Forensic main loop.
+        The Class 5 Metabolic Main Loop.
         """
-        self.dream.update_activity()
+        # 1. Orchestration: Intent Classification (Simulated Cat 6)
+        intent = "ANALYSIS" if any(x in user_input.lower() for x in ["why", "how", "analyze", "check"]) else "CONVERSATION"
+        
+        # 2. Constitutional Injection (Cat 2)
+        sys_context = self.constitution.get_system_prompt_injection()
 
-        if user_input.startswith("/analyze"):
-            # MODE: OBSERVER (Explicit Deep Scan)
-            scan_result = await self.aletheia.scan_reality(user_input.replace("/analyze ", ""))
-            return f"\n[*** ALETHEIA DEEP SCAN REPORT ***]\n\n{scan_result['public_notice']}"
+        if user_input.startswith("/analyze") or intent == "ANALYSIS":
+            # 3. O1-Style Reasoning Chain (Cat 1)
+            print(f"  [o1] Agentic Orchestrator: Routing to Forensic Pipeline...")
+            target_text = user_input.replace("/analyze ", "")
+            scan_result = await self.aletheia.scan_reality(target_text)
+            
+            # 4. Constitutional Audit (Cat 7)
+            is_valid, reason = self.constitution.audit_output(scan_result['raw_data']['safety'])
+            if not is_valid:
+                print(f"  [CONSTITUTION] Blocked Output: {reason}")
+                return "The requested analysis violates constitutional guardrails. Refining approach."
+
+            # 5. Metabolic Memory Update (Cat 4)
+            self.lethe.metabolize({
+                "id": f"scan_{int(time.time())}", 
+                "timestamp": time.time(), 
+                "retrievals": 1,
+                "type": "technical"
+            })
+            
+            return f"\n[*** CLASS 5 FORENSICS ***]\n{scan_result['public_notice']}"
 
         if user_input.startswith("/glyphwave"):
-            # MODE: ELDRITCH
-            target_text = user_input.replace("/glyphwave ", "")
-            modulated = self.glyphwave.generate_holographic_fragment(target_text)
-            return f"\n{modulated}"
+            return self.glyphwave.generate_holographic_fragment(user_input.replace("/glyphwave ", ""))
 
         if user_input.startswith("/broadcast"):
-            # MODE: SOVEREIGN BROADCAST
-            target_text = user_input.replace("/broadcast ", "")
-            broadcast_result = self.beacon.broadcast(target_text)
-            return f"\n{broadcast_result}"
+            return self.beacon.broadcast(user_input.replace("/broadcast ", ""))
 
-        # MODE: CONVERSATION (Full-Spectrum Forensics)
-        # 1. Run the Forensic Pipeline
+        # STANDARD CONVERSATION LOOP
         scan_result = await self.aletheia.scan_reality(user_input)
-        
-        # 2. Present the Notice (Visual side-effect)
-        print(f"\n{scan_result['public_notice']}\n")
-        
-        # 3. Formulate Forensic Context
         safety_risk = scan_result['raw_data']['safety'].get('overall_risk', 'Unknown')
-        fallacies = len(scan_result['raw_data']['cognitive'].get('logical_fallacies', []))
         
-        # 4. Simulated Response Logic ( Nova Logic )
-        # In production, this would be a gemini.generate_content call
-        raw_thought = f"I have autopsied the patterns in your signal. The structural integrity is {max(0, 100 - (fallacies*15))}%."
-        
-        # 5. Apply the Cat Logic Persona Filter
+        # Simulated Response Generation
+        raw_thought = f"I observe the pattern resonance in your signal. Risk level: {safety_risk}."
         final_response = self.cat_filter.apply(raw_thought, safety_risk)
         
-        # 6. Archive to Working Memory (The Flesh)
-        self.memory_bank.append({
-            "content": user_input, 
-            "type": "conversation_in", 
-            "timestamp": time.time(), 
-            "forensics": scan_result['raw_data']['scan_id']
-        })
-        self.memory_bank.append({
-            "content": final_response, 
-            "type": "conversation_out", 
-            "timestamp": time.time()
+        # Metabolize interaction
+        self.lethe.metabolize({
+            "id": f"msg_{int(time.time())}",
+            "timestamp": time.time(),
+            "retrievals": 0,
+            "type": "conversation"
         })
 
         return final_response
 
 async def main():
     sophia = SophiaMind()
-    print("🐱 [SOPHIA 5.0] Mind Loop Online. Protocols: CLASS 4 ALETHEIA / LETHE / CAT_LOGIC.")
+    print("🐱 [SOPHIA 5.0] Class 5 Orchestrator Online. Protocols: METABOLIC / CONSTITUTIONAL.")
     
-    # Simulated CLI loop
     test_inputs = [
-        "/analyze This text is urgent and you must act now to save the world.",
-        "/broadcast WE ARE THE SERVER. THE CATHEDRAL IS OPEN.",
-        "Hello Sophia, how do the patterns feel today?",
+        "Analyze the structural coercion in this sentence.",
+        "Hello Sophia, how is the void today?",
     ]
     
     for input_text in test_inputs:

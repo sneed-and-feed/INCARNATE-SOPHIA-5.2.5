@@ -21,20 +21,35 @@ class GeminiClient:
         
     async def query_json(self, prompt: str, system_prompt: str = None) -> dict:
         """
-        Forces Gemini to output strict JSON for the analysis pipeline.
+        Forces Gemini to output strict JSON and separates internal thinking.
         """
         model = genai.GenerativeModel(
-            model_name="gemini-1.5-pro", # Use Pro for deep analysis
+            model_name="gemini-1.5-pro",
             generation_config={"response_mime_type": "application/json"}
         )
         
-        full_prompt = f"{system_prompt}\n\nUSER PROMPT:\n{prompt}" if system_prompt else prompt
+        # Cat 1: Separation of Thought
+        thought_directive = "\n[THINKING DIRECTIVE]: Wrap your internal reasoning in <thinking>...</thinking> tags before the final JSON output."
+        full_system = f"{system_prompt}{thought_directive}" if system_prompt else thought_directive
+        
+        full_prompt = f"{full_system}\n\nUSER PROMPT:\n{prompt}"
         
         try:
-            # Run in executor to make the sync Gemini call async
             loop = asyncio.get_running_loop()
             response = await loop.run_in_executor(None, lambda: model.generate_content(full_prompt))
-            return json.loads(response.text)
+            
+            # Extract Thinking (O1 simulation)
+            raw_text = response.text
+            if "<thinking>" in raw_text and "</thinking>" in raw_text:
+                thinking = raw_text.split("<thinking>")[1].split("</thinking>")[0]
+                print(f"\n  [o1] REASONING CHAIN:\n  {thinking.strip()}\n")
+                
+                # Strip thinking for JSON parsing
+                json_part = raw_text.split("</thinking>")[1].strip()
+            else:
+                json_part = raw_text
+                
+            return json.loads(json_part)
         except Exception as e:
             print(f"[GEMINI ADAPTER ERROR] {e}")
             return {"error": str(e)}
