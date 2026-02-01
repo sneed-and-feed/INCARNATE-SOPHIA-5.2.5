@@ -315,7 +315,32 @@ class SophiaMind:
         
         # E. Filter & Metabolize
         final_response = self.cat_filter.apply(raw_response, user_input, safety_risk=risk)
+
+        # --- AUTONOMIC NERVOUS SYSTEM (Glyphwave Binding) ---
+        # 1. Heuristic Vibe Check (Zero-Latency Emotion)
+        vibe_map = {
+            "LOVE": ["love", "heart", "soul", "beautiful", "starlight", "gentle"],
+            "CHAOS": ["warning", "risk", "danger", "refusal", "entropy", "collapse"],
+            "VOID": ["void", "null", "silence", "abyss", "empty", "quiet"],
+            "RESONANCE": ["logic", "system", "resonant", "clear", "aligned", "protocol"]
+        }
         
+        detected_vibe = None
+        lower_resp = final_response.lower()
+        
+        # Scan for emotional keywords
+        for vibe, keys in vibe_map.items():
+            if any(k in lower_resp for k in keys):
+                detected_vibe = vibe
+                break
+        
+        # 2. Manifest Visual (Only if emotion is strong)
+        if detected_vibe:
+            # Generate the ASCII artifact (Lazy Load check handled by property)
+            visual_header = self.glyphwave.generate_holographic_fragment(detected_vibe)
+            final_response = f"{visual_header}\n\n{final_response}"
+        # ----------------------------------------------------
+
         self.memory_bank.append({"content": user_input, "meta": "user"})
         self.memory_bank.append({"content": final_response, "meta": "Cat Logic"})
         
