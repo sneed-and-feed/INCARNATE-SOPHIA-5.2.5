@@ -67,8 +67,7 @@ Run the verification harness to see the system pulse:
 ```bash
 python sophia/test_living_loop.py
 ```
-# Windows Users: Double-click launch.bat for instant startup
-```
+> **Windows Users**: Double-click `launch.bat` for instant startup.
 
 For detailed reality-anchoring and CLI usage, see the [STARTUP.md](STARTUP.md) guide.
 
