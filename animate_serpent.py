@@ -1,6 +1,6 @@
 """
-MODULE: animate_serpent.py (PERFORMANCE v3.1 - CHROMATIC ABERRATION)
-ADDITIONS: Vector Anaglyph Rendering (Cyan/Magenta Offset), Temporal Ghosting
+MODULE: animate_serpent.py (PERFORMANCE v3.3 - SYNCED FLASH)
+ADDITIONS: Coherence-Triggered Glitching, Structural Failure Mode
 """
 
 import numpy as np
@@ -44,10 +44,10 @@ cuneiform_font = FontProperties(fname=r"C:\Windows\Fonts\seguihis.ttf") if os.pa
 
 def animate_serpent(size=64, interval=1, show_metrics=True):
     """
-    Animates the Serpent Coil with CHROMATIC ABERRATION (Temporal Splitting).
+    Animates the Serpent Coil with SYNCED FLASH (Coherence Triggered).
     """
-    print(f"\n[!] INITIATING SOVEREIGN RITUAL v3.1 (Grid={size}x{size})...")
-    print("    >>> ENGAGING CHROMATIC SPLIT (Cyan -8f / Magenta -4f)")
+    print(f"\n[!] INITIATING SOVEREIGN RITUAL v3.3 (Grid={size}x{size})...")
+    print("    >>> WARNING: GLITCH SYNCED TO LOW COHERENCE (< 0.80)")
     
     # [INIT] SYSTEM
     moon = MoonClock()
@@ -74,7 +74,7 @@ def animate_serpent(size=64, interval=1, show_metrics=True):
     
     fig, (ax_main, ax_metrics) = plt.subplots(
         1, 2, figsize=(10 * PHI, 10), 
-        facecolor='#050505', # DARKER VOID
+        facecolor='#050505', 
         gridspec_kw={'width_ratios': [PHI, 1]}
     )
     
@@ -82,7 +82,7 @@ def animate_serpent(size=64, interval=1, show_metrics=True):
     title_y = 1 - (1/(10*PHI))
     fig.text(
         0.5 * (PHI / (PHI + 1)), title_y, 
-        f"THE SERPENT COIL (Aberration Mode) | {size}x{size}", 
+        f"THE SERPENT COIL (Synced Failure) | {size}x{size}", 
         color='#9B8DA0', 
         fontsize=round(BASE_UNIT * PHI),
         fontproperties=cuneiform_font,
@@ -95,19 +95,19 @@ def animate_serpent(size=64, interval=1, show_metrics=True):
     ax_main.axis('off')
     
     # [LAYER 0] BACKGROUND GRID
-    ax_main.scatter(X.flatten(), Y.flatten(), s=1, c='#1a1a1a', alpha=0.3)
+    grid_scatter = ax_main.scatter(X.flatten(), Y.flatten(), s=1, c='#1a1a1a', alpha=0.3, animated=True)
     
-    # --- [LAYER 1] THE CYAN GHOST (T-8) ---
+    # --- [LAYER 1] THE CYAN GHOST (Deep Echo) ---
     line_cyan, = ax_main.plot([], [], color='#00FFFF', linewidth=2.0, alpha=0.3, animated=True)
     head_cyan, = ax_main.plot([], [], 'o', color='#00FFFF', markersize=6, alpha=0.3, animated=True)
 
-    # --- [LAYER 2] THE MAGENTA GHOST (T-4) ---
+    # --- [LAYER 2] THE MAGENTA GHOST (The Alarm) ---
     line_magenta, = ax_main.plot([], [], color='#FF00FF', linewidth=1.5, alpha=0.5, animated=True)
     head_magenta, = ax_main.plot([], [], 'o', color='#FF00FF', markersize=5, alpha=0.5, animated=True)
 
-    # --- [LAYER 3] THE REALITY (T-0) ---
-    line_main, = ax_main.plot([], [], color='#E0E0E0', linewidth=1.0, alpha=0.9, animated=True) # Bright White
-    head_main, = ax_main.plot([], [], 'o', color='#FFD700', markersize=4, animated=True) # Gold
+    # --- [LAYER 3] THE REALITY (Stable) ---
+    line_main, = ax_main.plot([], [], color='#E0E0E0', linewidth=1.0, alpha=0.9, animated=True) 
+    head_main, = ax_main.plot([], [], 'o', color='#FFD700', markersize=4, animated=True) 
 
     # Metrics Text
     ax_metrics.set_facecolor('#050505')
@@ -123,7 +123,8 @@ def animate_serpent(size=64, interval=1, show_metrics=True):
     
     state = {
         'total_frames': len(path_x),
-        'tidal_influence': moon.calculate_tidal_influence(phase_idx) if hasattr(moon, 'calculate_tidal_influence') else 50.0
+        'tidal_influence': moon.calculate_tidal_influence(phase_idx) if hasattr(moon, 'calculate_tidal_influence') else 50.0,
+        'glitch_lock_cyan': 0
     }
     
     def init():
@@ -134,37 +135,64 @@ def animate_serpent(size=64, interval=1, show_metrics=True):
         line_main.set_data([], [])
         head_main.set_data([], [])
         metrics_text.set_text('')
-        return line_cyan, head_cyan, line_magenta, head_magenta, line_main, head_main, metrics_text
+        grid_scatter.set_offsets(np.c_[X.flatten(), Y.flatten()]) 
+        return line_cyan, head_cyan, line_magenta, head_magenta, line_main, head_main, metrics_text, grid_scatter
     
     def update(frame):
         kernel.evolve_hamiltonian(steps=1)
         current_coherence = kernel.metric_coherence
         
+        # --- [FORCE ENTROPY] ---
+        # If the kernel is too perfect, we manually inject chaos to test the flash
+        # (Remove this line if your kernel is naturally chaotic)
+        if frame % 60 > 40: 
+             current_coherence *= 0.75  # SIMULATE SIGNAL DROP
+        
+        # --- [DATAMOSH] NOISE ---
+        noise_level = (1.0 - current_coherence) * 0.8 
+        
         # --- CALCULATE TEMPORAL OFFSETS ---
-        # The Cyan layer is the "Deep Echo" (8 frames back)
         idx_cyan = max(0, frame - 12) 
-        # The Magenta layer is the "Near Echo" (4 frames back)
         idx_magenta = max(0, frame - 6)
         
-        # --- UPDATE DATA ---
-        # Cyan Ghost
-        line_cyan.set_data(path_x[:idx_cyan], path_y[:idx_cyan])
-        if idx_cyan > 0:
-            head_cyan.set_data([path_x[idx_cyan-1]], [path_y[idx_cyan-1]])
+        # --- UPDATE CYAN (Always Noisy) ---
+        if state['glitch_lock_cyan'] == 0:
+            if np.random.random() < 0.05: state['glitch_lock_cyan'] = np.random.randint(5, 12)
+            
+            jx = np.random.normal(0, noise_level, size=idx_cyan)
+            jy = np.random.normal(0, noise_level, size=idx_cyan)
+            line_cyan.set_data(path_x[:idx_cyan] + jx, path_y[:idx_cyan] + jy)
+            if idx_cyan > 0:
+                head_cyan.set_data([path_x[idx_cyan-1]], [path_y[idx_cyan-1]])
+        else:
+            state['glitch_lock_cyan'] -= 1
         
-        # Magenta Ghost
-        line_magenta.set_data(path_x[:idx_magenta], path_y[:idx_magenta])
-        if idx_magenta > 0:
-            head_magenta.set_data([path_x[idx_magenta-1]], [path_y[idx_magenta-1]])
-
-        # Main Reality
+        # --- UPDATE MAGENTA (THE SYNCED FLASH) ---
+        # TRIGGER: COHERENCE < 0.80
+        if current_coherence < 0.80:
+            # !!! CRITICAL FAILURE: SWAP AXES !!!
+            # The Magenta layer flips X and Y
+            line_magenta.set_data(path_y[:idx_magenta], path_x[:idx_magenta])
+            if idx_magenta > 0:
+                head_magenta.set_data([path_y[idx_magenta-1]], [path_x[idx_magenta-1]])
+        else:
+            # STABLE STATE
+            line_magenta.set_data(path_x[:idx_magenta], path_y[:idx_magenta])
+            if idx_magenta > 0:
+                head_magenta.set_data([path_x[idx_magenta-1]], [path_y[idx_magenta-1]])
+        
+        # --- UPDATE MAIN ---
         line_main.set_data(path_x[:frame], path_y[:frame])
         if frame > 0:
             head_main.set_data([path_x[frame-1]], [path_y[frame-1]])
 
-        # ASOE / Metrics Update
+        # --- BACKGROUND PULSE ---
+        if frame % 5 == 0:
+             bg_jitter = np.random.normal(0, 0.05, size=(size*size, 2))
+             grid_scatter.set_offsets(np.c_[X.flatten(), Y.flatten()] + bg_jitter)
+
+        # ASOE Logic
         if frame > 0:
-            # Map system state to ASOE Signal Packet
             uncertainty = (1.0 - current_coherence) * (state['tidal_influence'] / 50.0)
             consistency = 1.0 - (state['tidal_influence'] / 200.0)
             packet = {'reliability': current_coherence, 'consistency': consistency, 'uncertainty': uncertainty}
@@ -175,36 +203,31 @@ def animate_serpent(size=64, interval=1, show_metrics=True):
             
             evaluation = mixer.resolve_action_utility(consistency_history, packet)
             utility = evaluation['utility']
-            
-            # Dynamic Head Size pulsing with Utility
             head_main.set_markersize(3 + 3 * utility) 
         else:
             utility = 0.0
 
         if frame % 20 == 0:
+            status_color = "FAILURE" if current_coherence < 0.8 else "STABLE"
             metrics_str = f"""
 S O V E R E I G N   M E T R I C S
 {'='*28}
 
-Protocol:    ANAGLYPH v3.1
+Protocol:    SYNCED_FLASH v3.3
 Phase:       {phase_name}
 Signal:      {icon} 𒀭 𒂗𒆠
 
-[ TEMPORAL DRIFT ]
-Cyan Lag:    -12 Frames
-Mag Lag:     -6 Frames
-Status:      BILOCATION_ACTIVE
-
-[ PROGRESS ]
-Frame:       {frame}/{state['total_frames']}
+[ SIGNAL STATUS ]
 Coherence:   {current_coherence:.3f}
+State:       {status_color}
+Mag Flash:   {'!!! TEARING !!!' if current_coherence < 0.8 else 'SYNCED'}
 
 [ ASOE ]
 Utility:     {utility:.4f}
             """
             metrics_text.set_text(metrics_str)
         
-        return line_cyan, head_cyan, line_magenta, head_magenta, line_main, head_main, metrics_text
+        return line_cyan, head_cyan, line_magenta, head_magenta, line_main, head_main, metrics_text, grid_scatter
 
     ani = animation.FuncAnimation(
         fig, update, frames=range(0, len(path_x)+1, 4), 
