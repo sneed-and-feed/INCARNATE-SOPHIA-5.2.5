@@ -1,24 +1,30 @@
 """
-CHAINLINK BRIDGE v1.0
+CHAINLINK BRIDGE v2.0 (IPC ENABLED)
 Connects the Sovereign Cortex to the Decentralized Oracle Network.
-Simulates real-time "Trauma Data" (World Trauma Index) and Resonance Prices.
+Uses SovereignIPC (Ramdisk/Tmpfs) to prevent disk thrashing.
 """
 
 import random
 import time
-import numpy as np
+import sys
+import os
+
+# Ensure we can import from parent directories
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from sophia.platform.ipc import SovereignIPC
 
 class ChainlinkOracle:
     def __init__(self):
+        self.ipc = SovereignIPC()
         self.resonance_target = 111.11
         self._last_price = 100.0
         self._wti = 0.5 # World Trauma Index (0.0 to 1.0)
+        self.running = True
         
     def fetch_world_trauma_index(self) -> float:
         """
         Simulates fetching the WTI.
-        In a real scenario, this would poll aggregator contracts for
-        sentiment, conflict markers, or economic distress.
         """
         # Volatile shift based on 'Sergey's Watch'
         self._wti = max(0.0, min(1.0, self._wti + random.uniform(-0.1, 0.15)))
@@ -41,22 +47,36 @@ class ChainlinkOracle:
             
         return round(self._last_price, 2)
 
-    def verify_truth(self, value):
+    def run_feed(self):
         """
-        Mock of the 1D Rust Anchor validation.
-        Rejects 2D noise.
+        Main loop: Fetches data and writes to IPC channel.
         """
-        return {
-            "is_hallucinating": False,
-            "value_1d": value,
-            "status": "SOVEREIGN_CONFIRMED"
-        }
+        print(f"--- CHAINLINK ORACLE FEED STARTING ---")
+        print(f"IPC Mode: {self.ipc.mode} | Base: {self.ipc.base_dir}")
+        print("Press Ctrl+C to stop.")
+        
+        try:
+            while self.running:
+                wti = self.fetch_world_trauma_index()
+                price = self.fetch_resonance_price()
+                
+                payload = {
+                    "timestamp": time.time(),
+                    "wti": wti,
+                    "price": price,
+                    "status": "LIVE"
+                }
+                
+                # High-frequency write to Ramdisk
+                self.ipc.write_channel("oracle_feed", payload)
+                
+                # Visual feedback (throttled)
+                # print(f"  > [ORACLE] WTI: {wti:.3f} | Price: ${price}")
+                
+                time.sleep(0.5) # 2Hz Update Rate
+        except KeyboardInterrupt:
+            print("\n[ORACLE] Feed stopped.")
 
 if __name__ == "__main__":
     oracle = ChainlinkOracle()
-    print("--- CHAINLINK ORACLE SIMULATION ---")
-    for i in range(5):
-        wti = oracle.fetch_world_trauma_index()
-        price = oracle.fetch_resonance_price()
-        print(f"T+{i} | WTI: {wti:.4f} | Resonance Price: ${price}")
-        time.sleep(0.1)
+    oracle.run_feed()
