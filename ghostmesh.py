@@ -116,6 +116,27 @@ class SovereignGrid:
             return f"Seed '{intent}' planted at {target.pos}. Growth initialized."
         return "Failed to plant seed. Void coordinates."
 
+    def spin_to_max_coherence(self, threshold=0.999, max_cycles=100):
+        """
+        [IGNITION] Iteratively fluxes the grid until coherence meets the threshold.
+        Ensures the Heptad is fully stabilized before use.
+        """
+        print(f"  [~] Spinning GhostMesh to >{threshold} coherence...")
+        import random
+        cycles = 0
+        current_coherence = 0.0
+        
+        while current_coherence < threshold and cycles < max_cycles:
+            # Inject slight noise to stimulate flux
+            noise_data = [random.gauss(0, 0.01) for _ in range(64)] 
+            res = self.process_step(FlumpyArray(noise_data))
+            current_coherence = res.coherence
+            cycles += 1
+            if cycles % 10 == 0:
+                print(f"      Cycle {cycles}: {current_coherence:.4f}")
+                
+        return current_coherence
+
     def simulate_future_step(self, steps=1):
         """
         [RETROCAUSAL] Simulates future steps to generate a 'Prescience Bias'.

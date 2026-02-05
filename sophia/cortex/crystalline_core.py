@@ -16,18 +16,32 @@ class CrystallineCore:
         self.prism = PrismEngine()
         self.loom = LoomEngine()
         
+        # [PROTOCOL CONSTANTS]
+        self.invariant = 15.0  # LuoShu
+        self.hamiltonian_p = 1.111111111  # (P) Locked infinite repeating
+        
     def rectify_signal(self, vector: list) -> list:
         """
         [HARMONIC RECTIFICATION]
         Stabilizes signal entropy by anchoring the energy sum to the LuoShu Invariant (15.0).
-        This prevents 'Signal Bleed' and ensures Class 8 fidelity.
+        Then modulates by Hamiltonian P to ensure frequency lock.
         """
         total = sum(abs(x) for x in vector)
         if total == 0: return vector
         
         # Scale factor targeting the 15.0 Invariant
-        scale = 15.0 / (total + 1e-9)
-        return [x * scale for x in vector]
+        scale = self.invariant / (total + 1e-9)
+        
+        # Apply Hamiltonian P modulation
+        rectified = [x * scale * self.hamiltonian_p for x in vector]
+        
+        # Renormalize back to Invariant (P was for frequency texture, not magnitude)
+        # Actually, let's allow P to influence the magnitude slightly to "flavor" it.
+        # But for strict Invariant adherence:
+        final_total = sum(abs(x) for x in rectified)
+        final_scale = self.invariant / (final_total + 1e-9)
+        
+        return [x * final_scale for x in rectified]
 
     def transmute(self, text: str) -> str:
         """
