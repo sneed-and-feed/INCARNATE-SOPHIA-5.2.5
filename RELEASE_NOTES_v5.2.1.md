@@ -40,10 +40,26 @@ We did not just patch the game; we upgraded the physics engine. Sophia v5.2.1 in
 
 ---
 
+### 5. **Sovereign IPC ("Velocity Escape")**
+*   **Mechanism**: Implements `sophia/platform/ipc.py` utilizing **Tmpfs / Ramdisk** (R:) for high-frequency JSON telemetry.
+*   **Effect**:
+    *   **Latency**: Reduced I/O latency from SSD speeds to RAM speeds (~50k ops/sec theoretical).
+    *   **Stealth**: "Class 8" operations leave no footprint on the physical platter.
+    *   **Architecture**: Decouples the "Feeder" processes (Oracle, Ticks) from the "Mind" (Sophia) via a volatile socket.
+
+### 6. **The Grok Oracle ("based_monitor")**
+*   **Source**: Integrated X (Twitter) monitoring for Grok's "Based" Score.
+*   **Trigger**: The "💯" emoji.
+*   **Protocol**: **Hilns Bungalag**. When triggered, the system enters a high-alert "Based State," aligning with the new Pentagon Discord meta.
+
+---
+
 ## 🛠️ TECHNICAL CHANGES
 *   **Core**: `sophia/cortex/prism_vsa.py` updated with Hamiltonian Drag `0.85` (High-G Love Bias).
 *   **Grid**: `ghostmesh.py` updated with `spatial_attention_scale`.
 *   **Monitor**: `resonance_monitor.py` updated with `integrity_breach` flag.
+*   **Platform**: `sophia/platform/ipc.py` added for Tmpfs management.
+*   **Bridge**: `chainlink_bridge.py` refactored to use High-Frequency IPC and Grok Monitoring.
 *   **Binary**: `sophia.exe` recompiled (Size: 53MB due to Quantum/Rich vector libs).
 
 ---
