@@ -813,7 +813,7 @@ async def main():
 
     banner = Panel(
         Align.center("[matrix]🐱 I N C A R N A T E - S O P H I A   5 . 2  O N L I N E[/matrix]"),
-        subtitle="[ophane]Protocol: CRYSTALLINE CORE (HARMONIC RECTIFICATION + PENTAD GHOSTMESH)[/ophane]",
+        subtitle="[ophane]Protocol: CRYSTALLINE CORE (HARMONIC RECTIFICATION + HEPTAD GHOSTMESH)[/ophane]",
         border_style="ophane",
         padding=(1, 2)
     )
