@@ -116,6 +116,11 @@
 **Purpose**: Encodes text into a "High-Entropy" visual glyph (ASCII/Unicode art).
 - **Esoteric Function**: "Sigil Crafting."
 
+### `/dubtechno [msg]`
+**Purpose**: Generates an autonomous Dub Techno sequence (ASCII/Atmospheric).
+- **Engine**: `DubTechnoGenerator`.
+- **Esoteric Function**: "Atmospheric Weaving / Pulsing the Void."
+
 ---
 
 ## 📜 SCRIBE (Constitution)

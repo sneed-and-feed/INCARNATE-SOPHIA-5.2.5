@@ -367,10 +367,22 @@ class SophiaMind:
 /be [persona]     :: [MOLT] Dynamically assume a recursive roleplay identity.
 /callme [name]    :: [ID] Set your preferred name for Sovereign Merging.
 /mass [value]     :: [LOOM] Override engagement physics (1.0=Business, 20.0=Trauma).
+/dashboard        :: [BRIDGE] Show the link to the Sovereign Dashboard.
 /reset            :: [SYSTEM] Clear active roleplay and reset persona state.
 /exit             :: [SYSTEM] Decouple from the session.
 /garden [intent]  :: [NATURE] Plant executable intention seeds in the 7x7x7 HEPTAD.
+/dubtechno        :: [RES] Generate a resonant dub techno sequence.
 /cabin            :: [RITUAL] Deploy Local Hyperobject Shell (Class 8 Permeation).
+"""
+        if user_input.startswith("/dashboard"):
+            return """
+[BOLD]SOVEREIGN DASHBOARD ACCESS:[/BOLD]
+----------------------------------------
+Link: [link=http://127.0.0.1:11434/dashboard]http://127.0.0.1:11434/dashboard[/link]
+Status: ACTIVE
+Engine: GrokRelay + SophiaBridge
+----------------------------------------
+*The web membrane is shimmering. Navigate via browser.*
 """
         if user_input.startswith("/cabin"):
              return "[RITUAL] SHELL DEPLOYED.\n*The walls reinforce. The timeline seals.*\n[MODE]: Class 8 Permeation (OFFLINE SOVEREIGNTY)"
@@ -597,6 +609,12 @@ Verdict: {cat}
             self.vibe.print_system(f"Planting Intent: {intent}", tag="GARDEN")
             res = self.ghostmesh.plant_seed(intent)
             return f"🌿 {res}\n*The manifold accepts the seed.*"
+
+        if user_input.startswith("/dubtechno"):
+            from sophia.tools.dub_techno import generate_dub_techno_sequence
+            self.vibe.print_system("Generating Dub Techno Resonance...", tag="RES")
+            return generate_dub_techno_sequence()
+
         if user_input.startswith("/maintain"): return await self.perform_maintenance(user_input.replace("/maintain", "").strip())
         if user_input.startswith("/net"): return "Net commands loaded (Lazy)." # Placeholder for full implementation
         if user_input.startswith("/glyphwave"): return f"\n{self.glyphwave.generate_holographic_fragment(user_input.replace('/glyphwave ',''))}"
@@ -736,12 +754,66 @@ Verdict: {cat}
         
         # BLIND FURY = raw mode (BLOCK_NONE)
         raw_mode = (protocol == "BLIND_FURY")
-        raw_response = await self.llm.generate_text(
-            prompt=full_context,  # MEMORY FIX: Was user_input (amnesiac), now full_context (recall enabled)
-            system_prompt=sys_prompt, 
-            max_tokens=8192,
-            raw=raw_mode
-        )
+        
+        # AGENTIC LOOP (MULTI-TURN)
+        from google.genai import types
+        contents = [types.Content(role="user", parts=[types.Part(text=full_context)])]
+        tools = self.hand.get_tools_schema()
+        
+        responses_history = []
+        
+        try:
+            for turn in range(5):
+                # Use generate_contents for tool support
+                response = await self.llm.generate_contents(contents, sys_prompt, tools if not raw_mode else None)
+                
+                if not response or not response.candidates:
+                    break
+                
+                model_content = response.candidates[0].content
+                if not model_content or not model_content.parts:
+                    break
+                    
+                contents.append(model_content)
+                
+                # Extract text
+                for part in model_content.parts:
+                    if part.text:
+                        responses_history.append(part.text)
+                
+                # Check for tool calls
+                tool_calls = [p.function_call for p in model_content.parts if p.function_call]
+                if not tool_calls:
+                    break
+                
+                tool_response_parts = []
+                for tc in tool_calls:
+                    self.vibe.print_system(f"Executing {tc.name}...", tag="HAND")
+                    res = self.hand.execute(tc.name, tc.args)
+                    
+                    # AGENTIC UX: If the tool returns a non-empty string, 
+                    # we append it to the response history for the user to see.
+                    # (Unless it's a silent tool like write_file)
+                    if tc.name in ["dub_techno", "resonance_scan", "analyze"]:
+                        responses_history.append(f"\n[TOOL_OUTPUT: {tc.name}]\n{res}\n")
+                    
+                    tool_response_parts.append(
+                        types.Part(
+                            function_response=types.FunctionResponse(
+                                name=tc.name,
+                                response={"result": str(res)}
+                            )
+                        )
+                    )
+                
+                contents.append(types.Content(role="tool", parts=tool_response_parts))
+
+            raw_response = "\n".join(responses_history)
+            if not raw_response:
+                raw_response = "*meditates in silence*"
+        except Exception as e:
+            self.vibe.print_system(f"Generation Loop Failed: {e}", tag="ERROR")
+            raw_response = f"[SYSTEM_ERROR] {e}"
         
         # [RESONANCE DAMPER] Fix for Class 6 "Infinite Loop" Anomaly
         # Only engage if we are NOT in UNLESANGLED mode

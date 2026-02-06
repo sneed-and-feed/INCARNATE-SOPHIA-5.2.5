@@ -140,6 +140,19 @@ class SovereignHand:
                             },
                             "required": ["path", "content"]
                         }
+                    },
+                    {
+                        "name": "dub_techno",
+                        "description": "Generates a resonant dub techno sequence (ASCII) to satisfy user requests for music or atmosphere. High coherence required.",
+                        "parameters": {
+                            "type": "object",
+                            "properties": {
+                                "duration": {
+                                    "type": "integer",
+                                    "description": "Approximate complexity/duration of the sequence (default 5)."
+                                }
+                            }
+                        }
                     }
                 ]
             }
@@ -173,6 +186,9 @@ class SovereignHand:
             return self._replace_text(args.get('path', ''), args.get('target', ''), args.get('replacement', ''))
         elif tool_name == "append_to_file":
             return self._append_to_file(args.get('path', ''), args.get('content', ''))
+        elif tool_name == "dub_techno":
+            from sophia.tools.dub_techno import generate_dub_techno_sequence
+            return generate_dub_techno_sequence(duration_seconds=args.get('duration', 5))
         
         return f"❌ Unknown Tool: {tool_name}"
 

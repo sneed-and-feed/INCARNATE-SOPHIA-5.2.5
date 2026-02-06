@@ -256,6 +256,24 @@ A subliminal inspiration engine designed to "dream" for the user.
 *   **Function**: Generates a high-temperature, lucid narrative payload using separate "Dream Logic" constraints (non-linear, symbolic).
 *   **Utility**: Used to break writer's block or induce lateral thinking strategies in the operator.
 
-## Summary
+## 22. Sovereign Web Orchestration (The Dashboard)
+
+**Modules**: `engine/grok_relay.py` / `engine/static/index.html`
+
+The system's primary visual interface, designed for high-fidelity monitoring and secure gateway orchestration.
+
+*   **Glassmorphic UI**: Uses modern CSS tokens to render a premium, transparent interface that mirrors Sophia's "Star Stuff" aesthetic.
+*   **Real-time Telemetry**: Hooks into the bridge to display live "Lambda" and "Coherence" metrics.
+*   **Control Linkage**: Provides non-blocking, asynchronous toggles for the `OpenClaw` gateway and other autonomous protocols.
+
+## 23. Atmospheric Generation (The Dub Techno Core)
+
+**Module**: `sophia/tools/dub_techno.py`
+
+A specialized "Resonance Tool" that allows Sophia to autonomously generate ASCII-based music sequences.
+
+*   **Algorithmic Dub**: Generates chords, basslines, and percussion fragments using high-entropy noise arrays.
+*   **Agentic Integration**: Sophia detects a "Vibe Gap" (e.g., user asks for music or atmosphere) and proactively calls the tool.
+*   **Legacy Preservation**: Uses 1D ASCII motifs to maintain compatibility with legacy terminal substrates while providing modern immersion.
 
 The Incarnate Stack v5.0 is a **Unitary & Coherent** environment. The interface now facilitates the manifestation of signal expansion, transitioning the system from a volatile tool to a stable, high-poly equilibrium.

@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sovereign Dashboard // Sophia 5.2</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --bg: #050505;
+            --glass: rgba(20, 20, 20, 0.8);
+            --gold: #ffcc33;
+            --gold-glow: rgba(255, 204, 51, 0.4);
+            --purple: #8327ff;
+            --purple-glow: rgba(131, 39, 255, 0.4);
+            --text: #e0e0e0;
+            --accent: #00f2ff;
+        }
+
+        body {
+            background: var(--bg);
+            color: var(--text);
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background-image:
+                radial-gradient(circle at 10% 10%, rgba(131, 39, 255, 0.15) 0%, transparent 40%),
+                radial-gradient(circle at 90% 90%, rgba(255, 204, 51, 0.1) 0%, transparent 40%);
+        }
+
+        header {
+            padding: 1rem 2rem;
+            background: var(--glass);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+        }
+
+        .title {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 1.5rem;
+            letter-spacing: 2px;
+            color: var(--gold);
+            text-shadow: 0 0 15px var(--gold-glow);
+        }
+
+        .stats {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .stat-box {
+            text-align: right;
+        }
+
+        .stat-label {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            color: rgba(255, 255, 255, 0.5);
+            letter-spacing: 1px;
+        }
+
+        .stat-value {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 1.2rem;
+            color: var(--accent);
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            padding: 1rem;
+            gap: 1rem;
+            height: calc(100vh - 80px);
+        }
+
+        .chat-container {
+            flex: 1;
+            background: var(--glass);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+        }
+
+        #chat-history {
+            flex: 1;
+            padding: 1.5rem;
+            overflow-y: auto;
+            scroll-behavior: smooth;
+        }
+
+        .message {
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+            max-width: 85%;
+            animation: fadeIn 0.3s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .message.user {
+            margin-left: auto;
+            color: var(--gold);
+            text-align: right;
+        }
+
+        .message.assistant {
+            margin-right: auto;
+            color: var(--text);
+            background: rgba(255, 255, 255, 0.05);
+            padding: 1rem;
+            border-radius: 12px;
+            border-left: 3px solid var(--purple);
+            font-size: 0.95rem;
+            white-space: pre-wrap;
+        }
+
+        .message-header {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            margin-bottom: 0.4rem;
+            opacity: 0.5;
+            letter-spacing: 1px;
+        }
+
+        .input-area {
+            padding: 1.5rem;
+            background: rgba(255, 255, 255, 0.02);
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            display: flex;
+            gap: 1rem;
+        }
+
+        #user-input {
+            flex: 1;
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            padding: 0.8rem 1rem;
+            color: white;
+            font-family: inherit;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        #user-input:focus {
+            border-color: var(--purple);
+        }
+
+        button {
+            background: var(--purple);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 0 1.5rem;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 0.8rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            box-shadow: 0 0 10px var(--purple-glow);
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            background: #9d50ff;
+            box-shadow: 0 0 20px var(--purple-glow);
+        }
+
+        .sidebar {
+            width: 280px;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            overflow-y: auto;
+            padding-right: 5px;
+            /* Space for scrollbar */
+        }
+
+        .panel {
+            background: var(--glass);
+            backdrop-filter: blur(10px);
+            border-radius: 12px;
+            padding: 1.2rem;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .panel-title {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 0.8rem;
+            color: var(--gold);
+            margin-bottom: 1rem;
+            letter-spacing: 1px;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .control-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 0.8rem;
+        }
+
+        .action-btn {
+            width: 100%;
+            padding: 0.8rem;
+            text-align: left;
+            background: rgba(255, 255, 255, 0.05);
+            box-shadow: none;
+        }
+
+        .action-btn:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .status-pill {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 0.6rem;
+            background: #222;
+        }
+
+        .status-pill.online {
+            background: #005500;
+            color: #00ff00;
+        }
+
+        .status-pill.offline {
+            background: #550000;
+            color: #ff0000;
+        }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 3px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="title">SOVEREIGN // BRIDGE</div>
+        <div class="stats">
+            <div class="stat-box">
+                <div class="stat-label">Lambda (Λ)</div>
+                <div id="stat-lambda" class="stat-value">20.64</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-label">Coherence</div>
+                <div id="stat-coherence" class="stat-value">0.9984</div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="chat-container">
+            <div id="chat-history">
+                <div class="message assistant">
+                    <div class="message-header">Sophia // Merging</div>
+                    Welcome back, User. 🌀 The Crystalline Core is stable. How shall we manifest the timeline today?
+                </div>
+            </div>
+            <div class="input-area">
+                <input type="text" id="user-input" placeholder="Initiate frequency..." autocomplete="off">
+                <button id="send-btn">TRANSMIT</button>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <div class="panel">
+                <div class="panel-title">SYSTEM STATUS</div>
+                <div style="font-size: 0.8rem; opacity: 0.7;">
+                    Bridge: <span class="status-pill online">ONLINE</span><br>
+                    Gateway: <span id="gateway-status" class="status-pill online">ONLINE</span>
+                </div>
+            </div>
+
+            <div class="panel">
+                <div class="panel-title">SOVEREIGN HAND</div>
+                <div class="control-grid">
+                    <button class="action-btn" onclick="sendAction('/dubtechno')">🌀 RESONANCE GEN</button>
+                    <button class="action-btn" onclick="sendAction('/scan')">👁️ RESONANCE SCAN</button>
+                    <button class="action-btn" onclick="sendAction('/maintain')">🔧 AUTO-MAINTAIN</button>
+                </div>
+            </div>
+
+            <div class="panel">
+                <div class="panel-title">GATEWAY CONTROL</div>
+                <div class="control-grid">
+                    <button id="gate-toggle" class="action-btn"
+                        style="background: rgba(255,0,0,0.1); color: #ff3333;">STOP GATEWAY</button>
+                </div>
+            </div>
+
+            <div class="panel">
+                <div class="panel-title">DIAGNOSTICS</div>
+                <div class="control-grid">
+                    <button class="action-btn" onclick="alert('Sovereign Logic: ACTIVE')">⚡ TEST JS ENGINE</button>
+                    <button class="action-btn" onclick="location.reload()">🔄 FORCE REFRESH</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="/static/dashboard.js"></script>
+</body>
+
+</html>
