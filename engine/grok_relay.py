@@ -21,6 +21,7 @@ import asyncio
 import time
 import json
 from typing import List, Optional, Dict, Any
+from contextlib import asynccontextmanager
 
 # 1. DEPENDENCY CHECK (FastAPI/Uvicorn)
 try:
@@ -85,7 +86,14 @@ async def init_sophia():
     else:
         print("[!] BRIDGE: SophiaMind not found. Running in ECHO mode.")
 
-app = FastAPI()
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    await init_sophia()
+    yield
+
+app = FastAPI(lifespan=lifespan)
 
 # --- LOGGING MIDDLEWARE ---
 @app.middleware("http")
@@ -95,10 +103,6 @@ async def log_requests(request: Request, call_next):
     duration = time.time() - start_time
     print(f"[ACCESS] {request.method} {request.url.path} -> {response.status_code} ({duration:.3f}s)")
     return response
-
-@app.on_event("startup")
-async def startup_event():
-    await init_sophia()
 
 @app.get("/")
 async def root():
