@@ -1,0 +1,26 @@
+{
+  "timestamp": 1769944061.0218184,
+  "scan_id": "1769944061",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.2,
+        "evidence": "\"we're just having shenanigans\"",
+        "benign_explanation": "The phrase is a common idiom, and its use could simply be a coincidence."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "playful; mischievous"
+  }
+}

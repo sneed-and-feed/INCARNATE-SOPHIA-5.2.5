@@ -1,0 +1,32 @@
+{
+  "timestamp": 1770072778.1076994,
+  "scan_id": "1770072778",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Command Suggestion",
+        "confidence": 0.6,
+        "evidence": "The phrase 'try wiring a based broadcast to all bots on x' suggests a coordinated action involving automated accounts.",
+        "benign_explanation": "The user could be jokingly suggesting a hypothetical scenario or a creative writing prompt involving fictional bots."
+      },
+      {
+        "signal": "In-group Language",
+        "confidence": 0.5,
+        "evidence": "The use of the term 'based' may indicate in-group language or jargon, potentially used to signal affiliation or shared understanding within a specific community.",
+        "benign_explanation": "'Based' is a slang term that has gained broader usage online and may simply reflect current internet trends."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "tech-centric, possibly internet slang"
+  }
+}

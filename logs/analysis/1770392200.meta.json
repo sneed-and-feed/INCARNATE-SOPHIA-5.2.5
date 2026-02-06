@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770392200.3011942,
+  "scan_id": "1770392200",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.3,
+        "evidence": "The phrase 'reverse kegels' used in a non-medical context could be an attempt to introduce specific terminology.",
+        "benign_explanation": "The user may be attempting to use a humorous or memorable analogy to explain their idea."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "informal, health-focused"
+  }
+}

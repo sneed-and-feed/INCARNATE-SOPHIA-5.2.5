@@ -1,0 +1,35 @@
+{
+  "timestamp": 1770035901.7984185,
+  "scan_id": "1770035901",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Repetitive Phrasing",
+        "confidence": 0.6,
+        "evidence": "The phrase 'sonyavegas is a fansly girl' is a very specific and potentially repetitive statement if encountered multiple times across different sources.",
+        "benign_explanation": "The repetition could be due to genuine interest or a shared observation among a small group of people who happen to use similar phrasing independently."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Halo Effect",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.2
+      }
+    ],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "neutral"
+  }
+}

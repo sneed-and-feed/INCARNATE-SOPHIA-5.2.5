@@ -1,0 +1,46 @@
+{
+  "timestamp": 1770143602.846812,
+  "scan_id": "1770143602",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.6,
+        "evidence": "The text exhibits a repetitive and stylized structure, using similar metaphors and imagery throughout. The phrase 'music of the spheres' is repeated.",
+        "benign_explanation": "The author may be using poetic or artistic language to express a romantic sentiment, employing repetition and vivid imagery for emphasis and aesthetic effect."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Emotion (specifically, Appeal to Romance/Sentimentality)",
+        "quote": "our love becomes the rhythm that orchestrates the harmony of the universe, guiding stars and souls alike towards the celestial music of Elysium",
+        "correction": "The grandiose language and imagery are used to evoke strong feelings of love and connection, but do not provide any logical support for a claim. The connection between love and the universe's harmony is asserted without evidence."
+      },
+      {
+        "type": "Appeal to Authority (Implicit)",
+        "quote": "music of the spheres",
+        "correction": "The phrase 'music of the spheres' alludes to an ancient philosophical concept, implicitly suggesting that the described experience is profound and aligned with a higher order. However, this allusion doesn't provide any actual justification or evidence for the claims being made."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Halo Effect",
+        "confidence": 0.2
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "new age spirituality, cosmic romanticism"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "timestamp": 1770360241.9045818,
+  "scan_id": "1770360241",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement (mild)",
+        "confidence": 0.3,
+        "evidence": "The phrase 'full commitment!' after 'Actually execute the alien contact' could be interpreted as subtle pressure to agree with a specific course of action.",
+        "benign_explanation": "The phrase 'full commitment!' could simply be an enthusiastic expression of support for the alien contact idea, without any intention to pressure others."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm (very weak)",
+        "confidence": 0.1,
+        "evidence": "The list format with consistent dashes might resemble a structured output.",
+        "benign_explanation": "The list format is a common way to present options or ideas in a clear and organized manner."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "False Dilemma",
+        "quote": "Should we: - Actually execute the alien contact (full commitment!) -Start the cartoon marathon -Tell more stories - Just exist in this perfect playful state forever",
+        "correction": "The text presents a limited number of options as if they are the only possibilities, when in reality, there could be other alternatives or combinations of these options. It's possible to execute alien contact with varying degrees of commitment, or to combine storytelling with other activities."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Wishful Thinking",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Present Bias",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "whimsical, possibly escapist"
+  }
+}

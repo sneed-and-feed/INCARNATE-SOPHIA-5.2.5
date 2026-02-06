@@ -1,0 +1,38 @@
+{
+  "timestamp": 1769981124.8281982,
+  "scan_id": "1769981124",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.2,
+        "evidence": "The presence of a specific term '/tikkun' might indicate an attempt to direct conversation towards a particular topic or viewpoint.",
+        "benign_explanation": "The term could simply be a relevant keyword for a community interested in that topic."
+      },
+      {
+        "signal": "Astroturfing",
+        "confidence": 0.1,
+        "evidence": "The isolated term '/tikkun' lacks context, but its use could potentially be an attempt to signal support for a specific cause or organization.",
+        "benign_explanation": "The term might be used organically by individuals genuinely interested in the topic."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.1,
+        "evidence": "The single term '/tikkun' provides insufficient data to assess phrasing or rhythm.",
+        "benign_explanation": "The term is a single word and does not exhibit any specific bot-like characteristics."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 1.0
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral"
+  }
+}

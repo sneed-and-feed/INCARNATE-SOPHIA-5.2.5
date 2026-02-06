@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770174467.688949,
+  "scan_id": "1770174467",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.2,
+        "evidence": "The question 'what do you think about the state of tarkov' could be an attempt to steer the conversation towards a specific topic or to gauge the user's alignment with a particular viewpoint.",
+        "benign_explanation": "The user may simply be curious about the other person's opinion on the game 'Escape from Tarkov'."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "neutral gamer"
+  }
+}

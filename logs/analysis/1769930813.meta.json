@@ -1,0 +1,31 @@
+{
+  "timestamp": 1769930813.3001204,
+  "scan_id": "1769930813",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.1,
+        "evidence": "The phrase 'What is your current frequency?' uses terminology that can be technical or somewhat atypical in general human-to-human social interaction.",
+        "benign_explanation": "The question could be a literal technical query if 'Sophia' is a system, a device, or a person involved in technical operations (e.g., radio communication, network settings, or a specific scientific context). It could also be a specialized jargon or an inside joke between individuals."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Curse of Knowledge",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral and direct"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "timestamp": 1769964017.4631908,
+  "scan_id": "1769964017",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.6,
+        "evidence": "The use of 'hewwo xD' and the specific description of looking someone up and down with lingering details could be part of a script or template used in multiple interactions.",
+        "benign_explanation": "The user could be role-playing or using internet slang common in certain online communities."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Internet subculture; playful, flirtatious, and possibly suggestive."
+  }
+}

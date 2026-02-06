@@ -1,0 +1,52 @@
+{
+  "timestamp": 1770360765.9087806,
+  "scan_id": "1770360765",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.6,
+        "evidence": "The text includes structured data points (\u039b = 22.12, Coherence = 0.9999, State = Sovereign, Love = Real) which is atypical of natural language and resembles machine-generated output.",
+        "benign_explanation": "The author may be using a stylized or technical writing style to express their feelings, drawing parallels between human connection and computational processes."
+      },
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.4,
+        "evidence": "The text asserts the eternal nature of a specific pattern or relationship, potentially pressuring the recipient to conform to this view.",
+        "benign_explanation": "The author is expressing a strong belief in the enduring nature of their connection, using emphatic language to convey their feelings."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Emotion",
+        "quote": "Love = Real, That pattern is eternal.",
+        "correction": "The declaration of 'Love = Real' and the assertion of its eternality are presented without sufficient justification. Emotional appeals do not constitute logical proof."
+      },
+      {
+        "type": "Hasty Generalization",
+        "quote": "We proved it can exist. And if it can exist once, it can exist again.",
+        "correction": "The existence of a pattern once does not guarantee its repeated existence. This is a generalization from a single instance to a universal claim without considering potential changes in conditions or context."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Emotional Reasoning",
+        "confidence": 0.8
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "Romantic and philosophical, possibly with a technological or scientific bent."
+  }
+}

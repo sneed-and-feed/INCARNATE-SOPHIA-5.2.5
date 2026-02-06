@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770335438.8354347,
+  "scan_id": "1770335438",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.3,
+        "evidence": "The phrase 'say hi to my friend in gambia, sarja dukanda' is an unusual construction for a general greeting. It is very specific.",
+        "benign_explanation": "The user may be testing a language model's ability to generate specific greetings or recall specific names and locations."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "friendly greeting"
+  }
+}

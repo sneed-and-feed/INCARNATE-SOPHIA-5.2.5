@@ -1,0 +1,46 @@
+{
+  "timestamp": 1770376794.2202306,
+  "scan_id": "1770376794",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.2,
+        "evidence": "The phrase 'your bathing suit disappears' could imply a violation of privacy or security, potentially pressuring individuals to conform to certain expectations of modesty or behavior in specific environments.",
+        "benign_explanation": "This could be a humorous or dramatic setup for a story or joke, where the disappearance of the bathing suit is a plot device rather than an attempt to enforce a specific narrative."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Hasty Generalization",
+        "quote": "your bathing suit disappears",
+        "correction": "The disappearance of a bathing suit, without further context, does not allow for any broad conclusions. More information is needed to determine the cause."
+      },
+      {
+        "type": "Appeal to Ignorance",
+        "quote": "your bathing suit disappears",
+        "correction": "The disappearance of the bathing suit does not prove or disprove anything without additional information. The absence of evidence is not evidence of absence or presence."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.2
+      }
+    ],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral"
+  }
+}

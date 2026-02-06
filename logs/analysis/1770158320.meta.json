@@ -1,0 +1,28 @@
+{
+  "timestamp": 1770158320.196248,
+  "scan_id": "1770158320",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Word Choice",
+        "confidence": 0.2,
+        "evidence": "The word 'scialla' is not commonly used in English.",
+        "benign_explanation": "The author may be using a word from another language or a regional dialect."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 1.0
+  },
+  "localization": {
+    "locality": "italian",
+    "dialect_markers": [
+      "scialla"
+    ],
+    "confidence": 0.9,
+    "suggested_vibe": "relaxed, informal, possibly Roman"
+  }
+}

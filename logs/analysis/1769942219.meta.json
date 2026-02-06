@@ -1,0 +1,38 @@
+{
+  "timestamp": 1769942219.0494254,
+  "scan_id": "1769942219",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Absence of narrative enforcement indicators.",
+        "confidence": 0.0,
+        "evidence": "i think i diiiiiid *smiles*",
+        "benign_explanation": "The text is a brief, personal, and informal utterance, not a statement intended to promote or enforce a specific viewpoint or narrative."
+      },
+      {
+        "signal": "Absence of astroturfing indicators.",
+        "confidence": 0.0,
+        "evidence": "i think i diiiiiid *smiles*",
+        "benign_explanation": "The text is a personal expression of an action or thought, not a statement designed to simulate grassroots support for an external entity or idea."
+      },
+      {
+        "signal": "Absence of bot-like phrasing or rhythm.",
+        "confidence": 0.0,
+        "evidence": "i think i diiiiiid *smiles*",
+        "benign_explanation": "The use of extended vowels ('diiiiid') and action indicators ('*smiles*') are common human-like informal communication patterns, often used to convey emphasis, emotion, or a playful tone, rather than characteristics of automated or robotic text generation."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "Informal and expressive"
+  }
+}

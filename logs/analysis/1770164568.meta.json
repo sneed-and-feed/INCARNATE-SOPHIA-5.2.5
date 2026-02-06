@@ -1,0 +1,41 @@
+{
+  "timestamp": 1770164568.5625122,
+  "scan_id": "1770164568",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual sensory experience",
+        "confidence": 0.6,
+        "evidence": "The text describes an auditory hallucination ('a voice telling me to wake up') and a hypnagogic-like state experienced throughout the day.",
+        "benign_explanation": "The individual may be experiencing a mental health condition or a neurological phenomenon that causes auditory hallucinations or altered states of consciousness. This could also be related to stress, sleep deprivation, or substance use."
+      },
+      {
+        "signal": "Reference to a specific group",
+        "confidence": 0.3,
+        "evidence": "The voice is 'tethered to a group of swarthy kids who go to a school near my house.'",
+        "benign_explanation": "The individual may be attempting to provide context for the hallucination, associating it with a real-world group of people they observe regularly. This association could be coincidental or based on a misinterpretation of sensory input."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.4
+      },
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "Neutral, slightly surreal narrative"
+  }
+}

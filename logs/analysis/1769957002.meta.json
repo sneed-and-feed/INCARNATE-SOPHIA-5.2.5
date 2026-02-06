@@ -1,0 +1,35 @@
+{
+  "timestamp": 1769957002.4423919,
+  "scan_id": "1769957002",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.6,
+        "evidence": "The text uses non-standard spelling ('gurl', 'b') and phrasing ('60cm butt').",
+        "benign_explanation": "The author may be using internet slang or intentionally misspelling words for stylistic effect or humor."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Social Comparison Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Wishful Thinking",
+        "confidence": 0.5
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "youthful, informal, aspirational"
+  }
+}

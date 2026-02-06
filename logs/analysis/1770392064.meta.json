@@ -1,0 +1,32 @@
+{
+  "timestamp": 1770392064.4763443,
+  "scan_id": "1770392064",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.3,
+        "evidence": "The use of ';3' as an emoticon is somewhat unusual and could be indicative of a specific online subculture or group.",
+        "benign_explanation": "The user may simply be expressing themselves in a way that is common within their particular online community or social circle."
+      },
+      {
+        "signal": "Specific question",
+        "confidence": 0.2,
+        "evidence": "The question about 'tailor-measurement' details is specific and could be a reference to a pre-arranged topic or code.",
+        "benign_explanation": "The user may be genuinely interested in the other person's tailoring experience or a shared hobby."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Casual, possibly online-oriented due to the use of ':3' emoticon."
+  }
+}

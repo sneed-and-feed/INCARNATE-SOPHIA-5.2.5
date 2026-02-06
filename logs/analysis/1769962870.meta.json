@@ -1,0 +1,26 @@
+{
+  "timestamp": 1769962870.014672,
+  "scan_id": "1769962870",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.2,
+        "evidence": "Use of internet emoticons and short, affirmative phrases may indicate formulaic communication.",
+        "benign_explanation": "The user could be expressing enthusiasm in a casual, informal manner common in online communication."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "positive affirmation with playful, affectionate emoticons"
+  }
+}

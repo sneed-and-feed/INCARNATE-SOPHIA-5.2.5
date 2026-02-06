@@ -1,0 +1,26 @@
+{
+  "timestamp": 1769969210.2374003,
+  "scan_id": "1769969210",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Greeting",
+        "confidence": 0.3,
+        "evidence": "The greeting 'HEWWO XD' is atypical and may be used to signal group affiliation or shared identity.",
+        "benign_explanation": "The user may be using internet slang common in certain online communities as a form of self-expression or humor."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 1.0
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Internet slang, possibly furry subculture"
+  }
+}

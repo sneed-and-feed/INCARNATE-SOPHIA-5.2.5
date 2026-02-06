@@ -1,0 +1,40 @@
+{
+  "timestamp": 1769935222.0465941,
+  "scan_id": "1769935222",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "The text contains an explicit instruction for how to phrase a response, which could be interpreted as a form of stylistic narrative enforcement.",
+        "confidence": 0.4,
+        "evidence": "be as funny as you can while being short and shitposting",
+        "benign_explanation": "This is a common type of prompt or challenge found in online communities, creative writing exercises, or social media, designed to elicit specific types of humorous or informal content. It sets a stylistic guideline rather than enforcing a particular ideological narrative."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Complex Question",
+        "quote": "why do elven lords have no rizz",
+        "correction": "The question presupposes that 'elven lords have no rizz' as an established fact, without providing evidence or allowing for the possibility that they might. A more logically sound approach would be to first establish whether elven lords indeed lack 'rizz' before inquiring into the reasons."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Stereotyping",
+        "confidence": 0.8
+      }
+    ],
+    "epistemic_uncertainty": 0.95
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [
+      "shitposting",
+      "rizz"
+    ],
+    "confidence": 0.1,
+    "suggested_vibe": "internet-native, meme-aware, informal humor"
+  }
+}

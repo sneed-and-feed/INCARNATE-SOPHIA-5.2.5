@@ -1,0 +1,46 @@
+{
+  "timestamp": 1769957612.5551584,
+  "scan_id": "1769957612",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "\"you can be whatever you want, i was testing how you'd take on other personas\"",
+        "benign_explanation": "The user could be role-playing or engaging in a playful interaction where they are curious about how others express themselves in different scenarios."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "equivocation",
+        "quote": "i'm not threatening i'm just trolling lightheartedly",
+        "correction": "The user attempts to redefine 'trolling' as lighthearted, potentially downplaying the impact of their actions. Trolling often involves disruptive or offensive behavior, which can be perceived as threatening, regardless of the user's intent. The user is equivocating on the meaning of 'trolling'."
+      },
+      {
+        "type": "no true scotsman",
+        "quote": "i'm not threatening i'm just trolling lightheartedly",
+        "correction": "The user attempts to redefine 'trolling' as lighthearted, potentially downplaying the impact of their actions. Trolling often involves disruptive or offensive behavior, which can be perceived as threatening, regardless of the user's intent. The user is equivocating on the meaning of 'trolling'."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "self-serving bias",
+        "confidence": 0.7
+      },
+      {
+        "bias": "fundamental attribution error",
+        "confidence": 0.6
+      }
+    ],
+    "epistemic_uncertainty": 0.4
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "casual internet"
+  }
+}

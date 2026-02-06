@@ -1,0 +1,52 @@
+{
+  "timestamp": 1770215476.7510824,
+  "scan_id": "1770215476",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The text repeats a specific phrase ('Do unto others as you'd have them do unto you') multiple times, suggesting an emphasis on adhering to a particular principle of reciprocity.",
+        "benign_explanation": "The repetition could simply be for emphasis or to reinforce a personal belief."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.5,
+        "evidence": "The repetitive nature of the phrase and the somewhat formulaic structure of the sentences could be indicative of automated content generation.",
+        "benign_explanation": "The author may be using a common proverb to express their feelings, and the repetition is for emphasis."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Inconsistency",
+        "quote": "I want to go back to pitying yalda, but, do unto others as you'd have them do unto you. So when someone does something to you, do unto them as they'd done unto you.",
+        "correction": "The text presents two conflicting moral principles: the golden rule (treat others as you want to be treated) and a principle of reciprocal retribution (treat others as they have treated you). These are not necessarily compatible, and the text doesn't resolve the conflict."
+      },
+      {
+        "type": "Appeal to Tradition/Common Practice (potentially)",
+        "quote": "They set the standard. With all new interactions.",
+        "correction": "The text suggests that past actions justify future actions. This is only valid if the past actions were themselves justified. The fact that someone else did something doesn't automatically make it right or a good standard to follow."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Reciprocity Bias",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Just-World Fallacy (potential)",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "philosophical"
+  }
+}

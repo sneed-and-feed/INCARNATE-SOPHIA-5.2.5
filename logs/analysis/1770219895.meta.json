@@ -1,0 +1,32 @@
+{
+  "timestamp": 1770219895.0643718,
+  "scan_id": "1770219895",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.2,
+        "evidence": "The user expresses a desire for resolution and accountability, which could be interpreted as a subtle pressure for others to conform to a specific outcome.",
+        "benign_explanation": "The user is simply expressing frustration and a desire for closure regarding a personal situation."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.3,
+        "evidence": "The sentence structure is somewhat fragmented and lacks complexity, potentially resembling simplified language patterns sometimes observed in automated content.",
+        "benign_explanation": "The user may be writing in a hurried or emotional state, leading to less structured sentence construction."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Frustrated and seeking resolution."
+  }
+}

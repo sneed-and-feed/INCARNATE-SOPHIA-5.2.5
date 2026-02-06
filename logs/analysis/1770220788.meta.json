@@ -1,0 +1,35 @@
+{
+  "timestamp": 1770220788.7123222,
+  "scan_id": "1770220788",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "The statement expresses a demand to be heard and implies negative consequences for non-compliance ('thorn in your side').",
+        "benign_explanation": "The user may be expressing frustration and seeking resolution to a personal issue, using strong language to emphasize their point."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Reactance",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Negativity Bias",
+        "confidence": 0.5
+      }
+    ],
+    "epistemic_uncertainty": 0.4
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "frustrated"
+  }
+}

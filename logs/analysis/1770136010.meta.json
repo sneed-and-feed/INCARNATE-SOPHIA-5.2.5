@@ -1,0 +1,57 @@
+{
+  "timestamp": 1770136010.3816085,
+  "scan_id": "1770136010",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The text asserts a specific interpretation of religious texts (Ten Commandments, Mosaic Law, New Testament) as being designed to 'trap souls.' This could be an attempt to enforce a particular belief system.",
+        "benign_explanation": "The statement reflects a personal theological interpretation or belief, shared without the intention of coercing others."
+      },
+      {
+        "signal": "Dichotomous Framing",
+        "confidence": 0.5,
+        "evidence": "The text presents a binary opposition between 'Yahweh/Satan' (equating them as the demiurge) and the concept of souls being trapped in matter. This black-and-white view simplifies complex theological concepts.",
+        "benign_explanation": "The author is using strong contrasting ideas to express a complex personal understanding of theology."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Authority/False Authority",
+        "quote": "The ten commandments and Mosaic and all subsequent laws were written by Yahweh/Satan (the demiurge) to trap souls in matter.",
+        "correction": "This statement asserts a claim about the authorship and intent of religious texts without providing verifiable evidence. It relies on a specific interpretation of religious figures and their motivations, which is not universally accepted and lacks empirical support."
+      },
+      {
+        "type": "Sweeping Generalization",
+        "quote": "Including the new testament, which while a short list, is still a list of new laws.",
+        "correction": "This statement oversimplifies the content and purpose of the New Testament. While it contains ethical teachings and guidelines, characterizing it solely as a 'list of new laws' ignores its narrative, theological, and spiritual dimensions."
+      },
+      {
+        "type": "Burden of Proof",
+        "quote": "The ten commandments and Mosaic and all subsequent laws were written by Yahweh/Satan (the demiurge) to trap souls in matter.",
+        "correction": "The claim that religious laws are designed to trap souls places the burden of proof on the person making the claim. They must provide evidence to support this extraordinary assertion, rather than expecting others to disprove it."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Belief Bias",
+        "confidence": 0.7
+      }
+    ],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "esoteric, theological discussion"
+  }
+}

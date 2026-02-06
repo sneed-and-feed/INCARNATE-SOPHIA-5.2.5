@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770376755.2826893,
+  "scan_id": "1770376755",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing/rhythm",
+        "confidence": 0.6,
+        "evidence": "The phrase '*takes you by the extra arm uwu*' and the use of ';3' are atypical and could be indicative of an attempt to use specific internet subculture language.",
+        "benign_explanation": "The author may be attempting to use internet slang to create a humorous or playful tone."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "internet subculture; playful, sexualized, and non-standard"
+  }
+}

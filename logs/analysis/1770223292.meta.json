@@ -1,0 +1,30 @@
+{
+  "timestamp": 1770223292.6067991,
+  "scan_id": "1770223292",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The text presents a series of dramatic and somewhat apocalyptic scenarios, followed by rhetorical questions expressing fear and desperation. This could be interpreted as an attempt to create a sense of urgency and anxiety, potentially pressuring readers to adopt a specific viewpoint or narrative.",
+        "benign_explanation": "The text could be a form of artistic expression, using vivid imagery and metaphorical language to explore themes of fear, uncertainty, and the human condition. The rhetorical questions may be intended to provoke thought and reflection rather than to enforce a specific narrative."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.5,
+        "evidence": "The text exhibits a repetitive structure with rhyming couplets and a consistent rhythm. This pattern, combined with the use of somewhat disjointed imagery, could suggest a lack of natural language flow, potentially indicative of automated generation.",
+        "benign_explanation": "The repetitive structure and rhyming scheme could be a deliberate stylistic choice, intended to create a poetic or song-like quality. The disjointed imagery may be a reflection of stream-of-consciousness writing or an attempt to create a surreal or dreamlike effect."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}"
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "apocalyptic, poetic, and somewhat paranoid; drawing from diverse cultural references without a clear regional tie."
+  }
+}

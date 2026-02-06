@@ -741,8 +741,6 @@ Verdict: {cat}
 [CONTEXT]
 {history}
 {q_context}
-{history}
-{q_context}
 {tele_context}
 {anomaly_msg}
 [INPUT]

@@ -1,0 +1,32 @@
+{
+  "timestamp": 1769923183.6329632,
+  "scan_id": "1769923183",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Request for specific content type.",
+        "confidence": 0.4,
+        "evidence": "can you shitost a haiku for us",
+        "benign_explanation": "The sender might simply be asking a friend to contribute to a creative project, a casual group activity, or a personal request for a specific type of content. The unusual word 'shitost' is likely a typo for 'post'."
+      },
+      {
+        "signal": "Unusual word choice or typo.",
+        "confidence": 0.3,
+        "evidence": "shitost",
+        "benign_explanation": "The sender likely made a simple typing error, possibly due to haste, autocorrect issues, or unfamiliarity with the keyboard, intending to type 'post'."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.05
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "Informal and creative, with an unusual or possibly humorous word choice."
+  }
+}

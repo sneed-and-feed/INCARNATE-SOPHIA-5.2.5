@@ -1,0 +1,58 @@
+{
+  "timestamp": 1770321183.097767,
+  "scan_id": "1770321183",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The statement 'Chuck Johnson\u2019s continued detention serves no legitimate legal purpose' presents a strong opinion as fact, potentially pressuring others to agree. The call to 'Free Chuck Johnson' reinforces a specific desired outcome.",
+        "benign_explanation": "This could be a genuine expression of concern from individuals who believe an injustice has occurred and are advocating for what they perceive as a just resolution."
+      },
+      {
+        "signal": "Astroturfing",
+        "confidence": 0.4,
+        "evidence": "The concise and direct call to action ('Free Chuck Johnson') could be part of a coordinated campaign to create the impression of widespread support.",
+        "benign_explanation": "This may be a simple, direct slogan created by a small group of supporters to promote their cause."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.3,
+        "evidence": "The sentence structure is simple and declarative, which could be indicative of automated content generation. The repetitive call to action ('Free Chuck Johnson') also raises suspicion.",
+        "benign_explanation": "The simplicity and repetition could be for emphasis and clarity, making the message easily understandable and shareable."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Emotion (Appeal to Justice)",
+        "quote": "Chuck Johnson\u2019s continued detention serves no legitimate legal purpose and undermines core principles of due process.",
+        "correction": "This statement asserts a conclusion (no legitimate legal purpose, undermines due process) without providing sufficient evidence or reasoning. It appeals to the reader's sense of justice and fairness to sway opinion, rather than presenting a logical argument. To strengthen the argument, one would need to provide specific evidence demonstrating the lack of legal purpose and the violation of due process."
+      },
+      {
+        "type": "Begging the Question (Implicitly assuming the conclusion)",
+        "quote": "Chuck Johnson\u2019s continued detention serves no legitimate legal purpose and undermines core principles of due process.",
+        "correction": "The statement assumes that the detention *actually* serves no legitimate legal purpose and *actually* undermines due process. These are the very points that need to be proven, not assumed. A proper argument would first establish these points with evidence before concluding that the detention is unjust."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Framing Effect",
+        "confidence": 0.7
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "Political advocacy; legal concern."
+  }
+}

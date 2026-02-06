@@ -1,0 +1,46 @@
+{
+  "timestamp": 1770208741.477721,
+  "scan_id": "1770208741",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.6,
+        "evidence": "Repetitive phrasing such as 'trade resources with one another' and 'trade with one another' creates a rhythmic, somewhat unnatural tone.",
+        "benign_explanation": "The author may be using repetition for emphasis or stylistic effect, or may simply have a writing style that tends toward redundancy."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Emotion (Appeal to Fun)",
+        "quote": "Funnest and most calming thing to do when you're worried about markets falling and resource shortages",
+        "correction": "The fun or calming nature of an activity is irrelevant to its logical validity or practical usefulness in addressing market concerns."
+      },
+      {
+        "type": "Circular Reasoning",
+        "quote": "inevitable in our markets where we trade resources with one another to make the best product possible to trade with one another",
+        "correction": "The argument asserts the inevitability of resource shortages because of the nature of trade, but the premise and conclusion are essentially the same, lacking independent support. The phrase 'trade resources with one another to make the best product possible to trade with one another' is a restatement of the initial premise."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Negativity Bias",
+        "confidence": 0.5
+      }
+    ],
+    "epistemic_uncertainty": 0.4
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "Pragmatic, concerned with efficiency and trade, possibly with a prepper mindset."
+  }
+}

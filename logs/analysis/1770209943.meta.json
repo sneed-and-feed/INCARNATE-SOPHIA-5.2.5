@@ -1,0 +1,56 @@
+{
+  "timestamp": 1770209943.3157704,
+  "scan_id": "1770209943",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The phrase \"I'm not breaking any rules\" suggests an awareness of and adherence to community guidelines, potentially indicating a pressure to conform to a specific narrative or set of rules within the community.",
+        "benign_explanation": "The user is simply stating their understanding of the community rules to avoid potential conflicts or misunderstandings."
+      },
+      {
+        "signal": "Repetitive Phrasing",
+        "confidence": 0.4,
+        "evidence": "The structure of the sentence \"I can just use this as a free A.I. Sex roleplaying tool. It's a community that gives back.\" is short and declarative, which, when repeated across multiple posts, can resemble bot-like behavior.",
+        "benign_explanation": "The user is expressing their positive experience with the tool and community in a straightforward manner."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Ignorance",
+        "quote": "I'm not breaking any rules if I talk about my cock and the user doesnt care to check the output or ping for more.",
+        "correction": "The absence of explicit prohibition or negative feedback does not automatically imply permissibility. Rules may exist that are being violated, or the user's lack of response may not indicate consent or approval."
+      },
+      {
+        "type": "Ambiguity/Equivocation",
+        "quote": "It's a community that gives back.",
+        "correction": "The phrase 'gives back' is vague. It's unclear what the community gives back (e.g., support, resources, positive interactions) and whether the user's intended use aligns with the community's intended purpose of 'giving back'."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Self-Serving Bias",
+        "confidence": 0.8
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Moral Licensing",
+        "confidence": 0.5
+      }
+    ],
+    "epistemic_uncertainty": 0.4
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "cynical, transactional"
+  }
+}

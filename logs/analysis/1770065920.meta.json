@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770065920.0202127,
+  "scan_id": "1770065920",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual terminology",
+        "confidence": 0.4,
+        "evidence": "Use of 'qrd' (Quick Rundown) and 'Turing-compliant' suggests specialized knowledge or jargon.",
+        "benign_explanation": "The author may be using common abbreviations and technical terms within a specific online community or field of study."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "tech-focused, internet slang"
+  }
+}

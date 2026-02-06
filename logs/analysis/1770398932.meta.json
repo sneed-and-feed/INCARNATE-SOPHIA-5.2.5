@@ -1,0 +1,32 @@
+{
+  "timestamp": 1770398932.1275938,
+  "scan_id": "1770398932",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Possible coordinated behavior",
+        "confidence": 0.6,
+        "evidence": "The message contains an explicit instruction to 'say hi' to a specific user on a specific platform (YouTube Live). This could indicate an attempt to amplify a message or create a coordinated show of support.",
+        "benign_explanation": "The message could be a simple request from one user to another to acknowledge someone they both know in a public forum."
+      },
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.5,
+        "evidence": "The use of 'hewwo' and ';3' suggests an attempt to use internet slang or emoticons, which could be an attempt to appear friendly or disarming, or to target a specific demographic.",
+        "benign_explanation": "The user may simply be using internet slang common in certain online communities as a form of self-expression."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "youthful, internet culture"
+  }
+}

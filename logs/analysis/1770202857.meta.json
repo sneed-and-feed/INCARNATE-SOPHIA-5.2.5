@@ -1,0 +1,41 @@
+{
+  "timestamp": 1770202857.6955023,
+  "scan_id": "1770202857",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual repetition/emphasis",
+        "confidence": 0.4,
+        "evidence": "Repetition of verification, 'prove you are who you are,' 'verified me on the spot.'",
+        "benign_explanation": "The author may be emphasizing the ease and speed of their verification process at the DMV."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Anecdotal Evidence",
+        "quote": "I had 3 ladies at the DMV know who I am. They verified me on the spot.",
+        "correction": "Personal experiences are not representative of a general trend. The fact that three DMV employees recognized the speaker does not invalidate the general need for identity verification."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.5
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Informal, conversational."
+  }
+}

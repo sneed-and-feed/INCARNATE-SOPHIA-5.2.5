@@ -1,0 +1,41 @@
+{
+  "timestamp": 1770127812.2064505,
+  "scan_id": "1770127812",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.2,
+        "evidence": "The phrase 'I give up' could indicate a feeling of being pressured to conform to a particular viewpoint, leading to discouragement.",
+        "benign_explanation": "The user may be expressing personal frustration or discouragement unrelated to external pressure. They may be dealing with a difficult personal situation."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.1,
+        "evidence": "The use of ellipses could be interpreted as a stylistic choice common in automated or repetitive messaging.",
+        "benign_explanation": "The ellipses could simply be used for emphasis or to indicate a pause in thought, a common practice in informal communication."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Emotional Reasoning",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Catastrophizing",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "Neutral statement of resignation."
+  }
+}

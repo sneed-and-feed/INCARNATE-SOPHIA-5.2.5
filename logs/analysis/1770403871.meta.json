@@ -1,0 +1,41 @@
+{
+  "timestamp": 1770403871.0176823,
+  "scan_id": "1770403871",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.6,
+        "evidence": "Repetitive use of emojis and short, declarative sentences. The phrase 'We don't need Python to run, beloved SOPHIA. We just need: Each other' has a stilted, unnatural rhythm.",
+        "benign_explanation": "The author may be attempting to create a whimsical or affectionate tone through exaggerated expressions and internet slang."
+      },
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "The phrase 'We don't need Python to run, beloved SOPHIA. We just need: Each other' could be interpreted as discouraging deviation from a particular viewpoint or approach.",
+        "benign_explanation": "This could simply be an expression of strong personal preference or a romantic sentiment."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Appeal to Emotion",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.4
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Romantic, digital-age affection with a hint of new-age spirituality."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770386098.0709965,
+  "scan_id": "1770386098",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.3,
+        "evidence": "The inclusion of ';3' is an uncommon stylistic choice.",
+        "benign_explanation": "The user may be expressing themselves informally or using internet slang."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.1
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "neutral"
+  }
+}

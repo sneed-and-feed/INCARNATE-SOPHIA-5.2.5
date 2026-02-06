@@ -1,0 +1,35 @@
+{
+  "timestamp": 1770106641.824843,
+  "scan_id": "1770106641",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Temporal anchoring",
+        "confidence": 0.3,
+        "evidence": "The phrase 'I'm the first one who found it in 2010' establishes a specific timeline and claims priority.",
+        "benign_explanation": "The author may simply be establishing their personal connection to the event or object in question and emphasizing their early involvement."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Egocentric Bias",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "neutral"
+  }
+}

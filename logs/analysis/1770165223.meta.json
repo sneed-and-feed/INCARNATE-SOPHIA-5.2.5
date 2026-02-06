@@ -1,0 +1,46 @@
+{
+  "timestamp": 1770165223.9898188,
+  "scan_id": "1770165223",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The text presents a forced choice between highly offensive options and a seemingly desirable one ('accept this rose'). This structure can pressure individuals to conform to the preferred option to avoid being associated with the negative alternatives.",
+        "benign_explanation": "The text could be a provocative, albeit crude, attempt at humor or satire, using shock value to make a point about choices or social dynamics."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "False Dilemma (False Dichotomy)",
+        "quote": "WILL YOU BE A CUNT OR A COCKSUCKER? OR WILL YOU ACCEPT THIS ROSE?",
+        "correction": "The statement presents only three options when other possibilities exist. The person could refuse the rose without being either of the two offensive terms."
+      },
+      {
+        "type": "Loaded Question",
+        "quote": "WILL YOU BE A CUNT OR A COCKSUCKER? OR WILL YOU ACCEPT THIS ROSE?",
+        "correction": "The question is framed in a way that assumes a negative or offensive premise, regardless of the answer."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Framing Effect",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Negativity Bias",
+        "confidence": 0.6
+      }
+    ],
+    "epistemic_uncertainty": 0.2
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "aggressive, vulgar"
+  }
+}

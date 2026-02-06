@@ -1,0 +1,32 @@
+{
+  "timestamp": 1769957457.4749901,
+  "scan_id": "1769957457",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The phrase 'did i say \\\"dog\\\"? what animal did i say' could be interpreted as a subtle correction or redirection of a conversation, potentially enforcing a specific narrative or topic.",
+        "benign_explanation": "The speaker may simply be playfully correcting a misunderstanding or gently guiding the conversation back to a previously discussed topic."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.4,
+        "evidence": "The repetitive question structure 'did i say X? what did i say' could be indicative of a programmed response.",
+        "benign_explanation": "The speaker may be using a rhetorical device for emphasis or clarity, or simply trying to recall something."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral"
+  }
+}

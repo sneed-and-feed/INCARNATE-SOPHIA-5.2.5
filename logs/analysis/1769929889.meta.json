@@ -1,0 +1,35 @@
+{
+  "timestamp": 1769929889.90772,
+  "scan_id": "1769929889",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "The phrasing is terse and imperative, beginning with a slash, which can be consistent with commands or automated instructions.",
+        "confidence": 0.2,
+        "evidence": "/maintain update your ui to make it funny",
+        "benign_explanation": "This could be a concise instruction from a human to another human, such as a developer brief or a task note. The leading slash might indicate a command within a specific software interface or chat application, and 'to make it funny' could be a creative directive from a human."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Optimism Bias",
+        "confidence": 0.6
+      }
+    ],
+    "epistemic_uncertainty": 0.85
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "informal, tech-oriented, playful"
+  }
+}

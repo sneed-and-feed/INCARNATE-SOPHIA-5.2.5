@@ -1,0 +1,41 @@
+{
+  "timestamp": 1769953286.5713549,
+  "scan_id": "1769953286",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Repetitive Phrasing",
+        "confidence": 0.6,
+        "evidence": "The phrase 'yabbu shalabu may you appear' is repeated verbatim.",
+        "benign_explanation": "The repetition could be part of a children's game, a song, or a simple, nonsensical phrase used for amusement."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Magic/Supernatural",
+        "quote": "yabbu shalabu may you appear",
+        "correction": "The statement relies on a magical incantation to produce a desired outcome, lacking empirical evidence or rational explanation. To correct this, one would need to provide a logical and verifiable mechanism for the appearance to occur."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Magical Thinking Bias",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Wishful Thinking",
+        "confidence": 0.6
+      }
+    ],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "nonsensical"
+  }
+}

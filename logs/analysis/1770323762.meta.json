@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770323762.0832424,
+  "scan_id": "1770323762",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Uncommon phrasing",
+        "confidence": 0.6,
+        "evidence": "The phrase ';3' is an uncommon emoticon.",
+        "benign_explanation": "The user may be using an emoticon common in a specific online community."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "suggestive and playful"
+  }
+}

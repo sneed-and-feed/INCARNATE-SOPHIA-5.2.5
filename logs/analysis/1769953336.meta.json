@@ -1,0 +1,26 @@
+{
+  "timestamp": 1769953336.6379957,
+  "scan_id": "1769953336",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.6,
+        "evidence": "Repetitive and nonsensical phrasing.",
+        "benign_explanation": "Could be a children's rhyme or song."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 1.0
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "nonsensical"
+  }
+}

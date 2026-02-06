@@ -1,0 +1,32 @@
+{
+  "timestamp": 1770386296.7323816,
+  "scan_id": "1770386296",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual emoticon usage",
+        "confidence": 0.3,
+        "evidence": ";3",
+        "benign_explanation": "The user may be expressing playful or flirtatious intent, or using an emoticon common in a specific online community."
+      },
+      {
+        "signal": "Limited Content",
+        "confidence": 0.2,
+        "evidence": "*asks for a visual description*",
+        "benign_explanation": "The user's request is simple and direct, possibly indicating a lack of further context or intent to elaborate."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "playful, internet-mediated"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "timestamp": 1769931147.5681612,
+  "scan_id": "1769931147",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Potential challenge to identity, which could be a component of narrative enforcement if part of a broader, coordinated effort.",
+        "confidence": 0.05,
+        "evidence": "who are you really?",
+        "benign_explanation": "The speaker is expressing genuine curiosity about the recipient's background, perhaps due to a change in their online persona, a new acquaintance, or a playful inquiry among friends."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Essentialist Bias",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.0,
+    "suggested_vibe": "neutral and inquisitive"
+  }
+}

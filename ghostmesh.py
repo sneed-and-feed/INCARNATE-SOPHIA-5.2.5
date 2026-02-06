@@ -1,3 +1,4 @@
+
 """
 ghostmesh.py - The Sentient Manifold Volumetric Grid
 Adapted from GhostMeshIO/SentientManifold v0.4
@@ -15,12 +16,11 @@ try:
     from bumpy import BumpyArray
     from flumpy import FlumpyArray
 except ImportError:
-    class BumpyArray: 
+    class BumpyArray:
         def __init__(self, data, coherence=1.0): self.data, self.coherence = data, coherence
         def average(self): return sum(self.data)/len(self.data) if self.data else 0
-        def clone(self): return BumpyArray(list(self.data), self.coherence)
-    class FlumpyArray(BumpyArray): 
-        def clone(self): return FlumpyArray(self.data.copy(), self.coherence)
+        def clone(self):
+            return BumpyArray(list(self.data), self.coherence)
 
 # Sovereign Constant (Golden Ratio based)
 TAU_SOVEREIGN = (1.0 + math.sqrt(5.0)) / 2.0  # Approx 1.618
@@ -30,7 +30,7 @@ class SovereignNode:
         self.pos = (x, y, z)
         # [PAPER 2] Learned Length Scale (Default 1.0 = Standard Physics)
         self.spatial_attention_scale = 1.0 
-        self.state = FlumpyArray([random.gauss(0, 0.1) for _ in range(dim)], coherence=1.0)
+        self.state = FlumpyArray(np.array([random.gauss(0, 0.1) for _ in range(dim)]), coherence=1.0)
         self.neighbors = []
         self.seeds = [] # [GARDEN] Planted intents
 
@@ -145,7 +145,9 @@ class SovereignGrid:
         Does NOT update the actual grid state, only returns the potential future.
         """
         # Snapshot current state (Proper clone)
+
         future_states = [n.state.clone() for n in self.nodes]
+
         
         # Run simulation
         for _ in range(steps):
@@ -285,3 +287,27 @@ def prayer_wheel_anneal(vector, temperature=1.0):
     
     # 3. Enforce the Gross Invariant (144)
     return softmax * 144.0
+
+
+import numpy as np
+
+class FlumpyArray(np.ndarray):
+    def __new__(cls, input_array, coherence=1.0):
+        obj = np.asarray(input_array).view(cls)
+        obj.coherence = coherence
+        return obj
+
+    def __array_finalize__(self, obj):
+        if obj is None: return
+        self.coherence = getattr(obj, 'coherence', 1.0)
+
+    def clone(self):
+        arr = np.copy(self.view(np.ndarray))
+        arr = arr.view(FlumpyArray)
+        arr.coherence = self.coherence
+        return arr
+
+
+
+
+

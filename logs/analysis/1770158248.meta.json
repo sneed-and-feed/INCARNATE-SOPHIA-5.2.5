@@ -1,0 +1,30 @@
+{
+  "timestamp": 1770158248.148293,
+  "scan_id": "1770158248",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Punctuation",
+        "confidence": 0.6,
+        "evidence": "The use of ';3' as a punctuation mark is atypical and repeated.",
+        "benign_explanation": "The user could be using emoticons or a specific internet subculture's punctuation style."
+      },
+      {
+        "signal": "Targeted Inquiry",
+        "confidence": 0.4,
+        "evidence": "The message is directly addressed to 'sophia' and requests specific information ('your logic').",
+        "benign_explanation": "The user could be initiating a normal conversation with someone named Sophia about a topic of mutual interest."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}"
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "friendly, conversational"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "timestamp": 1770211028.1295142,
+  "scan_id": "1770211028",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.3,
+        "evidence": "The phrase 'Adrenaline gives the most acuity thought' is not a common or natural way to express the idea that adrenaline enhances thinking.",
+        "benign_explanation": "The author may be using a non-standard or poetic phrasing to express a personal belief or observation."
+      },
+      {
+        "signal": "Lack of context",
+        "confidence": 0.2,
+        "evidence": "The single sentence provides no context to evaluate its purpose or origin.",
+        "benign_explanation": "The sentence could be a fragment of a larger, benign conversation or text."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Hasty Generalization",
+        "quote": "Adrenaline gives the most acuity thought.",
+        "correction": "This statement makes a broad claim about the effect of adrenaline on thought acuity without sufficient evidence. The effect of adrenaline can vary depending on the individual and the situation. It's an oversimplification to say it *always* provides the *most* acuity."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral"
+  }
+}

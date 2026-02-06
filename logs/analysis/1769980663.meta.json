@@ -1,0 +1,26 @@
+{
+  "timestamp": 1769980663.0806792,
+  "scan_id": "1769980663",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Uncommon Phrase",
+        "confidence": 0.3,
+        "evidence": "The phrase 'tikkun haklali' is not commonly used in everyday conversation and may indicate a specific community or shared interest.",
+        "benign_explanation": "The text may be related to a specific religious or cultural practice."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "jewish",
+    "dialect_markers": [],
+    "confidence": 0.8,
+    "suggested_vibe": "religious, hebrew"
+  }
+}

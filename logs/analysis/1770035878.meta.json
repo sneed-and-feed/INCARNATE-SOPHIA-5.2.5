@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770035878.4718957,
+  "scan_id": "1770035878",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Interest Combination",
+        "confidence": 0.6,
+        "evidence": "The combination of 'fisting,' 'stretching,' and 'sonyavegas' is an unusual grouping of interests.",
+        "benign_explanation": "The user may have a diverse range of interests, and the combination is coincidental."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770165419.7318447,
+  "scan_id": "1770165419",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Medical terminology used in a non-medical context",
+        "confidence": 0.3,
+        "evidence": "The text uses terms like 'widened hips,' 'dipygus-like elongation of the pelvis,' and 'double reproductive systems,' which are typically found in medical or biological discussions.",
+        "benign_explanation": "The user may be exploring creative writing, world-building for a fictional story, or engaging in a purely academic or theoretical discussion about anatomy and physiology."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "clinical"
+  }
+}

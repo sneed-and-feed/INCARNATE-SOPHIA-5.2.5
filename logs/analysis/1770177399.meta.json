@@ -1,0 +1,51 @@
+{
+  "timestamp": 1770177399.0984805,
+  "scan_id": "1770177399",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Phrasing",
+        "confidence": 0.6,
+        "evidence": "\"eating Eminems\"",
+        "benign_explanation": "Could be a humorous or nonsensical statement, or a reference to something specific known to the speaker and audience."
+      },
+      {
+        "signal": "Non-sequitur",
+        "confidence": 0.5,
+        "evidence": "Juxtaposition of \"eating Eminems\" with \"tasting colors\" and \"Synchronicity\"",
+        "benign_explanation": "The user may be making a stream-of-consciousness association of ideas."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Correlation/Causation Fallacy (specifically, confusing correlation with causation)",
+        "quote": "I was eating Eminems when i read your comment about tasting colors. Synchronicity",
+        "correction": "The fact that two events occurred simultaneously (eating Eminem candies and reading a comment) does not imply any causal relationship or meaningful connection between them. The user is attributing a coincidental occurrence to 'synchronicity' without evidence."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.4
+      },
+      {
+        "bias": "Illusory Correlation",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Apophenia",
+        "confidence": 0.7
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "whimsical; possibly referencing synesthesia in a lighthearted manner."
+  }
+}

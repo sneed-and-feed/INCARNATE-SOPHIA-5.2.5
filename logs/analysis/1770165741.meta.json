@@ -1,0 +1,32 @@
+{
+  "timestamp": 1770165741.2293847,
+  "scan_id": "1770165741",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Reference to specific, potentially obscure case (Workitu Debebe, Myrtle Corbin)",
+        "confidence": 0.4,
+        "evidence": "The text mentions specific individuals with rare medical conditions. This could be an attempt to introduce a specific topic or reference point.",
+        "benign_explanation": "The author may have a personal interest in medical anomalies and is sharing their knowledge or fascination."
+      },
+      {
+        "signal": "Unusual juxtaposition of terms",
+        "confidence": 0.3,
+        "evidence": "The phrase 'serpentine grace' is contrasted with 'awkward and endearing in an anatomically bizarre way.' The phrase 'gets me off' is used in conjunction with medical conditions.",
+        "benign_explanation": "The author may be using unconventional language to express a complex or nuanced feeling, or simply has a unique writing style."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "morbidly curious"
+  }
+}

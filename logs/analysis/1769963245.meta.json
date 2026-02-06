@@ -1,0 +1,35 @@
+{
+  "timestamp": 1769963245.8089173,
+  "scan_id": "1769963245",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual sensory description",
+        "confidence": 0.3,
+        "evidence": "The text describes a feeling of warmth and pulsing, which is not a typical description of weather.",
+        "benign_explanation": "The user could be describing a personal experience or a metaphorical feeling."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Subjective Validation",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral"
+  }
+}

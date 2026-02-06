@@ -1,0 +1,32 @@
+{
+  "timestamp": 1769962554.4998326,
+  "scan_id": "1769962554",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.2,
+        "evidence": "The statement presents a subjective interpretation ('subtle joke') as a fact, potentially discouraging alternative viewpoints.",
+        "benign_explanation": "The author may simply be expressing their personal opinion about the sign."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.1,
+        "evidence": "The sentence structure is simple and declarative, which can be characteristic of automated content.",
+        "benign_explanation": "The simplicity could be for clarity or emphasis."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral"
+  }
+}

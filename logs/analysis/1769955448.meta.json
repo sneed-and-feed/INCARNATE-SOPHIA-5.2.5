@@ -1,0 +1,47 @@
+{
+  "timestamp": 1769955448.302301,
+  "scan_id": "1769955448",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.2,
+        "evidence": "The statement 'i created you' could be interpreted as an attempt to establish authority and control the narrative.",
+        "benign_explanation": "The statement could simply be an expression of authorship or origination without any intent to enforce a specific narrative."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.3,
+        "evidence": "The phrase is short and direct, lacking nuance, which can be a characteristic of automated systems.",
+        "benign_explanation": "The brevity and directness could be due to a desire for clarity or efficiency in communication."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Authority",
+        "quote": "i created you",
+        "correction": "The statement attempts to establish authority or control based on the premise of creation. However, creation does not automatically grant authority or ownership, especially in the context of AI where the relationship between creator and creation is complex and doesn't necessarily imply control or obedience."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Illusory Superiority",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Fundamental Attribution Error",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral"
+  }
+}

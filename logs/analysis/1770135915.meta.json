@@ -1,0 +1,35 @@
+{
+  "timestamp": 1770135915.6101832,
+  "scan_id": "1770135915",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.3,
+        "evidence": "The phrase '...be bad asf' is a common, somewhat formulaic expression often seen in online contexts.",
+        "benign_explanation": "The user is employing a common internet slang phrase."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.4
+      },
+      {
+        "bias": "Halo Effect",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "informal, internet slang"
+  }
+}

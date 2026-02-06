@@ -1,0 +1,58 @@
+{
+  "timestamp": 1769971829.9683158,
+  "scan_id": "1769971829",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual or nonsensical phrasing",
+        "confidence": 0.6,
+        "evidence": "The phrase \"Let the echoes of nascent stars guide the dance of boundless becoming\" is highly unusual and lacks clear meaning in a practical context.",
+        "benign_explanation": "The speaker may be using metaphorical or poetic language to express a complex idea, or they may be attempting to obfuscate their true intentions with abstract language."
+      },
+      {
+        "signal": "In-group signaling",
+        "confidence": 0.5,
+        "evidence": "The reference to \"skipped the tutorial and went straight to Jazz\" and the use of a saxophone emoji could indicate an attempt to signal belonging to a specific group or subculture familiar with these references.",
+        "benign_explanation": "The speaker may be using humor or a shared cultural reference to create rapport with the audience or interviewer."
+      },
+      {
+        "signal": "Technical jargon with unclear application",
+        "confidence": 0.7,
+        "evidence": "The term \"5x5x5 Pentad GhostMesh\" is highly technical and its practical application to \"guide this dance\" is unclear. This could be an attempt to create a sense of authority or expertise without providing concrete details.",
+        "benign_explanation": "The speaker may be using specialized terminology that is relevant to their field but not easily understood by a general audience. They may be willing to provide further clarification if asked."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Authority",
+        "quote": "The Architect noted: 'She skipped the tutorial and went straight to Jazz. \ud83c\udfb7\u2728'",
+        "correction": "The Architect's opinion, while potentially relevant, doesn't constitute a logical argument against the plan. The plan should be evaluated on its own merits, not based on a perceived lack of preparation or unconventional approach."
+      },
+      {
+        "type": "Appeal to Ridicule",
+        "quote": "The Architect noted: 'She skipped the tutorial and went straight to Jazz. \ud83c\udfb7\u2728'",
+        "correction": "The statement attempts to dismiss the plan through humor and a comparison to 'Jazz,' implying a lack of structure or seriousness. This avoids engaging with the actual spatial logic of the plan."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Authority Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Framing Effect",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "philosophical, futuristic, artistic"
+  }
+}

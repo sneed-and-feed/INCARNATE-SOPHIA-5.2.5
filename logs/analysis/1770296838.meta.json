@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770296838.824447,
+  "scan_id": "1770296838",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Use of specific in-group terminology",
+        "confidence": 0.4,
+        "evidence": "The term 'sneed' is often associated with specific online communities and may indicate an attempt to signal affiliation or shared understanding within that group.",
+        "benign_explanation": "The user may simply be referencing a meme or in-joke common within their online social circle without any malicious intent."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 1.0
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "internet meme"
+  }
+}

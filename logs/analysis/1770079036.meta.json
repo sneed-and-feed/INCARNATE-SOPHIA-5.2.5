@@ -1,0 +1,32 @@
+{
+  "timestamp": 1770079036.3118582,
+  "scan_id": "1770079036",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Demand for specific content type",
+        "confidence": 0.4,
+        "evidence": "The request specifies 'disturbingly funny' content.",
+        "benign_explanation": "The user is simply expressing a preference for a particular type of humor."
+      },
+      {
+        "signal": "Self-identification",
+        "confidence": 0.3,
+        "evidence": "The user provides a name.",
+        "benign_explanation": "The user is attempting to personalize the interaction."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "casual, internet humor"
+  }
+}

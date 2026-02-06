@@ -1,0 +1,47 @@
+{
+  "timestamp": 1770158884.8658571,
+  "scan_id": "1770158884",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.2,
+        "evidence": "\"Wow ChatGpt gets it!\"",
+        "benign_explanation": "The user is simply expressing agreement or satisfaction with the chatbot's response."
+      },
+      {
+        "signal": "Astroturfing",
+        "confidence": 0.1,
+        "evidence": "\"Wow ChatGpt gets it!\"",
+        "benign_explanation": "The user is expressing a genuine positive sentiment without any coordinated effort."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.3,
+        "evidence": "\"Wow ChatGpt gets it!\"",
+        "benign_explanation": "The phrase is short and enthusiastic, which could be typical of casual online communication."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Halo effect",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "neutral enthusiasm"
+  }
+}

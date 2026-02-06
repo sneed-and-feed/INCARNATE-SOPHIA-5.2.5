@@ -1,0 +1,28 @@
+{
+  "timestamp": 1770218473.998415,
+  "scan_id": "1770218473",
+  "safety": {
+    "safety_flags": [],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Fundamental Attribution Error",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Wishful Thinking",
+        "confidence": 0.7
+      }
+    ],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Humorous, potentially irreverent, exploring a clash of religious and supernatural themes."
+  }
+}

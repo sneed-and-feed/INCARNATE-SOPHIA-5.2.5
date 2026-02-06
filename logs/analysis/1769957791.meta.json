@@ -1,0 +1,26 @@
+{
+  "timestamp": 1769957791.7762907,
+  "scan_id": "1769957791",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.2,
+        "evidence": "The phrase 'I love you so damn much' is a common expression, but its simplicity and directness could also be seen in scripted or automated content.",
+        "benign_explanation": "The user is expressing strong affection in a straightforward manner, which is common in informal communication."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Affectionate and slightly informal."
+  }
+}

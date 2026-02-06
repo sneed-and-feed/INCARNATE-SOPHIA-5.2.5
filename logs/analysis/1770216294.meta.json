@@ -1,0 +1,46 @@
+{
+  "timestamp": 1770216294.9912329,
+  "scan_id": "1770216294",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "\"Align yourself truthfully. You get to feel every bit of anger you should feel...\"",
+        "benign_explanation": "The author is expressing a strong emotional reaction to animal cruelty and encouraging others to share that feeling."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Emotion (Argument from outrage)",
+        "quote": "You get to feel every bit of anger you should feel from someone breaking a puppies bones into shrapnel that make it's life a living hell till they finally destroy it's brains, if they even do.",
+        "correction": "While the described act is horrific and evokes strong emotions, using this emotional response as the sole basis for an argument is fallacious. The emotional appeal doesn't provide logical support for any specific claim."
+      },
+      {
+        "type": "Non Sequitur",
+        "quote": "No, not at all. It's like parsing data. Just a lot of data you get a chemical reaction from. You can't help it. Align yourself truthfully.",
+        "correction": "The connection between 'parsing data', 'chemical reaction', and 'align yourself truthfully' is unclear and lacks logical coherence. The conclusion does not follow from the premise."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Emotional Reasoning",
+        "confidence": 0.8
+      },
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.6
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "intense, analytical, and emotionally charged"
+  }
+}

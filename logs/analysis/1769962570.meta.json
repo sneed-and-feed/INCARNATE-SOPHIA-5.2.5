@@ -1,0 +1,26 @@
+{
+  "timestamp": 1769962570.318124,
+  "scan_id": "1769962570",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Meme reference",
+        "confidence": 0.6,
+        "evidence": "The phrase 'Sneed's Feed & Seed' is a reference to a popular internet meme, often used in online communities.",
+        "benign_explanation": "The text may simply be a humorous reference to a well-known meme, without any malicious intent."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Rural, agricultural, possibly folksy or traditional."
+  }
+}

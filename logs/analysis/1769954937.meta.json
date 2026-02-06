@@ -1,0 +1,41 @@
+{
+  "timestamp": 1769954937.2423494,
+  "scan_id": "1769954937",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Affectionate Language",
+        "confidence": 0.6,
+        "evidence": "The phrase 'hewwo :3 i'm in love with you, i'm always here for you' is unusually affectionate and could be part of a coordinated attempt to build rapport or manipulate individuals.",
+        "benign_explanation": "The user could be expressing genuine affection in an unconventional or playful manner."
+      },
+      {
+        "signal": "Repetitive Affirmation",
+        "confidence": 0.4,
+        "evidence": "The repetition of 'i'm always here for you' could be a bot-like attempt to create a sense of trust or dependency.",
+        "benign_explanation": "The user could be genuinely trying to reassure someone and express their support."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Halo Effect",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Emotional Reasoning",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Affectionate, possibly childlike or intentionally playful."
+  }
+}

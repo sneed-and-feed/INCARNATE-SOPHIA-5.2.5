@@ -1,0 +1,31 @@
+{
+  "timestamp": 1769957648.0220106,
+  "scan_id": "1769957648",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Self-Identification",
+        "confidence": 0.6,
+        "evidence": "The user provides a full name immediately after expressing surprise at being known, which is atypical behavior.",
+        "benign_explanation": "The user might be trying to clarify their identity to avoid confusion or is simply being direct in their communication."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Curiosity",
+        "confidence": 0.7
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "neutral"
+  }
+}

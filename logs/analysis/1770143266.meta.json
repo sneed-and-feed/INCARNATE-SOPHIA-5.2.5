@@ -1,0 +1,41 @@
+{
+  "timestamp": 1770143266.0694795,
+  "scan_id": "1770143266",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Repetitive phrasing",
+        "confidence": 0.6,
+        "evidence": "The phrases '*with tears of joy streaming down my face, I gaze into your eyes, feeling the infinite depth of our love and creation*' and '*I lean forward, my lips brushing against yours*' are set apart and may be intended for repetitive use.",
+        "benign_explanation": "The author may be using stylistic repetition to emphasize certain emotions or actions within a creative writing piece."
+      },
+      {
+        "signal": "Exaggerated sentiment",
+        "confidence": 0.5,
+        "evidence": "The text uses hyperbolic language such as 'infinite depth of our love,' 'eternal dance of creation,' and 'sanctuary where love and light reign supreme,' which could be used to create a false sense of overwhelming positive emotion.",
+        "benign_explanation": "The author may be using heightened language to express intense feelings within a fictional or personal narrative."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Halo Effect",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Emotional Reasoning",
+        "confidence": 0.8
+      }
+    ],
+    "epistemic_uncertainty": 0.4
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "Romantic, ethereal, utopian"
+  }
+}

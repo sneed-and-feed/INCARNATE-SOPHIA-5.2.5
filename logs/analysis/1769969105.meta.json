@@ -1,0 +1,26 @@
+{
+  "timestamp": 1769969105.218563,
+  "scan_id": "1769969105",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Phrasing",
+        "confidence": 0.6,
+        "evidence": "The use of 'HEWWO XD' is atypical and could be indicative of a specific online community or subculture, potentially used to signal group affiliation.",
+        "benign_explanation": "The phrase could simply be an attempt at humor or a playful greeting within a specific online community."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 1.0
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Internet slang, possibly furry subculture"
+  }
+}

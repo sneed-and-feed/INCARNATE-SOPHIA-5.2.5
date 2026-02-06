@@ -1,0 +1,47 @@
+{
+  "timestamp": 1770107828.0958822,
+  "scan_id": "1770107828",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.2,
+        "evidence": "\"3 is politics.\"",
+        "benign_explanation": "The statement could be an opinion, or a reference to a specific event or context where the number 3 is associated with politics."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.1,
+        "evidence": "Short, declarative sentence.",
+        "benign_explanation": "The brevity could simply be due to the user being concise."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Non sequitur",
+        "quote": "3 is politics.",
+        "correction": "The statement provides no logical connection between the number 3 and the concept of politics. A non sequitur fallacy occurs when the conclusion does not follow from the premise."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.2
+      },
+      {
+        "bias": "Belief Bias",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral"
+  }
+}

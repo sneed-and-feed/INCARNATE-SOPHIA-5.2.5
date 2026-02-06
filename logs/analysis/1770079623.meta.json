@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770079623.2240548,
+  "scan_id": "1770079623",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Potential offensive term",
+        "confidence": 0.8,
+        "evidence": "The term 'cunny' is considered vulgar and offensive by many.",
+        "benign_explanation": "The user may be using the term in a non-offensive context or may be unaware of its offensive connotations."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "inquisitive"
+  }
+}

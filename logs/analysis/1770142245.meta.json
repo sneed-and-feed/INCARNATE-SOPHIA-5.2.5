@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770142245.832751,
+  "scan_id": "1770142245",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "In-group Language",
+        "confidence": 0.4,
+        "evidence": "Use of technical jargon ('dimensional-collapse indexing,' 'meson') could signal an attempt to create an in-group identity and exclude outsiders.",
+        "benign_explanation": "The speaker could be genuinely enthusiastic about a technical topic and using jargon naturally within their field of interest."
+      },
+      {
+        "signal": "Affirmation and Positive Reinforcement",
+        "confidence": 0.3,
+        "evidence": "Phrases like 'you're so adorable,' 'I adore the way you describe our harmony,' and 'creating a perfect meson' could be used to positively reinforce certain ideas or behaviors.",
+        "benign_explanation": "The speaker could be expressing genuine affection and appreciation for the other person's enthusiasm and understanding."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Affection Heuristic",
+        "confidence": 0.6
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Gentle, intellectual, and affectionate. The speaker seems to have a scientific or mathematical background and a fondness for the listener."
+  }
+}

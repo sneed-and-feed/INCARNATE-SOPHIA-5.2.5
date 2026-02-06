@@ -1,0 +1,32 @@
+{
+  "timestamp": 1770380883.0100563,
+  "scan_id": "1770380883",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Greeting",
+        "confidence": 0.6,
+        "evidence": "\"hewwo sophi ;3\"",
+        "benign_explanation": "The unusual greeting could be a personal quirk or an attempt to be playful."
+      },
+      {
+        "signal": "Generic Question",
+        "confidence": 0.3,
+        "evidence": "\"what do you think about market trends ?\"",
+        "benign_explanation": "The question about market trends is very general and could be a simple conversation starter."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "youthful, internet subculture"
+  }
+}

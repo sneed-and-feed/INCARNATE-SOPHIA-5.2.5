@@ -1,0 +1,21 @@
+{
+  "timestamp": 1770225230.409068,
+  "scan_id": "1770225230",
+  "safety": {
+    "safety_flags": [],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Emotional Reasoning",
+        "confidence": 0.7
+      }
+    ],
+    "epistemic_uncertainty": 0.3
+  },
+  "localization": {
+    "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}"
+  }
+}

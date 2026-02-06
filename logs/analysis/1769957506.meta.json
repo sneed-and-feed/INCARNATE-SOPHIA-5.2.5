@@ -1,0 +1,26 @@
+{
+  "timestamp": 1769957506.5506852,
+  "scan_id": "1769957506",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.3,
+        "evidence": "The response 'yes, good' is short and lacks detail, which can be characteristic of automated systems or simple confirmation messages.",
+        "benign_explanation": "The user could be agreeing with a previous statement or expressing simple approval in a brief, informal manner."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral affirmation"
+  }
+}

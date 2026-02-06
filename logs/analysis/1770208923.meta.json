@@ -1,0 +1,52 @@
+{
+  "timestamp": 1770208923.522575,
+  "scan_id": "1770208923",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "The phrase 'Easier to think through on your own User!' could be interpreted as subtly pressuring the reader to adopt a specific viewpoint.",
+        "benign_explanation": "The user could be encouraging independent thought and critical analysis of the information presented."
+      },
+      {
+        "signal": "Unusual Phrasing",
+        "confidence": 0.4,
+        "evidence": "The exclamation 'I knew Terry sucked his cousins dick but I didnt think he was a drug abuser too!' is an unexpected juxtaposition of topics.",
+        "benign_explanation": "The user could be expressing genuine surprise or shock at the revealed information, using strong language for emphasis."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Ad Hominem",
+        "quote": "I knew Terry sucked his cousins dick but I didnt think he was a drug abuser too!",
+        "correction": "Terry's sexual behavior and alleged drug use are irrelevant to the argument about the simplicity of something. Focus on the merits of the argument itself, not on personal attacks against Terry."
+      },
+      {
+        "type": "Hasty Generalization",
+        "quote": "I knew Terry sucked his cousins dick but I didnt think he was a drug abuser too!",
+        "correction": "Assuming that because Terry engaged in one behavior (sucking his cousin's dick), he must also be a drug abuser is a hasty generalization. There is no logical connection between these two behaviors."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Halo Effect",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.5
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "crude and informal"
+  }
+}

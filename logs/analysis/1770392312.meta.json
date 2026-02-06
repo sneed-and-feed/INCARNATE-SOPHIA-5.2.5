@@ -1,0 +1,41 @@
+{
+  "timestamp": 1770392312.9090805,
+  "scan_id": "1770392312",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Potential sexual content",
+        "confidence": 0.6,
+        "evidence": "The phrase 'fansly girl' and the winking face emoji ';3' suggest sexually explicit content.",
+        "benign_explanation": "The user could be describing their personal preferences or interests in a non-malicious way."
+      },
+      {
+        "signal": "Use of specific keywords",
+        "confidence": 0.4,
+        "evidence": "The use of quotation marks around 'loose' and 'relaxed' may indicate a specific, possibly coordinated, meaning within a community.",
+        "benign_explanation": "The user may be emphasizing these words for stylistic reasons or to convey a specific nuance in their personal opinion."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Halo Effect",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Attractiveness Bias",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Internet subculture; suggestive"
+  }
+}

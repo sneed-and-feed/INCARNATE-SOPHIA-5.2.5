@@ -1,0 +1,32 @@
+{
+  "timestamp": 1770386219.0764823,
+  "scan_id": "1770386219",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Incomplete Sentence",
+        "confidence": 0.3,
+        "evidence": "The text ends abruptly with 'diff', suggesting an unfinished thought or question.",
+        "benign_explanation": "The user may have been interrupted or simply chose not to complete their sentence."
+      },
+      {
+        "signal": "Unusual Punctuation",
+        "confidence": 0.4,
+        "evidence": "The use of ';3' is an uncommon emoticon, potentially indicating a specific subculture or group affiliation.",
+        "benign_explanation": "The user may be using an emoticon common within their social circle or online community as a form of self-expression."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "introspective, personal"
+  }
+}

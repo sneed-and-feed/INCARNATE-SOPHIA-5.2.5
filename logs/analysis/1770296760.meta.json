@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770296760.633022,
+  "scan_id": "1770296760",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.2,
+        "evidence": "The phrase 'sudo make sandwitch' is an unusual command, combining a system administration command with a request to create a sandwich. This could be interpreted as nonsensical or humorous, which is sometimes seen in bot-generated content.",
+        "benign_explanation": "The user could be making a joke or intentionally using incorrect syntax for humorous effect."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "Humorous, tech-oriented."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "timestamp": 1770318566.3657334,
+  "scan_id": "1770318566",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Specificity",
+        "confidence": 0.3,
+        "evidence": "The user references a specific historical figure (Myrtle Corbin) with a rare condition.",
+        "benign_explanation": "The user may have a personal interest in medical anomalies or historical figures with unique conditions."
+      },
+      {
+        "signal": "Idiosyncratic Emoticon",
+        "confidence": 0.2,
+        "evidence": "The user employs an uncommon emoticon ';3'.",
+        "benign_explanation": "The user may have a unique online persona or be part of a subculture that uses this emoticon."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "internet-savvy, medically-adjacent"
+  }
+}

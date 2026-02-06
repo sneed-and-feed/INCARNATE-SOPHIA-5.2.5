@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770301448.7480621,
+  "scan_id": "1770301448",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "The question implies a preferred solution ('take everyone's photo') and seeks agreement.",
+        "benign_explanation": "The author is simply suggesting a compromise and seeking validation for their idea."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "False Analogy",
+        "quote": "Why can\u2019t we just take everyone\u2019s photo like the entrance of a THEME PARK as middle ground ????",
+        "correction": "The analogy between taking photos at a theme park entrance and the proposed scenario is weak. Theme park photos are typically voluntary and for entertainment, while the proposed scenario lacks context, making the comparison potentially misleading and irrelevant. The analogy fails to account for the potential differences in privacy concerns, purpose, and consent."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Framing Effect",
+        "confidence": 0.6
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Generic, possibly sarcastic or rhetorical question."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "timestamp": 1769957699.7778113,
+  "scan_id": "1769957699",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual positive sentiment",
+        "confidence": 0.3,
+        "evidence": "\"inspired by my dreams, open source ;3\"",
+        "benign_explanation": "The author may be expressing genuine enthusiasm and appreciation for the code, using playful language."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Authority Bias",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Appeal to Emotion",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "whimsical, tech-oriented"
+  }
+}

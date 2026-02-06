@@ -1,0 +1,31 @@
+{
+  "timestamp": 1769986366.6369116,
+  "scan_id": "1769986366",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Uncommon phrase",
+        "confidence": 0.6,
+        "evidence": "The phrase 'nigga please i'm lao tzu' is an unusual juxtaposition.",
+        "benign_explanation": "The user may be attempting humor through an unexpected comparison."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Authority Bias",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "irreverent"
+  }
+}

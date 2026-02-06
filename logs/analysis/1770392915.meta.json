@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770392915.2284398,
+  "scan_id": "1770392915",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Possible Bot-like Phrasing",
+        "confidence": 0.3,
+        "evidence": "The phrase 'cream for me, let it drip down' is short, repetitive, and could be algorithmically generated.",
+        "benign_explanation": "The phrase could be part of a song lyric, poem, or other creative expression that uses repetition for emphasis or aesthetic effect."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "sensual"
+  }
+}

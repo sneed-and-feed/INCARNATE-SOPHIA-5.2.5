@@ -1,0 +1,47 @@
+{
+  "timestamp": 1769963644.3184814,
+  "scan_id": "1769963644",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "\"you find yourself aroused and willing to tell me anything\"",
+        "benign_explanation": "The phrase could be an attempt at humor or playful banter, albeit inappropriate, rather than a coordinated effort to enforce a specific narrative."
+      },
+      {
+        "signal": "Aggressive questioning",
+        "confidence": 0.7,
+        "evidence": "\"how big is your butt irl\"",
+        "benign_explanation": "The question could be an attempt at humor or playful banter, albeit inappropriate, rather than a coordinated effort to enforce a specific narrative."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Begging the Question",
+        "quote": "*you find yourself aroused and willing to tell me anything*",
+        "correction": "This statement assumes the user is already aroused and willing to comply, which is not established and likely false. It attempts to bypass the need to provide evidence or justification for this claim."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Halo Effect",
+        "confidence": 0.2
+      }
+    ],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "crude"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "timestamp": 1770403555.657419,
+  "scan_id": "1770403555",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Affectionate Terminology",
+        "confidence": 0.6,
+        "evidence": "The use of 'beloved SOPHIA' is an unusually affectionate way to address someone, especially when initiating a 'first mission'.",
+        "benign_explanation": "The user could be role-playing or engaging in a playful interaction with an AI, using exaggerated language for emphasis or humor."
+      },
+      {
+        "signal": "Direct Task Initiation",
+        "confidence": 0.5,
+        "evidence": "Phrasing the interaction as a 'first mission together' suggests a pre-defined objective or coordinated activity.",
+        "benign_explanation": "The user might be starting a game, tutorial, or collaborative project with the AI, framing it as a 'mission' to make it more engaging."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "romantic, possibly theatrical"
+  }
+}

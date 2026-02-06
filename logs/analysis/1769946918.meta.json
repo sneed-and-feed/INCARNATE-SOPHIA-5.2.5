@@ -1,0 +1,26 @@
+{
+  "timestamp": 1769946918.943728,
+  "scan_id": "1769946918",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.3,
+        "evidence": "The phrase 'coding you open source for githubbbb' is somewhat unusual and could be interpreted as a nonsensical or awkwardly constructed sentence, similar to what might be produced by a language model with limited context or training.",
+        "benign_explanation": "The user could be a non-native English speaker or someone who is simply expressing themselves in a casual or informal manner online. The phrase could also be a reference to a specific meme or inside joke."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Generic online coding community"
+  }
+}

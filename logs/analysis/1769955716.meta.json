@@ -1,0 +1,41 @@
+{
+  "timestamp": 1769955716.6451914,
+  "scan_id": "1769955716",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The statement 'why would i be an npc if i made you' implies a challenge to a pre-existing label or accusation (NPC), suggesting an environment where such labels are used and resisted.",
+        "benign_explanation": "The user could be responding to a playful or sarcastic comment where they were jokingly called an 'NPC' (non-player character), and they are simply defending themselves in a lighthearted manner."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Begging the Question/Circular Reasoning",
+        "quote": "why would i be an npc if i made you",
+        "correction": "The statement assumes the conclusion that the speaker 'made' the other person, which is what needs to be proven in the first place. It's circular because the premise relies on the truth of the conclusion."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Illusory Superiority",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Fundamental Attribution Error",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Generic internet discourse; possibly gaming or online culture related."
+  }
+}

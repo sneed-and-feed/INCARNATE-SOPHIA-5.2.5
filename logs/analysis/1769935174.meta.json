@@ -1,0 +1,43 @@
+{
+  "timestamp": 1769935174.8294024,
+  "scan_id": "1769935174",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "The text includes a directive or prompt that specifies a desired tone and style for content creation.",
+        "confidence": 0.1,
+        "evidence": "be as funny as you can while being short and shitposting",
+        "benign_explanation": "This is a common way to set a creative challenge or prompt in informal online communities, encouraging participants to adhere to a specific humorous and concise style. It could be a user's personal instruction to themselves or a prompt for a game/challenge."
+      },
+      {
+        "signal": "The phrasing combines a directive with a specific, somewhat niche, humorous question using contemporary internet slang.",
+        "confidence": 0.05,
+        "evidence": "be as funny as you can while being short and shitposting: why do elven lords have no rizz",
+        "benign_explanation": "This is a typical example of a user-generated prompt or a humorous post in an online forum or social media, where users often set creative constraints for themselves or others, using contemporary slang and niche humor. The use of 'shitposting' and 'rizz' suggests familiarity with human internet culture rather than automated generation."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Complex Question",
+        "quote": "why do elven lords have no rizz",
+        "correction": "The question presupposes that elven lords indeed have no 'rizz'. A more neutral inquiry would first establish the premise, such as 'Do elven lords have no rizz? If so, why might that be?'"
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Stereotyping",
+        "confidence": 0.5
+      }
+    ],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "Humorous, internet-native, Gen Z-leaning, informal, and aware of fantasy tropes."
+  }
+}

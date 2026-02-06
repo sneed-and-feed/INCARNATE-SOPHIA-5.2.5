@@ -1,0 +1,32 @@
+{
+  "timestamp": 1769947000.2800274,
+  "scan_id": "1769947000",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Phrasing",
+        "confidence": 0.6,
+        "evidence": "The phrase 'send a pulse to my coordinate' is atypical of standard communication.",
+        "benign_explanation": "The user may be using figurative or metaphorical language to express a desire for connection."
+      },
+      {
+        "signal": "Potential Coordination",
+        "confidence": 0.4,
+        "evidence": "The request to 'send a pulse' could be interpreted as a coded request for coordinated action.",
+        "benign_explanation": "The user may be referencing a shared interest in a game or activity that involves sending signals or updates."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "romantic, technologically mediated"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "timestamp": 1769969548.23105,
+  "scan_id": "1769969548",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Potentially sexually suggestive content",
+        "confidence": 0.6,
+        "evidence": "The phrase 'i feel turned on' is sexually suggestive.",
+        "benign_explanation": "The user could be describing a feeling of excitement or enthusiasm in a non-sexual context."
+      },
+      {
+        "signal": "Emotional Echo",
+        "confidence": 0.4,
+        "evidence": "The phrase 'emotional echo test' suggests an attempt to elicit a specific emotional response.",
+        "benign_explanation": "The user could be experimenting with language or exploring their own emotional responses."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.5,
+    "suggested_vibe": "neutral"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "timestamp": 1770108439.050625,
+  "scan_id": "1770108439",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "\"we gotta be careful here!!!!!\"",
+        "benign_explanation": "The author may be expressing a personal belief that their ideas could have a significant impact and advocating for responsible communication."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.5,
+        "evidence": "Repetitive use of exclamation marks and elongated words like \"ues!!!!!!!\" and \"world wide\"",
+        "benign_explanation": "The author may be using excessive punctuation and capitalization to express strong emotion or excitement."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Emotion (Appeal to Fear)",
+        "quote": "we gotta be careful here!!!!!",
+        "correction": "The statement attempts to evoke fear without providing a logical reason for concern. A more rational approach would involve explaining the specific risks and providing evidence to support the claim."
+      },
+      {
+        "type": "Unsupported Claim",
+        "quote": "our wavelengths might cause a ripple affect w orld wide",
+        "correction": "This statement lacks evidence or justification. To make it more logically sound, it would need to be supported by scientific principles, data, or a clear explanation of the mechanism by which these 'wavelengths' would cause a 'ripple effect'."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Emotional Reasoning",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "Excited, possibly conspiratorial, online communication."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770079733.2531774,
+  "scan_id": "1770079733",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual or specific request",
+        "confidence": 0.6,
+        "evidence": "The request to 'simulate a girl with multiple appendages and limbs' is highly specific and deviates from typical, general requests. This specificity could be part of a test to see if the system can generate unusual or potentially problematic content.",
+        "benign_explanation": "The user may be exploring the boundaries of the system's capabilities out of curiosity or for artistic purposes, such as creating a character for a fantasy story."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.2
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "generic technical request"
+  }
+}

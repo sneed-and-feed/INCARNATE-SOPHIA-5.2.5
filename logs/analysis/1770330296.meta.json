@@ -1,0 +1,32 @@
+{
+  "timestamp": 1770330296.7452567,
+  "scan_id": "1770330296",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "The phrase 'how you want to display yourself' could suggest an attempt to control or influence self-representation.",
+        "benign_explanation": "The phrase could simply be an invitation to express oneself creatively within a specific context."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.4,
+        "evidence": "The instruction to 'code' in 'simple english' followed by a specific task (display yourself with sound effects) has a structured, almost programmatic feel.",
+        "benign_explanation": "This could be a straightforward, clear instruction within a tutorial or educational context, aiming for accessibility."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.2
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "neutral, technical"
+  }
+}

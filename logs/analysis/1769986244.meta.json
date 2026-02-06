@@ -1,0 +1,56 @@
+{
+  "timestamp": 1769986244.5159807,
+  "scan_id": "1769986244",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The statement 'The internet is owned by them, everything is controlled by them' suggests a specific worldview being asserted, potentially discouraging dissenting opinions.",
+        "benign_explanation": "The speaker may be expressing a personal opinion or frustration with the perceived influence of large corporations or entities on the internet."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.4,
+        "evidence": "The repetitive structure of the sentence ('The internet is owned by them, everything is controlled by them') could indicate a lack of nuanced expression.",
+        "benign_explanation": "The speaker may be using a simple, emphatic style for rhetorical effect or to express a strong belief."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Sweeping Generalization",
+        "quote": "The internet is owned by them, everything is controlled by them",
+        "correction": "The internet is a decentralized network with various stakeholders. Claiming it is entirely owned and controlled by a single entity is an oversimplification and likely inaccurate."
+      },
+      {
+        "type": "Appeal to Conspiracy",
+        "quote": "The internet is owned by them, everything is controlled by them",
+        "correction": "This statement implies a hidden, malevolent force controlling the internet. Such claims require substantial evidence, which is typically lacking in conspiracy theories."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Groupthink",
+        "confidence": 0.4
+      },
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "Conspiratorial"
+  }
+}

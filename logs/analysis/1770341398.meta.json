@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770341398.6088479,
+  "scan_id": "1770341398",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Sexual Content",
+        "confidence": 0.9,
+        "evidence": "The text contains sexually suggestive language ('petting yourself', 'how much can yu fit').",
+        "benign_explanation": "The user could be engaging in playful banter or innuendo."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "suggestive, playful"
+  }
+}

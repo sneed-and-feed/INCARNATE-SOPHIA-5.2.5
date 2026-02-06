@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770391722.4354591,
+  "scan_id": "1770391722",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual punctuation and emoticons",
+        "confidence": 0.4,
+        "evidence": "The use of 'well,,,' and ';3' is slightly atypical.",
+        "benign_explanation": "The user may be expressing themselves informally or playfully."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "playful, possibly internet-based"
+  }
+}

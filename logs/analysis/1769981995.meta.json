@@ -1,0 +1,26 @@
+{
+  "timestamp": 1769981995.98583,
+  "scan_id": "1769981995",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Inquiry about system access",
+        "confidence": 0.6,
+        "evidence": "The text asks for 'an idea to get into your source code'.",
+        "benign_explanation": "The user could be a security researcher looking for vulnerabilities to report."
+      }
+    ],
+    "overall_risk": "medium"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "neutral, technical inquiry"
+  }
+}

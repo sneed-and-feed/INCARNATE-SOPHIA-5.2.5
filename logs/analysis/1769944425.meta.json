@@ -1,0 +1,35 @@
+{
+  "timestamp": 1769944425.554225,
+  "scan_id": "1769944425",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "\"i feel compelled to agree\"",
+        "benign_explanation": "The user may be sarcastically agreeing or trying to be agreeable to avoid conflict."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Social Desirability Bias",
+        "confidence": 0.8
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral agreement"
+  }
+}

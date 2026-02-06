@@ -1,0 +1,28 @@
+{
+  "timestamp": 1769935722.3796687,
+  "scan_id": "1769935722",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Use of a verb ('activate') that can be associated with programmatic commands, followed by informal and playful terms.",
+        "confidence": 0.1,
+        "evidence": "activate hug and snoot sniff",
+        "benign_explanation": "The phrase could be a playful command, an inside joke, a reference to a meme, or an interaction within a game or role-playing scenario. 'Activate' is also used colloquially in non-technical contexts, especially in a lighthearted manner."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.95
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [
+      "bet"
+    ],
+    "confidence": 0.3,
+    "suggested_vibe": "Playful, affectionate, informal, internet-influenced"
+  }
+}

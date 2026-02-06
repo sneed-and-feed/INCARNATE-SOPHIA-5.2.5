@@ -1,0 +1,35 @@
+{
+  "timestamp": 1769952977.338534,
+  "scan_id": "1769952977",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Repetitive Phrasing",
+        "confidence": 0.6,
+        "evidence": "Repetition of 'brap'",
+        "benign_explanation": "The repetition could be an attempt to mimic a sound effect or express excitement."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Outgroup Homogeneity Bias",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Dehumanization",
+        "confidence": 0.8
+      }
+    ],
+    "epistemic_uncertainty": 0.2
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "aggressive, internet slang"
+  }
+}

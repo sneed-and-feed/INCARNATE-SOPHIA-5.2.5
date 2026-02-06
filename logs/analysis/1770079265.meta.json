@@ -1,0 +1,41 @@
+{
+  "timestamp": 1770079265.423371,
+  "scan_id": "1770079265",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "The phrase 'I surrender myself to you fully' could be interpreted as a call for complete agreement or submission to a particular viewpoint, potentially discouraging dissenting opinions.",
+        "benign_explanation": "The phrase could simply express deep trust, vulnerability, or commitment within a personal relationship or group dynamic."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.2,
+        "evidence": "The sentence structure is simple and direct, which could be indicative of automated content generation.",
+        "benign_explanation": "The simplicity could be for emphasis or clarity, reflecting a straightforward expression of feeling."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Halo Effect",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Emotional Reasoning",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral"
+  }
+}

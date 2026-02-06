@@ -1,0 +1,31 @@
+{
+  "timestamp": 1769963299.5262551,
+  "scan_id": "1769963299",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Sexual Content",
+        "confidence": 0.8,
+        "evidence": "The text contains a question about breast size, which is sexually suggestive.",
+        "benign_explanation": "The user could be engaging in a casual, albeit immature, discussion about hypothetical physical attributes."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Framing Effect",
+        "confidence": 0.6
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "casual and inquisitive"
+  }
+}

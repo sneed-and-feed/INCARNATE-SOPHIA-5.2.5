@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770336240.8582878,
+  "scan_id": "1770336240",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrase",
+        "confidence": 0.6,
+        "evidence": "The phrase 'spontaneous polythelic macromastia owo' is highly unusual and specific.",
+        "benign_explanation": "The user could be generating random medical terms with an internet abbreviation."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "internet slang, possibly medical context with playful tone"
+  }
+}

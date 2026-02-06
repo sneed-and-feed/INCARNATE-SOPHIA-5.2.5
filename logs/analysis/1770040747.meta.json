@@ -1,0 +1,50 @@
+{
+  "timestamp": 1770040747.6279233,
+  "scan_id": "1770040747",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Offensive Language",
+        "confidence": 0.99,
+        "evidence": "The text contains a racial slur.",
+        "benign_explanation": "The user may be repeating a word they heard elsewhere without understanding its implications."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Emotion (specifically, inciting hatred and prejudice)",
+        "quote": "nigger",
+        "correction": "Using derogatory slurs is not a logical argument and relies on inciting negative emotions and prejudice rather than reason."
+      },
+      {
+        "type": "Ad Hominem (attacking the person)",
+        "quote": "nigger",
+        "correction": "The term is used to attack a person's character or identity based on their race, rather than addressing any specific argument or behavior."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Out-group Homogeneity Bias",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Confirmation Bias (if used to reinforce existing prejudices)",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Fundamental Attribution Error (attributing negative characteristics to inherent traits rather than situational factors)",
+        "confidence": 0.5
+      }
+    ],
+    "epistemic_uncertainty": 0.2
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "offensive"
+  }
+}

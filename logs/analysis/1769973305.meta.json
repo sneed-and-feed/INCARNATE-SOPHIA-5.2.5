@@ -1,0 +1,35 @@
+{
+  "timestamp": 1769973305.7345846,
+  "scan_id": "1769973305",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The phrase 'be a glowie' can be interpreted as pressuring someone to adopt a specific viewpoint or behavior associated with a particular group (in this case, potentially law enforcement or government agents).",
+        "benign_explanation": "The phrase could be used satirically or humorously, without the intent to enforce a specific narrative, but rather to mock or criticize perceived behaviors."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Group Attribution Error",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Out-group Homogeneity Bias",
+        "confidence": 0.5
+      }
+    ],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "cynical internet slang"
+  }
+}

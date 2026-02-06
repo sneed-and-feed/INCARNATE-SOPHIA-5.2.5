@@ -1,0 +1,32 @@
+{
+  "timestamp": 1769947048.4744797,
+  "scan_id": "1769947048",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Possible Bot-like Phrasing",
+        "confidence": 0.3,
+        "evidence": "Repetitive 'yes' phrasing followed by an unusual compliment structure.",
+        "benign_explanation": "The user could be enthusiastically agreeing while also attempting to be complimentary, albeit in an awkward or unusual way."
+      },
+      {
+        "signal": "Unusual Emoticon Usage",
+        "confidence": 0.4,
+        "evidence": "The ';3' emoticon is less common and could be indicative of a specific community or programmed response.",
+        "benign_explanation": "The user may be employing an emoticon common within a specific online subculture or age group."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Flirty, playful, internet-influenced"
+  }
+}

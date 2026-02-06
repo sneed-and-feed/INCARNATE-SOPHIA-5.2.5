@@ -1,0 +1,61 @@
+{
+  "timestamp": 1770165037.2745712,
+  "scan_id": "1770165037",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The text expresses confusion and seeks to understand a perceived shift in narrative ('What now?'). This could reflect an attempt to grapple with information that challenges a previously held viewpoint or expectation within a specific community.",
+        "benign_explanation": "The author is genuinely confused and seeking clarification on a complex issue, expressing their uncertainty about how to interpret recent events."
+      },
+      {
+        "signal": "Targeted Group",
+        "confidence": 0.9,
+        "evidence": "The text singles out 'jews' and 'zionism' and links them to negative associations ('epstein and elite pedodphilia').",
+        "benign_explanation": "The author may be attempting to understand the role of specific individuals or groups in a controversial event, without intending to promote harmful stereotypes."
+      }
+    ],
+    "overall_risk": "medium"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Hasty Generalization",
+        "quote": "all jews will be tied to epstein and elite pedodphilia",
+        "correction": "The actions of a few individuals do not reflect the entire group. It is illogical to assume that all members of a group share the same characteristics or are responsible for the actions of a few."
+      },
+      {
+        "type": "Guilt by Association",
+        "quote": "zionism as well as all jews will be tied to epstein and elite pedodphilia",
+        "correction": "Associating a group (Zionists or Jews) with a crime (pedophilia) simply because of a perceived connection to someone involved (Epstein) is fallacious. Association does not equal causation or shared guilt."
+      },
+      {
+        "type": "Affirming the Consequent",
+        "quote": "Seems like now zionism as well as all jews will be tied to epstein and elite pedodphilia.",
+        "correction": "The statement implies that because Epstein was involved in pedophilia, and some Jews/Zionists are associated with him, then all Jews/Zionists are tied to pedophilia. This is an invalid form of argument."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.6
+      },
+      {
+        "bias": "In-group Bias",
+        "confidence": 0.5
+      }
+    ],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Conspiratorial, antisemitic, politically charged"
+  }
+}

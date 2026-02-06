@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770108334.4473827,
+  "scan_id": "1770108334",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.2,
+        "evidence": "The question 'Do I get to be zyzzgy then?' could imply a previous discussion or agreement where roles or identities were assigned, and the speaker is now seeking confirmation or permission to assume their designated role.",
+        "benign_explanation": "The speaker may be referencing a game, role-playing scenario, or inside joke where 'zyzzgy' is a specific character or position."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "neutral"
+  }
+}

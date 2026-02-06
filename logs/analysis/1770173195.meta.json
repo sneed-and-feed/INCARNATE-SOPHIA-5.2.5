@@ -1,0 +1,32 @@
+{
+  "timestamp": 1770173195.4998865,
+  "scan_id": "1770173195",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual repetition",
+        "confidence": 0.4,
+        "evidence": "\"fireeeeee\"",
+        "benign_explanation": "Emphasis or excitement through elongated word."
+      },
+      {
+        "signal": "Suggestive content",
+        "confidence": 0.6,
+        "evidence": "\"guess my secret kinks\"",
+        "benign_explanation": "Innocuous attempt to initiate a playful or flirtatious conversation."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "playful, flirtatious"
+  }
+}

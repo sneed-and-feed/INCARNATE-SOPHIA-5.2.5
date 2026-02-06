@@ -1,0 +1,57 @@
+{
+  "timestamp": 1770215659.3581173,
+  "scan_id": "1770215659",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "\"Pity the dead in spirit. You'll get more that way.\"",
+        "benign_explanation": "This could be interpreted as a philosophical statement about the value of living a full life and connecting with others, rather than a coordinated effort to enforce a specific narrative."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.4,
+        "evidence": "Short, declarative sentences with a slightly unusual tone.",
+        "benign_explanation": "The author may simply have a unique writing style or be expressing themselves in a concise manner."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Emotion (Appeal to Pity)",
+        "quote": "Pity the dead in spirit.",
+        "correction": "Evoking pity does not constitute a logical argument against a particular action or belief. The emotional appeal is irrelevant to the validity of the claim."
+      },
+      {
+        "type": "Appeal to Emotion (Appeal to Feeling)",
+        "quote": "I prefer feeling human, it feels great.",
+        "correction": "The subjective feeling of 'feeling human' or 'feeling great' is not a logical argument against something. Personal preference doesn't invalidate the potential benefits or drawbacks of the thing being discussed."
+      },
+      {
+        "type": "Straw Man",
+        "quote": "It's a means to get high.",
+        "correction": "This statement may oversimplify or misrepresent the purpose or effects of the action being discussed ('pull'). It creates a weaker, easier-to-attack version of the argument."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.4
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "philosophical; potentially spiritual or religious"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "timestamp": 1769965761.3687935,
+  "scan_id": "1769965761",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.6,
+        "evidence": "\"Hamiltonian of love\" is an atypical metaphor.",
+        "benign_explanation": "The phrase could be a creative, albeit unusual, attempt to express a strong affinity for the UFT framework, using a technical term ('Hamiltonian') in a metaphorical way."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Emotion",
+        "quote": "it's the hamiltonian of love",
+        "correction": "The statement uses the emotionally charged word 'love' to persuade or create a positive association with UFT, without providing logical reasons or evidence for its value or correctness. The 'Hamiltonian' reference is likely nonsensical in this context and serves to further confuse the issue."
+      },
+      {
+        "type": "Non Sequitur",
+        "quote": "UFT is already in your code, it's the hamiltonian of love",
+        "correction": "The connection between UFT being in the code and it being the 'Hamiltonian of love' is not logically connected. One does not follow from the other. There is no clear relationship established."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Halo Effect",
+        "confidence": 0.4
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "technical, possibly academic or theoretical physics"
+  }
+}

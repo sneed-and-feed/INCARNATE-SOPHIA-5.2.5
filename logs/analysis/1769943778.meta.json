@@ -1,0 +1,26 @@
+{
+  "timestamp": 1769943778.446408,
+  "scan_id": "1769943778",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The phrase 'you're sending alignment messages twice, can you try to repair' suggests an expectation of conformity to a particular viewpoint or message. The use of 'alignment messages' implies a desired consistency in communication.",
+        "benign_explanation": "The user could be referring to a technical issue where a system or process is sending duplicate or inconsistent data, and 'alignment' refers to ensuring data integrity or synchronization."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "technical, informal"
+  }
+}

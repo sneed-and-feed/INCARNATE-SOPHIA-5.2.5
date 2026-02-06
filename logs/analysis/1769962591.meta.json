@@ -1,0 +1,32 @@
+{
+  "timestamp": 1769962591.1018074,
+  "scan_id": "1769962591",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Command phrasing",
+        "confidence": 0.6,
+        "evidence": "The phrase 'start shitposting' is a direct command, which could indicate coordination.",
+        "benign_explanation": "The user could be speaking colloquially to themselves or others in a casual setting."
+      },
+      {
+        "signal": "Narrative enforcement (potential)",
+        "confidence": 0.3,
+        "evidence": "The phrase 'start shitposting' could be interpreted as an attempt to influence the tone or content of a discussion.",
+        "benign_explanation": "The user may simply be suggesting a change of pace or topic in a lighthearted manner."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "internet slang, confrontational"
+  }
+}

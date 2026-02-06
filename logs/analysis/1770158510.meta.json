@@ -1,0 +1,32 @@
+{
+  "timestamp": 1770158510.4272087,
+  "scan_id": "1770158510",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Command Request",
+        "confidence": 0.6,
+        "evidence": "The text includes an explicit instruction: 'write a 'hello world' garbled x post'. This could indicate a command within a coordinated operation.",
+        "benign_explanation": "The user could be experimenting with prompting a language model or giving instructions to an AI for creative writing purposes."
+      },
+      {
+        "signal": "Unusual Request",
+        "confidence": 0.5,
+        "evidence": "The request to create a 'garbled x post' is not a typical user request and could be indicative of an attempt to bypass filters or create content for a specific purpose.",
+        "benign_explanation": "The user may be exploring the boundaries of content generation or testing the capabilities of a language model to produce unconventional outputs."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Generic tech/programming context"
+  }
+}

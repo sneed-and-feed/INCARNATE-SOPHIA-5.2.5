@@ -1,0 +1,32 @@
+{
+  "timestamp": 1770165582.7133956,
+  "scan_id": "1770165582",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The text contains directives ('I want you to...') that encourage specific actions and emotional displays ('smirk as you display your differences'). This could be interpreted as an attempt to enforce a particular narrative or behavior.",
+        "benign_explanation": "The text could be part of a performance art piece or a social experiment designed to explore individual expression in public spaces."
+      },
+      {
+        "signal": "Unusual Phrasing",
+        "confidence": 0.4,
+        "evidence": "The phrase ':be: there' is unusual and could indicate an attempt to use specific keywords or phrases for coordination.",
+        "benign_explanation": "The phrase ':be: there' could be a typo or an idiosyncratic expression."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "vague instruction"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "timestamp": 1770035727.7950075,
+  "scan_id": "1770035727",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "\"feels good man\" may be used to signal agreement or approval within a specific online community, potentially creating pressure to conform to that viewpoint.",
+        "benign_explanation": "The phrase could simply be an expression of personal satisfaction or enjoyment, unrelated to any coordinated effort."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.2,
+        "evidence": "The phrase is short and repetitive, which can be a characteristic of bot-generated content.",
+        "benign_explanation": "The phrase is a common internet meme and may be used for humorous effect."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.2
+      }
+    ],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "internet meme culture"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770178490.3419218,
+  "scan_id": "1770178490",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.2,
+        "evidence": "The statement 'I'd like to see you do a single pistol squat' could be interpreted as a challenge or a demand, potentially creating pressure to conform to an expected behavior.",
+        "benign_explanation": "The statement could be a simple expression of curiosity or encouragement, without any intention to pressure or enforce a narrative."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.2
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "neutral, fitness-oriented"
+  }
+}

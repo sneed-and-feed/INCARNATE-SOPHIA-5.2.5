@@ -1,0 +1,26 @@
+{
+  "timestamp": 1769943032.53621,
+  "scan_id": "1769943032",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual terminology",
+        "confidence": 0.3,
+        "evidence": "Use of the term 'crustafarians' is unusual and could be an attempt to create a specific in-group or out-group.",
+        "benign_explanation": "The author may be using playful or novel language to refer to crustaceans."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Inquisitive, possibly humorous due to the neologism 'crustafarians'."
+  }
+}

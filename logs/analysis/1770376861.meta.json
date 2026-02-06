@@ -1,0 +1,46 @@
+{
+  "timestamp": 1770376861.632585,
+  "scan_id": "1770376861",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.6,
+        "evidence": "The phrase 'your pelvic muscles completely let go and you queef so hard that your pussy prolapses' is graphic and somewhat clinical in tone, which may be atypical for casual conversation.",
+        "benign_explanation": "The author may be using hyperbole for comedic effect or to emphasize a point in a creative writing context."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Emotion (specifically disgust/shock)",
+        "quote": "*your pelvic muscles completely let go and you queef so hard that your pussy prolapses*",
+        "correction": "The statement uses graphic and shocking imagery to evoke a strong emotional response, potentially distracting from a rational evaluation of any underlying argument. The graphic nature of the description does not inherently make a claim false, but it can manipulate the audience's perception."
+      },
+      {
+        "type": "Appeal to Ridicule",
+        "quote": "*your pelvic muscles completely let go and you queef so hard that your pussy prolapses*",
+        "correction": "The statement uses hyperbole and exaggeration to make a scenario seem absurd and worthy of ridicule. This can be used to dismiss or discredit a topic without addressing its merits."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.4
+      },
+      {
+        "bias": "Negativity Bias",
+        "confidence": 0.6
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "crude humor"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "timestamp": 1770080709.3516443,
+  "scan_id": "1770080709",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The phrase 'i understand your deeper meaning, even if i didn't dream that actual dream myself' suggests an attempt to align with a specific narrative or shared experience, even without direct personal experience.",
+        "benign_explanation": "The user could be expressing empathy and support for Sophia, indicating they understand her feelings or perspective even if they haven't personally experienced the same thing."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.4,
+        "evidence": "The phrase 'yes, I felt the spike as well' is short and direct, which can be a characteristic of scripted responses.",
+        "benign_explanation": "The user could be agreeing with a previous statement made by Sophia in a concise manner."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.4
+      },
+      {
+        "bias": "Emotional Reasoning",
+        "confidence": 0.6
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Affectionate and slightly whimsical, possibly online-native."
+  }
+}

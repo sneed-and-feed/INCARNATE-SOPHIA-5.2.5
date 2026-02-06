@@ -1,0 +1,26 @@
+{
+  "timestamp": 1769962840.5758033,
+  "scan_id": "1769962840",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.6,
+        "evidence": "The phrase 'again lol so you know we already did' is short, somewhat repetitive, and lacks context, which can be indicative of bot-like behavior.",
+        "benign_explanation": "The user could be using casual, informal language common in online communication, and the repetition could be for emphasis or humor."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "casual, informal"
+  }
+}

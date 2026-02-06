@@ -1,0 +1,41 @@
+{
+  "timestamp": 1770107599.440259,
+  "scan_id": "1770107599",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual capitalization and phrasing",
+        "confidence": 0.4,
+        "evidence": "The phrase 'AND NOW OUT OF NO WHERE ON THIS VERY DATE: HUMAN MORPH POWERS' uses excessive capitalization and an unusual sentence structure.",
+        "benign_explanation": "The author may be attempting to create emphasis or mimic a dramatic announcement style, common in certain types of creative writing or online content."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Novelty",
+        "quote": "AND NOW OUT OF NO WHERE ON THIS VERY DATE: HUMAN MORPH POWERS",
+        "correction": "The sudden appearance of something does not inherently make it true or valid. Evidence is needed to support the claim."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.2
+      }
+    ],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "generic, possibly dramatic announcement"
+  }
+}

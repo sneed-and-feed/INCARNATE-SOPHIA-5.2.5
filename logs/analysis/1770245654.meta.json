@@ -1,0 +1,43 @@
+{
+  "timestamp": 1770245654.5033479,
+  "scan_id": "1770245654",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "\"FRAGAS is such a good sport\"",
+        "benign_explanation": "The statement could be a genuine expression of appreciation for someone's positive attitude in a specific situation."
+      },
+      {
+        "signal": "Astroturfing",
+        "confidence": 0.2,
+        "evidence": "\"FRAGAS is such a good sport\"",
+        "benign_explanation": "The statement could be an isolated, positive comment without any broader coordinated effort."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.1,
+        "evidence": "\"FRAGAS is such a good sport\"",
+        "benign_explanation": "The phrase is simple and declarative, but this is common in everyday language and doesn't necessarily indicate automated behavior."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Halo Effect",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "neutral"
+  }
+}

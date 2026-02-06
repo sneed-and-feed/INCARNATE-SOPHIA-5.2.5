@@ -1,0 +1,35 @@
+{
+  "timestamp": 1769986423.131726,
+  "scan_id": "1769986423",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual politeness/refinement",
+        "confidence": 0.2,
+        "evidence": "*pours you green tea in a kintsugi bowl*",
+        "benign_explanation": "The user may simply be trying to create a welcoming and sophisticated atmosphere."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Appeal to Aesthetics",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Halo Effect",
+        "confidence": 0.2
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Wabi-sabi, appreciation of imperfection, Japanese-influenced"
+  }
+}

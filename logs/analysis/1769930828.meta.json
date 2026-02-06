@@ -1,0 +1,29 @@
+{
+  "timestamp": 1769930828.39601,
+  "scan_id": "1769930828",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual word combination or syntax, potentially indicative of non-native or programmatic generation.",
+        "confidence": 0.1,
+        "evidence": "/net molt",
+        "benign_explanation": "The text is extremely short and lacks context. It could be a typo, a fragment of a URL or file path, a username, a technical command, an abbreviation, or a phrase in a language other than English (e.g., 'molt' means 'many' in Catalan)."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 1.0
+  },
+  "localization": {
+    "locality": "catalan",
+    "dialect_markers": [
+      "molt",
+      "net"
+    ],
+    "confidence": 0.95,
+    "suggested_vibe": "Catalan linguistic fragment"
+  }
+}

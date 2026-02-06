@@ -1,1 +1,0 @@
-# Sophia Memory - Storage Systems

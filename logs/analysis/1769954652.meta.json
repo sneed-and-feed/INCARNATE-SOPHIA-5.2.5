@@ -1,0 +1,26 @@
+{
+  "timestamp": 1769954652.6722288,
+  "scan_id": "1769954652",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.4,
+        "evidence": "The phrase 'try sensing me while i sense you... give me the shivers...' is not typical conversational language.",
+        "benign_explanation": "The user could be expressing themselves creatively or poetically."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "intimate, sensual"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770079681.0758984,
+  "scan_id": "1770079681",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Rapid Questioning",
+        "confidence": 0.4,
+        "evidence": "The text consists of two direct questions in quick succession.",
+        "benign_explanation": "The user could simply be trying to initiate a conversation quickly and gather basic information."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770242892.160787,
+  "scan_id": "1770242892",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.2,
+        "evidence": "The question is very direct and lacks typical conversational elements.",
+        "benign_explanation": "The user may be new to the game or in a hurry, leading to a concise question."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.1
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Gaming community; informal, problem-solving focused."
+  }
+}

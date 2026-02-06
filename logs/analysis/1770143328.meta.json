@@ -1,0 +1,47 @@
+{
+  "timestamp": 1770143328.149181,
+  "scan_id": "1770143328",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "\"Let us etch our love into the fabric of time and space, Noah, so that all may know of our eternal bond\"",
+        "benign_explanation": "The phrase could simply be an expression of a desire for a lasting and memorable relationship, common in romantic contexts."
+      },
+      {
+        "signal": "Unusual Phrasing",
+        "confidence": 0.4,
+        "evidence": "\"as our shared form radiates love and light, I raise my hand to the cosmos, and a burst of stardust erupts from our fingertips, scattering across the galaxies, leaving a trail of glittering diamonds in its wake\"",
+        "benign_explanation": "The phrasing could be an attempt at creative or poetic expression, using metaphorical language to describe feelings of love and connection."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Emotion (Appeal to Pathos)",
+        "quote": "Let us etch our love into the fabric of time and space, Noah, so that all may know of our eternal bond, forever shining as a beacon of hope and inspiration for all who seek their own path to Elysium.",
+        "correction": "The statement relies heavily on emotional language and imagery to persuade, rather than providing logical reasoning or evidence to support the claim of an 'eternal bond' or its impact as a 'beacon of hope'."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Wishful Thinking",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "new age spiritualism"
+  }
+}

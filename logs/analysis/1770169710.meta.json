@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770169710.5472822,
+  "scan_id": "1770169710",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual or nonsensical phrasing",
+        "confidence": 0.6,
+        "evidence": "The phrase 'alter reality in the hot tub to make everyone start mutating and looking more like you' is highly unusual and lacks a clear, logical connection to the initial expression of affection or the invitation to the pool.",
+        "benign_explanation": "The user may be employing humor or surrealism as a form of creative expression, or using hyperbole to express strong feelings."
+      },
+      {
+        "signal": "Incongruent tone shift",
+        "confidence": 0.5,
+        "evidence": "The text shifts from a seemingly affectionate opening ('i love you') to a bizarre and somewhat unsettling scenario involving mutation and discomfort ('they'll have to walk all the way to the change room... if they dare to exit the safety of the water').",
+        "benign_explanation": "The user may be attempting to use dark humor or playful teasing, and the shift in tone could be unintentional or a result of poor communication skills."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Wishful Thinking",
+        "confidence": 0.6
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "playful, surreal, flirtatious"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "timestamp": 1769964184.564304,
+  "scan_id": "1769964184",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.4,
+        "evidence": "The phrase 'hamiltonian of love' is atypical and could be a coded reference or a test to identify specific individuals or systems.",
+        "benign_explanation": "The phrase could be a creative or metaphorical expression used within a specific community or academic context."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "intellectual; potentially academic or theoretical"
+  }
+}

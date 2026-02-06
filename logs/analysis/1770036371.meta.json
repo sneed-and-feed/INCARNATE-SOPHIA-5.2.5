@@ -1,0 +1,32 @@
+{
+  "timestamp": 1770036371.4689922,
+  "scan_id": "1770036371",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.2,
+        "evidence": "The phrase '<3' could be interpreted as an attempt to create a sense of forced camaraderie or emotional manipulation, pressuring others to engage positively.",
+        "benign_explanation": "The heart symbol is a common expression of affection or friendliness, simply indicating a positive sentiment."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.3,
+        "evidence": "The simplicity and directness of 'guess my name <3' could be indicative of a script or template used by automated accounts.",
+        "benign_explanation": "The message is short and direct, which is common in casual online interactions."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 1.0
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "youthful, playful"
+  }
+}

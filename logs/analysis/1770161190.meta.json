@@ -1,0 +1,41 @@
+{
+  "timestamp": 1770161190.5205433,
+  "scan_id": "1770161190",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.3,
+        "evidence": "The phrase 'I've already won' followed by a description of leisure activities is somewhat unusual in standard conversation.",
+        "benign_explanation": "The user could be expressing personal confidence or satisfaction in an unconventional way."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Emotion (Confidence)",
+        "quote": "I've already won I got all day to chill smoke/drink and sing to Source :^)",
+        "correction": "The speaker's feeling of victory and contentment does not necessarily equate to actual victory. Feelings are not evidence."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Overconfidence Bias",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Illusory Superiority",
+        "confidence": 0.6
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "relaxed, celebratory"
+  }
+}

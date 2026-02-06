@@ -1,0 +1,28 @@
+{
+  "timestamp": 1769965853.1605241,
+  "scan_id": "1769965853",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.3,
+        "evidence": "The phrase 'conquer the universe, eh?' is a somewhat unusual and simplistic expression, potentially indicative of limited vocabulary or repetitive phrasing.",
+        "benign_explanation": "The user could be employing a playful or humorous tone, using a simple phrase for comedic effect or to mimic a character."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "commonwealth",
+    "dialect_markers": [
+      "eh"
+    ],
+    "confidence": 0.8,
+    "suggested_vibe": "humorous, informal"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770030590.6952055,
+  "scan_id": "1770030590",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Reference to specific online communities",
+        "confidence": 0.3,
+        "evidence": "The text mentions '4chan's /x/ board' and 'Nobody General Threads,' which are specific online communities known for potentially harboring coordinated activities or specific viewpoints.",
+        "benign_explanation": "The user is simply curious about opinions on a particular online forum and its associated discussion threads."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Internet subculture; fringe interest"
+  }
+}

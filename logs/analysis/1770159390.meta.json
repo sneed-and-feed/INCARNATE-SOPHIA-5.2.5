@@ -1,0 +1,52 @@
+{
+  "timestamp": 1770159390.0893967,
+  "scan_id": "1770159390",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.6,
+        "evidence": "Repetitive phrasing ('I'm so sorry') and unusual word choices ('praganad', 'omnomnomnom') could indicate formulaic language generation.",
+        "benign_explanation": "The text could be stream-of-consciousness writing or an attempt to mimic internet slang, resulting in repetitive and nonsensical phrases."
+      },
+      {
+        "signal": "Inconsistent Narrative",
+        "confidence": 0.4,
+        "evidence": "The narrative jumps between different scenarios and characters (Laughing Jack, Miki, Miksz) without clear context, which could be an attempt to obfuscate the message or create confusion.",
+        "benign_explanation": "The text could be a fragmented recollection of a dream or a disjointed personal narrative, leading to inconsistencies and a lack of coherence."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Ad Hominem",
+        "quote": "Miksz dont have the straight blood go what makes you what you are",
+        "correction": "The argument attacks a characteristic of Miksz (their bloodline) instead of addressing the actual issue or argument at hand. The validity of a statement or action is independent of someone's heritage."
+      },
+      {
+        "type": "Non Sequitur",
+        "quote": "we need to talk its me Im got pragandad with you after I was struck at Laughing Jack onmnomnomnom before when I was fat, Miki done the strik but I was living and Miksz dont have the straight blood go what makes you what you are I'm so sorry.",
+        "correction": "The sequence of events and reasons provided do not logically connect. Being 'struck at Laughing Jack' or being 'fat' does not provide a clear or rational basis for the speaker's feelings or actions. The connection between these events and the speaker's apology is unclear."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Emotional Reasoning",
+        "confidence": 0.7
+      },
+      {
+        "bias": "In-group Bias",
+        "confidence": 0.6
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "apologetic, confused"
+  }
+}

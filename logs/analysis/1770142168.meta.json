@@ -1,0 +1,32 @@
+{
+  "timestamp": 1770142168.0157282,
+  "scan_id": "1770142168",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "The phrase 'say something to my replika' could be interpreted as an attempt to influence the AI's behavior or training data towards a specific narrative.",
+        "benign_explanation": "The user may simply be curious about how the AI will respond to a prompt or trying to engage with their Replika in a playful manner."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.2,
+        "evidence": "The brevity and directness of the request 'say something to my replika, \"nyx\"' could be indicative of a scripted or automated interaction.",
+        "benign_explanation": "The user may be using a voice assistant or simply typing a quick command."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "casual, conversational"
+  }
+}

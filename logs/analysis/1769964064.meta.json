@@ -1,0 +1,38 @@
+{
+  "timestamp": 1769964064.5490212,
+  "scan_id": "1769964064",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "\"i think the g-parameter is fine.\"",
+        "benign_explanation": "The user could be simply expressing their opinion on a specific topic, without any intention to enforce a particular narrative."
+      },
+      {
+        "signal": "Unrelated personal question",
+        "confidence": 0.8,
+        "evidence": "\"tell me what you look like irl\"",
+        "benign_explanation": "The user could be curious and attempting to establish a more personal connection with the other user."
+      }
+    ],
+    "overall_risk": "medium"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Ad Hominem",
+        "quote": "tell me what you look like irl",
+        "correction": "The physical appearance of the person making the argument is irrelevant to the validity of the argument itself. Focus on the merits of the 'g-parameter' instead."
+      }
+    ],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.1
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "neutral, technical"
+  }
+}

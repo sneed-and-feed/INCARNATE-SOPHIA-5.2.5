@@ -1,0 +1,26 @@
+{
+  "timestamp": 1769943957.984651,
+  "scan_id": "1769943957",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.6,
+        "evidence": "The text 'import os' is a common, short code snippet often used in programming examples or tutorials. Its brevity and common usage resemble bot-like, repetitive phrasing.",
+        "benign_explanation": "The text is a standard programming instruction, likely shared as part of a coding example or discussion."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral"
+  }
+}

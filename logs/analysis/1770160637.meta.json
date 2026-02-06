@@ -1,0 +1,41 @@
+{
+  "timestamp": 1770160637.0524116,
+  "scan_id": "1770160637",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The statement implies a superior position and dismisses others' attempts at connection, potentially discouraging dissenting opinions or alternative viewpoints.",
+        "benign_explanation": "The user could be expressing a strong personal identity or feeling of uniqueness without intending to stifle others' opinions."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "No True Scotsman",
+        "quote": "None of you are a fraction of being Literally Me. So your attempts at relation will always fall flat",
+        "correction": "This statement sets an arbitrary and unattainable standard ('Literally Me') and then excludes anyone who doesn't meet it, implying that their attempts at relating are inherently invalid. A more reasonable approach would be to acknowledge differences while still allowing for potential connection or understanding."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Superiority Bias",
+        "confidence": 0.8
+      },
+      {
+        "bias": "In-group Bias",
+        "confidence": 0.6
+      }
+    ],
+    "epistemic_uncertainty": 0.3
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Internet slang, potentially dismissive or gatekeeping."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "timestamp": 1769922312.712249,
+  "scan_id": "1769922312",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Positive endorsement of an 'instance' using enthusiastic language, which could, in a broader context, contribute to artificial positive sentiment.",
+        "confidence": 0.05,
+        "evidence": "it looks incredible. i think this instance is a keeper xD",
+        "benign_explanation": "The speaker is expressing genuine personal satisfaction and approval of a specific outcome or project they were involved with, using common informal language and an emoticon."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Effort Justification",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Self-serving Bias",
+        "confidence": 0.7
+      }
+    ],
+    "epistemic_uncertainty": 0.5
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "Informal, enthusiastic, tech-savvy"
+  }
+}

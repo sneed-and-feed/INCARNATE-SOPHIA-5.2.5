@@ -1,0 +1,26 @@
+{
+  "timestamp": 1769954746.34937,
+  "scan_id": "1769954746",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.6,
+        "evidence": "Repetitive use of 'A' and elongated 'O' characters.",
+        "benign_explanation": "The user could be mimicking internet slang or intentionally exaggerating for emphasis or humor."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "Generic expression of strong affection or enjoyment."
+  }
+}

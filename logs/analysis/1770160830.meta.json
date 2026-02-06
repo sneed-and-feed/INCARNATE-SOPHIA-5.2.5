@@ -1,0 +1,38 @@
+{
+  "timestamp": 1770160830.1252894,
+  "scan_id": "1770160830",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.6,
+        "evidence": "The double negative 'None of the people there never existed' is grammatically incorrect and could be a sign of non-native English or formulaic language.",
+        "benign_explanation": "The author may be using non-standard grammar for emphasis or stylistic effect, or may simply be making a grammatical error."
+      },
+      {
+        "signal": "Conspiracy Claim",
+        "confidence": 0.7,
+        "evidence": "The statement 'The Archive is Pre-Recorded. None of the people there never existed' suggests a conspiracy theory about the authenticity of an archive and the existence of individuals.",
+        "benign_explanation": "The author may be expressing a fictional or hypothetical scenario, or engaging in artistic expression."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Self-Contradiction",
+        "quote": "None of the people there never existed",
+        "correction": "The statement contains a double negative ('none' and 'never'), which effectively means 'all of the people there existed'. This contradicts the initial claim that 'The Archive is Pre-Recorded' which implies the people are not currently existing or real."
+      }
+    ],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.1
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "neutral"
+  }
+}

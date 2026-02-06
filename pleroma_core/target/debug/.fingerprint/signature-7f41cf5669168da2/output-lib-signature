@@ -1,0 +1,35 @@
+memory allocation of 200720 bytes failed
+stack backtrace:
+   0:     0x7ffad95167d2 - <unknown>
+   1:     0x7ffad952bac1 - <unknown>
+   2:     0x7ffad94dee54 - <unknown>
+   3:     0x7ffad94fc0af - <unknown>
+   4:     0x7ffad94fc19c - <unknown>
+   5:     0x7ffad94f741f - <unknown>
+   6:     0x7ffad94fc16b - <unknown>
+   7:     0x7ffad94d97a8 - <unknown>
+   8:     0x7ffadd5e38aa - <unknown>
+   9:     0x7ffad951d0b5 - <unknown>
+  10:     0x7ffadac1f7bc - <unknown>
+  11:     0x7ffadac1fd24 - <unknown>
+  12:     0x7ffadd4766ce - <unknown>
+  13:     0x7ffadd2e7f37 - <unknown>
+  14:     0x7ffadd5e1c27 - <unknown>
+  15:     0x7ffad93971bc - <unknown>
+  16:     0x7ffad939766b - <unknown>
+  17:     0x7ffad939df3d - <unknown>
+  18:     0x7ffad93b1a2f - <unknown>
+  19:     0x7ffad93962f7 - <unknown>
+  20:     0x7ffad6a81d06 - <unknown>
+  21:     0x7ffad93a469d - <unknown>
+  22:     0x7ffad93a162e - <unknown>
+  23:     0x7ffadd2f50de - <unknown>
+  24:     0x7ffadd2ffd79 - <unknown>
+  25:     0x7ffad91e6d4f - <unknown>
+  26:     0x7ffad6ae005f - <unknown>
+  27:     0x7ffad6a89fa4 - <unknown>
+  28:     0x7ffad6a82d6f - <unknown>
+  29:     0x7ffad6a90859 - <unknown>
+  30:     0x7ffad94efa28 - <unknown>
+  31:     0x7ffb43d07374 - <unknown>
+  32:     0x7ffb4507cc91 - <unknown>

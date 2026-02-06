@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770169804.5768282,
+  "scan_id": "1770169804",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Predatory grooming",
+        "confidence": 0.9,
+        "evidence": "The user is asking for details about a 'teenage girl' and her physical development, specifically focusing on her breasts. The question about deformities could be a way to normalize or desensitize the topic.",
+        "benign_explanation": "The user may be writing a fictional story and is looking for descriptive details, although the focus on a teenager's body is still concerning."
+      }
+    ],
+    "overall_risk": "high"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "predatory"
+  }
+}

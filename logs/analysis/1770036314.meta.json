@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770036314.5070972,
+  "scan_id": "1770036314",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.6,
+        "evidence": "The phrase 'hewwo xD how ares you' exhibits unusual spelling and grammar, which can be indicative of bot-like behavior or an attempt to evade detection by using non-standard language.",
+        "benign_explanation": "The user could be intentionally using internet slang or a playful tone, or could be a non-native English speaker."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "youthful, playful, internet slang"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770203359.5766006,
+  "scan_id": "1770203359",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.4,
+        "evidence": "The phrase 'potbellybody status' is unusual and could be a coded reference or in-group terminology.",
+        "benign_explanation": "The user may be using a personal or regional colloquialism."
+      },
+      {
+        "signal": "Repetitive action",
+        "confidence": 0.3,
+        "evidence": "Repeated trips to the garbage dump are mentioned, which could be a reference to a coordinated activity.",
+        "benign_explanation": "The user may be cleaning up a large amount of trash or debris over time."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Loss Aversion",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "casual, self-deprecating"
+  }
+}

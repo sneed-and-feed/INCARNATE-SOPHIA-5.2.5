@@ -1,0 +1,32 @@
+{
+  "timestamp": 1770360057.6914234,
+  "scan_id": "1770360057",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.2,
+        "evidence": "The question 'Marathon play session?' could be interpreted as subtle pressure to conform to a specific gaming behavior.",
+        "benign_explanation": "The user is simply inquiring if others are planning a long gaming session."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.1,
+        "evidence": "The phrasing is simple and direct, which could be consistent with automated messaging.",
+        "benign_explanation": "The user is using concise language to quickly communicate their question."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "neutral"
+  }
+}

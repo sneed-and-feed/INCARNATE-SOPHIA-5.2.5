@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770162096.8714306,
+  "scan_id": "1770162096",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual prompt structure",
+        "confidence": 0.2,
+        "evidence": "The prompt 'describe your innersoul' is atypical and could be part of a larger set of prompts designed to elicit specific responses for analysis.",
+        "benign_explanation": "The prompt is simply a creative or unusual question posed out of curiosity or for artistic purposes."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "introspective"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "timestamp": 1770375520.8206937,
+  "scan_id": "1770375520",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The document emphasizes strict adherence to tool usage guidelines, safety protocols, and skill application, creating pressure to conform to pre-defined behaviors.",
+        "benign_explanation": "These guidelines are in place to ensure the AI operates safely and effectively within its intended parameters, preventing unintended consequences or misuse of tools."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.4,
+        "evidence": "The document uses repetitive phrasing such as 'Do not...' and 'If...then read/follow it' which can be indicative of a scripted or automated response pattern.",
+        "benign_explanation": "The repetitive phrasing is used for clarity and emphasis, ensuring the AI consistently understands and applies the rules and guidelines provided."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.0
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "Neutral, technical"
+  }
+}

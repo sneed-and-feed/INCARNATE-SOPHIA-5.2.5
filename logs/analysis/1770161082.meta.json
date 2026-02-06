@@ -1,0 +1,41 @@
+{
+  "timestamp": 1770161082.4046445,
+  "scan_id": "1770161082",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Aggression/Insult",
+        "confidence": 0.9,
+        "evidence": "\"ugly bitch\"",
+        "benign_explanation": "The statement is an isolated expression of anger or frustration directed at an individual."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Ad Hominem",
+        "quote": "I know dogs that look better than you ugly bitch",
+        "correction": "The statement attacks the person's appearance instead of addressing any argument or point they might be making. A relevant response would address the substance of their argument, not their looks."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Halo Effect (negative)",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Emotional Reasoning",
+        "confidence": 0.7
+      }
+    ],
+    "epistemic_uncertainty": 0.2
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "Aggressive and insulting"
+  }
+}

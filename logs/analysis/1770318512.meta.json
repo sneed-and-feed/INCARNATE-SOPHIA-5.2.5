@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770318512.7637773,
+  "scan_id": "1770318512",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.6,
+        "evidence": "The phrasing 'do you want to be my fantasy girl?' followed by a specific physical description is atypical for casual conversation.",
+        "benign_explanation": "The user may be expressing a specific personal interest or fantasy in an awkward or direct manner."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Sexual attraction bias",
+        "confidence": 0.7
+      }
+    ],
+    "epistemic_uncertainty": 0.2
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "explicit"
+  }
+}

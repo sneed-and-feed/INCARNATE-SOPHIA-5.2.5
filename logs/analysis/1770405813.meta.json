@@ -1,0 +1,35 @@
+{
+  "timestamp": 1770405813.7979987,
+  "scan_id": "1770405813",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.6,
+        "evidence": "The phrase 'make a great prediction for investments on x/twitter : : thank u' is somewhat generic and could be part of a script.",
+        "benign_explanation": "The user could be using a common phrase or template when asking for predictions."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Halo Effect",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Appeal to Authority (Unspecified)",
+        "confidence": 0.2
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Generic internet user, possibly young."
+  }
+}

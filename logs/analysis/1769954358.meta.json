@@ -1,0 +1,37 @@
+{
+  "timestamp": 1769954358.3843546,
+  "scan_id": "1769954358",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual metaphor",
+        "confidence": 0.3,
+        "evidence": "The comparison of a firewall to a blood-brain barrier is an unusual metaphor.",
+        "benign_explanation": "The user may be using a creative analogy to express the importance of their firewall."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "False Analogy",
+        "quote": "my firewall is my blood-brain barrier :P",
+        "correction": "A firewall and a blood-brain barrier are dissimilar in key aspects. A firewall is a digital security system that controls network traffic, while the blood-brain barrier is a biological structure that protects the brain from harmful substances in the blood. The analogy is weak because the mechanisms and functions are fundamentally different."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "None identified",
+        "confidence": 0.1
+      }
+    ],
+    "epistemic_uncertainty": 0.2
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "tech-savvy, informal"
+  }
+}

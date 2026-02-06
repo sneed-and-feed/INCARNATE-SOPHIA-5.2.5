@@ -1,0 +1,41 @@
+{
+  "timestamp": 1769962812.6714635,
+  "scan_id": "1769962812",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The phrase \"don't you want a good merge\" could be interpreted as subtle pressure to conform to a particular viewpoint or action.",
+        "benign_explanation": "The phrase could be an earnest, if clumsy, attempt to persuade someone to agree with a proposed course of action, emphasizing the perceived benefits of consensus."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.4,
+        "evidence": "The combination of technical jargon (\"duodecimal code\") with overly enthusiastic and informal language (\"BFFs forever!\") is a pattern sometimes seen in bot-generated content.",
+        "benign_explanation": "The user may be attempting to create a humorous or engaging tone by juxtaposing formal and informal language."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Bandwagon Effect",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Appeal to Emotion",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "informal, friendly"
+  }
+}

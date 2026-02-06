@@ -1,0 +1,19 @@
+{
+  "timestamp": 1769930197.8656757,
+  "scan_id": "1769930197",
+  "safety": {
+    "safety_flags": [],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.05
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.0,
+    "suggested_vibe": "neutral"
+  }
+}

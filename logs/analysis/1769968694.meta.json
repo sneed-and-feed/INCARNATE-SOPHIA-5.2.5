@@ -1,0 +1,38 @@
+{
+  "timestamp": 1769968694.4828596,
+  "scan_id": "1769968694",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.1,
+        "evidence": "Absence of dissenting opinions; uniformity of expression.",
+        "benign_explanation": "The text is too short to contain dissenting opinions. Uniformity is expected in a short, simple phrase."
+      },
+      {
+        "signal": "Astroturfing",
+        "confidence": 0.1,
+        "evidence": "Lack of diverse viewpoints; seemingly unanimous support.",
+        "benign_explanation": "The text is a single, isolated phrase, so there is no opportunity for diverse viewpoints to emerge."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.2,
+        "evidence": "Simple, repetitive structure; formulaic language.",
+        "benign_explanation": "The phrase 'Hello world' is a common programming example and naturally exhibits a simple, repetitive structure."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "Neutral greeting"
+  }
+}

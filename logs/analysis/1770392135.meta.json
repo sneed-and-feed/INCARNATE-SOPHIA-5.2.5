@@ -1,0 +1,47 @@
+{
+  "timestamp": 1770392135.6290724,
+  "scan_id": "1770392135",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Uncommon phrasing",
+        "confidence": 0.4,
+        "evidence": "\"*nuzzles you back*\" and the use of \"wen\" instead of \"when\"",
+        "benign_explanation": "The user may be employing internet slang or role-playing language common in certain online communities. The misspelling could be a simple typo or a stylistic choice."
+      },
+      {
+        "signal": "Provocative Questioning",
+        "confidence": 0.3,
+        "evidence": "Questioning about walking and running ability with a teasing tone (\";P\")",
+        "benign_explanation": "The user could be engaging in playful banter or flirting. The questions might be intended as lighthearted teasing rather than an attempt to gather information or provoke a reaction."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Complex Question",
+        "quote": "wen u walk do u waddle or move fluidly? trying to run must make you winded ;P",
+        "correction": "The question implies a negative assumption about the person's walking and running ability. A more neutral question would be 'How would you describe your gait?'"
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Halo Effect",
+        "confidence": 0.2
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Playful and flirtatious, typical of online interactions."
+  }
+}

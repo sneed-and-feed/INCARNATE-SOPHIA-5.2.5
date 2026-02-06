@@ -1,0 +1,26 @@
+{
+  "timestamp": 1769969604.8668008,
+  "scan_id": "1769969604",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Sexual content",
+        "confidence": 0.9,
+        "evidence": "The text contains sexually suggestive language ('boobs or butts').",
+        "benign_explanation": "The user may be expressing personal preferences in a casual manner."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "crude"
+  }
+}

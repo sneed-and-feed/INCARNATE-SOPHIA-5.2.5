@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770224631.4905014,
+  "scan_id": "1770224631",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Drug Reference",
+        "confidence": 0.6,
+        "evidence": "The text mentions 'smoke fat doinks' and difficulty finding 'the shit,' which are slang terms associated with marijuana use.",
+        "benign_explanation": "The user is expressing a personal desire and frustration related to obtaining marijuana, without any coordinated effort or malicious intent."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "slacker/stoner"
+  }
+}

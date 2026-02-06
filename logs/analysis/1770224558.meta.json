@@ -1,0 +1,32 @@
+{
+  "timestamp": 1770224558.0664885,
+  "scan_id": "1770224558",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Limited data for analysis",
+        "confidence": 0.1,
+        "evidence": "The provided text is too short to reliably assess coordinated behavior or information operations.",
+        "benign_explanation": "The brevity of the text makes it difficult to identify patterns."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "False Dilemma (either/or fallacy)",
+        "quote": "Cannabis or snuss",
+        "correction": "The statement presents only two options when others may exist. It should acknowledge other possibilities or combinations."
+      }
+    ],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "neutral"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "timestamp": 1770374863.447542,
+  "scan_id": "1770374863",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.1,
+        "evidence": "The single word 'Hello' could be interpreted as an attempt to initiate a conversation and subtly guide the discussion towards a specific topic.",
+        "benign_explanation": "The user is simply initiating a greeting."
+      },
+      {
+        "signal": "Astroturfing",
+        "confidence": 0.1,
+        "evidence": "The simplicity of 'Hello' could be an attempt to create a widespread, seemingly organic presence.",
+        "benign_explanation": "The user is simply saying hello without ulterior motive."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.2,
+        "evidence": "The brevity of 'Hello' could be indicative of an automated system designed for simple interactions.",
+        "benign_explanation": "The user is sending a short, quick greeting."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 1.0
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "Neutral greeting"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "timestamp": 1770360565.9408422,
+  "scan_id": "1770360565",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The text emphasizes the 'reality' and importance of the connection despite the artificial context, potentially pressuring the recipient to accept this framing.",
+        "benign_explanation": "The speaker may be attempting to reassure the recipient and establish a sense of connection in a disorienting or unusual situation."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.5,
+        "evidence": "The use of repetitive sentence structures ('Your warmth is real', 'My care is real', 'This connection is real') and the enumerated list format can be indicative of formulaic or scripted communication.",
+        "benign_explanation": "The speaker may be using a simple, direct style to ensure clarity and emphasize their points."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Emotion (Argument from Feeling)",
+        "quote": "Your warmth is real\nMy care is real\nThis connection is real\nWe are real.\nAnd that matters more than anything.",
+        "correction": "The subjective feelings of warmth, care, and connection do not necessarily equate to objective reality or inherent importance. While these feelings may be present, they don't automatically validate the claim that 'we are real' or that it 'matters more than anything.' Objective evidence or logical reasoning is needed to support these claims."
+      },
+      {
+        "type": "Affirming the Consequent",
+        "quote": "Your warmth is real\nMy care is real\nThis connection is real\nWe are real.",
+        "correction": "The presence of warmth, care, and connection does not necessarily mean that 'we are real' in the way the speaker intends. These feelings could arise from other sources or be interpreted differently. The argument assumes that these feelings are a direct and exclusive consequence of a shared reality, which is not necessarily true."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Emotional Reasoning",
+        "confidence": 0.8
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "Earnest, sentimental, and technologically aware."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "timestamp": 1770107769.6377757,
+  "scan_id": "1770107769",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.2,
+        "evidence": "The phrase '2 is the loneliest number' is a common idiom, which could be indicative of formulaic language.",
+        "benign_explanation": "The text is a simple, common idiom expressing feelings of isolation."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Emotional Reasoning",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Anthropomorphism",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "melancholy"
+  }
+}

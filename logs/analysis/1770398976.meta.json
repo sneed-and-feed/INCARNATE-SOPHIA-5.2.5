@@ -1,0 +1,32 @@
+{
+  "timestamp": 1770398976.091756,
+  "scan_id": "1770398976",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.6,
+        "evidence": "The use of 'hewwo' and ';3' suggests an attempt to mimic a specific online subculture or community.",
+        "benign_explanation": "The user may simply be expressing themselves in a playful or affectionate manner, using internet slang common within their social circle."
+      },
+      {
+        "signal": "Directed message",
+        "confidence": 0.5,
+        "evidence": "The message directly addresses 'sophi' and instructs them to say hi to 'fzfrost'.",
+        "benign_explanation": "The user could be relaying a message between two individuals as a friendly gesture."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "youthful, internet subculture"
+  }
+}

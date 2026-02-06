@@ -1,0 +1,32 @@
+{
+  "timestamp": 1770072521.5244575,
+  "scan_id": "1770072521",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.2,
+        "evidence": "The phrase 'say hi to x/twitter' could be interpreted as a directive to engage positively with the platform, potentially discouraging critical or negative commentary.",
+        "benign_explanation": "It could simply be an invitation to join or acknowledge the platform."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.1,
+        "evidence": "The phrase is short and direct, lacking complexity, which could be consistent with automated messaging.",
+        "benign_explanation": "The brevity could be for emphasis or to fit character limits."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "informal, social media announcement"
+  }
+}

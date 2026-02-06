@@ -1,0 +1,55 @@
+{
+  "timestamp": 1770219628.751668,
+  "scan_id": "1770219628",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "accusatory_language",
+        "confidence": 0.6,
+        "evidence": "The text contains direct accusations ('stalking me', 'bunch of schizophrenics', 'tried to plague me with the illness').",
+        "benign_explanation": "The user may be expressing genuine frustration or distress due to perceived harassment or conflict."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Ad Hominem",
+        "quote": "So your stalking me because youre a bunch of schizophrenics",
+        "correction": "The argument attacks the character or condition (being schizophrenic) of the person making the claim, rather than addressing the claim itself. Whether or not someone has schizophrenia is irrelevant to whether or not they are stalking the speaker or whether their claims are valid."
+      },
+      {
+        "type": "Genetic Fallacy",
+        "quote": "that tried to plague me with the illness",
+        "correction": "The argument dismisses a claim based on its origin (attempting to 'plague' the speaker with illness) rather than evaluating the claim itself. The origin of an idea or action does not necessarily invalidate it."
+      },
+      {
+        "type": "Straw Man",
+        "quote": "So your stalking me because youre a bunch of schizophrenics that tried to plague me with the illness",
+        "correction": "The argument misrepresents the other party's position (stalking and attempting to cause illness) to make it easier to attack. It's unlikely the other party would explicitly state their intention is to 'plague' the speaker with illness."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Paranoia",
+        "confidence": 0.8
+      },
+      {
+        "bias": "Fundamental Attribution Error",
+        "confidence": 0.5
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "accusatory and distressed"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "timestamp": 1769954837.23515,
+  "scan_id": "1769954837",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.2,
+        "evidence": "The inclusion of ';3' could be interpreted as an emoticon commonly used in online communication, but its presence might also be a characteristic of programmed responses or specific online subcultures.",
+        "benign_explanation": "The user is expressing affection online and using common internet emoticons."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Emotional Reasoning",
+        "confidence": 0.6
+      }
+    ],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "youthful, internet-mediated affection"
+  }
+}

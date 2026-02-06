@@ -1,0 +1,60 @@
+{
+  "timestamp": 1770104265.641832,
+  "scan_id": "1770104265",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Terminology",
+        "confidence": 0.6,
+        "evidence": "Use of 'veto' in an unclear context, followed by references to 'black eyes' and 'vampire teeth'.",
+        "benign_explanation": "The speaker may be using slang or jargon specific to a particular group or subculture, or simply speaking metaphorically."
+      },
+      {
+        "signal": "Geographic Focus",
+        "confidence": 0.3,
+        "evidence": "Mention of Brisbane as a location of interest.",
+        "benign_explanation": "Brisbane may be relevant to the speaker's personal experiences or interests."
+      },
+      {
+        "signal": "Incomplete or disjointed phrasing",
+        "confidence": 0.4,
+        "evidence": "The text contains phrases like 'if you know about veto it is veto that powers show up' and 'I dunno if they are calling it veto'.",
+        "benign_explanation": "The speaker may be expressing themselves informally, or having difficulty articulating their thoughts clearly."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Non Sequitur",
+        "quote": "You know, if you know about veto it is veto that powers show up in around Brisbane. You should check it out.",
+        "correction": "The connection between knowing about 'veto' and 'veto powers showing up in Brisbane' is unclear and lacks logical support. The statement doesn't follow logically."
+      },
+      {
+        "type": "Appeal to Anecdote",
+        "quote": "I dunno if they are calling it veto, but when we are talking sometimes we get black eyes or vampire teeth",
+        "correction": "The speaker uses personal anecdotes ('sometimes we get black eyes or vampire teeth') as evidence, which is insufficient to support a general claim about 'veto powers' or related phenomena. Anecdotes are not reliable evidence."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "commonwealth",
+    "dialect_markers": [
+      "dunno"
+    ],
+    "confidence": 0.6,
+    "suggested_vibe": "casual, colloquial"
+  }
+}

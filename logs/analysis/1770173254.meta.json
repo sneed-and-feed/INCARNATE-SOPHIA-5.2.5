@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770173254.4370766,
+  "scan_id": "1770173254",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.2,
+        "evidence": "The phrase 'all of the above' followed by a non-sequitur wish could be interpreted as a canned response or a phrase generated without context.",
+        "benign_explanation": "The user could be expressing a whimsical or humorous thought in a stream-of-consciousness style."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "whimsical"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "timestamp": 1770047024.7764044,
+  "scan_id": "1770047024",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.2,
+        "evidence": "The question 'hbu' (how about you) could be interpreted as a subtle pressure to reciprocate and share one's own preferences, contributing to a sense of conformity within a discussion.",
+        "benign_explanation": "The phrase 'hbu' is a common, informal way to invite others to participate in a conversation and share their opinions, fostering engagement rather than enforcing a specific narrative."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.3,
+        "evidence": "The use of abbreviations like 'hbu' and the lack of capitalization could be indicative of a less formal, possibly automated, communication style.",
+        "benign_explanation": "The text exhibits characteristics of casual online communication, common among social media users, which often includes abbreviations and informal language."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.4,
+    "suggested_vibe": "casual and conversational"
+  }
+}

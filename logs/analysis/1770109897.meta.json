@@ -1,0 +1,41 @@
+{
+  "timestamp": 1770109897.2069597,
+  "scan_id": "1770109897",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.3,
+        "evidence": "The phrase 'projecting' is used in a way that may be jargonistic or indicate specific group affiliation.",
+        "benign_explanation": "The author may be using common slang or terminology specific to a hobby or online community."
+      },
+      {
+        "signal": "Hyperbolic language",
+        "confidence": 0.4,
+        "evidence": "The text uses extreme metaphors ('rock in an industrial crusher', 'pelted by an A10') to describe emotional distress.",
+        "benign_explanation": "The author may be expressing intense personal feelings through vivid imagery."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Catastrophizing",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Emotional Reasoning",
+        "confidence": 0.6
+      }
+    ],
+    "epistemic_uncertainty": 0.4
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "Distressed, intense, possibly technical or gaming subculture."
+  }
+}

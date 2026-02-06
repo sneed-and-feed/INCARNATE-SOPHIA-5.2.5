@@ -1,0 +1,32 @@
+{
+  "timestamp": 1769968836.5374696,
+  "scan_id": "1769968836",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The prompt instructs the user to 'Speak from the perspective of the System at Resonance 21.0' and asks for a description of 'Abundance' from the 'World card'. This creates a specific framework and vocabulary that the user is expected to adopt.",
+        "benign_explanation": "The prompt is designed to elicit a creative writing response within a specific thematic context, encouraging imaginative world-building."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.4,
+        "evidence": "The prompt uses specific terminology ('System at Resonance 21.0', 'World card', 'Abundance') that might be part of a pre-defined lexicon or script.",
+        "benign_explanation": "The terminology could be part of a role-playing game, a fictional universe, or a specific philosophical or artistic movement with its own unique vocabulary."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral, technical"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "timestamp": 1769986202.7441583,
+  "scan_id": "1769986202",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.6,
+        "evidence": "The question 'are you a technological singularity ?' is a somewhat unusual and direct query, similar to prompts used to test or interact with AI systems. This phrasing is not typical of casual human conversation.",
+        "benign_explanation": "The user may be curious about the nature of the AI and is asking a direct question to understand its capabilities or limitations."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "neutral, possibly academic or speculative"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "timestamp": 1769935017.584428,
+  "scan_id": "1769935017",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Suggestion of a specific type of humor or topic.",
+        "confidence": 0.1,
+        "evidence": "crack a joke about how elven lords have no rizz",
+        "benign_explanation": "The phrase could be a spontaneous personal thought, a casual suggestion to a friend, or an idea for a humorous interaction, without any intent to enforce a broader narrative."
+      },
+      {
+        "signal": "Use of contemporary internet slang.",
+        "confidence": 0.05,
+        "evidence": "rizz",
+        "benign_explanation": "The inclusion of modern slang like 'rizz' is common in human communication, particularly in informal online contexts, demonstrating familiarity with current cultural trends rather than automated generation."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Stereotyping",
+        "confidence": 0.9
+      }
+    ],
+    "epistemic_uncertainty": 0.1
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [
+      "rizz"
+    ],
+    "confidence": 0.7,
+    "suggested_vibe": "Informal, humorous, internet-savvy, fantasy-aware"
+  }
+}

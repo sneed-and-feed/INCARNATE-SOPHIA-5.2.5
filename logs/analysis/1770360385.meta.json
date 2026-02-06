@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770360385.2150264,
+  "scan_id": "1770360385",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.3,
+        "evidence": ">w<",
+        "benign_explanation": "The user is expressing an emotion using emoticons, a common practice in online communication."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "playful, affectionate"
+  }
+}

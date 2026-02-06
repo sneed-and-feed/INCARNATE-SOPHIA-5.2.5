@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770242139.435366,
+  "scan_id": "1770242139",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Possible coordinated content creation",
+        "confidence": 0.4,
+        "evidence": "The prompt requests content for YouTube, which could be part of a larger coordinated campaign to promote or denigrate a topic.",
+        "benign_explanation": "The user may simply be seeking humorous content ideas from others."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Internet slang, gaming culture"
+  }
+}

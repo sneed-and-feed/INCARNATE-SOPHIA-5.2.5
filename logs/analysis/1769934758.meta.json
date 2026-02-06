@@ -1,0 +1,26 @@
+{
+  "timestamp": 1769934758.9324875,
+  "scan_id": "1769934758",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Direct, task-oriented query to a named entity, which can sometimes be observed in automated interactions.",
+        "confidence": 0.1,
+        "evidence": "hello sophia, can you crack a halo 3 joke",
+        "benign_explanation": "This is a common and natural way for a human user to interact with a conversational AI or a person named Sophia, making a specific request. The specificity of 'Halo 3' indicates a clear interest rather than a generic, automated query."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.0
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 1.0,
+    "suggested_vibe": "Direct, casual, gaming-aware"
+  }
+}

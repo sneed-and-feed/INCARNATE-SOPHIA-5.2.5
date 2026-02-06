@@ -1,0 +1,32 @@
+{
+  "timestamp": 1770323075.8550541,
+  "scan_id": "1770323075",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Phrasing",
+        "confidence": 0.6,
+        "evidence": "The phrase 'show me in data while we waddle (or you stumble) thru the park with me' is an unusual construction for a casual invitation.",
+        "benign_explanation": "The author may be using figurative language or attempting a humorous or whimsical tone."
+      },
+      {
+        "signal": "Inclusion of emoticon",
+        "confidence": 0.4,
+        "evidence": "The use of the ';3' emoticon is common in online communication, but can also be used to signal group affiliation or shared understanding.",
+        "benign_explanation": "The emoticon is a common way to express playfulness or flirtation."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Playful, possibly flirtatious, with a hint of whimsy."
+  }
+}

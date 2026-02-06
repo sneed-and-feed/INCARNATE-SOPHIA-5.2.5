@@ -1,0 +1,52 @@
+{
+  "timestamp": 1770218729.513155,
+  "scan_id": "1770218729",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "The statement presents a specific, idealized scenario ('we would be in love and she would be happy') as if it's the only desirable outcome, potentially discouraging alternative perspectives or feelings.",
+        "benign_explanation": "The speaker could be expressing a strong personal desire or fantasy, without intending to pressure anyone else to conform to that view."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.2,
+        "evidence": "The sentence structure is simple and repetitive ('It would be...').",
+        "benign_explanation": "This could be casual speech or an attempt to emphasize a point through repetition."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Emotion",
+        "quote": "No we would be in love and she would be happy. It would be all romantic and shit.",
+        "correction": "The statement relies on a desired emotional outcome (love, happiness, romance) rather than providing logical reasons or evidence to support the claim. Desiring something to be true does not make it true."
+      },
+      {
+        "type": "Wishful Thinking",
+        "quote": "No we would be in love and she would be happy. It would be all romantic and shit.",
+        "correction": "The statement expresses a desired outcome as if it were a guaranteed reality. This ignores the complexities and potential obstacles involved in forming a romantic relationship."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Optimism Bias",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Halo Effect",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "informal, possibly cynical"
+  }
+}

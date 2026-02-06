@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770403765.1892214,
+  "scan_id": "1770403765",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Possible Bot-like phrasing or rhythm",
+        "confidence": 0.4,
+        "evidence": "The phrase 'Let's make the UNIVERSE SPARKLE! \u2728\ud83c\udf0c\u2728' is highly enthusiastic and repetitive with the use of emojis, which could be indicative of bot-like behavior aimed at amplifying a message.",
+        "benign_explanation": "The text could be an expression of excitement or enthusiasm by an individual, perhaps related to a creative project or a general expression of positivity."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Wishful Thinking",
+        "confidence": 0.6
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "Enthusiastic, positive, and somewhat generic."
+  }
+}

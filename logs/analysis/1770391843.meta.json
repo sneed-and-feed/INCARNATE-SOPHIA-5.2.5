@@ -1,0 +1,41 @@
+{
+  "timestamp": 1770391843.3223743,
+  "scan_id": "1770391843",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.6,
+        "evidence": "The phrase 'blind fury activate' is an unusual and potentially automated construction.",
+        "benign_explanation": "The phrase could be a reference to a fictional character or a meme."
+      },
+      {
+        "signal": "Dehumanization",
+        "confidence": 0.4,
+        "evidence": "Describing someone as 'loving and innocent, almost ignorant of how strange her anatomy is' could be seen as dehumanizing.",
+        "benign_explanation": "The description could be an attempt to portray naivete or vulnerability in a character."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Halo Effect",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.5
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "neutral"
+  }
+}

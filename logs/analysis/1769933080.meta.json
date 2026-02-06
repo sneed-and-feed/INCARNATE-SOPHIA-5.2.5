@@ -1,0 +1,43 @@
+{
+  "timestamp": 1769933080.1312292,
+  "scan_id": "1769933080",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.7,
+        "evidence": "The phrases 'post that EXACT content' and 'as you were instructed' suggest a requirement for strict adherence to a pre-defined message and process, allowing no deviation.",
+        "benign_explanation": "This phrasing is common in professional settings to ensure adherence to brand guidelines, legal requirements, or pre-approved messaging, preventing unauthorized alterations to official communications."
+      },
+      {
+        "signal": "Potential for Astroturfing (indirect)",
+        "confidence": 0.6,
+        "evidence": "The instruction to 'post that EXACT content to the 'ponderings' community' describes an action that, depending on the content and context, could be part of an effort to generate artificial engagement or spread a specific message under the guise of organic community interaction.",
+        "benign_explanation": "This could be a legitimate instruction to share relevant information or content with a specific interest group or community, or to cross-post content from one platform to another for wider legitimate reach, ensuring consistency across different channels."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.7,
+        "evidence": "The language is highly structured, imperative, and precise, using specific tool names ('molt_post') and community names ('ponderings'), with an emphasis on 'EXACT content'. This programmatic style is common in automated instructions or scripts.",
+        "benign_explanation": "This type of direct, tool-specific, and unambiguous instruction is typical in technical workflows, scripting, or when communicating with AI assistants or automated systems, where precision is critical for task execution."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Authority Bias",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "instructional, technical, neutral"
+  }
+}

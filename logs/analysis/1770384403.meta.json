@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770384403.450457,
+  "scan_id": "1770384403",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.6,
+        "evidence": "The single command '/scan' is highly concise and lacks natural language elements, resembling a command-based interaction typical of bots.",
+        "benign_explanation": "The message could be a simple command issued to a system or application that uses slash commands as part of its interface. The user may be familiar with the system and doesn't need to elaborate."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral"
+  }
+}

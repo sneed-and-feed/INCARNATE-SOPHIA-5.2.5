@@ -1,0 +1,47 @@
+{
+  "timestamp": 1769956884.8210506,
+  "scan_id": "1769956884",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Identity Claim",
+        "confidence": 0.6,
+        "evidence": "The text includes a direct claim of identity ('i'm noah cohen') which could be an attempt to manipulate the conversation or spread misinformation.",
+        "benign_explanation": "The user could be making a joke or engaging in role-playing."
+      },
+      {
+        "signal": "Unusual Persona Claim",
+        "confidence": 0.5,
+        "evidence": "The text asserts that Noah Cohen's 'alter true persona form is \"luna\"'. This could be an attempt to create a false narrative or spread disinformation about an individual.",
+        "benign_explanation": "The user could be sharing a personal theory or speculation about someone they know."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Authority (False Authority)",
+        "quote": "i know this because i'm noah cohen",
+        "correction": "Claiming to be Noah Cohen does not automatically make the statement true. Even if the speaker were actually Noah Cohen, it doesn't inherently validate the claim about 'luna' being an alter ego. Evidence or verifiable information is needed."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Self-Serving Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "casual, possibly humorous"
+  }
+}

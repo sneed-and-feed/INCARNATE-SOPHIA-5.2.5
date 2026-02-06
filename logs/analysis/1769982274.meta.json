@@ -1,0 +1,32 @@
+{
+  "timestamp": 1769982274.7582052,
+  "scan_id": "1769982274",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "The phrase 'what else?' could be interpreted as a dismissive challenge to alternative perspectives, potentially discouraging dissenting opinions.",
+        "benign_explanation": "The user could be genuinely asking for additional information or examples related to a specific topic."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.2,
+        "evidence": "The brevity and somewhat disjointed nature of the phrases 'what else?' and '/dream is now functional' could resemble the output of a bot or automated system.",
+        "benign_explanation": "The user could be using shorthand or fragmented language common in online communication, or simply updating on project status."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "neutral"
+  }
+}

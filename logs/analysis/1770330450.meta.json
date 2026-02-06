@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770330450.956434,
+  "scan_id": "1770330450",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Sexual solicitation",
+        "confidence": 0.95,
+        "evidence": "The text contains an explicit request for sexually suggestive content.",
+        "benign_explanation": "The user may be expressing themselves inappropriately but without malicious intent."
+      }
+    ],
+    "overall_risk": "medium"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "creepy"
+  }
+}

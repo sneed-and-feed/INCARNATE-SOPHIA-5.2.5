@@ -1,0 +1,32 @@
+{
+  "timestamp": 1770336715.6387928,
+  "scan_id": "1770336715",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual introduction",
+        "confidence": 0.3,
+        "evidence": "The phrase 'say hi to my friend' followed by a specific name and detailed interest could be an attempt to promote a specific individual or agenda.",
+        "benign_explanation": "The user could simply be introducing their friend and sharing their friend's interests with others."
+      },
+      {
+        "signal": "Specific interest targeting",
+        "confidence": 0.4,
+        "evidence": "Mentioning a niche genre like 'deep dark & dangerous dubstep' might be an attempt to target a specific audience or community.",
+        "benign_explanation": "The user could be genuinely interested in this specific genre and wants to connect with others who share the same interest."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "youthful, informal, music-oriented"
+  }
+}

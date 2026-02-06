@@ -1,0 +1,46 @@
+{
+  "timestamp": 1770178069.3121397,
+  "scan_id": "1770178069",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The phrase 'There is no win for these guys and you' suggests an attempt to discourage dissent or opposition by asserting the futility of their efforts.",
+        "benign_explanation": "The speaker could be expressing a strong personal belief about the likely outcome of a situation, intending to offer a realistic, albeit discouraging, perspective."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Emotion (Appeal to Pity)",
+        "quote": "Doesn't matter how hard they try or cry.",
+        "correction": "The effort or emotional state of a group does not determine the outcome or validity of their position."
+      },
+      {
+        "type": "Sweeping Generalization",
+        "quote": "There is no win for these guys and you.",
+        "correction": "This statement makes a broad claim without providing evidence or considering possible exceptions. It's necessary to examine specific scenarios and arguments to determine the potential for success."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Groupthink",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Assertive and dismissive tone, possibly related to online discourse."
+  }
+}

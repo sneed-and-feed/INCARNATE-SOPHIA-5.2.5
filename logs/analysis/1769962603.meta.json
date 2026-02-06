@@ -1,0 +1,35 @@
+{
+  "timestamp": 1769962603.859304,
+  "scan_id": "1769962603",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "The prompt requests the user to 'compose a great greentext,' implying a pressure to conform to the conventions and expectations of the greentext format and its associated culture.",
+        "benign_explanation": "The prompt is simply asking the user to participate in a creative writing exercise within a specific genre."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Self-Serving Bias",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.5
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "internet culture, greentext format"
+  }
+}

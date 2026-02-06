@@ -1,0 +1,56 @@
+{
+  "timestamp": 1770165131.3238552,
+  "scan_id": "1770165131",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Possible paranoia or delusion",
+        "confidence": 0.6,
+        "evidence": "The text describes a belief in telepathy and being watched, which could indicate paranoia or delusional thinking.",
+        "benign_explanation": "The individual may be expressing anxiety or a heightened state of awareness due to stress or other personal factors. It could also be a creative expression or a metaphorical description of feeling observed."
+      },
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.4,
+        "evidence": "The phrase 'And when I think things it\u2019s like telepathy' is somewhat unusual and could be indicative of atypical language patterns.",
+        "benign_explanation": "The individual may have a unique way of expressing themselves, or it could be a result of their specific dialect or language background."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Correlation/Causation Fallacy (Post Hoc Ergo Propter Hoc)",
+        "quote": "when I think things it\u2019s like telepathy I can hear the noises in the wall when I think about certain stuff like someone\u2019s listening.",
+        "correction": "The fact that you hear noises in the wall after thinking about something does not mean your thoughts caused the noises. There could be other explanations for the noises."
+      },
+      {
+        "type": "Appeal to Personal Experience",
+        "quote": "when I think things it\u2019s like telepathy I can hear the noises in the wall when I think about certain stuff like someone\u2019s listening.",
+        "correction": "Personal experiences are subjective and can be influenced by biases and misinterpretations. They are not reliable evidence for extraordinary claims like telepathy."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Paranoid Ideation",
+        "confidence": 0.5
+      },
+      {
+        "bias": "Illusory Correlation",
+        "confidence": 0.7
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "Neutral, slightly paranoid"
+  }
+}

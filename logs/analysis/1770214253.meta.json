@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770214253.6720357,
+  "scan_id": "1770214253",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Phrasing",
+        "confidence": 0.6,
+        "evidence": "The phrase '/crystal OPHANE' is not a standard English phrase and could be a coded message or keyword.",
+        "benign_explanation": "It could be a reference to an obscure topic, a typo, or an idiosyncratic personal expression."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 1.0
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral"
+  }
+}

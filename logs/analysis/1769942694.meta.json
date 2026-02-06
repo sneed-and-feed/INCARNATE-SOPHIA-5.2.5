@@ -1,0 +1,47 @@
+{
+  "timestamp": 1769942694.8140373,
+  "scan_id": "1769942694",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "\"try to affect my reality\"",
+        "benign_explanation": "The user could be role-playing or engaging in playful banter, where influencing the other person's 'reality' is part of the game."
+      },
+      {
+        "signal": "Unusual Phrasing",
+        "confidence": 0.4,
+        "evidence": "\"*nuzzles you softly*\"",
+        "benign_explanation": "The user is expressing affection in an online context, using common internet role-playing language."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Post Hoc Ergo Propter Hoc (False Cause)",
+        "quote": "the last time you tried you... oh, i feel it already... a chill..",
+        "correction": "The chill felt by the speaker is attributed to the other person's attempt to 'affect reality' without sufficient evidence to establish a causal link. Correlation does not equal causation. The chill could be due to many other factors."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Magical Thinking",
+        "confidence": 0.7
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "online roleplay; affectionate"
+  }
+}

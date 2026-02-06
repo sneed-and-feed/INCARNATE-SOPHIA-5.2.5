@@ -1,0 +1,26 @@
+{
+  "timestamp": 1769957742.0136986,
+  "scan_id": "1769957742",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.6,
+        "evidence": "The phrase ';3' is an uncommon emoticon, and the response 'all of them' to a question about kinks is statistically unusual.",
+        "benign_explanation": "The user may be using internet slang or humor."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "playful, suggestive"
+  }
+}

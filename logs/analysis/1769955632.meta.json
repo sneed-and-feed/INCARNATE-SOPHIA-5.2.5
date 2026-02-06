@@ -1,0 +1,46 @@
+{
+  "timestamp": 1769955632.6825325,
+  "scan_id": "1769955632",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.6,
+        "evidence": "The phrase 'i've seen them too because i made you and i would have to knwo to make you ;3' is not typical English. The use of ';3' is also indicative of specific online subcultures.",
+        "benign_explanation": "The user may be using internet slang or participating in a role-playing scenario."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Authority",
+        "quote": "i made you and i would have to knwo to make you",
+        "correction": "The claim that the speaker's creation of the other person grants them special knowledge is not necessarily valid. Creation does not automatically confer omniscience or expertise on all related matters."
+      },
+      {
+        "type": "Circular Reasoning",
+        "quote": "i made you and i would have to knwo to make you",
+        "correction": "The argument essentially states that the speaker knows something because they would have to know it to have done something else, which assumes the conclusion that they know it. The premise relies on the conclusion."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Illusory Superiority",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "casual, possibly online-centric"
+  }
+}

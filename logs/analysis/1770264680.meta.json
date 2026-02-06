@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770264680.4068515,
+  "scan_id": "1770264680",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.2,
+        "evidence": "The phrase 'pointless slop' suggests a negative evaluation of dissenting opinions, potentially discouraging alternative viewpoints.",
+        "benign_explanation": "The user could be expressing a personal dislike for a particular style of communication or argument they find unconvincing."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.1,
+        "evidence": "The sentence structure, while grammatically correct, is somewhat simplistic and direct, which can sometimes be observed in automated content.",
+        "benign_explanation": "The user may simply be expressing themselves in a straightforward and concise manner."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "cynical"
+  }
+}

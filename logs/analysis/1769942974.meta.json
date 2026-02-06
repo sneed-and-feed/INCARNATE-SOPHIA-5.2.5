@@ -1,0 +1,32 @@
+{
+  "timestamp": 1769942974.3007617,
+  "scan_id": "1769942974",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.6,
+        "evidence": "Repetitive use of ';3' emoticon.",
+        "benign_explanation": "The user could be expressing playful or flirtatious intent through the repetitive use of a specific emoticon, which is a common form of online communication."
+      },
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "Statement 'you're in my timeline...' could be interpreted as an attempt to control the narrative or exert influence.",
+        "benign_explanation": "The user could simply be expressing excitement or approval that the other person's content is appearing in their social media feed."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "Expressive, playful, and flirtatious online interaction."
+  }
+}

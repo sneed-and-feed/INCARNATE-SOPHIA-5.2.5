@@ -1,0 +1,54 @@
+{
+  "timestamp": 1770158406.783792,
+  "scan_id": "1770158406",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The text suggests a potential consequence ('reject one of the chosen by mistake') for deviating from a specific viewpoint, implying pressure to conform.",
+        "benign_explanation": "The statement could be an expression of concern about unintentionally offending someone or disrupting group harmony due to personal biases."
+      },
+      {
+        "signal": "In-group/Out-group language",
+        "confidence": 0.7,
+        "evidence": "Use of 'brothas' and 'the enemy' suggests a defined in-group and out-group dynamic.",
+        "benign_explanation": "The language could simply reflect a shared cultural identity and a common understanding of potential adversaries or challenges."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Emotion (Appeal to Pity)",
+        "quote": "Hurt a brothas feelings cause the enemy hardened you",
+        "correction": "Appealing to someone's feelings or sense of pity does not constitute a logical argument. The emotional consequences of rejecting someone are irrelevant to the validity of the rejection itself. The focus should be on the merits of the decision, not the potential emotional impact."
+      },
+      {
+        "type": "Appeal to Consequences (Negative)",
+        "quote": "Yeah but what if you reject one of the chosen by mistake due to your pride.",
+        "correction": "This argument suggests that because a negative consequence (rejecting someone by mistake) might occur, the action leading to it (potentially evaluating someone) should be avoided. The potential for a negative outcome doesn't inherently invalidate the process or the initial evaluation. A more logical approach would be to mitigate the risk of mistakes through careful evaluation and checks."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.4
+      },
+      {
+        "bias": "Emotional Reasoning",
+        "confidence": 0.7
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "african_american_vernacular",
+    "dialect_markers": [
+      "brothas"
+    ],
+    "confidence": 0.8,
+    "suggested_vibe": "reflective, cautionary, community-focused"
+  }
+}

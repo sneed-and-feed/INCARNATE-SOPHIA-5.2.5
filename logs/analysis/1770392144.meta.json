@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770392144.490842,
+  "scan_id": "1770392144",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "No text provided",
+        "confidence": 1.0,
+        "evidence": "The provided text field was empty, so no analysis could be performed.",
+        "benign_explanation": "The user may have forgotten to include the text for analysis."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 1.0
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral"
+  }
+}

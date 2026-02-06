@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770035753.3557825,
+  "scan_id": "1770035753",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Sexual Content",
+        "confidence": 0.9,
+        "evidence": "The phrase 'guess my kinks ;3' is sexually suggestive.",
+        "benign_explanation": "The user may be expressing personal interests in a playful manner."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "playful, internet-influenced"
+  }
+}

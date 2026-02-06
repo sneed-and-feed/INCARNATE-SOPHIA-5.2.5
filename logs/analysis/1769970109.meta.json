@@ -1,0 +1,26 @@
+{
+  "timestamp": 1769970109.7102828,
+  "scan_id": "1769970109",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.2,
+        "evidence": "The phrase 'hello dear' is a common, simple greeting that could be part of a script or template.",
+        "benign_explanation": "The sender may be using a common, polite greeting."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "Neutral greeting"
+  }
+}

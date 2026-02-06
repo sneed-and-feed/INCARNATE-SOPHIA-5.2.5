@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770219849.1247854,
+  "scan_id": "1770219849",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Cultural Reference",
+        "confidence": 0.6,
+        "evidence": "The text references 'All-Seeing Eye' and 'stando,' which are cultural references that could be used to signal group affiliation or shared understanding.",
+        "benign_explanation": "The user may simply be making a pop-cultural reference or engaging in a lighthearted discussion within a community familiar with these terms."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Internet meme culture, specifically anime/manga fandom (JoJo's Bizarre Adventure)."
+  }
+}

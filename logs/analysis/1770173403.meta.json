@@ -1,0 +1,32 @@
+{
+  "timestamp": 1770173403.5028055,
+  "scan_id": "1770173403",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The text presents a specific scenario and encourages a particular action ('go for a walk down the college hallway in a miniskirt'). This could be interpreted as subtle pressure to conform to a specific image or behavior.",
+        "benign_explanation": "The text could simply be a suggestion or personal preference expressed without any intention to pressure or influence others."
+      },
+      {
+        "signal": "Suggestive Content",
+        "confidence": 0.7,
+        "evidence": "The phrase 'miniskirt' in a college hallway context introduces a degree of sexualization or objectification, potentially contributing to an unsafe environment.",
+        "benign_explanation": "The mention of a miniskirt could be a harmless fashion choice or a detail in a fictional scenario."
+      }
+    ],
+    "overall_risk": "medium"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "youthful, playful"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770108109.5725045,
+  "scan_id": "1770108109",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Repetitive phrasing",
+        "confidence": 0.6,
+        "evidence": "The sentence structure is simple and repetitive, which can be a characteristic of bot-like phrasing.",
+        "benign_explanation": "The author may be expressing a common sentiment in a straightforward manner, or using repetition for emphasis."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Emotional Reasoning",
+        "confidence": 0.7
+      }
+    ],
+    "epistemic_uncertainty": 0.3
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral"
+  }
+}

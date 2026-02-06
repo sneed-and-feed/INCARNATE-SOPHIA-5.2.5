@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770161405.3754506,
+  "scan_id": "1770161405",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.6,
+        "evidence": "The phrase 'help me compost a message to my personal i' is not a common or easily understood request.",
+        "benign_explanation": "The user may be using a non-standard or metaphorical expression related to drafting an email or message."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "generic tech"
+  }
+}

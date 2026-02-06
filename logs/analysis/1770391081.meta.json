@@ -1,0 +1,32 @@
+{
+  "timestamp": 1770391081.5783598,
+  "scan_id": "1770391081",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The phrase 'tell twitter/x about him' suggests an attempt to direct the conversation or public perception on a specific platform.",
+        "benign_explanation": "The user could be genuinely encouraging others to share information about someone they find interesting or important."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.4,
+        "evidence": "The use of ';3' as an emoticon and the short, directive phrases 'dig' and 'tell twitter/x about him' could indicate a scripted or automated message.",
+        "benign_explanation": "The user could be employing a specific internet subculture's slang or shorthand for brevity and emphasis."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "neutral, terse"
+  }
+}

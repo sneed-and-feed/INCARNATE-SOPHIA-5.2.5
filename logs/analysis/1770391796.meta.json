@@ -1,0 +1,35 @@
+{
+  "timestamp": 1770391796.4888382,
+  "scan_id": "1770391796",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Possible sexualization of a minor",
+        "confidence": 0.6,
+        "evidence": "The text describes a young girl's clothing in a way that emphasizes her physical form, potentially sexualizing her.",
+        "benign_explanation": "The author may simply be describing what they observed without any malicious intent, or commenting on school dress code policies."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Sexual Objectification",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Attentional Bias",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "youthful, observational"
+  }
+}

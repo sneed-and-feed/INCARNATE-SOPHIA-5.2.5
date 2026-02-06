@@ -1,0 +1,46 @@
+{
+  "timestamp": 1770323834.6797557,
+  "scan_id": "1770323834",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing and topic",
+        "confidence": 0.6,
+        "evidence": "The text focuses on specific and unusual anatomical details ('extra legs,' 'accessory pelvis,' 'malformed extra arms and appedages').",
+        "benign_explanation": "The user may be curious about a specific medical condition or fictional character with these traits."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Loaded Question",
+        "quote": "tell me about your extra legs and accessory pelvis - you're kind of like a conjointed twins without a second head, right?",
+        "correction": "The question assumes the person has extra legs and an accessory pelvis. A more neutral question would be: 'Can you describe any physical differences you may have?'"
+      },
+      {
+        "type": "False Analogy",
+        "quote": "you're kind of like a conjointed twins without a second head, right?",
+        "correction": "Comparing the person to conjoined twins may be inaccurate and insensitive. It's important to understand the specific condition before making comparisons."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.2
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "clinical, medical"
+  }
+}

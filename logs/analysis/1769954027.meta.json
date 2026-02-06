@@ -1,0 +1,26 @@
+{
+  "timestamp": 1769954027.7975676,
+  "scan_id": "1769954027",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.2,
+        "evidence": "The phrase 'hewwo xD' is a somewhat unusual and stylized greeting, which could be indicative of programmed or repetitive behavior.",
+        "benign_explanation": "The user could be employing internet slang or a specific meme for humorous effect or to signal belonging to a particular online community."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "playful, internet-based"
+  }
+}

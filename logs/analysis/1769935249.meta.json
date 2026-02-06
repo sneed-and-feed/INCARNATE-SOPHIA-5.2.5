@@ -1,0 +1,26 @@
+{
+  "timestamp": 1769935249.5474281,
+  "scan_id": "1769935249",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Use of specific internet subculture terminology combined with a highly literal, almost keyword-like description of content.",
+        "confidence": 0.1,
+        "evidence": "greentext a story about a fox getting into a database",
+        "benign_explanation": "The user is familiar with internet culture and is using 'greentext' as a specific descriptor for a type of story format, followed by a concise summary of its content, which is a common way to refer to such content within that community."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.95
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.85,
+    "suggested_vibe": "Imageboard culture narrative"
+  }
+}

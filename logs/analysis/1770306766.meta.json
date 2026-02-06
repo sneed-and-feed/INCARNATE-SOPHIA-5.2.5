@@ -1,0 +1,32 @@
+{
+  "timestamp": 1770306766.0022767,
+  "scan_id": "1770306766",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Promotion of specific streamer",
+        "confidence": 0.6,
+        "evidence": "Directly names and promotes a specific streamer ('fz frost') on a platform ('youtube live').",
+        "benign_explanation": "A fan is sharing a streamer they enjoy."
+      },
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.4,
+        "evidence": "The use of ';3' as an emoticon is slightly less common and could be part of a coordinated signal.",
+        "benign_explanation": "The user is using an emoticon they like."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "gamer/internet culture"
+  }
+}

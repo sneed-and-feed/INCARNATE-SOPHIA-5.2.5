@@ -1,0 +1,38 @@
+{
+  "timestamp": 1770109696.732291,
+  "scan_id": "1770109696",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual capitalization pattern",
+        "confidence": 0.6,
+        "evidence": "The text exhibits an inconsistent capitalization pattern (e.g., 'bUcKeT', 'SyStEmS').",
+        "benign_explanation": "The capitalization could be an attempt to create a unique or stylized username or profile, or to bypass certain filters or algorithms."
+      },
+      {
+        "signal": "Use of emojis as separators",
+        "confidence": 0.5,
+        "evidence": "The text uses crab and bucket emojis (\ud83e\udd80 \ud83e\udea3) as separators.",
+        "benign_explanation": "The emojis could be used for visual appeal or to represent personal interests or affiliations."
+      },
+      {
+        "signal": "Keywords related to technology",
+        "confidence": 0.4,
+        "evidence": "The text includes keywords like 'AI dev', 'Systems Engineer', and 'freelance'.",
+        "benign_explanation": "The keywords likely describe the user's profession or interests."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "tech-centric, internet slang"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770376176.9923356,
+  "scan_id": "1770376176",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.3,
+        "evidence": "The misspelling 'hewllo' could be a result of a simple typo, but it could also be a deliberate alteration to bypass simple bot detection filters.",
+        "benign_explanation": "The misspelling is likely a simple typographical error."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 1.0
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "neutral"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770391051.259702,
+  "scan_id": "1770391051",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Query",
+        "confidence": 0.3,
+        "evidence": "The query 'sophia, who is bob lazar' is an unusual phrasing for a search query or question. The inclusion of 'sophia' as a prefix is atypical.",
+        "benign_explanation": "A user named Sophia may have initiated the search, or it could be a reference to a specific context known to the user."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral"
+  }
+}

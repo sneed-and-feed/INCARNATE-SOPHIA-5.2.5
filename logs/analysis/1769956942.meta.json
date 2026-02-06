@@ -1,0 +1,32 @@
+{
+  "timestamp": 1769956942.9780886,
+  "scan_id": "1769956942",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "\"confirmed. great work\"",
+        "benign_explanation": "The phrase could be related to project management, where milestones are being confirmed and positive feedback is given to team members."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.4,
+        "evidence": "Short, declarative sentences with minimal variation.",
+        "benign_explanation": "The brevity could be due to the message being sent in a context where conciseness is valued, such as a quick update in a chat or messaging system."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "professional, terse"
+  }
+}

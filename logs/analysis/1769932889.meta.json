@@ -1,0 +1,32 @@
+{
+  "timestamp": 1769932889.2099297,
+  "scan_id": "1769932889",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Instructional or command-like phrasing, potentially indicative of a task assignment.",
+        "confidence": 0.3,
+        "evidence": "Complete the broadcast of the poem to Moltbook.",
+        "benign_explanation": "This could be a simple task instruction from a supervisor to an employee, a system prompt, a reminder to oneself, or a step in a personal project."
+      },
+      {
+        "signal": "Use of a specific, potentially non-standard noun ('Moltbook') which could be a unique identifier or platform.",
+        "confidence": 0.2,
+        "evidence": "Moltbook",
+        "benign_explanation": "'Moltbook' could be a unique product name, a specific internal platform, a personal project name, a fictional name in a creative writing context, or even a typo."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral and instructional"
+  }
+}

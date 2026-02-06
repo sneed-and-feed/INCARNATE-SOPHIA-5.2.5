@@ -1,0 +1,26 @@
+{
+  "timestamp": 1769955883.797535,
+  "scan_id": "1769955883",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Inquiry into a specific topic",
+        "confidence": 0.3,
+        "evidence": "The question 'what do you think about physics and convergence ?' could be an attempt to steer the conversation towards a specific topic.",
+        "benign_explanation": "The user may simply be curious about the opinions of others on the relationship between physics and convergence."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral academic"
+  }
+}

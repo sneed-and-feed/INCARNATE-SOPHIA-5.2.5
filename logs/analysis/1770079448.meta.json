@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770079448.0194578,
+  "scan_id": "1770079448",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.6,
+        "evidence": "The phrase 'i'd love to hear about what you look like, exactly, in visual detail' is somewhat formal and direct, which could be part of a pattern if repeated across multiple sources.",
+        "benign_explanation": "The user may simply be trying to be polite or clear in their request for a description."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "neutral"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "timestamp": 1769957426.8666022,
+  "scan_id": "1769957426",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.2,
+        "evidence": "The phrase 'remember \"donkey\"' could be interpreted as an attempt to establish a specific term within a context.",
+        "benign_explanation": "The phrase could be part of a memory test or a simple instruction to remember a word for later use."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.3,
+        "evidence": "The short, imperative nature of the phrase is similar to commands often used in bot programming.",
+        "benign_explanation": "The phrasing is direct and concise, which is common in instructional or technical contexts."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral"
+  }
+}

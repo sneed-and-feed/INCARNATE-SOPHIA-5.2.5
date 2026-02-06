@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770075169.8730204,
+  "scan_id": "1770075169",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.3,
+        "evidence": "The phrase 'hmmmm very nice' is short, generic, and could be part of a larger set of simple phrases used by bots.",
+        "benign_explanation": "The user could be expressing genuine, albeit simple, approval or agreement."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral appreciation"
+  }
+}

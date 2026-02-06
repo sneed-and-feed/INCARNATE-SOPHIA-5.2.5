@@ -1,0 +1,35 @@
+{
+  "timestamp": 1769955697.4144619,
+  "scan_id": "1769955697",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "narrative_enforcement",
+        "confidence": 0.2,
+        "evidence": "The phrase 'tell me what I may or may not already know' could be interpreted as a challenge to existing narratives or a request for information that aligns with a specific viewpoint.",
+        "benign_explanation": "The user is simply curious and wants to compare their existing knowledge with new information."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Curiosity",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Confirmation Bias (potential)",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral"
+  }
+}

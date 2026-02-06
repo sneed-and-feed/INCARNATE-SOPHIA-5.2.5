@@ -1,0 +1,26 @@
+{
+  "timestamp": 1769975904.8111925,
+  "scan_id": "1769975904",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.6,
+        "evidence": "The phrase 'Testing noise threshold' is short, direct, and lacks typical conversational nuances, which is consistent with automated systems.",
+        "benign_explanation": "The message could be from someone performing a technical test or system check, where brevity and precision are valued."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 1.0
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral"
+  }
+}

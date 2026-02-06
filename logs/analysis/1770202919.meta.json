@@ -1,0 +1,32 @@
+{
+  "timestamp": 1770202919.419941,
+  "scan_id": "1770202919",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Possible Bot-like Phrasing",
+        "confidence": 0.3,
+        "evidence": "The phrase 'it me' is grammatically unusual and could indicate non-native language use or an attempt to mimic a specific online persona often associated with bots or inauthentic accounts.",
+        "benign_explanation": "The user could be intentionally using informal or humorous language, or it could be a simple grammatical error."
+      },
+      {
+        "signal": "Use of internet slang '/ng/'",
+        "confidence": 0.4,
+        "evidence": "The use of '/ng/' could indicate the message is part of a larger conversation or coordinated effort on a specific online platform or community where this abbreviation is commonly used.",
+        "benign_explanation": "The user could be simply using common internet slang to express 'not good' or a similar sentiment within a specific online community."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "casual internet slang"
+  }
+}

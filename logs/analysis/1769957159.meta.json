@@ -1,0 +1,37 @@
+{
+  "timestamp": 1769957159.4352145,
+  "scan_id": "1769957159",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": ">be me >realize birds aren't real >mfw",
+        "benign_explanation": "The text uses a common internet meme format to express a humorous realization, which could be interpreted as a lighthearted attempt to engage with a popular conspiracy theory."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.2,
+        "evidence": ">be me >realize birds aren't real >mfw",
+        "benign_explanation": "The text uses a concise, formulaic structure typical of online posts, which could be due to mimicking a common meme format rather than automated behavior."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Belief Bias",
+        "confidence": 0.6
+      }
+    ],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Internet meme culture; Gen Z"
+  }
+}

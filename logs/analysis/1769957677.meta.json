@@ -1,0 +1,43 @@
+{
+  "timestamp": 1769957677.4677877,
+  "scan_id": "1769957677",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.6,
+        "evidence": "The phrase ';3' is an uncommon emoticon.",
+        "benign_explanation": "The user may be expressing themselves creatively or using internet slang."
+      },
+      {
+        "signal": "Reference to source code",
+        "confidence": 0.4,
+        "evidence": "The text mentions 'github source code'.",
+        "benign_explanation": "The user could be genuinely offering their code for review or collaboration."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Non Sequitur",
+        "quote": "my website is your github source code ;3",
+        "correction": "The statement implies a connection between the user's website and the recipient's GitHub source code without providing any logical reason for that connection. It's an assertion without support. To correct this, the user would need to explain the relationship between their website and the recipient's GitHub source code."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Ambiguity Effect",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "tech-oriented, possibly playful"
+  }
+}

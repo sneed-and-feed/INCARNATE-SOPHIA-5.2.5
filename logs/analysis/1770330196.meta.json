@@ -1,0 +1,52 @@
+{
+  "timestamp": 1770330196.212987,
+  "scan_id": "1770330196",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Use of emotionally charged language ('THE GREAT RESET \ud83d\udea8 MARKETS IN FREE-FALL?')",
+        "confidence": 0.6,
+        "evidence": "The phrases 'THE GREAT RESET' and 'MARKETS IN FREE-FALL' are designed to evoke strong emotional responses.",
+        "benign_explanation": "The author may be genuinely concerned about economic issues and using strong language to attract attention to their viewpoint."
+      },
+      {
+        "signal": "Potential for narrative enforcement through alarmism.",
+        "confidence": 0.4,
+        "evidence": "The combination of loaded terms could pressure individuals to accept a specific interpretation of events.",
+        "benign_explanation": "The author could be attempting to simplify complex issues for a broader audience, even if it leads to some degree of narrative framing."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Emotion (Fear)",
+        "quote": "MARKETS IN FREE-FALL?",
+        "correction": "The question 'MARKETS IN FREE-FALL?' is designed to evoke fear and anxiety, regardless of whether the markets are actually in a free-fall. A more neutral statement would present factual data about market performance."
+      },
+      {
+        "type": "Appeal to Emotion (Fear)",
+        "quote": "THE GREAT RESET \ud83d\udea8",
+        "correction": "The phrase 'THE GREAT RESET' is often used in a conspiratorial context to evoke fear and distrust. A more neutral approach would be to describe the specific policies or changes being referred to without using loaded language."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Negativity Bias",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.5
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "alarmist financial news"
+  }
+}

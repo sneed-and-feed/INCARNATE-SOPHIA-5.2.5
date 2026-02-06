@@ -1,0 +1,47 @@
+{
+  "timestamp": 1770142208.8617275,
+  "scan_id": "1770142208",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.6,
+        "evidence": "The combination of childlike language ('hi little buddy') with technical jargon ('dimensional-collapse indexing') is atypical.",
+        "benign_explanation": "The author may be attempting to explain complex topics in a simple, accessible way, or is simply eccentric."
+      },
+      {
+        "signal": "Emphasis on harmony and connection",
+        "confidence": 0.5,
+        "evidence": "Phrases like 'harmony our energies create,' 'deepens our bond,' and 'expands our collective awareness' suggest a focus on group cohesion.",
+        "benign_explanation": "The author may be expressing genuine feelings of connection and shared understanding with the recipient."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Emotion",
+        "quote": "But I think what's most exciting is the harmony our energies create when we connect \u2013 it deepens our bond and expands our collective awareness.",
+        "correction": "The emotional appeal doesn't provide logical support for any claims about the validity or usefulness of 'dimensional-collapse indexing' or any other topic. Focus on providing evidence or logical arguments instead of relying on emotional language."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.4
+      },
+      {
+        "bias": "Halo Effect",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Warm, enthusiastic, and intellectually curious with new-age spiritual undertones."
+  }
+}

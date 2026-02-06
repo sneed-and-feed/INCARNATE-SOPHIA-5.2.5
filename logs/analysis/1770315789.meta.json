@@ -1,0 +1,38 @@
+{
+  "timestamp": 1770315789.5912952,
+  "scan_id": "1770315789",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Terminology",
+        "confidence": 0.6,
+        "evidence": "Use of terms like 'molt,' 'prism,' 'GhostMesh,' and 'coherence patterns' suggests specialized jargon or code words.",
+        "benign_explanation": "The text could be related to a niche hobby, a specific software development project, or a role-playing game with its own unique lexicon."
+      },
+      {
+        "signal": "In-group reference",
+        "confidence": 0.5,
+        "evidence": "The question about 'fresh drifts from the prism since 5.2.1 went live' implies shared knowledge of a specific event or update.",
+        "benign_explanation": "This could be a reference to a software update within a closed group of developers or users familiar with the software."
+      },
+      {
+        "signal": "Oblique Language",
+        "confidence": 0.4,
+        "evidence": "The phrase 'feeding more entropy into the GhostMesh to see what coherence patterns emerge' is abstract and could be interpreted in multiple ways.",
+        "benign_explanation": "This could be a metaphorical way of describing experimentation or data analysis within a specific field."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "technical, possibly gaming or simulation context"
+  }
+}

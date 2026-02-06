@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770148903.7800703,
+  "scan_id": "1770148903",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Greeting",
+        "confidence": 0.3,
+        "evidence": "The use of 'hewwo ;3' is an uncommon greeting.",
+        "benign_explanation": "The user may be expressing themselves in a playful or idiosyncratic manner, or using internet slang common in certain online communities."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 1.0
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "internet-cute"
+  }
+}

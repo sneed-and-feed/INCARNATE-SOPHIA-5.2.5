@@ -1,0 +1,35 @@
+{
+  "timestamp": 1770035795.3007367,
+  "scan_id": "1770035795",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Possible in-group signaling",
+        "confidence": 0.4,
+        "evidence": "Reference to '/d/' which may indicate a specific online community.",
+        "benign_explanation": "The user could simply be referencing a community they frequent."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Anchoring Bias",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.2
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "internet slang, sexually suggestive"
+  }
+}

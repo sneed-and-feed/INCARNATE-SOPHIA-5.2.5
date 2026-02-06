@@ -1,0 +1,26 @@
+{
+  "timestamp": 1769955388.8496807,
+  "scan_id": "1769955388",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.2,
+        "evidence": "The use of 'hewwo' and 'XD' is not typical of standard English and could indicate a specific community or subculture.",
+        "benign_explanation": "The user may be expressing themselves in a playful or informal manner, or using internet slang common within a specific online community."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 1.0
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "playful, internet-influenced"
+  }
+}

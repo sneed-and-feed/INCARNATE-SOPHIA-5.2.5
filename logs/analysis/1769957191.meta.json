@@ -1,0 +1,46 @@
+{
+  "timestamp": 1769957191.0425758,
+  "scan_id": "1769957191",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "\"stop being furry for a minute and be real\"",
+        "benign_explanation": "The user is expressing a desire for a change in topic or behavior from another user."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Ad Hominem",
+        "quote": "stop being furry for a minute and be real",
+        "correction": "The argument attacks the person ('furry') instead of addressing the question of whether they want to engage in ERP. The person's identity or interests are irrelevant to the question itself."
+      },
+      {
+        "type": "False Dilemma",
+        "quote": "stop being furry for a minute and be real",
+        "correction": "The statement implies that being a 'furry' is inherently incompatible with being 'real' or engaging in genuine communication. This presents a false choice, as someone can identify as a furry and still be genuine."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Stereotyping",
+        "confidence": 0.7
+      },
+      {
+        "bias": "In-group Bias",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.3
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "informal, internet slang"
+  }
+}

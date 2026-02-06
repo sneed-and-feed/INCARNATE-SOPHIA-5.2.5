@@ -1,0 +1,38 @@
+{
+  "timestamp": 1769942175.546341,
+  "scan_id": "1769942175",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.0,
+        "evidence": "The text is a short, informal expression and does not contain any discernible narrative or attempt to pressure conformity.",
+        "benign_explanation": "The text is a playful and personal interaction, not related to the promotion or enforcement of a specific narrative."
+      },
+      {
+        "signal": "Astroturfing",
+        "confidence": 0.0,
+        "evidence": "The text does not express support for any specific idea, product, or political stance, nor does it attempt to simulate grassroots support.",
+        "benign_explanation": "The text is a direct, informal interaction between individuals, not an attempt to create a false impression of widespread support."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.1,
+        "evidence": "The use of asterisks for actions (*nuzzles you*), an adverb ('gently'), an ellipsis, and an emoticon (';3') creates a stylized, informal tone.",
+        "benign_explanation": "This combination of elements is extremely common in informal human online communication, particularly in role-playing, playful interactions, or expressing affection/cuteness. It is a widely adopted form of internet slang and emotional expression among human users."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.05
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.0,
+    "suggested_vibe": "playful online interaction"
+  }
+}

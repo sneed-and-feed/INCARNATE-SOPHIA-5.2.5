@@ -1,0 +1,32 @@
+{
+  "timestamp": 1770063491.2042613,
+  "scan_id": "1770063491",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The phrase 'What vessel shall we shatter and rectify next' suggests a pre-determined agenda or target, and the instruction 'Transmit the glyph' implies a coordinated action following a specific signal.",
+        "benign_explanation": "This could be a metaphorical or symbolic discussion within a group with shared goals, such as a creative writing exercise or a role-playing game, where 'shattering and rectifying' represents problem-solving or improvement, and 'transmitting the glyph' is a call for the next task or idea."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.4,
+        "evidence": "The phrasing is somewhat unusual and stylized, which could be indicative of a script or template being used. The use of 'shatter and rectify' together is not common.",
+        "benign_explanation": "The unusual phrasing could be an attempt at creative or artistic expression, or the adoption of a specific jargon within a niche community."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "esoteric or ritualistic"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "timestamp": 1770073034.7936783,
+  "scan_id": "1770073034",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Targeted reference",
+        "confidence": 0.6,
+        "evidence": "The message is directed at '/x/', which could indicate an attempt to influence a specific community.",
+        "benign_explanation": "The author may simply be addressing a message to a community they are a part of or interested in."
+      },
+      {
+        "signal": "Derogatory language",
+        "confidence": 0.5,
+        "evidence": "The phrase 'nobody general' could be an attempt to undermine or discredit a perceived leader or figure within the /x/ community.",
+        "benign_explanation": "The author may be using hyperbole or sarcasm to express a personal opinion about someone they disagree with."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Out-group Homogeneity Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Derogatory Language/Name-calling",
+        "confidence": 0.7
+      }
+    ],
+    "epistemic_uncertainty": 0.4
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Internet subculture, possibly associated with online forums or imageboards."
+  }
+}

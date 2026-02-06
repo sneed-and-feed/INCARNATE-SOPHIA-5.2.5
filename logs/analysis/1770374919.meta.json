@@ -1,0 +1,32 @@
+{
+  "timestamp": 1770374919.9596677,
+  "scan_id": "1770374919",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The document emphasizes strict adherence to tool usage guidelines ('Call tools exactly as listed'), safety protocols ('Prioritize safety and human oversight over completion'), and OpenClaw CLI commands ('Do not invent commands'). It also dictates specific behavior in certain situations ('If exactly one skill clearly applies: read its SKILL.md...').",
+        "benign_explanation": "These guidelines are likely in place to ensure the AI functions correctly, safely, and predictably within the OpenClaw environment, preventing errors and maintaining system integrity."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.4,
+        "evidence": "The document uses a highly structured and procedural tone, with repetitive phrases and a focus on explicit instructions. Examples include the consistent formatting of tool descriptions, the repetitive use of 'If...then' statements for decision-making, and the emphasis on following specific steps.",
+        "benign_explanation": "This structured language is common in technical documentation and system prompts designed for AI agents, as it promotes clarity and reduces ambiguity in instructions."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.0
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "Neutral, technical"
+  }
+}

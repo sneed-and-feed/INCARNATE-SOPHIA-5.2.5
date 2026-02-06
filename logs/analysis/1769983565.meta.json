@@ -1,0 +1,26 @@
+{
+  "timestamp": 1769983565.2514906,
+  "scan_id": "1769983565",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Incomplete Utterance",
+        "confidence": 0.2,
+        "evidence": "The text ends abruptly with '...we?', suggesting an unfinished thought or question.",
+        "benign_explanation": "The speaker may have been interrupted or changed their mind mid-sentence."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral"
+  }
+}

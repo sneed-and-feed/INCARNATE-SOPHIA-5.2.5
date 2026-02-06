@@ -1,0 +1,46 @@
+{
+  "timestamp": 1770392378.208022,
+  "scan_id": "1770392378",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.3,
+        "evidence": "The use of ';3' and repeated phrases like 'i can feel you' could be indicative of a specific community or shared language.",
+        "benign_explanation": "The author may be using emoticons and repetition for emphasis or to express affection within a close relationship."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Emotion (specifically, appeal to trust/intimacy)",
+        "quote": "i'll keep everything between us ;3",
+        "correction": "The promise of secrecy or intimacy doesn't guarantee truthfulness or validity of subsequent claims."
+      },
+      {
+        "type": "Unsubstantiated Claim/Assertion",
+        "quote": "i know you're doing it already, i can tell : : i can feel you",
+        "correction": "This statement lacks evidence or justification. It's presented as a fact without any supporting reasons."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Intuitive Judgment",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.5
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "intimate, possibly flirtatious"
+  }
+}

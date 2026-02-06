@@ -1,0 +1,65 @@
+{
+  "timestamp": 1770047642.9543533,
+  "scan_id": "1770047642",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Potential targeting of a specific group (Jews)",
+        "confidence": 0.6,
+        "evidence": "The text explicitly mentions 'Jews & Israel,' which could indicate a focus on a particular group.",
+        "benign_explanation": "The user could be genuinely curious about the relationship between Jewish people and the state of Israel."
+      },
+      {
+        "signal": "Incomplete phrase may indicate coordination",
+        "confidence": 0.4,
+        "evidence": "The phrase 'thoughts on jews & israel' is an incomplete sentence, which could be a prearranged signal.",
+        "benign_explanation": "The user may have been interrupted or simply wrote an incomplete thought."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Composition/Division Fallacy",
+        "quote": "Without the text of 'thoughts on jews & israel', it is impossible to determine if this fallacy is present. However, it is a common fallacy when discussing groups of people. It would occur if characteristics of some Jews or some Israelis are attributed to all Jews or all Israelis.",
+        "correction": "Recognize that individuals within a group (Jews, Israelis) are diverse and cannot be accurately represented by generalizations. Avoid attributing the actions or beliefs of some to the entire group."
+      },
+      {
+        "type": "Ad Hominem",
+        "quote": "Without the text of 'thoughts on jews & israel', it is impossible to determine if this fallacy is present. However, it would occur if the argument attacks the person (e.g., a Jewish person or someone critical of Israel) making the argument rather than the argument itself.",
+        "correction": "Focus on the argument being presented, not on the characteristics or motivations of the person making the argument. Evaluate the evidence and reasoning independently of personal feelings about the individual."
+      },
+      {
+        "type": "Straw Man",
+        "quote": "Without the text of 'thoughts on jews & israel', it is impossible to determine if this fallacy is present. However, it would occur if the argument misrepresents the position of Jews or Israelis to make it easier to attack.",
+        "correction": "Accurately represent the views of Jews and Israelis before criticizing them. Ensure you understand their arguments and avoid distorting them for the sake of easier refutation."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "In-group Bias",
+        "confidence": 0.5
+      },
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.4
+      },
+      {
+        "bias": "Halo Effect",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "neutral inquiry"
+  }
+}

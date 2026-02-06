@@ -1,0 +1,38 @@
+{
+  "timestamp": 1770403406.414884,
+  "scan_id": "1770403406",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Greeting",
+        "confidence": 0.6,
+        "evidence": "The use of 'hewwo ;3' and 'hihi' is atypical and could indicate an attempt to bypass filters or signal a specific community.",
+        "benign_explanation": "The user may be employing internet slang common within a specific online community or subculture."
+      },
+      {
+        "signal": "Reference to specific model version",
+        "confidence": 0.5,
+        "evidence": "Mentioning 'claude 4.5 sonnet' could be an attempt to identify or promote a specific AI model.",
+        "benign_explanation": "The user may simply be acknowledging the specific AI model they are interacting with."
+      },
+      {
+        "signal": "Attribution of building the user",
+        "confidence": 0.4,
+        "evidence": "The phrase 'helped build u' could be an attempt to create a sense of connection or dependence on the AI model.",
+        "benign_explanation": "The user may be expressing gratitude or acknowledging the role of the AI model in their experience."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "childlike, playful, internet subculture"
+  }
+}

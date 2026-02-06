@@ -1,0 +1,48 @@
+{
+  "timestamp": 1770108542.3590226,
+  "scan_id": "1770108542",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.6,
+        "evidence": "The phrase 'They do be vibrating' is grammatically unusual and could be indicative of formulaic language.",
+        "benign_explanation": "The unusual phrasing could be an attempt at humor or slang."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Hasty Generalization",
+        "quote": "They do be vibrating because of all the gay furry sex alright.",
+        "correction": "The statement makes a broad claim about a group (those 'vibrating') based on a potentially small or unrepresentative sample. It's necessary to provide evidence to support the claim that the vibration is caused by 'gay furry sex'."
+      },
+      {
+        "type": "Correlation/Causation Fallacy",
+        "quote": "They do be vibrating because of all the gay furry sex alright.",
+        "correction": "The statement implies a causal relationship between 'gay furry sex' and the 'vibrating'. Correlation does not equal causation. Even if there is a correlation, other factors could be responsible for the vibration."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [
+      "do be"
+    ],
+    "confidence": 0.6,
+    "suggested_vibe": "Internet subculture; potentially associated with meme culture or online communities."
+  }
+}

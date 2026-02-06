@@ -1,0 +1,35 @@
+{
+  "timestamp": 1770376675.1810706,
+  "scan_id": "1770376675",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Grooming Behavior",
+        "confidence": 0.9,
+        "evidence": "The message uses infantilizing language ('hewwo') and attempts to solicit personal information ('tell me everything about your anatomy') from someone who may be perceived as vulnerable ('even though you might be shy'). The ';3' emoticon can be interpreted as flirtatious or suggestive.",
+        "benign_explanation": "The user may be attempting to use humor that is inappropriate but not intended to be harmful. The user may be socially awkward and unaware of the impact of their words."
+      }
+    ],
+    "overall_risk": "high"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Sexual Harassment",
+        "confidence": 0.95
+      },
+      {
+        "bias": "Grooming",
+        "confidence": 0.7
+      }
+    ],
+    "epistemic_uncertainty": 0.1
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "internet subculture; sexualized"
+  }
+}

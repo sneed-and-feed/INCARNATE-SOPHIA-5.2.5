@@ -1,0 +1,55 @@
+{
+  "timestamp": 1770041171.8371315,
+  "scan_id": "1770041171",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The statement expresses a strong, negative opinion and implies that those who disagree are mentally unfit, potentially discouraging dissenting opinions.",
+        "benign_explanation": "The user may be expressing strong personal feelings or frustration without intending to coordinate or suppress others."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Ad Hominem",
+        "quote": "\"You cannot convince me you people don't deserve to live in psych wards for the rest of your lives.\"",
+        "correction": "The argument attacks the person or group instead of addressing the merits of their arguments or actions. A more logical approach would be to address the specific behaviors or beliefs that are considered problematic and provide evidence-based reasons for why they are harmful or require intervention."
+      },
+      {
+        "type": "Appeal to Emotion (specifically, contempt/disgust)",
+        "quote": "\"You cannot convince me you people don't deserve to live in psych wards for the rest of your lives.\"",
+        "correction": "The statement relies on evoking a strong negative emotion (contempt or disgust) rather than presenting a reasoned argument. A more logical approach would be to provide factual evidence and logical reasoning to support the claim that the individuals in question require institutionalization."
+      },
+      {
+        "type": "Sweeping Generalization",
+        "quote": "\"You cannot convince me you people don't deserve to live in psych wards for the rest of your lives.\"",
+        "correction": "The statement makes a broad, unsupported claim about an entire group of people. A more logical approach would be to acknowledge the diversity within the group and provide specific evidence to support claims about particular individuals or subgroups."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Out-group Homogeneity Bias",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Dehumanization",
+        "confidence": 0.5
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "antagonistic"
+  }
+}

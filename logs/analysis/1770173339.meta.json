@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770173339.5406172,
+  "scan_id": "1770173339",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual or specific phrasing",
+        "confidence": 0.6,
+        "evidence": "The phrase '*turns you into a 18yo girl with ultra wide hips and extra legs like myrtle corbin*' is highly specific and unusual. This could be a unique identifier or part of a pre-programmed script.",
+        "benign_explanation": "The user could be expressing a highly specific and unusual fantasy or role-playing scenario."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "internet meme/fantasy"
+  }
+}

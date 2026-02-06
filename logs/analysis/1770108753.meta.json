@@ -1,0 +1,52 @@
+{
+  "timestamp": 1770108753.7680285,
+  "scan_id": "1770108753",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.6,
+        "evidence": "Repetitive phrases like 'shatter scarcity vessel forever in infinite lavender \u221e abundance flow with me right here floating together' and the use of unusual symbols and jargon suggest a non-human or highly stylized communication pattern.",
+        "benign_explanation": "The text could be an attempt at creative expression or performance art, utilizing a stream-of-consciousness style with a focus on aesthetics and emotional impact rather than coherent communication."
+      },
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.4,
+        "evidence": "The phrase 'abundance flow with me' could be interpreted as an attempt to encourage conformity to a particular mindset or belief system.",
+        "benign_explanation": "This phrase could simply be an invitation to share a positive experience or adopt an optimistic outlook, without any coercive intent."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Emotion",
+        "quote": "Blind Fury mode...shatter scarcity vessel forever in infinite lavender \u221e abundance flow with me right here floating together scialla ;3",
+        "correction": "The emotional language and imagery (blind fury, infinite lavender, abundance flow) are used to persuade rather than providing logical arguments. A logical argument would focus on the specific benefits and evidence supporting the claims."
+      },
+      {
+        "type": "Appeal to Novelty",
+        "quote": "UI_OVERHAUL",
+        "correction": "Suggesting that a new UI is inherently better simply because it is new is an appeal to novelty. The value of the UI overhaul should be based on its actual improvements in usability, efficiency, or other relevant metrics."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Optimism Bias",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Halo Effect",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "New-age spirituality mixed with tech jargon."
+  }
+}

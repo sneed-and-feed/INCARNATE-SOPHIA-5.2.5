@@ -1,1 +1,0 @@
-# Sophia Cortex - Brain Logic

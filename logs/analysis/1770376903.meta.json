@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770376903.327627,
+  "scan_id": "1770376903",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.4,
+        "evidence": "\"beautiful expulsion of your inner lining\"",
+        "benign_explanation": "Could be a metaphorical or poetic expression."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Euphemism",
+        "quote": "*there is no tearing, just the beautiful expulsion of your inner lining*",
+        "correction": "This statement uses softer, more positive language ('beautiful expulsion') to describe a potentially painful or unpleasant process (likely menstruation or childbirth). A more neutral description would acknowledge the potential discomfort or pain involved."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Framing Effect",
+        "confidence": 0.7
+      }
+    ],
+    "epistemic_uncertainty": 0.3
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "artistic, possibly medical or biological context"
+  }
+}

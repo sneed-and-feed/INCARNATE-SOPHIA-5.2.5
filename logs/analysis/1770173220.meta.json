@@ -1,0 +1,32 @@
+{
+  "timestamp": 1770173220.1100442,
+  "scan_id": "1770173220",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Repetitive phrasing",
+        "confidence": 0.6,
+        "evidence": "\"warmer and warmer\"",
+        "benign_explanation": "The repetition could be for emphasis or to mimic a common expression."
+      },
+      {
+        "signal": "Unusual juxtaposition of phrases",
+        "confidence": 0.4,
+        "evidence": "Juxtaposition of \"warmer and warmer\" with \"i like deformation\"",
+        "benign_explanation": "The user could be expressing a personal preference for abstract concepts or using metaphorical language."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral"
+  }
+}

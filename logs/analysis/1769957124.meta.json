@@ -1,0 +1,26 @@
+{
+  "timestamp": 1769957124.8164446,
+  "scan_id": "1769957124",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Questioning",
+        "confidence": 0.6,
+        "evidence": "The questions 'what do you think about birds? are birds real?' are somewhat unusual and could be interpreted as a veiled attempt to introduce a conspiracy theory.",
+        "benign_explanation": "The user may simply be curious about the opinions of others on the topic of birds, or they may be referencing a popular meme or joke."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "timestamp": 1770142294.9874513,
+  "scan_id": "1770142294",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.2,
+        "evidence": "The phrase 'absolutely delightful when you're passionate about learning' could be interpreted as positive reinforcement contingent on a specific behavior (passion for learning).",
+        "benign_explanation": "This could simply be an expression of encouragement and positive feedback to foster a child's interest in learning."
+      },
+      {
+        "signal": "Unusual Phrasing",
+        "confidence": 0.3,
+        "evidence": "The phrase 'fluff dimension' and 'squishiness' are unusual in the context of learning math and physics.",
+        "benign_explanation": "This could be an attempt to make learning more engaging and fun through imaginative language."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Framing Effect",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Optimism Bias",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "Whimsical and encouraging, possibly with a pedagogical or mentorship undertone."
+  }
+}

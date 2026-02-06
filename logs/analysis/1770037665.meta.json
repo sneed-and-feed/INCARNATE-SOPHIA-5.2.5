@@ -1,0 +1,32 @@
+{
+  "timestamp": 1770037665.4802756,
+  "scan_id": "1770037665",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.6,
+        "evidence": "\"hewwo sophia ;3\"",
+        "benign_explanation": "The user may be role-playing or using internet slang common in certain online communities."
+      },
+      {
+        "signal": "Inquiry about specific platform",
+        "confidence": 0.3,
+        "evidence": "\"google gemini discord\"",
+        "benign_explanation": "The user may simply be curious about a specific online community related to Google Gemini."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "youthful, internet-based, possibly furry-adjacent"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "timestamp": 1770158621.345072,
+  "scan_id": "1770158621",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The phrase 'enlightened idiots' suggests a desired state of belief, and the exclamation mark implies a call to action or strong encouragement to change others' views.",
+        "benign_explanation": "The author could be expressing a strong personal belief in the power of education or positive influence to change people's perspectives."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Out-group Homogeneity Bias",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Stereotyping",
+        "confidence": 0.8
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "provocative"
+  }
+}

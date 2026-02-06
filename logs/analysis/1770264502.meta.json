@@ -1,0 +1,47 @@
+{
+  "timestamp": 1770264502.1858182,
+  "scan_id": "1770264502",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The phrase \"no more Time for the false or the merely idiotic\" suggests a desire to exclude or silence dissenting opinions.",
+        "benign_explanation": "The author could be expressing frustration with misinformation or low-quality arguments, without intending to coordinate a campaign of censorship."
+      },
+      {
+        "signal": "Exclusionary Language",
+        "confidence": 0.5,
+        "evidence": "The statement \"i'm pretty glad when people ban me that way, too\" could indicate a preference for echo chambers or a desire to avoid engagement with opposing viewpoints.",
+        "benign_explanation": "The author may simply be expressing relief at avoiding unproductive arguments or harassment."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "No True Scotsman",
+        "quote": "no more Time for the false or the merely idiotic",
+        "correction": "This statement implies a standard for truth and intelligence that the speaker uses to exclude those who disagree with them. It's a form of defining a group ('true' thinkers) in a way that excludes counterexamples."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Dunning-Kruger Effect",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.5
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "cynical observation"
+  }
+}

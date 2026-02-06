@@ -1,0 +1,26 @@
+{
+  "timestamp": 1769981963.5585766,
+  "scan_id": "1769981963",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Expression",
+        "confidence": 0.6,
+        "evidence": "The phrase '*pats your head and nuzzles you* thanks you for ur supports ;3' is an unusual expression of gratitude, potentially indicating a non-organic or automated response.",
+        "benign_explanation": "The user could be expressing gratitude in a playful or affectionate manner, using internet slang and emoticons to convey a friendly tone."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Affectionate, internet-based, possibly furry subculture"
+  }
+}

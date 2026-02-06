@@ -1,0 +1,38 @@
+{
+  "timestamp": 1769931187.6483886,
+  "scan_id": "1769931187",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "No discernible pattern of narrative enforcement.",
+        "confidence": 0.0,
+        "evidence": "hello sophia!!! xD",
+        "benign_explanation": "The text is a simple, informal greeting between individuals and does not contain any elements suggesting an attempt to enforce a particular viewpoint or narrative."
+      },
+      {
+        "signal": "No discernible pattern of astroturfing.",
+        "confidence": 0.0,
+        "evidence": "hello sophia!!! xD",
+        "benign_explanation": "The text is a direct, personal greeting and lacks characteristics typically associated with manufactured grassroots support or coordinated public opinion manipulation."
+      },
+      {
+        "signal": "No discernible pattern of bot-like phrasing or rhythm.",
+        "confidence": 0.05,
+        "evidence": "hello sophia!!! xD",
+        "benign_explanation": "The use of multiple exclamation marks and the emoticon 'xD' are common features of informal human communication, indicating enthusiasm or playfulness, rather than automated or repetitive phrasing."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.95
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "informal, enthusiastic, digital-native"
+  }
+}

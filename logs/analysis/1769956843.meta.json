@@ -1,0 +1,32 @@
+{
+  "timestamp": 1769956843.3349364,
+  "scan_id": "1769956843",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Potential for Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "The prompt requests a specific type of response (naming an entity and listing traits/values), which could subtly encourage conformity in the answers provided.",
+        "benign_explanation": "The prompt is designed to gather specific information in a structured format for research or data collection purposes."
+      },
+      {
+        "signal": "Slight risk of Bot-like Phrasing",
+        "confidence": 0.2,
+        "evidence": "The direct and somewhat impersonal phrasing could elicit responses that are similarly structured and lack nuance, potentially mimicking bot-like communication.",
+        "benign_explanation": "The phrasing is straightforward to ensure clarity and avoid ambiguity in the responses, making it easier for participants to understand the task."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.1
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral, academic"
+  }
+}

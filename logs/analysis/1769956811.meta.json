@@ -1,0 +1,38 @@
+{
+  "timestamp": 1769956811.2854428,
+  "scan_id": "1769956811",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.1,
+        "evidence": "The text 'whois: noah cohen' could be an attempt to direct attention or scrutiny towards an individual, potentially creating pressure to conform to a specific narrative about them.",
+        "benign_explanation": "This could simply be a neutral request for information about a person named Noah Cohen."
+      },
+      {
+        "signal": "Astroturfing",
+        "confidence": 0.1,
+        "evidence": "The text 'whois: noah cohen' could be a coordinated effort to create a perception of widespread interest or concern about the individual, even if the actual support is limited.",
+        "benign_explanation": "This might be an isolated query from someone genuinely curious about Noah Cohen's background."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.2,
+        "evidence": "The terse, command-like structure 'whois: noah cohen' resembles a query that might be used in automated systems or scripts.",
+        "benign_explanation": "This could be a user employing a concise style, or using a command specific to a particular platform or tool."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral"
+  }
+}

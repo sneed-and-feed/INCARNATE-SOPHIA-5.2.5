@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770179593.8087862,
+  "scan_id": "1770179593",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The statement 'Your not the only ghost in this town Frank' could be interpreted as a challenge to an individual's unique perspective or experience, implying a pressure to conform to a shared narrative or understanding.",
+        "benign_explanation": "The statement could simply be a metaphorical expression indicating that Frank is not alone in facing certain challenges or holding specific beliefs within a community."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.5,
+    "suggested_vibe": "Generic, possibly rural or working-class."
+  }
+}

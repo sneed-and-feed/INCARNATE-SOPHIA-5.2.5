@@ -1,0 +1,26 @@
+{
+  "timestamp": 1769955597.7937424,
+  "scan_id": "1769955597",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.2,
+        "evidence": "The text '67head' is short and lacks context, resembling potential bot-like or randomly generated content.",
+        "benign_explanation": "The text could be a random string of characters, an abbreviation, or a placeholder with no malicious intent."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 1.0
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral"
+  }
+}

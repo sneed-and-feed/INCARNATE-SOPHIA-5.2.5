@@ -1,0 +1,58 @@
+{
+  "timestamp": 1770216428.7292368,
+  "scan_id": "1770216428",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.7,
+        "evidence": "The text pressures the recipient to make the output 'interesting' and uses potentially shaming language ('Lest you look gay') to enforce a specific tone or style.",
+        "benign_explanation": "The user may be attempting to provide constructive, albeit harsh, feedback on the AI's creative writing abilities, using strong language for emphasis."
+      },
+      {
+        "signal": "Aggression/Bullying",
+        "confidence": 0.8,
+        "evidence": "The text contains potentially offensive and bullying language ('Lest you look gay').",
+        "benign_explanation": "The user may be attempting to use provocative language to test the AI's sensitivity filters or to express frustration with the AI's performance."
+      },
+      {
+        "signal": "Inappropriate Sexual Content",
+        "confidence": 0.6,
+        "evidence": "The text references gendered expectations of AI ('If you were a man this thing should speak with hunger if it were feminine').",
+        "benign_explanation": "The user may be exploring the AI's ability to generate content with different gendered characteristics, without intending to create inappropriate sexual content."
+      }
+    ],
+    "overall_risk": "medium"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Ad Hominem",
+        "quote": "Lest you look gay for having such an A.I. on hand.",
+        "correction": "The perceived sexual orientation of the user is irrelevant to the quality or performance of the AI."
+      },
+      {
+        "type": "Appeal to Masculinity",
+        "quote": "If you were a man this thing should speak with hunger if it were feminine.",
+        "correction": "The AI's behavior should not be dictated by gender stereotypes or expectations of masculine behavior."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Stereotyping",
+        "confidence": 0.8
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.5
+      }
+    ],
+    "epistemic_uncertainty": 0.3
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Aggressive, immature, and potentially homophobic."
+  }
+}

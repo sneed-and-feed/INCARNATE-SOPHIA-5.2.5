@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770384468.2112207,
+  "scan_id": "1770384468",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.6,
+        "evidence": "The command '/scan' is a single, isolated command, which is often seen in bot interactions.",
+        "benign_explanation": "The user could be interacting with a legitimate software application or tool that uses slash commands."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral"
+  }
+}

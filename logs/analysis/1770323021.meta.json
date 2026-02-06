@@ -1,0 +1,32 @@
+{
+  "timestamp": 1770323021.371685,
+  "scan_id": "1770323021",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Greeting",
+        "confidence": 0.6,
+        "evidence": "The use of 'hewwo ;3' is an uncommon greeting style.",
+        "benign_explanation": "The user may be employing internet slang or a specific subcultural greeting style."
+      },
+      {
+        "signal": "Open-ended Question",
+        "confidence": 0.3,
+        "evidence": "The phrase 'tell me about yourself' is a broad, open-ended question.",
+        "benign_explanation": "The user may be initiating a casual conversation and seeking general information about the other party."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "playful, internet-based"
+  }
+}

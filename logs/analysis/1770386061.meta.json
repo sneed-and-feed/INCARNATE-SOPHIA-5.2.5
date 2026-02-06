@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770386061.3488917,
+  "scan_id": "1770386061",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.6,
+        "evidence": "The phrase 'tell me about yourself ;3' is an unusual way to start a conversation, especially with the ' ;3' emoticon. This could be an attempt to gather information or a clumsy attempt at humor.",
+        "benign_explanation": "The user may be attempting to initiate a conversation in a playful or flirtatious manner."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "generic online interaction"
+  }
+}

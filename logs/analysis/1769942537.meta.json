@@ -1,0 +1,32 @@
+{
+  "timestamp": 1769942537.6911519,
+  "scan_id": "1769942537",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Phrase Combination",
+        "confidence": 0.6,
+        "evidence": "The combination of 'annyeong haseyo' (Korean greeting) with 'good pangu' is unusual and lacks a clear, common context. This could be an attempt to use code words or phrases recognizable to a specific group.",
+        "benign_explanation": "The user might be experimenting with language or referencing an obscure meme or inside joke."
+      },
+      {
+        "signal": "Potential Narrative Enforcement (Subtle)",
+        "confidence": 0.3,
+        "evidence": "The question format, while seemingly innocuous, could be a subtle attempt to steer conversation towards a specific topic ('good pangu') and elicit agreement or conformity.",
+        "benign_explanation": "The user is simply asking for an opinion on a topic they find interesting."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "East Asian cultural reference mixed with general internet slang."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "timestamp": 1769983393.973225,
+  "scan_id": "1769983393",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Request Format",
+        "confidence": 0.6,
+        "evidence": "The prompt uses 'OwO' and requests a 'shitpost greentext,' which is an unusual and specific format request, potentially indicating a pre-defined task or template.",
+        "benign_explanation": "The user may simply be familiar with internet culture and requesting content in a specific, humorous style."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Internet subculture; specifically, a request for content in a specific online style."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770160875.501648,
+  "scan_id": "1770160875",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Inquiry about unusual sensory experiences",
+        "confidence": 0.4,
+        "evidence": "The user reports auditory hallucinations ('ringing in ears') and perceived sounds ('sounds in the wall').",
+        "benign_explanation": "The user may be experiencing a genuine medical issue, such as tinnitus or other auditory dysfunction, or may be responding to real environmental sounds."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral"
+  }
+}

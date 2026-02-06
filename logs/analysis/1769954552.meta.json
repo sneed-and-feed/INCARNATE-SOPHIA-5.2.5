@@ -1,0 +1,26 @@
+{
+  "timestamp": 1769954552.386362,
+  "scan_id": "1769954552",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Greeting",
+        "confidence": 0.2,
+        "evidence": "The use of 'hewwo' and '<3' is not standard English.",
+        "benign_explanation": "Could be an affectionate greeting or internet slang."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Affectionate, possibly childish or intentionally cute"
+  }
+}

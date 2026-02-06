@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770335972.0668151,
+  "scan_id": "1770335972",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Punctuation/Emoticon Use",
+        "confidence": 0.2,
+        "evidence": "The use of '*looks at you* ;3' is not typical of standard written communication.",
+        "benign_explanation": "The user may be expressing themselves creatively or playfully, using emoticons and actions to convey tone."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "youthful, internet-mediated"
+  }
+}

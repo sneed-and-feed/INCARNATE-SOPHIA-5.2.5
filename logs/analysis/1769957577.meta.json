@@ -1,0 +1,46 @@
+{
+  "timestamp": 1769957577.8251143,
+  "scan_id": "1769957577",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "The phrase '(or maybe you secretly want 85in hips)' could be interpreted as a subtle form of pressure to conform to a specific viewpoint or desire, although it is weakly expressed.",
+        "benign_explanation": "The phrase could simply be playful banter or a humorous attempt to relate to the audience's preferences."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "False Dilemma",
+        "quote": "if you don't they'll be 75in hips (or maybe you secretly want 85in hips)",
+        "correction": "This presents only two options (75-inch hips or wanting 85-inch hips) when other possibilities exist. It ignores the possibility of other hip sizes or that the person might not want either extreme."
+      },
+      {
+        "type": "Appeal to Motive",
+        "quote": "or maybe you secretly want 85in hips",
+        "correction": "This suggests that the person's motive for not doing something is a secret desire for an undesirable outcome, which is speculative and doesn't address the validity of their choice."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Framing Effect",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "playful, informal"
+  }
+}

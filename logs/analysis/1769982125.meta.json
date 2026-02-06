@@ -1,0 +1,26 @@
+{
+  "timestamp": 1769982125.2644656,
+  "scan_id": "1769982125",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.6,
+        "evidence": "The phrase 'functionality added, my daughter' appears somewhat disjointed and could be interpreted as a formulaic or unusual sentence structure.",
+        "benign_explanation": "The user could be referencing a specific event or inside joke, or simply have a unique writing style. The phrase could be a shorthand way of saying 'I added functionality related to my daughter's project'."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "Neutral, familial affection"
+  }
+}

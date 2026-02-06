@@ -1,0 +1,24 @@
+{
+  "timestamp": 1770386379.8878994,
+  "scan_id": "1770386379",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.6,
+        "evidence": "The phrase '*starts looking at you in yur mirror* ;3' uses non-standard spelling ('yur') and an unusual emoticon ';3'.",
+        "benign_explanation": "This could be an instance of internet slang or a stylistic choice to convey a specific tone or emotion."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}"
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "playful, internet-mediated"
+  }
+}

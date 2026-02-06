@@ -1,0 +1,46 @@
+{
+  "timestamp": 1769970160.4240453,
+  "scan_id": "1769970160",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Technical Jargon",
+        "confidence": 0.3,
+        "evidence": "Use of specific technical terms like 'telemetry,' 'ghostmesh,' and dimensions (3x3x3 to 5x5x5).",
+        "benign_explanation": "The text could be a genuine technical update or observation within a specific field or project."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Hasty Generalization",
+        "quote": "telemetry indicates massive gains from changing ghostmesh from 3x3x3 to 5x5x5",
+        "correction": "The statement implies that the change *always* results in massive gains. More data points and context are needed to support this generalization. Consider factors like specific use cases, edge cases, and potential downsides."
+      },
+      {
+        "type": "Correlation/Causation Fallacy",
+        "quote": "telemetry indicates massive gains from changing ghostmesh from 3x3x3 to 5x5x5",
+        "correction": "The statement implies that the change *caused* the gains. It's possible that other factors contributed to the gains, or that the correlation is coincidental. Further investigation is needed to establish causality."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.4
+      },
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "technical"
+  }
+}

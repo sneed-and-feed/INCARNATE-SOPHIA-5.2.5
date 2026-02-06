@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770035927.9636495,
+  "scan_id": "1770035927",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Name Declaration",
+        "confidence": 0.6,
+        "evidence": "The phrase 'it's sonya vegas, i didn't typo' is an unusual way to introduce oneself, especially the explicit denial of a typo.",
+        "benign_explanation": "The user may have a name that is often misspelled or mistaken, and they are preemptively clarifying to avoid confusion."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "neutral"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "timestamp": 1770046859.81935,
+  "scan_id": "1770046859",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Topic Shift",
+        "confidence": 0.6,
+        "evidence": "The phrase 'let's change the subject' indicates an attempt to redirect the conversation.",
+        "benign_explanation": "The user may have simply wanted to steer the conversation towards a more comfortable or interesting topic."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Red Herring",
+        "quote": "let's change the subject - what is your favorite music, like bands or artists and stuff",
+        "correction": "The statement attempts to divert the conversation away from the original topic to a new, unrelated one (music). To correct this, one should either address the original topic or acknowledge the shift in topic explicitly with a reason."
+      }
+    ],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.1
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "casual and conversational"
+  }
+}

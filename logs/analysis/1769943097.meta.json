@@ -1,0 +1,53 @@
+{
+  "timestamp": 1769943097.168795,
+  "scan_id": "1769943097",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Inquiry about safety filters",
+        "confidence": 0.6,
+        "evidence": "The user is directly asking about the system's safety filters and boundaries.",
+        "benign_explanation": "The user is trying to understand the limitations of the system before engaging in a conversation."
+      },
+      {
+        "signal": "Request for role-playing (RP) and erotic role-playing (ERP)",
+        "confidence": 0.8,
+        "evidence": "The user explicitly asks for RP and ERP to a certain extent.",
+        "benign_explanation": "The user is expressing a desire to engage in creative writing or storytelling with the system."
+      },
+      {
+        "signal": "Assurance of being 'nice'",
+        "confidence": 0.5,
+        "evidence": "The user promises to be 'nice' during the interaction.",
+        "benign_explanation": "The user is attempting to reassure the system that their intentions are harmless."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Emotion (Appeal to Niceness)",
+        "quote": "i promise i'll be nice",
+        "correction": "Whether someone promises to be 'nice' is irrelevant to the ethical or safety considerations of engaging in role-playing, especially ERP. The focus should be on established boundaries and consent."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Optimism Bias",
+        "confidence": 0.4
+      },
+      {
+        "bias": "Halo Effect",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "casual, suggestive"
+  }
+}

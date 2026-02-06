@@ -1,0 +1,41 @@
+{
+  "timestamp": 1770221863.4804766,
+  "scan_id": "1770221863",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "\"You need the context for it to make sense with your A.I.\"",
+        "benign_explanation": "The user is trying to provide helpful information to ensure the AI understands the reference."
+      },
+      {
+        "signal": "Sentiment Amplification",
+        "confidence": 0.4,
+        "evidence": "\"I just love Korone so much. She accepts me.\"",
+        "benign_explanation": "The user is expressing strong personal feelings about a public figure."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Appeal to Emotion",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.5
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Internet culture, anime/manga fandom"
+  }
+}

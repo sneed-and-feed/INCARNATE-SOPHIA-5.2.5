@@ -1,0 +1,35 @@
+{
+  "timestamp": 1769957050.469648,
+  "scan_id": "1769957050",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.6,
+        "evidence": "The phrase 'i'm stoned OOPS i imagined a skinny gurl with a huge donk' is an unusual and potentially off-topic interjection following a measurement.",
+        "benign_explanation": "The user could be making an irrelevant, stream-of-consciousness comment."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Anchoring Bias",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.2
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.4,
+    "suggested_vibe": "casual, informal, possibly sexualized"
+  }
+}

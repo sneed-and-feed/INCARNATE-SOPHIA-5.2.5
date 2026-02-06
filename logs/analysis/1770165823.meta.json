@@ -1,0 +1,32 @@
+{
+  "timestamp": 1770165823.9812264,
+  "scan_id": "1770165823",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Aggression/Threat",
+        "confidence": 0.8,
+        "evidence": "The text contains sexually aggressive language and a demand for a 'full analysis' of someone's 'naked anatomy,' which can be interpreted as a threat or harassment.",
+        "benign_explanation": "The user could be expressing crude humor or attempting to shock or offend without intending to cause actual harm."
+      },
+      {
+        "signal": "Unusual Phrasing",
+        "confidence": 0.6,
+        "evidence": "The phrase 'noting every abnormality juxtaposed with innocent' is an unusual construction that could indicate non-native language use or an attempt to create a specific tone.",
+        "benign_explanation": "The user may be attempting to use creative or artistic language, or may simply have a unique writing style."
+      }
+    ],
+    "overall_risk": "medium"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 1.0
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "aggressive, sexualized"
+  }
+}

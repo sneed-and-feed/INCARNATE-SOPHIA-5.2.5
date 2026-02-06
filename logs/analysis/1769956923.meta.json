@@ -1,0 +1,26 @@
+{
+  "timestamp": 1769956923.0486789,
+  "scan_id": "1769956923",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Topic for Coordinated Campaign",
+        "confidence": 0.2,
+        "evidence": "The request to write a haiku about macromastia is an unusual and specific topic. This could be an attempt to test the system's ability to generate content on sensitive or potentially controversial subjects.",
+        "benign_explanation": "The user may simply be exploring the capabilities of the language model with an unusual or niche topic."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral"
+  }
+}

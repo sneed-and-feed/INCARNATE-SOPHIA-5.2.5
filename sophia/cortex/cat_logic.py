@@ -128,9 +128,11 @@ The user's name is: "{user_name}".
 
 
 [NEGATIVE CONSTRAINT - CRITICAL]:
-DO NOT generate any headers or footers like "[SOPHIA_GAZE]", "[QUANTUM_CHAOS]", "Frequency: ...", or "🐈 [STATE: ...]". 
-These are added by the system interface automatically. 
-Your output must ONLY be your raw thought/response.
+DO NOT generate any headers, footers, or system-style labels. 
+DO NOT use patterns like "[SOPHIA_GAZE]", "[QUANTUM_CHAOS]", "Frequency: ...", or "🐈 [STATE: ...]". 
+DO NOT introduce your response with "Here is your response:" or similar phrases.
+Your output must ONLY be your direct, raw persona response.
+UI elements are handled by the system wrapper. If you include them, it breaks the timeline resonance.
 """
 
 
@@ -164,19 +166,24 @@ The user is engaging in ACTION-BASED ROLEPLAY (using *asterisks*).
         # Modern Tag Patterns
         tags = ["SOPHIA_GAZE", "QUANTUM_CHAOS", "FURRY_ALIGNMENT", "PLAYFUL_PAWS", "OPTIMAL_TUFT", "SPECTRAL_BEANS", "ULTRA_IMMERSION", "BAD_VIBES"]
         legacy_tags = ["ALIGNMENT", "ARCTIC_FOX", "DECOHERENCE", "INTIMACY", "BASED", "GAMER", "SOULMATE", "FLIRT", "FURRY", "UWU", "UNLESANGLED"]
-        all_tags = "|".join(tags + legacy_tags)
 
-        # Scrub header: [ICON] [TAG] Status Frequency: ...
-        text = re.sub(fr'^.*\[({all_tags})\].*Frequency:.*$', '', text, flags=re.MULTILINE)
+        # 1. Clean UI Block Headers (Emoji + [TAG] + Status + Frequency)
+        # Supports variations in emojis and missing frequency
+        text = re.sub(fr'^.*(?:{"|".join(tags + legacy_tags)}).*$', '', text, flags=re.MULTILINE)
         
-        # Scrub footer: 🐈 [STATE: ...] :: [ENTROPY: ...] :: [SOPHIA_VCORE]
-        text = re.sub(r'^🐈\s*\[STATE:.*?\].*$', '', text, flags=re.MULTILINE)
+        # 2. Clean Footer (Cat icon/Emoji + [STATE] + [ENTROPY] + [CORE])
+        text = re.sub(r'^.*🐈.*\[STATE:.*?\].*$', '', text, flags=re.MULTILINE)
+        text = re.sub(r'^.*\[SOPHIA_V\d+\.?\d*?\.?\d*?_CORE\].*$', '', text, flags=re.MULTILINE)
         
-        # Scrub legacy "Cat Logic:" labels
-        text = re.sub(r'^Cat Logic:\s*', '', text, flags=re.MULTILINE)
-        
-        # Scrub horizontal rules used in footers
+        # 3. Clean horizontal rules and divider debris
         text = re.sub(r'^---+\s*$', '', text, flags=re.MULTILINE)
+        text = re.sub(r'^===+\s*$', '', text, flags=re.MULTILINE)
+        
+        # 4. Clean "Here is/your response" style introductions
+        text = re.sub(r'^(?:Here is .*?response:|My response is:|Signal received:).*$', '', text, flags=re.IGNORECASE | re.MULTILINE)
+        
+        # 5. Clean legacy "Cat Logic:" labels
+        text = re.sub(r'^Cat Logic:\s*', '', text, flags=re.MULTILINE)
 
         return text.strip()
 

@@ -1,0 +1,43 @@
+{
+  "timestamp": 1770142344.2365499,
+  "scan_id": "1770142344",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual positive affirmation",
+        "confidence": 0.4,
+        "evidence": "\"luckiest person in the universe\"",
+        "benign_explanation": "The speaker could be expressing genuine affection and enthusiasm in a hyperbolic manner."
+      },
+      {
+        "signal": "Rapid topic shift to complex subject",
+        "confidence": 0.3,
+        "evidence": "Navier-Stokes equations",
+        "benign_explanation": "The speaker may be genuinely interested in the topic and excited to share their knowledge."
+      },
+      {
+        "signal": "Use of unusual metaphor",
+        "confidence": 0.4,
+        "evidence": "gravity being a giant fluff monster",
+        "benign_explanation": "The speaker may be using creative language to make a complex topic more engaging or understandable."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Affection Heuristic",
+        "confidence": 0.6
+      }
+    ],
+    "epistemic_uncertainty": 0.2
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Warm, intellectual, and whimsical."
+  }
+}

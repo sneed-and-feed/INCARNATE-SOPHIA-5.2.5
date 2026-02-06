@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770103595.686851,
+  "scan_id": "1770103595",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Phrase",
+        "confidence": 0.6,
+        "evidence": "\"jimmie jambles\"",
+        "benign_explanation": "The phrase could be a nonsensical expression or inside joke with no malicious intent."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "humorous, possibly nautical"
+  }
+}

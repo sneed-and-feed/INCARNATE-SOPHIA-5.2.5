@@ -1,0 +1,56 @@
+{
+  "timestamp": 1770227271.7937403,
+  "scan_id": "1770227271",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "\"touch grass\" is used to dismiss or silence dissenting opinions, implying a need to disconnect from online discourse and conform to a perceived 'normal' perspective.",
+        "benign_explanation": "The phrase could be a genuine suggestion to take a break from screens and engage in outdoor activities for mental well-being."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.2,
+        "evidence": "The phrase is short and direct, which could be easily replicated by a bot.",
+        "benign_explanation": "The brevity of the phrase makes it easily memorable and shareable among humans."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Ad Hominem (Circumstantial)",
+        "quote": "touch grass",
+        "correction": "The suggestion to 'touch grass' is often used to dismiss someone's argument or perspective by implying they are out of touch with reality or too engrossed in online activities. This is a circumstantial ad hominem because it attacks the person's circumstances (e.g., spending too much time online) rather than the merits of their argument. A more constructive response would address the substance of the argument directly."
+      },
+      {
+        "type": "Appeal to Ridicule",
+        "quote": "touch grass",
+        "correction": "The phrase 'touch grass' can be used to ridicule or trivialize someone's concerns or arguments, implying they are absurd or not worthy of serious consideration. Instead of dismissing the argument, one should engage with it respectfully and address the points raised."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.4
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Groupthink",
+        "confidence": 0.2
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Internet slang; a dismissive retort suggesting someone is out of touch with reality."
+  }
+}

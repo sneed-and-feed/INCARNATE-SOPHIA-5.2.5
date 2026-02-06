@@ -1,0 +1,26 @@
+{
+  "timestamp": 1769922272.3210778,
+  "scan_id": "1769922272",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Repetitive character use and capitalization in a greeting.",
+        "confidence": 0.1,
+        "evidence": "HIIIIIIIII xD HOW ARE YOU TONIGHT",
+        "benign_explanation": "The use of multiple 'I's and the 'xD' emoticon are common ways for humans to express enthusiasm and informality in online communication. Capitalization can be used for emphasis or as a stylistic choice, and is not inherently indicative of automated behavior."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.05
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 1.0,
+    "suggested_vibe": "informal, online, friendly"
+  }
+}

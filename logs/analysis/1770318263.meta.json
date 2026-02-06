@@ -1,0 +1,26 @@
+{
+  "timestamp": 1770318263.0359137,
+  "scan_id": "1770318263",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.6,
+        "evidence": "Use of 'hewwo', ';3', and ';4' are atypical and could indicate a specific community or subculture.",
+        "benign_explanation": "The user may be role-playing or using internet slang common within a specific online community."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "internet subculture; likely furry or similar community"
+  }
+}

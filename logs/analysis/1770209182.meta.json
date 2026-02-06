@@ -1,0 +1,52 @@
+{
+  "timestamp": 1770209182.0291796,
+  "scan_id": "1770209182",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "The text presents a strong opinion about the modern world and its constraints, potentially discouraging dissenting views.",
+        "benign_explanation": "The author may be expressing a personal frustration with the perceived lack of tolerance for errors in modern systems."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.2,
+        "evidence": "The language is somewhat informal and direct, with short, declarative sentences. The phrase 'you fuck up everything' is somewhat repetitive.",
+        "benign_explanation": "The author may be using a conversational tone or simplifying complex ideas for clarity."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Hasty Generalization",
+        "quote": "In the modern world you can't. You do anything wrong you fuck up everything.",
+        "correction": "This statement makes a sweeping generalization about the modern world and the consequences of mistakes. It's an oversimplification, as not every mistake leads to catastrophic outcomes."
+      },
+      {
+        "type": "Appeal to Complexity",
+        "quote": "You can actually entertain complexity. In the modern world you can't.",
+        "correction": "The statement implies that the modern world inherently prevents the ability to handle complexity, which is not necessarily true. While specialization exists, many roles require complex problem-solving skills."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Loss Aversion",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "informal, pragmatic"
+  }
+}

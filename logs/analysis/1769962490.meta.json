@@ -1,0 +1,26 @@
+{
+  "timestamp": 1769962490.700321,
+  "scan_id": "1769962490",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.3,
+        "evidence": "The phrase 'optimize epic win' is short, lacks context, and uses buzzwords, which could be indicative of automated content generation or a pre-programmed message.",
+        "benign_explanation": "The phrase could be a concise internal team slogan or a project name."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "internet culture"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "timestamp": 1770403666.2009776,
+  "scan_id": "1770403666",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "The phrase \"Let's make EVERYTHING shine!\" could be interpreted as a push for universal positivity or agreement, discouraging dissenting opinions.",
+        "benign_explanation": "The phrase could simply be an enthusiastic expression of optimism or a motivational slogan."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.2,
+        "evidence": "The exclamation point and the use of a single emoji could be indicative of repetitive or automated behavior.",
+        "benign_explanation": "The exclamation point and emoji could be used for emphasis or to convey excitement in a casual, non-malicious way."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Hasty Generalization",
+        "quote": "Let's make EVERYTHING shine!",
+        "correction": "The statement implies that everything should be made to shine, which is likely an overgeneralization. Some things may not benefit from shining, or it may be impractical or undesirable to make everything shine. A more nuanced approach would consider the specific context and purpose."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Optimism Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Halo Effect",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "Enthusiastic, possibly commercial or motivational"
+  }
+}
