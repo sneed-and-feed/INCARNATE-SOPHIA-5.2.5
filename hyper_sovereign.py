@@ -268,6 +268,15 @@ class HyperManifold:
         if self.ionosphere.check_jitter():
              print("⚠️  WARNING: SCHUMANN JITTER DETECTED ON STARTUP.")
 
+    @property
+    def reality_density(self) -> float:
+        """
+        Calculates the density of the 12D manifold.
+        Normalized against the Gross (144.0).
+        """
+        total_energy = sum(self.hyper_state)
+        return total_energy / GROSS
+
     def _project_down(self):
         """
         Projects the 12D state into 3D for observation.
