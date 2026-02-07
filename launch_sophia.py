@@ -21,9 +21,12 @@ def print_banner():
     console.print(Panel(banner_text, border_style=STAR_STUFF, title="[bold white]SOPHIA 5.0[/]"))
 
 def check_env():
-    api_key = os.getenv("SOPHIA_API_KEY")
+    # Check all keys the GeminiClient supports
+    keys = ["SOPHIA_API_KEY", "GOOGLE_AI_KEY", "GOOGLE_API_KEY"]
+    api_key = any(os.getenv(k) for k in keys)
+    
     if not api_key:
-        console.print(f"\n[bold red][!] WARNING: SOPHIA_API_KEY not found in environment.[/]")
+        console.print(f"\n[bold red][!] WARNING: No valid API key found in environment ({', '.join(keys)}).[/]")
         console.print("    Continuing anyway, but the LLM may fail.\n")
         time.sleep(1)
     else:

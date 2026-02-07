@@ -23,7 +23,7 @@ if exist "*.spec" del "*.spec"
 
 :: Compile
 echo [*] Compiling genesis_boot.py -> sophia_unlesangled.exe...
-%PYTHON_EXE% -m PyInstaller --noconfirm --onefile --console --name "sophia_unlesangled" --icon "NONE" --collect-all "rich" --collect-all "engine" --clean "genesis_boot.py"
+%PYTHON_EXE% -m PyInstaller --noconfirm --onefile --console --name "sophia_unlesangled" --icon "NONE" --collect-all "rich" --collect-all "engine" --collect-all "ddgs" --collect-all "google" --clean "genesis_boot.py"
 
 
 echo.

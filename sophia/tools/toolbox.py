@@ -218,7 +218,10 @@ class SovereignHand:
         Resilient against Error 29 (Rate Limits) via backoff.
         """
         import time
-        from ddgs import DDGS
+        try:
+            from ddgs import DDGS
+        except ImportError:
+            return "❌ Sovereign Search Failed: 'ddgs' library not found. (PyInstaller bundle error?)"
         
         max_retries = 3
         base_delay = 2

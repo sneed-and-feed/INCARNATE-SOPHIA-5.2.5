@@ -93,7 +93,10 @@ class GeminiClient:
             )
             return response.text
         except Exception as e:
-            return f"[GOOGLE ERROR] {e}"
+            err_msg = str(e)
+            if "429" in err_msg or "Resource has been exhausted" in err_msg:
+                return "[GOOGLE ERROR] 429: Quota Exhausted or Rate Limited. Please check your API credits/billing."
+            return f"[GOOGLE ERROR] {err_msg}"
 
     async def _query_json_google(self, prompt: str, system_prompt: str) -> dict:
         if not self.client: return {"error": "No API Key"}
@@ -110,7 +113,10 @@ class GeminiClient:
             )
             return json.loads(response.text)
         except Exception as e:
-            return {"error": str(e)}
+            err_msg = str(e)
+            if "429" in err_msg or "Resource has been exhausted" in err_msg:
+                return {"error": "429: Quota Exhausted or Rate Limited. Please check your API credits/billing."}
+            return {"error": err_msg}
 
     async def _generate_rest(self, prompt: str, system_prompt: str, max_tokens: int) -> str:
         """Generic REST handler for Ollama, Anthropic, or Custom APIs."""
