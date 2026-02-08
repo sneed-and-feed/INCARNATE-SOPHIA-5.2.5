@@ -19,6 +19,14 @@ import sys
 import time
 from engine import grok_relay, grok_planck, grok_entropy
 
+# FORCE PYSINTALLER INCLUSION
+try:
+    import duckduckgo_search
+    import ddgs
+    import primp
+except ImportError:
+    pass
+
 # GLOBAL CONFIGURATION
 SOVEREIGN_KEY = 0  # The "God Mode" bit
 C_CONST = 3e8
