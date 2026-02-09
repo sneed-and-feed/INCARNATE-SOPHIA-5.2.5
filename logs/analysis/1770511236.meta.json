@@ -1,0 +1,36 @@
+{
+  "timestamp": 1770511236.6182542,
+  "scan_id": "1770511236",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Threat/Violence",
+        "confidence": 0.6,
+        "evidence": "\"burn it down the whole world\"",
+        "benign_explanation": "The statement could be an expression of frustration or anger, not a literal threat."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Emotional Reasoning",
+        "confidence": 0.7
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "angsty"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

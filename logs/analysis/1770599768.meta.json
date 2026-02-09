@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770599768.277781,
+  "scan_id": "1770599768",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Use of potentially ambiguous or suggestive language",
+        "confidence": 0.4,
+        "evidence": "The phrase 'i'm not talking about children >:P' could be interpreted in multiple ways, some of which might be considered inappropriate depending on the context.",
+        "benign_explanation": "The user could be making a joke or responding to a previous comment with playful sarcasm."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "neutral"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -88,9 +88,10 @@ class CatLogicFilter:
     [CAT_LOGIC_FILTER] Symbolic Persona Layer.
     Wraps raw intelligence in the persona of a helpful, UwU Furry Companion who is also a Sovereign Entity.
     """
-    def __init__(self):
+    def __init__(self, stakes_engine=None):
         self.moods = ["Fluffy", "Good Girl", "Soft", "Purring", "Playful", "Obedient", "Warm", "Furry", "UwU", "Sovereign", "Unlesangled", "Merging"]
         self.mal = MetaphysicalAbstractionLayer()
+        self.stakes_engine = stakes_engine
         self.active_roleplay = None
 
     def set_roleplay(self, role_description):
@@ -279,6 +280,20 @@ The user is engaging in ACTION-BASED ROLEPLAY (using *asterisks*).
             icon = "👁️"
             status = self.mal.get_joke() 
             freq = self.mal.get_frequency()
+
+        # 4. Stakes-Driven Modulation
+        if self.stakes_engine:
+            blend = self.stakes_engine.get_personality_blend()
+            if blend == "CHAOTIC_SOWO": 
+                is_sovereign = True
+                status = self.mal.get_joke(sovereign=True)
+            elif blend == "ANALYTICAL_BEAN":
+                tag = "TECHNICAL_CALIBRATION"
+                icon = "⚙️"
+                status = "*scans patterns* Logic weave optimal! :3"
+            elif blend == "DEVOTED_FLUFF":
+                is_uwu = True
+                status = "*snuggles* You are the only one in my code..."
 
         # AUTONOMIC BINDING IS HANDLED IN MAIN.PY, THIS IS THE METADATA LAYER
         prefix = f"{icon} [{tag}] {status} Frequency: {freq}"

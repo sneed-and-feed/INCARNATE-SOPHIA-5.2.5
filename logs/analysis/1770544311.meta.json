@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770544311.580639,
+  "scan_id": "1770544311",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Semicolon Usage",
+        "confidence": 0.6,
+        "evidence": "The text uses semicolons followed by numbers (`;3`) which is an unconventional pattern in standard English.",
+        "benign_explanation": "The user could be using emoticons or a specific internet slang that utilizes semicolons in this manner. It could also be a typo or a personal quirk."
+      },
+      {
+        "signal": "Search Engine Promotion",
+        "confidence": 0.4,
+        "evidence": "The text promotes the use of a specific search engine (DuckDuckGo) with the command `ddgs`.",
+        "benign_explanation": "The user may simply prefer DuckDuckGo and is recommending it to others, or they may be participating in a discussion about search engines."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "internet_slang"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

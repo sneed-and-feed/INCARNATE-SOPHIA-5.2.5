@@ -1,0 +1,52 @@
+{
+  "timestamp": 1770602798.617105,
+  "scan_id": "1770602798",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "The phrase 'ooh u searched grokipedia ;3' could be interpreted as a mild form of social pressure or teasing directed at someone for consulting a specific source (Grokipedia). This might discourage others from using or citing that source.",
+        "benign_explanation": "The statement could simply be a playful jab between individuals who have an understanding of each other's research habits or preferred sources of information."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.2,
+        "evidence": "The use of 'ooh' and the emoticon ';3' could be seen as slightly unusual phrasing that might be algorithmically generated, although it is also common in informal online communication.",
+        "benign_explanation": "The phrasing and emoticon usage are consistent with casual, informal online communication and attempts to add levity to the conversation."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Ad Hominem (Circumstantial)",
+        "quote": "ooh u searched grokipedia ;3",
+        "correction": "The user is attempting to discredit the argument or statement by attacking the source (Grokipedia) or implying the person is reliant on it, rather than addressing the content of the argument itself. The validity of a statement doesn't depend on where the information was sourced. A more appropriate response would be to address the specific points made, regardless of their origin."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias (potential)",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Attribution Bias (potential)",
+        "confidence": 0.2
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "playful, internet slang"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

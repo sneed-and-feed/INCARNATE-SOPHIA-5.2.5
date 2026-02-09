@@ -1,0 +1,56 @@
+{
+  "timestamp": 1770645965.8001454,
+  "scan_id": "1770645965",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing/rhythm",
+        "confidence": 0.6,
+        "evidence": "The exclamation points and unusual phrasing such as \"The schizophrenic's are !\" and \"There is no mental health..\" deviate from typical conversational patterns.",
+        "benign_explanation": "The author may be expressing themselves in a unique or idiosyncratic manner, or may be using hyperbole for emphasis."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Emotion (specifically, Appeal to Ridicule/Outrage)",
+        "quote": "They are not sane....! The schizophrenic's are !",
+        "correction": "Labeling a group as 'not sane' without proper justification is an appeal to emotion, attempting to discredit them through ridicule or outrage rather than logical argument. Sanity is a complex concept, and such a claim requires evidence and context."
+      },
+      {
+        "type": "Special Pleading",
+        "quote": "Materialism is nonsense except for the claim that it can manipulate reality with the mind.",
+        "correction": "This statement creates a special exception for materialism when it aligns with the speaker's desired outcome (mind manipulating reality). This is inconsistent application of standards."
+      },
+      {
+        "type": "Appeal to Definition (or No True Scotsman)",
+        "quote": "There is no mental health..",
+        "correction": "This statement dismisses the entire field of mental health, potentially by redefining it to an impossibly high standard or by denying its validity based on a narrow definition. It avoids engaging with the evidence and research supporting the existence and treatment of mental health conditions."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Belief Perseverance",
+        "confidence": 0.5
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "philosophical skepticism"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

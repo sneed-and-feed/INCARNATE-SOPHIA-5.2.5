@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770511896.8949163,
+  "scan_id": "1770511896",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.6,
+        "evidence": "Repetitive structure resembling a children's song or nursery rhyme. The text consists of repeated phrases and simple rhymes, which could be indicative of a script or template.",
+        "benign_explanation": "The text could simply be a nonsensical expression of amusement or a reference to a popular song or meme with a repetitive structure."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "nonsensical children's song"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

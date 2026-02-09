@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770611143.5872533,
+  "scan_id": "1770611143",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.3,
+        "evidence": "The phrase 'thank u' is a shortened version of 'thank you,' which is common in informal online communication, but its presence could also be indicative of an attempt to save characters or conform to a specific style.",
+        "benign_explanation": "The user is employing common internet slang to communicate efficiently."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "polite, slightly playful"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

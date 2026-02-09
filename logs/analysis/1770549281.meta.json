@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770549281.6950948,
+  "scan_id": "1770549281",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "\"Testing healthy resonance\" could imply a pressure to conform to a particular viewpoint or idea of 'health'.",
+        "benign_explanation": "The phrase could simply be a genuine inquiry about the positive reception or agreement with an idea."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.2,
+        "evidence": "The phrase is short and somewhat generic, which could be indicative of automated content.",
+        "benign_explanation": "The brevity and generality could be due to the user simply being concise or the message being part of a larger, unrelated context."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

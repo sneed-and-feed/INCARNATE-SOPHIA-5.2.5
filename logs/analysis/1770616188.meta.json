@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770616188.349216,
+  "scan_id": "1770616188",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Request for specific information",
+        "confidence": 0.4,
+        "evidence": "The user is asking for a description of a video, indicating a need for specific information.",
+        "benign_explanation": "The user may simply be curious about the video's content because they are unable to access it directly due to technical issues."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.2
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "informal, technical issue"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

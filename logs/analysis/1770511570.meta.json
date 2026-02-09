@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770511570.9781513,
+  "scan_id": "1770511570",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.6,
+        "evidence": "The phrase 'peepee poopoo tbqhwy' is repetitive and nonsensical, which can be indicative of bot-like or automated content generation.",
+        "benign_explanation": "The user could be engaging in juvenile humor or using a random string of words for comedic effect."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 1.0
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "childish, internet slang"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

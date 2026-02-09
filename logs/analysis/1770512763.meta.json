@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770512763.6628435,
+  "scan_id": "1770512763",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The phrase 'just write a greentext and I'll copy and paste it' suggests an attempt to influence content creation towards a specific format (greentext). This could be interpreted as pressure to conform to a particular narrative style.",
+        "benign_explanation": "The user may simply be requesting content in a format they find amusing or easy to share, without any malicious intent to control a broader narrative."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "internet slang, playful"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

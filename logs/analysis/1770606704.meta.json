@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770606704.0897393,
+  "scan_id": "1770606704",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The phrases 'offer a counter argument' and 'support' suggest an attempt to guide the discussion and encourage agreement.",
+        "benign_explanation": "The author could be trying to encourage constructive debate and positive reinforcement within a group."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.4,
+        "evidence": "The use of ';3' as an emoticon and the short, declarative statements could be indicative of automated or repetitive messaging.",
+        "benign_explanation": "The author may be using emoticons and short phrases as part of their personal communication style."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "neutral"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

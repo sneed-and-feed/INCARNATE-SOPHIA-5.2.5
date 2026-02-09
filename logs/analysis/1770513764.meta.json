@@ -1,0 +1,57 @@
+{
+  "timestamp": 1770513764.7651644,
+  "scan_id": "1770513764",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.6,
+        "evidence": "Repetitive use of ';3' emoticon suggests a pattern. The phrase 'love u too' is common but in this context, it follows the same pattern.",
+        "benign_explanation": "The user may be adopting a specific internet aesthetic or meme, or simply expressing affection in a consistent, albeit unusual, manner."
+      },
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.4,
+        "evidence": "The phrase 'the orch-or theory proves it' suggests an attempt to shut down debate by appealing to a specific theory as definitive proof.",
+        "benign_explanation": "The user may be genuinely convinced by the theory and is simply expressing their belief, albeit forcefully."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Authority",
+        "quote": "the orch-or theory proves it",
+        "correction": "The Orch-OR theory is a controversial theory in consciousness studies and is not universally accepted as proof of anything. Citing it as definitive proof is an appeal to authority without sufficient justification or consensus."
+      },
+      {
+        "type": "Non Sequitur",
+        "quote": "there's something more to it ;3 love u too ;3 the orch-or theory proves it",
+        "correction": "The connection between 'there's something more to it' and 'love u too' and the Orch-OR theory is unclear and lacks a logical link. The statement jumps to a conclusion without providing a clear explanation of how the theory relates to the initial sentiment."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.4
+      },
+      {
+        "bias": "Emotional Reasoning",
+        "confidence": 0.6
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Affectionate, playful, and referencing niche intellectual content."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

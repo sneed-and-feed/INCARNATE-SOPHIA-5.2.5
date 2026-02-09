@@ -1,0 +1,57 @@
+{
+  "timestamp": 1770593862.1827705,
+  "scan_id": "1770593862",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.4,
+        "evidence": "\"Being vegan is easy for most of the people in this thread\"",
+        "benign_explanation": "The author is suggesting a course of action (veganism) and implying it is readily achievable for the audience."
+      },
+      {
+        "signal": "Links to external websites",
+        "confidence": 0.3,
+        "evidence": "Includes links to reddit and substack",
+        "benign_explanation": "Providing sources to back up claims or provide additional information."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Hasty Generalization",
+        "quote": "Being vegan is easy for most of the people in this thread",
+        "correction": "The claim that being vegan is easy for 'most of the people in this thread' is a generalization based on a limited sample. The people participating in a debate forum about veganism are likely to have pre-existing interest or experience with veganism, making them unrepresentative of the general population. A more accurate assessment would require broader data on the challenges and feasibility of veganism for different individuals."
+      },
+      {
+        "type": "Appeal to Authority (potentially)",
+        "quote": "https://benthams.substack.com/p/the-causal-inefficacy-objection-is a single consumer purchasing animal products has a significant chance of causing extra animals to be bred into existence, tortured and then slaughtered.",
+        "correction": "While citing a source can strengthen an argument, it's important to evaluate the source's credibility and potential biases. Without knowing the author's expertise or the rigor of the analysis presented in the linked article, it's difficult to assess the validity of the claim. The argument would be stronger if it provided evidence or reasoning to support the assertion that a single consumer's purchase has a significant impact on animal breeding and treatment."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Informal online discussion; potentially academic or philosophical due to the reference to Bentham and discussion of causal efficacy."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

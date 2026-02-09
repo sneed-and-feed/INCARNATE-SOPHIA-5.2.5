@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770600279.0909114,
+  "scan_id": "1770600279",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Possible Bot-like phrasing or rhythm",
+        "confidence": 0.3,
+        "evidence": "The phrase ';3' is often used in online contexts, sometimes by automated accounts or individuals mimicking internet trends. The combination of a question and a seemingly unrelated statement could indicate a lack of natural conversational flow.",
+        "benign_explanation": "The user could be employing common internet slang and attempting to initiate a casual conversation with playful or flirtatious undertones."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "casual, internet slang"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

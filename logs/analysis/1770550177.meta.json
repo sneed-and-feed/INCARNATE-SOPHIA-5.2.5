@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770550177.6737554,
+  "scan_id": "1770550177",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Repetitive Naming",
+        "confidence": 0.6,
+        "evidence": "The consistent use of 'East Senpai' to refer to the family could indicate an attempt to brand or standardize the family's image.",
+        "benign_explanation": "The family may have chosen 'East Senpai' as a catchy and memorable nickname for their family brand, which is a common practice for influencers."
+      },
+      {
+        "signal": "Positive Sentiment Reinforcement",
+        "confidence": 0.5,
+        "evidence": "The phrase '>her dreams are coming true <3' and the description of Dubai as 'one of the best places she'd ever seen' could be interpreted as an attempt to create a uniformly positive perception.",
+        "benign_explanation": "The author may simply be expressing genuine enthusiasm and admiration for Shawn Johnson East and her experiences."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Neutral, informative; celebrity/influencer focused."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

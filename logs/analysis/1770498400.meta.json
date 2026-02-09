@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770498400.6519687,
+  "scan_id": "1770498400",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.2,
+        "evidence": "The text consists of a single, uncommon word. This could be part of a pre-programmed sequence or test.",
+        "benign_explanation": "The word 'KEKAROO' could be a username, a random string, or an acronym with personal significance to the user."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 1.0
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

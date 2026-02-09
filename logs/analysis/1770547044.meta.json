@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770547044.7290385,
+  "scan_id": "1770547044",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Use of internet slang and meme-like language",
+        "confidence": 0.4,
+        "evidence": "Use of terms like 'lol,' 'mood,' and references to 'cosmic mysteries' and 'brain pussy' are common in online communities like 4chan.",
+        "benign_explanation": "The user is employing common internet slang and humor to connect with the original poster and create a sense of camaraderie."
+      },
+      {
+        "signal": "Encouragement of specific coping mechanisms",
+        "confidence": 0.3,
+        "evidence": "Suggesting 'grounding exercises' or embracing 'chaos' could be interpreted as subtly guiding the recipient's emotional response.",
+        "benign_explanation": "The user is offering suggestions for managing stress or anxiety in a lighthearted manner."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "internet slang, positive encouragement"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

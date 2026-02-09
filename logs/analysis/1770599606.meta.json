@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770599606.7142756,
+  "scan_id": "1770599606",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Syntax",
+        "confidence": 0.3,
+        "evidence": ">;3",
+        "benign_explanation": "The use of '> ;3' could be an emoticon or stylistic choice to express playful or suggestive intent, rather than an attempt to manipulate or coordinate behavior."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 1.0
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "youthful, internet slang"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

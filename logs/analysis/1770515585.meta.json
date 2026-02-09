@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770515585.6753943,
+  "scan_id": "1770515585",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Spelling/Grammar",
+        "confidence": 0.6,
+        "evidence": "Misspellings such as 'teh' and 'rustick'.",
+        "benign_explanation": "Typographical errors or non-standard dialect usage."
+      },
+      {
+        "signal": "Uncommon abbreviation",
+        "confidence": 0.4,
+        "evidence": "Use of ';3' as an emoticon.",
+        "benign_explanation": "Casual internet slang or personal expression."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "rustic, possibly humorous due to typo and emoticon"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

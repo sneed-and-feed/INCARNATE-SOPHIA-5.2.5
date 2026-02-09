@@ -1,0 +1,36 @@
+{
+  "timestamp": 1770599753.1335576,
+  "scan_id": "1770599753",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Potential Grooming",
+        "confidence": 0.6,
+        "evidence": "The text includes a question about a fictional character's appearance in a suggestive outfit and their weight, which could be interpreted as sexualizing a minor or a character perceived as one.",
+        "benign_explanation": "The user may be engaging in harmless fantasy or character design discussion without any malicious intent."
+      }
+    ],
+    "overall_risk": "medium"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Sexualization",
+        "confidence": 0.8
+      }
+    ],
+    "epistemic_uncertainty": 0.2
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "casual, potentially fandom-related"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

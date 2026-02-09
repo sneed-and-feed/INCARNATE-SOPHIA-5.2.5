@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770497581.4949071,
+  "scan_id": "1770497581",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Phrase",
+        "confidence": 0.6,
+        "evidence": "The phrase 'while SNEED sells FEED & SEED... >;3' is unusual and may be a reference to an internet meme or in-joke.",
+        "benign_explanation": "The phrase could be an obscure reference to a specific online community or a humorous, nonsensical statement."
+      },
+      {
+        "signal": "Potential Code Word",
+        "confidence": 0.4,
+        "evidence": "The capitalization of 'SNEED', 'FEED', and 'SEED' could indicate a code word or signal within a specific group.",
+        "benign_explanation": "The capitalization could be stylistic or for emphasis, without any hidden meaning."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "internet meme"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

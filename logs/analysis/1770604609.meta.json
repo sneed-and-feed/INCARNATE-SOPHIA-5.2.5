@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770604609.4330938,
+  "scan_id": "1770604609",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.2,
+        "evidence": "The phrase 'ok new techno album ;3' is short and lacks context. The ';3' emoticon is common online, but its inclusion here could be interpreted as a simple, stylized expression of enthusiasm.",
+        "benign_explanation": "The user could be casually sharing their music preference with an emoticon."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "neutral, music-oriented"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

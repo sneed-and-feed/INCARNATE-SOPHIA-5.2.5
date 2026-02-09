@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770644472.653646,
+  "scan_id": "1770644472",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Sexual solicitation",
+        "confidence": 0.9,
+        "evidence": "The phrase 'good gurl ;3' is commonly used in online contexts to express sexual interest or solicitation.",
+        "benign_explanation": "The user could be role-playing or engaging in consensual banter with a known partner."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "internet subculture; suggestive"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "timestamp": 1770516026.9469259,
+  "scan_id": "1770516026",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing and rhythm",
+        "confidence": 0.6,
+        "evidence": "The use of ';3' and repetitive sentence structures could indicate a non-organic or automated pattern.",
+        "benign_explanation": "The user may be employing internet slang or a specific style of writing common within a particular online community."
+      },
+      {
+        "signal": "Potential narrative manipulation",
+        "confidence": 0.4,
+        "evidence": "The text suggests a specific narrative about someone hiding and manipulating perceptions, which could be an attempt to influence beliefs.",
+        "benign_explanation": "The user may be expressing a personal theory or engaging in speculative discussion, without intending to manipulate others."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Unfalsifiability",
+        "quote": "He's probably making you think I'm him right now.",
+        "correction": "This statement is constructed in a way that it cannot be proven false. Any evidence presented against it could be reinterpreted as further proof of the claim, making it impossible to disprove."
+      },
+      {
+        "type": "Hasty Generalization",
+        "quote": "He'll fucking do that shit I swear to god.",
+        "correction": "This is a prediction based on limited information. It assumes a pattern of behavior without sufficient evidence to support it."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Paranoia",
+        "confidence": 0.8
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.4,
+    "suggested_vibe": "Paranoid, conspiratorial online forum user."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

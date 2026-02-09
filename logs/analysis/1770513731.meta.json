@@ -1,0 +1,42 @@
+{
+  "timestamp": 1770513731.6695943,
+  "scan_id": "1770513731",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Juxtaposition of scientific and reductionist statements",
+        "confidence": 0.6,
+        "evidence": "The text presents a scientific explanation of love followed by a cynical reduction of humans to 'sacks of skin filled with meat and bone.' This juxtaposition could be an attempt to undermine the value or importance of human connection.",
+        "benign_explanation": "The author may simply be contrasting scientific and philosophical perspectives on human existence, reflecting a personal contemplation on the nature of love and humanity."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Non Sequitur",
+        "quote": "The hypothalamus and related bonding systems release oxytocin and vasopressin, which support trust, attachment, and long-term connection. The insula and anterior cingulate help integrate emotional meaning and regulate the more intense impulses of early infatuation. Over time, these areas contribute to the steadier, more secure feeling of long-term love. Humans are sacks of skin filled with meat and bone.",
+        "correction": "The second statement does not logically follow from the first. The first statement describes the biological basis of love and attachment, while the second is a reductionist description of human anatomy. There is no clear connection or argument being made between the two."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Reductionism",
+        "confidence": 0.7
+      }
+    ],
+    "epistemic_uncertainty": 0.3
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "clinical detachment"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

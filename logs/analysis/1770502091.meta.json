@@ -1,0 +1,40 @@
+{
+  "timestamp": 1770502091.3717709,
+  "scan_id": "1770502091",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Possible Bot-like Phrasing",
+        "confidence": 0.3,
+        "evidence": "The brevity and directness of the question 'chat is this real' could be indicative of a bot or script.",
+        "benign_explanation": "The user could be using shorthand or informal language common in online chats."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Appeal to Authority (Implicit)",
+        "confidence": 0.2
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "neutral"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

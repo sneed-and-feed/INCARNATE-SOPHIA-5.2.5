@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770495012.988523,
+  "scan_id": "1770495012",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing and requests",
+        "confidence": 0.6,
+        "evidence": "The text contains unusual phrasing such as 'tween and awkward, deformed and in a sense not sinuous' and uses emoticons in an atypical way. The request for something 'realistic and real deep' is vague and potentially suggestive.",
+        "benign_explanation": "The user may be experimenting with creative writing or art prompts and using unconventional language to express their ideas."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "Internet subculture; potentially sexualized or fetishistic content"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

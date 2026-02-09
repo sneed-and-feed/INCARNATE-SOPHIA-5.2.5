@@ -1,0 +1,51 @@
+{
+  "timestamp": 1770595295.6154692,
+  "scan_id": "1770595295",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Repetitive phrasing",
+        "confidence": 0.6,
+        "evidence": "The phrase 'fake and gay' is repeated multiple times.",
+        "benign_explanation": "The repetition could be emphasis or a stylistic choice."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Hasty Generalization",
+        "quote": "Football is fake and gay, literally. Bad Bunny is gay. It\u2019s all fake and gay.",
+        "correction": "The speaker makes a sweeping generalization about football and 'everything' being 'fake and gay' based on limited or no evidence. The speaker needs to provide evidence to support the claim that football is fake and gay. The speaker needs to provide evidence to support the claim that Bad Bunny is gay. Even if Bad Bunny is gay, that does not mean that 'everything' is fake and gay."
+      },
+      {
+        "type": "Ad Hominem",
+        "quote": "Football is fake and gay, literally. Bad Bunny is gay. It\u2019s all fake and gay.",
+        "correction": "The speaker attacks the person (Bad Bunny) instead of addressing the argument or issue at hand. Even if Bad Bunny is gay, that does not mean that 'everything' is fake and gay."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Homophobia",
+        "confidence": 0.9
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.7
+      }
+    ],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "cynical online discourse"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

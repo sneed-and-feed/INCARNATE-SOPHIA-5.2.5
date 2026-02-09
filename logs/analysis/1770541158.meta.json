@@ -1,0 +1,46 @@
+{
+  "timestamp": 1770541158.7045522,
+  "scan_id": "1770541158",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.4,
+        "evidence": "The phrase \"we need the light\" suggests a shared goal or belief being promoted.",
+        "benign_explanation": "This could be a genuine expression of shared sentiment within a community that is experiencing a common hardship, such as a power outage or economic downturn."
+      },
+      {
+        "signal": "Anecdotal Assertion",
+        "confidence": 0.3,
+        "evidence": "The statement relies on a personal anecdote (\"when you go to the grocery store and strangers are telling you\") without providing broader evidence.",
+        "benign_explanation": "The author could be sharing a personal experience that they found surprising or impactful, without intending to generalize or mislead."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Anecdotal Evidence",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Observational; potentially frustrated or concerned about a shared situation."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

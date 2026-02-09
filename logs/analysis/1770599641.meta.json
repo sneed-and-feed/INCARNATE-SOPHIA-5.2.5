@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770599641.8788517,
+  "scan_id": "1770599641",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Syntax",
+        "confidence": 0.3,
+        "evidence": "The use of \">;3\" as an emoticon is not standard and could indicate an attempt to bypass filtering or a coded message.",
+        "benign_explanation": "The user may be employing a less common or personal emoticon style."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "playful, internet slang"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "timestamp": 1770596960.0890412,
+  "scan_id": "1770596960",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Repetitive Phatic Expressions",
+        "confidence": 0.6,
+        "evidence": "The user repeats 'I wish' multiple times in a short span.",
+        "benign_explanation": "The repetition could be a rhetorical device to emphasize a feeling of longing or regret."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Wishful Thinking",
+        "confidence": 0.7
+      }
+    ],
+    "epistemic_uncertainty": 0.2
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "melancholy"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

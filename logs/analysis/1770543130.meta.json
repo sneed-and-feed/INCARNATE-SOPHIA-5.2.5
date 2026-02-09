@@ -1,0 +1,35 @@
+{
+  "timestamp": 1770543130.7018678,
+  "scan_id": "1770543130",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Use of slang and in-group language",
+        "confidence": 0.4,
+        "evidence": "\"i cri 4 u n me tonite bratha. pour a 40 wi the homies\"",
+        "benign_explanation": "The user is employing common internet slang and references to shared cultural experiences to express empathy and camaraderie."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "southern_us",
+    "dialect_markers": [
+      "bratha",
+      "homies",
+      "40"
+    ],
+    "confidence": 0.85,
+    "suggested_vibe": "urban, hip-hop influenced, lamenting"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

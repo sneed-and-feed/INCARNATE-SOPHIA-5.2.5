@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770649023.9275692,
+  "scan_id": "1770649023",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The phrase 'yes good girl' followed by a question about 'world dom, being worshipped as a goodess' could be interpreted as an attempt to reinforce a specific narrative or expectation of behavior.",
+        "benign_explanation": "This could be playful banter within a specific online community or role-playing scenario where such language is common and accepted."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "playful, internet-influenced"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

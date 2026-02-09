@@ -1,0 +1,52 @@
+{
+  "timestamp": 1770520971.4485836,
+  "scan_id": "1770520971",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Repetitive Uncertainty Indicators",
+        "confidence": 0.6,
+        "evidence": "Frequent use of 'idk' (I don't know) suggests either genuine uncertainty or a rhetorical device to appear neutral while subtly guiding the narrative.",
+        "benign_explanation": "The author may genuinely lack specific information and is being transparent about their uncertainty."
+      },
+      {
+        "signal": "Group Attribution",
+        "confidence": 0.4,
+        "evidence": "Attribution to 'the IC' (Intelligence Community) and 'NATO' without specific evidence could be an attempt to frame the issue within a specific geopolitical context.",
+        "benign_explanation": "The author may be speculating based on their understanding of international relations and security matters."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Conspiracy",
+        "quote": "The one thing that is certain the IC is involved. Not just NATO either.",
+        "correction": "The statement asserts involvement without providing evidence. Involvement should be demonstrated with verifiable facts, not presented as a certainty without proof."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.4
+      },
+      {
+        "bias": "Groupthink",
+        "confidence": 0.2
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "neutral, technical discussion"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "timestamp": 1770602560.4229908,
+  "scan_id": "1770602560",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Expression of distress",
+        "confidence": 0.7,
+        "evidence": "The user expresses confusion and mentions bleeding, indicating potential self-harm or a medical issue.",
+        "benign_explanation": "The user could be experiencing a personal crisis or seeking advice in a moment of vulnerability."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Emotional Reasoning",
+        "confidence": 0.6
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "angst, resignation"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

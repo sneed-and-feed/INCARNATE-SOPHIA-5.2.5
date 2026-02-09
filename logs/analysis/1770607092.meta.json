@@ -1,0 +1,52 @@
+{
+  "timestamp": 1770607092.3756707,
+  "scan_id": "1770607092",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Repetitive phrasing",
+        "confidence": 0.6,
+        "evidence": ">be me >ask existential question >\"why would i be?\" >receive no answer >shrug >post on 4chan >??? >profit",
+        "benign_explanation": "The user is employing a common greentext format, which often involves a series of short, formulaic statements to tell a story or convey an experience."
+      },
+      {
+        "signal": "Reference to online community",
+        "confidence": 0.4,
+        "evidence": "post on 4chan",
+        "benign_explanation": "The user is simply referencing a popular online forum, which is a common occurrence and does not inherently indicate coordinated behavior."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Non sequitur",
+        "quote": "??? > profit",
+        "correction": "The jump from an unanswered existential question to 'profit' lacks a clear, logical connection. There's no explanation of how the question or posting it on 4chan leads to any form of gain or benefit. The connection is missing."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation bias",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Availability heuristic",
+        "confidence": 0.2
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "internet forum culture, specifically 4chan. Use of greentext format and 'profit' meme indicates familiarity with online humor."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

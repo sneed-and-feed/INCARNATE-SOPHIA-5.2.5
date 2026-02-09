@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770545309.1494927,
+  "scan_id": "1770545309",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.2,
+        "evidence": "The phrase 'testing fragile resonance' could imply an attempt to assess the stability of a particular viewpoint or narrative, potentially discouraging dissenting opinions if the 'resonance' is deemed fragile.",
+        "benign_explanation": "The phrase could refer to testing the robustness of a scientific hypothesis or a technical system's response to stress."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.3,
+        "evidence": "The brevity and somewhat unusual phrasing 'Testing fragile resonance' could be indicative of a programmed or non-human source.",
+        "benign_explanation": "The phrase could be a concise title or subject line, or a creative expression such as a poem or song lyric."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

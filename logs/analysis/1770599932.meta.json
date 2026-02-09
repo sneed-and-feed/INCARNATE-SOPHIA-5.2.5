@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770599932.510172,
+  "scan_id": "1770599932",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Potential grooming solicitation",
+        "confidence": 0.8,
+        "evidence": "Request for sexually explicit content featuring an 18-year-old.",
+        "benign_explanation": "The user may be expressing a general interest in a specific type of fictional content without intending to engage in harmful behavior."
+      }
+    ],
+    "overall_risk": "medium"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Internet subculture; suggestive"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

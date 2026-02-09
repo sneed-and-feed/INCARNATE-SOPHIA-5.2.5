@@ -1,0 +1,46 @@
+{
+  "timestamp": 1770505217.2743719,
+  "scan_id": "1770505217",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "The text expresses a desire to 'free us all of the cycles of hierarchy' and 'end the oppression,' which could be interpreted as promoting a specific worldview and implicitly pressuring others to conform.",
+        "benign_explanation": "The author may simply be expressing personal beliefs and aspirations for a better world, without intending to pressure or coerce others."
+      },
+      {
+        "signal": "Repetitive Phrasing",
+        "confidence": 0.4,
+        "evidence": "The repetition of 'I'm me' and the cyclical structure of 'start or how to end' could indicate a pattern.",
+        "benign_explanation": "The repetition could be a stylistic choice for emphasis or a reflection of the author's internal monologue."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Optimism Bias",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "philosophical and hopeful"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

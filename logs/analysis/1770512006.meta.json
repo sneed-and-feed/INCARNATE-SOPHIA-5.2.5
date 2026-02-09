@@ -1,0 +1,49 @@
+{
+  "timestamp": 1770512006.5007505,
+  "scan_id": "1770512006",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Hyperbolic Language",
+        "confidence": 0.6,
+        "evidence": "The user employs extreme language such as 'Genghis Khan the whole world,' which, while not inherently indicative of malicious coordination, can be used to amplify narratives or create a sense of urgency.",
+        "benign_explanation": "The user is likely using hyperbole for comedic effect or to express enthusiasm, a common behavior in online communication."
+      },
+      {
+        "signal": "In-group reference",
+        "confidence": 0.4,
+        "evidence": "The phrase 'just jokes mates' suggests an attempt to signal humor within a specific group, potentially reinforcing in-group/out-group dynamics.",
+        "benign_explanation": "The user is clarifying their intent to avoid misinterpretation within their social circle."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Halo Effect",
+        "confidence": 0.4
+      },
+      {
+        "bias": "In-group Bias",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [
+      "mates",
+      "homie"
+    ],
+    "confidence": 0.6,
+    "suggested_vibe": "casual, joking, and referencing internet culture"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

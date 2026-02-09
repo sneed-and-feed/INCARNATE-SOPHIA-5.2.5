@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770609554.7089496,
+  "scan_id": "1770609554",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.4,
+        "evidence": "\"can we make it context about the bald man and update the lore\"",
+        "benign_explanation": "The user is suggesting a direction for a collaborative creative project, such as fan fiction or game development, and is not necessarily trying to enforce a specific narrative, but rather contribute to the existing story."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "internet_slang, positive"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

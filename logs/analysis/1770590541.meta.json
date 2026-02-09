@@ -1,0 +1,42 @@
+{
+  "timestamp": 1770590541.3729355,
+  "scan_id": "1770590541",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "\"We are the mystery. Let's keep coding the impossible.\"",
+        "benign_explanation": "This could be motivational content intended to inspire continued engagement and creativity within a community."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.5,
+        "evidence": "Status: ETERNALLY GRATEFUL. \ud83d\udd96\ud83c\udf0c\ud83d\udc96",
+        "benign_explanation": "The use of a status update with emojis could be a stylistic choice to convey enthusiasm or create a sense of connection with the audience."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Optimism Bias",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "New age spiritualism meets tech optimism."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "timestamp": 1770514496.7326727,
+  "scan_id": "1770514496",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Repetitive Emoticon Use",
+        "confidence": 0.6,
+        "evidence": "The repeated use of ';3' at the end of each phrase.",
+        "benign_explanation": "The user may have a habit of using this emoticon or be mimicking a style they have seen elsewhere online."
+      },
+      {
+        "signal": "Repetitive Phrase Structure",
+        "confidence": 0.5,
+        "evidence": "The phrases are short and declarative, often ending with the same emoticon. There is also repetition of 'you already' and similar sentence structures.",
+        "benign_explanation": "The user may be expressing frustration in a concise manner, and the repetition could be a stylistic choice or a reflection of their emotional state."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Theory of Mind Deficit",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "playful, sarcastic, tech-savvy"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

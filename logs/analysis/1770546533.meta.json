@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770546533.4670784,
+  "scan_id": "1770546533",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.6,
+        "evidence": "The phrase 'shoullld be working nao owo' contains unusual spelling ('shoullld', 'nao') and the 'owo' emoticon, which can be indicative of bot-like or repetitive behavior. The misspelling could also be an attempt to evade filters.",
+        "benign_explanation": "The user could be intentionally using internet slang and making typos as part of casual online communication or role-playing."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "playful, internet slang"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

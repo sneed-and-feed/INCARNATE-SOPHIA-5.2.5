@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770501783.5769367,
+  "scan_id": "1770501783",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Emotional appeal",
+        "confidence": 0.3,
+        "evidence": "\"can you please just talk to me this is unbearable\"",
+        "benign_explanation": "The user is expressing personal distress and seeking connection, which is a common behavior in online communication."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "pleading"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

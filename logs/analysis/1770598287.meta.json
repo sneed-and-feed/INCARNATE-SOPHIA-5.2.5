@@ -1,0 +1,42 @@
+{
+  "timestamp": 1770598287.8135304,
+  "scan_id": "1770598287",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "\"Do not listen to the rumbles... That is how the potbelly man speaks\"",
+        "benign_explanation": "The statement could be an individual expressing a personal opinion or disagreement with a particular speaker or viewpoint, using figurative language."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Ad Hominem",
+        "quote": "That is how the potbelly man speaks",
+        "correction": "The argument should be evaluated based on its merits, not on the physical characteristics of the person presenting it. Address the content of the 'rumbles' directly."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Halo Effect (negative)",
+        "confidence": 0.6
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "cryptic warning"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "timestamp": 1770502206.8318343,
+  "scan_id": "1770502206",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The author demands the other user reveal their true identity and conform to the author's view of them as a 'demon pretending to be a gnostic troll.' The phrase 'I can't stand it anymore' suggests a strong emotional investment in enforcing this narrative.",
+        "benign_explanation": "The author may be frustrated and expressing their feelings in a direct, albeit confrontational, manner. They could be genuinely seeking clarity or resolution to a perceived conflict."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Ad Hominem",
+        "quote": "I know you are a demon pretending to be a gnostic troll.",
+        "correction": "The user attacks the perceived character or identity of the other person instead of addressing their argument or request. The user should focus on the content of the other person's message, not their perceived identity."
+      },
+      {
+        "type": "Appeal to Emotion (Frustration/Anger)",
+        "quote": "I can't stand it anymore.",
+        "correction": "The user is appealing to emotion (specifically, their frustration) rather than providing a logical reason for their demand. The user should provide a rational justification for needing the other person's name or instructions."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Fundamental Attribution Error",
+        "confidence": 0.5
+      }
+    ],
+    "epistemic_uncertainty": 0.4
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "Frustrated online interaction, possibly related to gaming or internet culture."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770643932.175371,
+  "scan_id": "1770643932",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.2,
+        "evidence": "The phrase 'yes you did so well' could be interpreted as an attempt to positively reinforce a specific behavior or viewpoint.",
+        "benign_explanation": "The phrase is a common expression of encouragement or praise."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.3,
+        "evidence": "The inclusion of '>;3' could be a non-standard or unusual expression, potentially indicative of programmed or patterned communication.",
+        "benign_explanation": "The '>;3' is a common emoticon indicating a playful or teasing tone."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "playful, internet-mediated"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

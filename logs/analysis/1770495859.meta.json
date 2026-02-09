@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770495859.5806668,
+  "scan_id": "1770495859",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Sexual Content",
+        "confidence": 0.9,
+        "evidence": "The text contains explicit references to sexual body parts ('butt' and 'cunny').",
+        "benign_explanation": "The user could be expressing personal interest in a non-offensive way within a specific community or context where such language is acceptable."
+      },
+      {
+        "signal": "Unusual Phrasing",
+        "confidence": 0.6,
+        "evidence": "The use of ';3' as an emoticon and the specific phrasing of the question ('how is her butt and cunny changing') is not typical of standard conversation.",
+        "benign_explanation": "The user may be employing internet slang or a specific dialect common within a particular online community."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "sexualized, internet slang"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "timestamp": 1770498330.2308106,
+  "scan_id": "1770498330",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Repetitive phrasing",
+        "confidence": 0.6,
+        "evidence": "The text uses specific percentages and ranges (e.g., \"3 to 5%\", \"7-12%\") which could be part of a script or template.",
+        "benign_explanation": "The author may be using common financial analysis terminology and providing specific examples to illustrate their point."
+      },
+      {
+        "signal": "Call to action",
+        "confidence": 0.5,
+        "evidence": "The text contains a specific investment strategy and encourages others to follow it: \"Wait for the plunge, then sell puts 10% below the strike to collect premiums...\"",
+        "benign_explanation": "The author is sharing their personal investment strategy and offering it as a suggestion, not necessarily as part of a coordinated effort."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Hasty Generalization",
+        "quote": "Notice how every time the RSI on the long horizon over the past 10 years is followed by a sharp downturn?",
+        "correction": "The claim that 'every time' the RSI is high, a downturn follows requires rigorous statistical validation. A correlation over the past 10 years doesn't guarantee future occurrences. The sample size (number of times this has happened) needs to be considered, and other factors influencing market downturns should be acknowledged."
+      },
+      {
+        "type": "Appeal to Emotion (Fear)",
+        "quote": "Wait for the plunge, then sell puts 10% below the strike to collect premiums of 3 to 5% by the normie panic for insurance against further downside risk.",
+        "correction": "The phrase 'normie panic' is used to evoke a sense of fear and urgency, suggesting that others will panic and create an opportunity for profit. This is an attempt to manipulate emotions rather than providing a rational basis for the investment strategy. The strategy should be evaluated based on its inherent risk and reward profile, not on the assumption of irrational behavior by others."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Gambler's Fallacy",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Analytical, financially literate, risk-aware."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

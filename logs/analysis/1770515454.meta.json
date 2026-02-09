@@ -1,0 +1,52 @@
+{
+  "timestamp": 1770515454.1943178,
+  "scan_id": "1770515454",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "The phrase 'knew' suggests a pre-existing expectation or belief about the forest's nature.",
+        "benign_explanation": "The user could be expressing a strong personal preference or anticipation based on prior experiences or research about Cascadian forests."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.2,
+        "evidence": "The phrase 'manifest a cabin' is slightly unusual and could be interpreted as formulaic.",
+        "benign_explanation": "The user may be employing a specific creative writing technique or internet slang related to visualization or wish fulfillment."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Emotion (Wishful Thinking)",
+        "quote": "manifest a cabin in the forest. i *knew* it was going to be a rich cascadian forest",
+        "correction": "The desire for a specific outcome (a cabin in a rich Cascadian forest) does not guarantee its realization. Manifestation, as described, lacks a clear causal mechanism and relies on wishful thinking rather than evidence or planning."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Optimism Bias",
+        "confidence": 0.7
+      }
+    ],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "cascadian",
+    "dialect_markers": [],
+    "confidence": 0.7,
+    "suggested_vibe": "Pacific Northwest, possibly with an interest in nature and/or online culture."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

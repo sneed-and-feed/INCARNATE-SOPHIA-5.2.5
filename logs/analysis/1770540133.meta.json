@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770540133.3840182,
+  "scan_id": "1770540133",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Language/Topic Association",
+        "confidence": 0.3,
+        "evidence": "The combination of 'Hello,' 'blonde elf,' and a liking for someone named 'Beans' is unusual and could be part of a test to bypass filters or identify vulnerabilities in content moderation systems.",
+        "benign_explanation": "The user could be expressing a personal interest or fantasy in a creative or humorous way."
+      },
+      {
+        "signal": "Lack of Context",
+        "confidence": 0.2,
+        "evidence": "The statement is isolated and lacks context, making it difficult to determine its purpose or intent. This could be a characteristic of coordinated activity where individual messages are designed to be meaningless on their own but contribute to a larger campaign.",
+        "benign_explanation": "The user may be making an introductory statement without intending to convey any deeper meaning."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "japanese",
+    "dialect_markers": [],
+    "confidence": 0.9,
+    "suggested_vibe": "Anime/Manga influenced, lighthearted and whimsical."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

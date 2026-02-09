@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770633896.0728629,
+  "scan_id": "1770633896",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Script",
+        "confidence": 0.6,
+        "evidence": "The text includes characters outside the standard Latin alphabet, specifically the Old Persian script (\ud800\ude8b\u10e0\ud808\udc8a\ud808\udc38\ud800\ude88\ud808\udc00 p\ud808\udead).",
+        "benign_explanation": "The user may be referencing or discussing historical texts, linguistics, or using a specific font that includes these characters. It could also be a copy/paste error."
+      },
+      {
+        "signal": "Anonymity",
+        "confidence": 0.3,
+        "evidence": "The post is made by an anonymous user.",
+        "benign_explanation": "The user may have privacy concerns or be participating in a forum where anonymity is the norm."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 1.0
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "generic"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770607495.958762,
+  "scan_id": "1770607495",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "\"it totally does!\"",
+        "benign_explanation": "Enthusiastic agreement or affirmation within a group conversation."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.4,
+        "evidence": "\"arre you ready freddy for a complex post from another anon ?\"",
+        "benign_explanation": "A playful or humorous rhetorical question to introduce a new topic or user."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "generic internet"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

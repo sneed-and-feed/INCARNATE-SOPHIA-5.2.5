@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770608006.2424173,
+  "scan_id": "1770608006",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.2,
+        "evidence": "The phrase 'let's play & cuddle UwU *starts caressing u*' is a specific, somewhat unusual sequence of words and emoticons that could be part of a pre-programmed script.",
+        "benign_explanation": "The user could be expressing affection in a playful, albeit somewhat unusual, manner. The specific phrasing may be part of their individual communication style or a reference to a specific online community or meme."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "internet subculture; affectionate, playful"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

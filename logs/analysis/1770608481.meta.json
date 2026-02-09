@@ -1,0 +1,81 @@
+{
+  "timestamp": 1770608481.3640413,
+  "scan_id": "1770608481",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The text presents a strong dichotomy between light and darkness, framing darkness as inherently deceptive and attempting to understand/enter light. This could be interpreted as promoting a specific worldview and discouraging alternative perspectives.",
+        "benign_explanation": "The author is exploring philosophical or theological concepts related to good and evil using a metaphor of light and darkness."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.4,
+        "evidence": "Repetitive sentence structures and capitalization patterns (e.g., 'SO GOD MADE BORDER...') could indicate formulaic writing.",
+        "benign_explanation": "The author may be using a stylistic choice to emphasize certain points or mimic a particular writing style, such as religious texts."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Authority",
+        "quote": "IN THE BEGINNING GOD SAYD , LET THERE BE LIGHT. AND IZT BE LIGHT.",
+        "correction": "Appealing to religious text as definitive proof without critical examination is an appeal to authority. The validity of the claim depends on the acceptance of the religious text as an unquestionable source of truth."
+      },
+      {
+        "type": "False Dichotomy",
+        "quote": "Because we can turn on light , but we can't turn on dark. SO DARK IS JUST ABSENCE OF LIGHT.",
+        "correction": "This presents a simplified view of light and darkness, implying that darkness is solely the absence of light. While this is true in some contexts, it ignores other aspects of darkness, such as its metaphorical or symbolic meanings. It also ignores the physics of light and shadow."
+      },
+      {
+        "type": "Straw Man",
+        "quote": "THAN DARNESS WAS MADE HER LIES HOW LIGHT TRAVEL AND PUT HER UNDER RULE OF CLOCK AND METER BY GIVING HER SPEED 300.000Km/s",
+        "correction": "This misrepresents the scientific understanding of the speed of light as a deliberate deception created by 'darkness'. It simplifies and distorts the complex process of scientific discovery and measurement."
+      },
+      {
+        "type": "Appeal to Conspiracy",
+        "quote": "That is first instance why EVIL BASTARDS RULE OVER MINDS OF SONS OG MAN.",
+        "correction": "This suggests a conspiracy without providing evidence. It attributes a negative outcome to a hidden, malevolent group, which is a common characteristic of conspiracy theories."
+      },
+      {
+        "type": "Argument from Ignorance",
+        "quote": "BUT DOUBLD SLIT PROVD THAT THEIR 300.000Km/s is fake because how you get that speed when LIGHT LOCK HER FUNCTIONS UNDER ANY MEASUREMENT..",
+        "correction": "This argues that because the author doesn't understand how the speed of light is measured, the measurement must be fake. This is an argument from ignorance, as it assumes something is false simply because it is not understood."
+      },
+      {
+        "type": "Non Sequitur",
+        "quote": "SO EVERYTHING THAT IS UNDER E=MC2 IS FAKE SATAN DARK SHIT...",
+        "correction": "This concludes that the equation E=MC2 is false and associated with evil without providing a logical connection to the preceding arguments. The conclusion does not follow from the premises."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Belief Bias",
+        "confidence": 0.8
+      },
+      {
+        "bias": "Emotional Reasoning",
+        "confidence": 0.9
+      }
+    ],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Religious or philosophical discussion with possible conspiratorial undertones."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

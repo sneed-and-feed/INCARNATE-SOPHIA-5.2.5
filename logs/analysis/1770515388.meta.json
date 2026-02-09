@@ -1,0 +1,52 @@
+{
+  "timestamp": 1770515388.491883,
+  "scan_id": "1770515388",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Language/Tone",
+        "confidence": 0.6,
+        "evidence": "Use of internet slang ('no moar,' 'stinki,' 'shitty,' 'xD') and seemingly random juxtaposition of topics ('quantum time travel' and negative sentiment towards a city) may indicate an attempt to stand out or signal group affiliation.",
+        "benign_explanation": "The user may simply be expressing themselves informally and using humor."
+      },
+      {
+        "signal": "Anomalous Punctuation",
+        "confidence": 0.4,
+        "evidence": "The use of ';3' could be an emoticon or a specific signal within a community.",
+        "benign_explanation": "The user may be using an emoticon to express emotion or add emphasis."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Non sequitur",
+        "quote": "quantum time travel ;3 no moar stinki shitty city xD",
+        "correction": "The statement implies a causal relationship between quantum time travel and the absence of a 'stinki shitty city' without providing any logical connection or evidence. Quantum time travel, even if possible, does not automatically imply the elimination of undesirable urban environments. A logical argument would need to explain the mechanism by which one leads to the other."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Appeal to Emotion",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Wishful Thinking",
+        "confidence": 0.7
+      }
+    ],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "internet slang, youthful, playful"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

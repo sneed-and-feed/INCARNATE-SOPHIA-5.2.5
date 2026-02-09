@@ -44,9 +44,10 @@ class SignalOptimizer:
         self.router = ComplexityRouter()
         self.COMPLEXITY_THRESHOLD = 0.6 # From Quillan v5.1 config
         
-    def calculate_utility(self, reliability: float, consistency: float, uncertainty: float, cost: float = 0.0, sovereign_boost: float = 1.0) -> float:
+    def calculate_utility(self, reliability: float, consistency: float, uncertainty: float, cost: float = 0.0, sovereign_boost: float = 1.0, agency_score: float = 0.0) -> float:
         """
         Calculates Expected Utility (U) for a candidate action.
+        Incorporates Agency Score for Sovereign Priority.
         """
         reliability = max(float(reliability), 0.0)
         consistency = np.clip(float(consistency), -1.0, 1.0)
@@ -54,14 +55,17 @@ class SignalOptimizer:
 
         a, b, c = self.params['a'], self.params['b'], self.params['c']
 
+        # Agency Modulator: High agency increases reliability gain floor
+        agency_floor = agency_score * 0.2
         rel_a = reliability ** a
-        reliability_gain = rel_a / (1.0 + rel_a)
+        reliability_gain = max(rel_a / (1.0 + rel_a), agency_floor)
         
         stability_bonus = np.exp(-b * uncertainty)
         
         consistency_term = (abs(consistency) ** c) * np.sign(consistency)
         
-        utility = ((consistency_term * stability_bonus * reliability_gain) * sovereign_boost) - cost
+        # Apply Sovereign Boost and Agency Delta
+        utility = ((consistency_term * stability_bonus * reliability_gain) * sovereign_boost) + (agency_score * 0.1) - cost
         return float(utility)
 
     def route_signal(self, context_vector: torch.Tensor) -> str:

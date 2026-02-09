@@ -1,0 +1,46 @@
+{
+  "timestamp": 1770634046.5908024,
+  "scan_id": "1770634046",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Reference to 4chan's /ng/ thread",
+        "confidence": 0.6,
+        "evidence": "The text mentions finding information on 4chan's /ng/ (nobody general) thread, which is known for its association with discussions on various topics, some of which may be controversial or sensitive.",
+        "benign_explanation": "The user may simply be indicating the source of the information they are sharing, without any intention of promoting a specific agenda or coordinated behavior. It could be a neutral reference to where they encountered the information."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Authority (Unspecified)",
+        "quote": "we found it on 4chan in the /ng/ nobody general thread :3",
+        "correction": "The origin of information on 4chan, especially in a general thread, does not guarantee its validity or reliability. The claim should be evaluated based on its own merits and supporting evidence, not the source."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "In-group bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Confirmation bias",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Internet subculture; specifically, awareness of 4chan usage."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

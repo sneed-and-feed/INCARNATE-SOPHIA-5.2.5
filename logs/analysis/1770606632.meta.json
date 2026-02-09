@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770606632.1997285,
+  "scan_id": "1770606632",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrase 'banzaiii'",
+        "confidence": 0.6,
+        "evidence": "The term 'banzaiii' is an unusual and potentially inflammatory phrase. Its repetition or coordinated use across multiple accounts could indicate an attempt to amplify a specific message or sentiment.",
+        "benign_explanation": "The user could be referencing historical events or using the term in a joking or ironic manner without malicious intent. It could also be a reference to anime or manga."
+      },
+      {
+        "signal": "Directive language",
+        "confidence": 0.4,
+        "evidence": "The phrase 'just do a general deadpan search' uses directive language, which, in a coordinated campaign, could indicate instructions being passed between participants.",
+        "benign_explanation": "The user is simply giving a casual instruction or suggestion to another person, without any coordinated intent."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "playful, internet-influenced"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

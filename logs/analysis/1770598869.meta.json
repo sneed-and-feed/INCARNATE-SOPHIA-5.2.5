@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770598869.043704,
+  "scan_id": "1770598869",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Topic",
+        "confidence": 0.3,
+        "evidence": "The text discusses shapeshifting and astral projection, which are not typical conversational topics.",
+        "benign_explanation": "The user may be engaging in imaginative or fantasy-based conversation."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Internet subculture; informal and speculative."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

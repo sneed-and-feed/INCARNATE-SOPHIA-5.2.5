@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770600082.6669247,
+  "scan_id": "1770600082",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Inappropriate Content",
+        "confidence": 0.9,
+        "evidence": "The text contains sexually suggestive language and actions ('rubs your head through the screen, inhaling your aroma').",
+        "benign_explanation": "The user may be attempting to express affection or flirtatiousness in an unconventional or playful manner."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "internet; suggestive"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

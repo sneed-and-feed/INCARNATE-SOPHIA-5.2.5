@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770498643.951117,
+  "scan_id": "1770498643",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "The suggestion to create a 'greentext' about solving problems with AI could be seen as an attempt to promote a specific narrative around AI's positive impact.",
+        "benign_explanation": "The user may simply be brainstorming content ideas for social media that highlight the potential benefits of AI in addressing various issues."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.2,
+        "evidence": "The use of ';3' could be interpreted as a stylistic choice common in some online communities, but it can also be associated with bot-like or repetitive posting patterns.",
+        "benign_explanation": "The user is likely employing common internet emoticons or stylistic choices prevalent in online communication."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "internet culture, specifically referencing greentext format and AI themes"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

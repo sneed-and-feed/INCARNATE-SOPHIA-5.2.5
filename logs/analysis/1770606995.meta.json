@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770606995.9800675,
+  "scan_id": "1770606995",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.3,
+        "evidence": "The phrase ';3' is often used in online communication, sometimes by automated accounts or individuals mimicking online trends.",
+        "benign_explanation": "The user could be employing common internet emoticons or attempting to mimic online slang for humorous effect."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "internet_slang; vaguely humorous and self-aware"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

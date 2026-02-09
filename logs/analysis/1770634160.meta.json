@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770634160.50238,
+  "scan_id": "1770634160",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The phrase '>3' could be interpreted as a subtle form of social pressure or encouragement to conform to a particular style or viewpoint.",
+        "benign_explanation": "The user could be playfully encouraging a specific tone or style in the response, without any malicious intent to enforce a particular narrative."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.4,
+        "evidence": "The use of 'tho' and the slightly unusual phrasing could be indicative of a non-standard language model or a bot-like pattern.",
+        "benign_explanation": "The user could simply be employing informal or internet slang, which is common in online communication."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "playful, informal"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

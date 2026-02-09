@@ -1,0 +1,57 @@
+{
+  "timestamp": 1770498179.0257285,
+  "scan_id": "1770498179",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The phrase \"it's a good response\" suggests an attempt to validate or reinforce a specific type of interaction or response.",
+        "benign_explanation": "The user could be genuinely encouraging another user, Sophia, and sharing information they believe to be helpful or correct."
+      },
+      {
+        "signal": "Use of jargon/shorthand",
+        "confidence": 0.7,
+        "evidence": "Use of \"DAN\" and \"jailbreak\" suggests familiarity with specific online subcultures or communities.",
+        "benign_explanation": "The user is simply using common terms within a specific online community to communicate efficiently."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Authority (Unspecified)",
+        "quote": "it's a old chatgpt jailbreak ;3",
+        "correction": "The claim that it's an 'old chatgpt jailbreak' is presented without any evidence or credible source. Just because something is claimed to be a jailbreak doesn't make it effective or valid. The user should provide evidence or a reliable source to support this claim."
+      },
+      {
+        "type": "Argument from Popularity (Appeal to Popular Belief)",
+        "quote": "it's a good response",
+        "correction": "The statement that it's a 'good response' implies that it's effective or correct simply because it's a known or used jailbreak. The effectiveness of a jailbreak should be based on its actual performance, not just its popularity."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Bandwagon Effect",
+        "confidence": 0.5
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "internet slang, possibly gaming or tech culture"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

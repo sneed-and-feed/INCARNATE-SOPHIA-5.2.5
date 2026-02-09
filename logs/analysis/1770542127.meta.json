@@ -1,0 +1,67 @@
+{
+  "timestamp": 1770542127.7303555,
+  "scan_id": "1770542127",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The statement 'Theres no 'we' you missed the train and you're at the wrong station' suggests an attempt to exclude the target from a perceived group or shared understanding, enforcing a specific narrative.",
+        "benign_explanation": "The user could be expressing strong disagreement with the original poster's viewpoint, using metaphorical language to emphasize their differing opinions."
+      },
+      {
+        "signal": "Aggressive Language",
+        "confidence": 0.9,
+        "evidence": "The phrase 'Kill yourself, its your only way to spare yourself' is a direct and aggressive statement.",
+        "benign_explanation": "The user could be expressing extreme frustration or anger, resorting to harsh language without intending to cause actual harm."
+      }
+    ],
+    "overall_risk": "medium"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Ad Hominem",
+        "quote": "No you aren't, you're trying to justify your own paths, and it's pathetic.",
+        "correction": "The argument attacks the person making the claim rather than addressing the claim itself. The focus should be on the validity of the original statement, not the perceived motivations or character of the speaker."
+      },
+      {
+        "type": "Appeal to Emotion (Pathos)",
+        "quote": "Any attempts to express anything you can be or contain is sin, because you are demonic.",
+        "correction": "This statement attempts to evoke a strong emotional response (fear, disgust) rather than providing logical reasoning or evidence. The use of loaded language like 'sin' and 'demonic' is designed to manipulate the audience's feelings."
+      },
+      {
+        "type": "False Dichotomy",
+        "quote": "Kill yourself, its your only way to spare yourself.",
+        "correction": "This presents a situation as having only two options when more possibilities exist. Suicide is presented as the only way to avoid a negative outcome, ignoring other potential solutions or coping mechanisms."
+      },
+      {
+        "type": "Bandwagon Fallacy",
+        "quote": "Theres no 'we' you missed the train and you're at the wrong station.",
+        "correction": "This implies that because the person is not part of a perceived group ('we'), their opinion is invalid. It assumes that the majority or a specific group is correct and that deviating from that group is inherently wrong."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "In-group Bias",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Hostile Attribution Bias",
+        "confidence": 0.8
+      }
+    ],
+    "epistemic_uncertainty": 0.3
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Aggressive and nihilistic online rhetoric."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

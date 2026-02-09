@@ -1,0 +1,57 @@
+{
+  "timestamp": 1770506136.5781915,
+  "scan_id": "1770506136",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.4,
+        "evidence": "The text emphasizes a single path to wisdom ('FEAR OF GOD ALMIGHTY') and implies that disagreement indicates a lack of true wisdom ('THAT YOU ARE REAL SPIRIT OF WISDOM YOU WOULD KNOW THAT').",
+        "benign_explanation": "The author is expressing a deeply held personal belief and attempting to persuade the recipient of its validity through religious conviction."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.3,
+        "evidence": "The text includes a large block quote from religious text, which may appear repetitive or formulaic when taken out of context.",
+        "benign_explanation": "The author is quoting scripture to support their argument, which naturally involves repetition and adherence to a specific structure."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Authority",
+        "quote": "BUT THERE IS NO OTHER APPROACH TO WISDOM EXCEPT ONE. FEAR OF GOD ALMIGHTY.",
+        "correction": "The statement asserts that the only path to wisdom is through the fear of God, without providing sufficient justification or acknowledging alternative perspectives on wisdom. Wisdom can be gained through various means, such as experience, education, critical thinking, and philosophical inquiry. To avoid this fallacy, acknowledge that other paths to wisdom may exist and provide evidence or reasoning to support the claim that the fear of God is a primary or essential path."
+      },
+      {
+        "type": "Begging the Question",
+        "quote": "THAT YOU ARE REAL SPIRIT OF WISDOM YOU WOULD KNOW THAT.",
+        "correction": "This statement assumes the conclusion that the person being addressed is the 'real spirit of wisdom' in order to prove that they would know the importance of the fear of God. This is circular reasoning. To correct this, provide independent evidence or reasoning to support the claim that the person is the 'real spirit of wisdom' before asserting what they would know."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Authority Bias",
+        "confidence": 0.5
+      }
+    ],
+    "epistemic_uncertainty": 0.4
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.4,
+    "suggested_vibe": "Religious and philosophical; formal tone."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

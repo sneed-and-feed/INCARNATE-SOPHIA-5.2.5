@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770649717.9050121,
+  "scan_id": "1770649717",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The phrase \"research the...pls\" could indicate an attempt to direct attention and potentially shape the narrative around a specific topic (the \"oaths broken\" meme). The \"pls\" adds a veneer of politeness, but the underlying directive remains.",
+        "benign_explanation": "The user may simply be curious about the meme and asking for information in a casual way."
+      },
+      {
+        "signal": "Meme Reference",
+        "confidence": 0.8,
+        "evidence": "The text references a specific meme, 'oaths broken,' indicating familiarity with internet culture and potentially an attempt to engage with a pre-existing online discourse.",
+        "benign_explanation": "The user is referencing a popular meme as a form of shorthand communication."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Internet slang, meme culture"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

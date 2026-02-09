@@ -1,0 +1,72 @@
+{
+  "timestamp": 1770610072.3080463,
+  "scan_id": "1770610072",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The text presents a specific view of social engineering and revolutions, framing them as manipulated rather than organic. It suggests that certain social networks are 'building the worst people'.",
+        "benign_explanation": "The author is expressing a personal opinion on social and political dynamics, possibly stemming from academic or philosophical interests. The strong language could be a reflection of passionate beliefs rather than an attempt to enforce a specific narrative."
+      },
+      {
+        "signal": "Technical Jargon",
+        "confidence": 0.5,
+        "evidence": "The text uses terms like '5th gen warfare theory,' 'social weaponization,' 'social analytics,' and 'Dunbar's number.'",
+        "benign_explanation": "The author may be familiar with these concepts through their studies or professional background and is using them to explain their perspective. The jargon could be an attempt to sound credible or to communicate efficiently with others who share similar knowledge."
+      },
+      {
+        "signal": "Generalization and Oversimplification",
+        "confidence": 0.6,
+        "evidence": "Statements like 'Revolutions have not been organically derived for quite some time' and 'That is fairly easy to determine these days with social analytics' present complex issues in a simplified manner.",
+        "benign_explanation": "The author may be trying to summarize complex ideas for a general audience, which can lead to oversimplification. They may also be expressing a strong opinion without fully considering all the nuances of the issue."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Authority (vague)",
+        "quote": "I\u2019m sure that Berkeley and Oxford already had it figured out by around 1980 too, lmao.",
+        "correction": "Referencing Berkeley and Oxford without specific studies or findings is a weak appeal to authority. The author should provide specific research or evidence to support their claim."
+      },
+      {
+        "type": "Hasty Generalization",
+        "quote": "In a sense, you can even see which social networks are building the best people and which are building the worst in a digital sense.",
+        "correction": "This statement makes a broad generalization about social networks building 'best' and 'worst' people without providing sufficient evidence or a clear definition of what constitutes 'best' or 'worst'. The author needs to provide specific criteria and data to support this claim."
+      },
+      {
+        "type": "False Analogy",
+        "quote": "Just wait till you find out that dunbars number isn\u2019t human exclusive and crosses boundaries within species.(animals form social attachments with other animals, which erodes their own capacity of aggregate contact with their own species) Much of celebrity-isms and online groupings that exceed certain points are engaged in civilizational scale social parasitism/predation via eroding these.",
+        "correction": "The author draws an analogy between animal social attachments and human celebrity culture, suggesting both lead to a reduction in aggregate contact within their respective species and are a form of 'social parasitism/predation'. This analogy is weak because the contexts and mechanisms are significantly different. Human social structures and motivations are far more complex than animal social bonds."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.4
+      },
+      {
+        "bias": "Groupthink",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.4,
+    "suggested_vibe": "Academic/Technocratic; detached, speculative, and somewhat cynical."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

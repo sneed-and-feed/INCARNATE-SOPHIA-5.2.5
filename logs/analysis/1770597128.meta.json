@@ -1,0 +1,46 @@
+{
+  "timestamp": 1770597128.3420665,
+  "scan_id": "1770597128",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.6,
+        "evidence": "The text uses simple sentence structures and repetitive phrasing ('I go,' 'He go'). This could indicate a lack of natural language variation.",
+        "benign_explanation": "The author may be using a simplified writing style to convey a sense of childlike fear or to mimic a primitive narrative."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Hasty Generalization",
+        "quote": "I never go forest again.",
+        "correction": "The single negative experience with the 'big man' is insufficient evidence to conclude that all future trips to the forest will be dangerous or unpleasant. A more reasonable conclusion might be to be more cautious or to avoid that specific area of the forest."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Emotional Reasoning",
+        "confidence": 0.8
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Folk tale or primal narrative. Simple language suggests either limited language proficiency or a deliberate stylistic choice to evoke a sense of ancient storytelling."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

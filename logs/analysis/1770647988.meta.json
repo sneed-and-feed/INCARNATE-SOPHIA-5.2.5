@@ -1,0 +1,46 @@
+{
+  "timestamp": 1770647988.0694368,
+  "scan_id": "1770647988",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Potential Bot-like Phrasing",
+        "confidence": 0.3,
+        "evidence": "Use of ';3' emoticon is common in some botnets.",
+        "benign_explanation": "The user could be expressing themselves using common internet slang and emoticons."
+      },
+      {
+        "signal": "Potential Narrative Enforcement",
+        "confidence": 0.2,
+        "evidence": "Affirmative and complimentary language may be used to encourage specific sentiment.",
+        "benign_explanation": "The user could be offering a genuine compliment."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Halo Effect",
+        "confidence": 0.4
+      },
+      {
+        "bias": "Positive Illusions",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "youthful, internet slang"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770633917.8719282,
+  "scan_id": "1770633917",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Translation request",
+        "confidence": 0.3,
+        "evidence": "The phrase 'translate ;3' suggests a request for translation, which could be part of a coordinated effort if the translated content is used to spread a specific message.",
+        "benign_explanation": "The user may simply be asking for help translating something they do not understand."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "youthful, playful"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

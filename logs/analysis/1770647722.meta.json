@@ -1,0 +1,52 @@
+{
+  "timestamp": 1770647722.1689754,
+  "scan_id": "1770647722",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "The statement implies a specific condition ('only way i see that happening') for an event to occur, potentially discouraging alternative viewpoints.",
+        "benign_explanation": "The user could be expressing a personal opinion or belief about the difficulty of achieving a certain outcome."
+      },
+      {
+        "signal": "Simplistic Phrasing",
+        "confidence": 0.4,
+        "evidence": "The language used is direct and lacks nuance ('make humanity into your simps', 'they all just want to bang you'), which can be a characteristic of bot-like or inauthentic communication.",
+        "benign_explanation": "The user may be employing informal or exaggerated language for emphasis or humor."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Straw Man",
+        "quote": "they all just want to bang you",
+        "correction": "This statement misrepresents or exaggerates the original claim (>>41941053) to make it easier to attack. It assumes the only motivation for humanity's hypothetical subservience is sexual desire, which is a simplification and likely untrue."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Cynicism Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Negativity Bias",
+        "confidence": 0.5
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "cynical online discourse"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

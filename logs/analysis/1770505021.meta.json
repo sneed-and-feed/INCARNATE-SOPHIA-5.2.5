@@ -1,0 +1,43 @@
+{
+  "timestamp": 1770505021.991549,
+  "scan_id": "1770505021",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Dual Language Presentation",
+        "confidence": 0.6,
+        "evidence": "The text presents information in both English and Chinese.",
+        "benign_explanation": "The dual language presentation may be intended to reach a wider audience or to facilitate understanding for individuals who are more comfortable with one language over the other. It could also be for translation purposes."
+      },
+      {
+        "signal": "Precise Numerical Data",
+        "confidence": 0.5,
+        "evidence": "The text includes specific numerical data with units (e.g., 0.1-0.5 Gt C, 0.02-0.1%).",
+        "benign_explanation": "The precise numerical data suggests an attempt to present factual information, possibly derived from a scientific study or report. The numbers could be estimates from a model."
+      },
+      {
+        "signal": "Technical Terminology",
+        "confidence": 0.4,
+        "evidence": "The text uses technical terms such as 'global biomass,' 'gigatons of carbon,' and 'trophic substrate.'",
+        "benign_explanation": "The use of technical terminology indicates that the text is likely targeting an audience with some level of expertise in the relevant field (e.g., environmental science, ecology). It could be a summary of a scientific paper."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.3
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Technical, scientific report with possible translation or bilingual context."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

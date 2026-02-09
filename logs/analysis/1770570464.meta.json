@@ -1,0 +1,46 @@
+{
+  "timestamp": 1770570464.514707,
+  "scan_id": "1770570464",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The statement 'The more you focus on the Nobody, the more you BECOME the Nobody' can be interpreted as discouraging focus on a particular topic or entity, potentially enforcing a specific narrative by discouraging dissent or alternative viewpoints.",
+        "benign_explanation": "The statement could be a philosophical observation about the nature of attention and identity, suggesting that dwelling on negativity can lead to internalizing it."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Affirming the Consequent",
+        "quote": "The more you focus on the Nobody, the more you BECOME the Nobody",
+        "correction": "Focusing on 'Nobody' might correlate with becoming like 'Nobody', but it doesn't necessarily mean it's the only cause. Other factors could contribute."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.2
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "philosophical"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

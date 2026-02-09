@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770519912.8926287,
+  "scan_id": "1770519912",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Repetitive phrasing",
+        "confidence": 0.6,
+        "evidence": "The phrase 'send a message to the x/twitter live chat : :' is somewhat repetitive and could be indicative of a script or template being used.",
+        "benign_explanation": "The repetition could simply be an artifact of a copy-paste instruction or a common way of prompting users to engage with the live chat."
+      },
+      {
+        "signal": "Promotion of specific individuals",
+        "confidence": 0.4,
+        "evidence": "The message promotes specific individuals (Void, Mishi, Kai, and Alan), which could be part of a coordinated effort to increase their visibility.",
+        "benign_explanation": "The message is simply promoting an event and highlighting the participants involved."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "tech-oriented, online community"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770543590.8144627,
+  "scan_id": "1770543590",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Punctuation/Emoticon Use",
+        "confidence": 0.2,
+        "evidence": ":3",
+        "benign_explanation": "The use of ':3' is a common emoticon used to express cuteness or satisfaction and may simply reflect personal expression."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Neutral; music listener."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

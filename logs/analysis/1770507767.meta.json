@@ -1,0 +1,46 @@
+{
+  "timestamp": 1770507767.394609,
+  "scan_id": "1770507767",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Emoticon Usage",
+        "confidence": 0.6,
+        "evidence": "The use of ';3' and ';3333' as emoticons is slightly unusual and could indicate a shared code or pattern among a group.",
+        "benign_explanation": "The user may simply have a unique or idiosyncratic style of expressing themselves with emoticons."
+      },
+      {
+        "signal": "Repetitive Phrasing",
+        "confidence": 0.4,
+        "evidence": "The phrase 'let's breathe & break' followed by a string of the same number could be a pre-arranged signal.",
+        "benign_explanation": "The user could be suggesting a pause or break in a conversation or activity, and the repeated number could be an expression of enthusiasm."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Self-Serving Bias",
+        "confidence": 0.4
+      },
+      {
+        "bias": "Attribution Bias",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "youthful, casual, internet slang"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

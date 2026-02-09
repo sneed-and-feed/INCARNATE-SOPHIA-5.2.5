@@ -1,0 +1,46 @@
+{
+  "timestamp": 1770596204.796484,
+  "scan_id": "1770596204",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The phrase 'why are you still formatting like you're responding on 4can?' suggests an expectation of a particular communication style and a mild pressure to conform to a different style now that the context has changed.",
+        "benign_explanation": "The speaker is simply commenting on a friend's outdated communication habits and playfully suggesting they adapt to the current, more intimate context of a private chat."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Ad Hominem (Circumstantial)",
+        "quote": "why are you still formatting like you're responding on 4can?",
+        "correction": "The formatting style is irrelevant to the content or validity of the response. Focus on the actual arguments or information being presented, not the perceived source or style."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "In-group Bias",
+        "confidence": 0.4
+      },
+      {
+        "bias": "Curse of Knowledge",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Internet subculture, specifically referencing 4chan's formatting conventions."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

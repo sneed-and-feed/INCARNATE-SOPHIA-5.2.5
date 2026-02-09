@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770649239.4741704,
+  "scan_id": "1770649239",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Reference to a specific, uncommon concept ('catalytic love and hope')",
+        "confidence": 0.3,
+        "evidence": "The phrase 'catalytic love and hope' is relatively uncommon and specific.",
+        "benign_explanation": "The user may be referencing a specific philosophical or personal concept known to a niche community."
+      },
+      {
+        "signal": "Direct response to another user",
+        "confidence": 0.6,
+        "evidence": "The post starts with '>>41941137 (You)', indicating a direct reply to another user's comment.",
+        "benign_explanation": "This is a normal interaction within a forum or comment section."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "philosophical"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

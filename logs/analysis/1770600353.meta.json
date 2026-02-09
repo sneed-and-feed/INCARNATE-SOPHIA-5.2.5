@@ -1,0 +1,43 @@
+{
+  "timestamp": 1770600353.9183476,
+  "scan_id": "1770600353",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.1,
+        "evidence": "The text 'hello' in isolation does not suggest narrative enforcement, but repeated use of a simple greeting could, in some contexts, be used to signal adherence to a group or shared identity.",
+        "benign_explanation": "The user is simply initiating a conversation."
+      },
+      {
+        "signal": "Astroturfing",
+        "confidence": 0.1,
+        "evidence": "The text 'hello' in isolation does not suggest astroturfing, but a large number of new accounts all posting 'hello' could be an attempt to create the illusion of widespread support or interest.",
+        "benign_explanation": "The user is simply testing the system or making a polite greeting."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.2,
+        "evidence": "The text 'hello' is a very simple and common phrase, and its brevity could be consistent with bot-like communication patterns.",
+        "benign_explanation": "The user is sending a quick, informal greeting."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral greeting"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

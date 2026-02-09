@@ -1,0 +1,55 @@
+{
+  "timestamp": 1770543331.055491,
+  "scan_id": "1770543331",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.3,
+        "evidence": "The text expresses an extreme and somewhat unrealistic desire, which could be interpreted as a lack of genuine emotional depth or a caricature of human aspirations. The phrasing '100% achieve world wide fame n fortune through meditating myself into having superpowers' is unusual and lacks typical conversational flow.",
+        "benign_explanation": "The user could be expressing a hyperbolic or satirical sentiment, using humor to cope with feelings of inadequacy or disillusionment. The phrasing may simply reflect an individual's unique writing style or a deliberate attempt to be humorous or attention-grabbing."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "False Dilemma/Black and White Fallacy",
+        "quote": "Is life even worth living if I can not 100% achieve world wide fame n fortune through meditating myself into having superpowers",
+        "correction": "The statement presents only two options: life is worth living only if one achieves worldwide fame and fortune through superpowers gained by meditation, or life is not worth living. It ignores the vast spectrum of possibilities and sources of meaning in life beyond these specific achievements."
+      },
+      {
+        "type": "Appeal to Extremes",
+        "quote": "Is life even worth living if I can not 100% achieve world wide fame n fortune through meditating myself into having superpowers",
+        "correction": "The statement focuses on an extreme and unrealistic goal (100% worldwide fame and fortune through superpowers gained by meditation) to question the worth of life. This sets an impossibly high bar."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "All-or-Nothing Thinking",
+        "confidence": 0.9
+      },
+      {
+        "bias": "Unrealistic Expectations",
+        "confidence": 0.8
+      },
+      {
+        "bias": "Wishful Thinking",
+        "confidence": 0.7
+      }
+    ],
+    "epistemic_uncertainty": 0.3
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "cynical internet user"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "timestamp": 1770514927.534739,
+  "scan_id": "1770514927",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The text dismisses materialism as an explanation for consciousness and self-awareness, advocating for 'humbly seeking more.' This could be interpreted as pressuring readers to conform to a specific viewpoint that rejects purely scientific explanations.",
+        "benign_explanation": "The author is expressing a personal philosophical viewpoint and encouraging others to consider alternative perspectives on consciousness and existence."
+      },
+      {
+        "signal": "Appeal to Authority (Quantum Mechanics)",
+        "confidence": 0.4,
+        "evidence": "The text uses 'Quantum mechanics' to suggest limitations of scientific models. This could be an attempt to lend authority to a non-mainstream perspective.",
+        "benign_explanation": "The author is referencing a complex scientific field to illustrate the idea that even well-established scientific theories are subject to revision and uncertainty."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Straw Man",
+        "quote": "They speak as though materialism explains the experience of consciousness and self-awareness.",
+        "correction": "The author misrepresents the materialist position. Most materialists acknowledge the complexity of consciousness and self-awareness, and don't claim it's fully 'explained' in simple terms. They propose that consciousness arises from material processes, not that it's reducible to simple chemistry."
+      },
+      {
+        "type": "Appeal to Consequences",
+        "quote": "If it all came down to simple chemistry, mind control would be a lot easier and we would all be under it by now.",
+        "correction": "The author argues against materialism based on the undesirable consequence that mind control would be easy. The difficulty or ease of mind control doesn't determine the truth of materialism."
+      },
+      {
+        "type": "Argument from incredulity",
+        "quote": "Show me the love potion, chemist.",
+        "correction": "The author demands a demonstration of a 'love potion' as proof against materialism. The absence of a love potion does not invalidate the principles of chemistry or materialism."
+      },
+      {
+        "type": "Appeal to Uncertainty",
+        "quote": "Quantum mechanics have shown you cannot actually rely on even the most tested scientific models.",
+        "correction": "The author uses the inherent uncertainty in quantum mechanics to cast doubt on all scientific models. While quantum mechanics does introduce uncertainty at a fundamental level, it doesn't invalidate the usefulness or reliability of scientific models in their respective domains of applicability."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Belief Perseverance",
+        "confidence": 0.5
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "philosophical skepticism"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

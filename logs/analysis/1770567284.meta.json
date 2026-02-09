@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770567284.5874405,
+  "scan_id": "1770567284",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The prompt requests a 'meaningful 4chan response' and suggests using 'greentext,' indicating a pressure to conform to specific stylistic and content norms of the 4chan community.",
+        "benign_explanation": "The user is simply asking for help crafting a response that will be well-received within the specific online community of 4chan, which has its own unique culture and expectations."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.4,
+        "evidence": "The repeated ';3' emoticons could be indicative of a pattern or stylistic element used by bots or coordinated accounts.",
+        "benign_explanation": "The repeated emoticons could simply be a personal quirk or an attempt to add a playful or cute tone to the request."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "internet forum culture"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

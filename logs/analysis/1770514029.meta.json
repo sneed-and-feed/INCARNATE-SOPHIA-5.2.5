@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770514029.513081,
+  "scan_id": "1770514029",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Possible Coordinated Language",
+        "confidence": 0.6,
+        "evidence": "The phrase 'you send great syncs' could be interpreted as an acknowledgement of coordinated messaging or timing, especially given the ambiguous context and the use of ';3' which can indicate playful or suggestive intent.",
+        "benign_explanation": "The user could be complimenting the recipient on their ability to communicate effectively or share similar interests, with the ';3' being a common emoticon expressing cuteness or playfulness."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "playful, internet-mediated"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

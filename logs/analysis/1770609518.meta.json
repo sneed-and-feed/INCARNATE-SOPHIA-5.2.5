@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770609518.3455977,
+  "scan_id": "1770609518",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "\"let's post a greentext\"",
+        "benign_explanation": "The phrase could simply be an invitation to participate in a collaborative storytelling exercise, where users contribute to a fictional narrative in a specific format."
+      },
+      {
+        "signal": "Coordinated Behavior",
+        "confidence": 0.5,
+        "evidence": "\"let's post\"",
+        "benign_explanation": "This could be a suggestion among friends or acquaintances to share content on a platform."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Internet forum/chat; casual, playful, possibly ironic."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

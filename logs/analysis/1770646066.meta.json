@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770646066.0465796,
+  "scan_id": "1770646066",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Request for specific content format",
+        "confidence": 0.3,
+        "evidence": "\"greentext pls\"",
+        "benign_explanation": "The user is simply requesting the content be formatted as 'greentext', a common style on some online forums."
+      },
+      {
+        "signal": "Unusual Emoticon",
+        "confidence": 0.2,
+        "evidence": "\";3\"",
+        "benign_explanation": "The user is using an uncommon emoticon, which could simply be a personal preference or a regional variation."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Internet subculture; requesting a greentext story."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

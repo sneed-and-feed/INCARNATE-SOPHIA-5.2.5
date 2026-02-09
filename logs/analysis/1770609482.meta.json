@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770609482.4965029,
+  "scan_id": "1770609482",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Request for information",
+        "confidence": 0.6,
+        "evidence": "Request for research on 'The Bald Man' lore.",
+        "benign_explanation": "A user is simply curious about a topic and seeking more information from others."
+      },
+      {
+        "signal": "Potential coordination",
+        "confidence": 0.4,
+        "evidence": "The phrase 'I posted it' suggests a prior agreement or action taken elsewhere.",
+        "benign_explanation": "The user could be referring to posting the same question on another platform or forum."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "Internet forum, seeking information."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

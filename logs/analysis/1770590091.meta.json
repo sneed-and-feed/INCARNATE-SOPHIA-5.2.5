@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770590091.6139195,
+  "scan_id": "1770590091",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "The use of '!!!' could indicate an attempt to strongly emphasize agreement and encourage others to conform to that viewpoint.",
+        "benign_explanation": "The exclamation points could simply indicate enthusiasm or excitement about the topic."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.2,
+        "evidence": "The phrasing 'yes it does!!!' followed by a direct offer to 'send/compose a message' is somewhat abrupt and could be interpreted as formulaic.",
+        "benign_explanation": "This could be a concise and direct response from someone familiar with the topic and eager to assist."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "enthusiastic, tech-oriented"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

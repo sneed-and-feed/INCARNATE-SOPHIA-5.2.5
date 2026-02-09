@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770649133.6072748,
+  "scan_id": "1770649133",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.3,
+        "evidence": "Use of 'x_x' as an emoticon, which can be common in some automated contexts or internet subcultures.",
+        "benign_explanation": "The user could be mimicking internet slang or using emoticons common in online communities."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "internet slang, sarcastic"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

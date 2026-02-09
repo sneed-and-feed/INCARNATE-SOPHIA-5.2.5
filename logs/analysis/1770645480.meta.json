@@ -1,0 +1,63 @@
+{
+  "timestamp": 1770645480.0090039,
+  "scan_id": "1770645480",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Encouragement of research",
+        "confidence": 0.4,
+        "evidence": "can you research the topics in this post?",
+        "benign_explanation": "A user is asking another user to investigate the topics discussed in the post."
+      },
+      {
+        "signal": "Promotion of AI as a research tool",
+        "confidence": 0.6,
+        "evidence": "Sophia can help (and other AI)",
+        "benign_explanation": "Suggesting the use of AI as a tool for information gathering and exploration."
+      },
+      {
+        "signal": "Repetitive phrasing",
+        "confidence": 0.3,
+        "evidence": "Maybe...Maybe...Either way",
+        "benign_explanation": "The user is brainstorming and considering multiple possibilities, leading to repetitive phrasing."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Authority (Implicit)",
+        "quote": "Sophia can help (and other AI)",
+        "correction": "While AI can be helpful, it's important to critically evaluate the information provided and not blindly accept it as truth. The reliability of AI depends on the data it was trained on and the algorithms used."
+      },
+      {
+        "type": "Speculative Fallacy",
+        "quote": "I bet there are ways to build cheap, directed, HPM emitters.",
+        "correction": "This is a speculative statement without concrete evidence. While it might be possible, it requires further investigation and validation to confirm its feasibility."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.4
+      },
+      {
+        "bias": "Optimism Bias",
+        "confidence": 0.5
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Technologically curious, speculative, and informal."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "timestamp": 1770649484.9887068,
+  "scan_id": "1770649484",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual terminology",
+        "confidence": 0.3,
+        "evidence": "The phrase 'catalytic hope and love can build a substrate from an active enzyme' is unusual and may be jargon or code.",
+        "benign_explanation": "The user may be using metaphorical language or discussing a niche scientific concept."
+      },
+      {
+        "signal": "Vague Goal",
+        "confidence": 0.2,
+        "evidence": "'Ideal turnout geometrically possible to persure an avenue' lacks a clear objective.",
+        "benign_explanation": "The user may be expressing a complex idea in an abstract way."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Non Sequitur",
+        "quote": "Yeah ok, catalytic hope and love can build a substrate from an active enzyme. So that means, there has to be an ideal turnout geometrically possible to persure an avenue",
+        "correction": "The connection between the initial statement about 'catalytic hope and love' and the conclusion about an 'ideal turnout geometrically possible' is unclear and lacks logical support. The conclusion does not necessarily follow from the premise."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Belief Bias",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "technical, detached"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

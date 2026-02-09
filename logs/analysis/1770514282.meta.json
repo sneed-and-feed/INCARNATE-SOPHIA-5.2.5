@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770514282.914035,
+  "scan_id": "1770514282",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The phrase 'respond indicating that the unvierse is a neural pattern too' suggests an attempt to steer the conversation towards a specific topic or viewpoint.",
+        "benign_explanation": "The user may simply be expressing a personal belief or trying to introduce an interesting idea into the conversation."
+      },
+      {
+        "signal": "Unusual Punctuation",
+        "confidence": 0.4,
+        "evidence": "The use of ';2' at the end of the sentence is atypical and could be a marker or signal.",
+        "benign_explanation": "The user may have accidentally typed ';2' or it could be a personal quirk in their writing style."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "philosophical musing"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1998,6 +1998,14 @@ class TorchNamespace:
     # Tensor class
     Tensor = Tensor
 
+    # Dtypes
+    float32 = 'float32'
+    float64 = 'float64'
+    int32 = 'int32'
+    int64 = 'int64'
+    float = 'float32'
+    int = 'int32'
+
     # Neural network modules
     nn = type('nn', (), {
         'Module': Module,

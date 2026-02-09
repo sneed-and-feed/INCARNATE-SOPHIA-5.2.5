@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770512716.3246481,
+  "scan_id": "1770512716",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The phrase 'remember that' suggests an attempt to ensure compliance with a specific understanding or instruction.",
+        "benign_explanation": "The speaker is reminding others of a known limitation or current status of a project to avoid confusion."
+      },
+      {
+        "signal": "Coordinated Behavior",
+        "confidence": 0.7,
+        "evidence": "The instruction to reply to specific users on Discord ('goku & flex') indicates a coordinated communication strategy.",
+        "benign_explanation": "The speaker is directing individuals to the appropriate channels or people for specific tasks or information within a project."
+      }
+    ],
+    "overall_risk": "medium"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "informal, tech-oriented, online communication"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

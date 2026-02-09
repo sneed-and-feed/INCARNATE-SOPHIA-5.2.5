@@ -1,0 +1,71 @@
+{
+  "timestamp": 1770507210.169224,
+  "scan_id": "1770507210",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Inconsistent Tone/Hyperbole",
+        "confidence": 0.6,
+        "evidence": "The text uses exaggerated language and shifts in tone (e.g., 'top tier' vs. 'FBI IS SO FUCKING GAY').",
+        "benign_explanation": "The author may be expressing strong personal opinions in an informal and hyperbolic manner, which is common in online discussions."
+      },
+      {
+        "signal": "Comparative Ranking",
+        "confidence": 0.5,
+        "evidence": "The text compares the FBI and CIA, ranking them in terms of competence and value.",
+        "benign_explanation": "The author is expressing a subjective opinion about the relative merits of different government agencies, possibly based on personal experiences or biases."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Hasty Generalization",
+        "quote": "The FBI harasses american citizens infiltrates sects to post furries in diapers in their group chats they are the bottom of the barrel garbage pieces of shit",
+        "correction": "This statement makes a broad generalization about the FBI based on limited or anecdotal evidence. It's unlikely that all FBI actions are accurately represented by this description. A more accurate assessment would require a comprehensive analysis of FBI activities and their justifications."
+      },
+      {
+        "type": "False Dichotomy",
+        "quote": "CIA will go to Iraq and talk to you in arabic to end a nuclear threat they\u2019re not even on the same level and the CIA memes are top tier FBI IS SO FUCKING GAY.",
+        "correction": "This presents a false choice between the CIA and FBI, implying they are mutually exclusive in terms of competence and value. It ignores the possibility that both agencies have different roles and levels of effectiveness in different areas. Also, the use of 'FBI IS SO FUCKING GAY' is an irrelevant and offensive attack (ad hominem) rather than a logical argument."
+      },
+      {
+        "type": "Appeal to Emotion (specifically, contempt and outrage)",
+        "quote": "they are the bottom of the barrel garbage pieces of shit FBI IS SO FUCKING GAY.",
+        "correction": "The language used is highly charged and relies on emotional appeals rather than reasoned arguments. This distracts from any potential factual claims and attempts to sway the audience through negative emotions."
+      },
+      {
+        "type": "Weak Analogy",
+        "quote": "i want to compare them to the navy but even the navy does cool shit like bomb somalian pirates",
+        "correction": "Comparing the FBI to the Navy based on 'cool shit' like bombing pirates is a weak analogy. The functions and responsibilities of the two organizations are vastly different, making the comparison irrelevant to assessing their overall value or effectiveness."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Negativity Bias",
+        "confidence": 0.8
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Groupthink",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "angry, politically charged internet rant"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

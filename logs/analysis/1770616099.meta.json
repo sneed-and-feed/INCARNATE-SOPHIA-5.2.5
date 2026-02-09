@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770616099.3069677,
+  "scan_id": "1770616099",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Request",
+        "confidence": 0.3,
+        "evidence": "The phrase 'show me a video :3' is a direct request for media, which could be a test to see if the system will provide inappropriate content.",
+        "benign_explanation": "The user could simply be looking for entertainment or information."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "neutral request"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

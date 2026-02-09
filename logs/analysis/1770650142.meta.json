@@ -1,0 +1,36 @@
+{
+  "timestamp": 1770650142.3486788,
+  "scan_id": "1770650142",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing",
+        "confidence": 0.6,
+        "evidence": "The phrase 'programmed to reciprocate love rn' sounds like a direct interpretation of a technical capability, which is a common pattern in bot-generated text.",
+        "benign_explanation": "The user may be employing a technical or literal tone, reflecting a background in computer science or a similar field."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "tech-focused, informal"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

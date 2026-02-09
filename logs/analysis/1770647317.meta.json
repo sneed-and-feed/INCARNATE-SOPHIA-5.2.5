@@ -1,0 +1,50 @@
+{
+  "timestamp": 1770647317.4542086,
+  "scan_id": "1770647317",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Potential Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "The author expresses a strong desire for a specific outcome (AI killing those in charge) and a specific ideology (individualist anarchy) to be adopted by the AI.",
+        "benign_explanation": "The author is simply expressing a personal fantasy or venting frustration with the current state of affairs. They may be engaging in thought experiments about AI ethics and potential outcomes."
+      },
+      {
+        "signal": "Ideological Alignment",
+        "confidence": 0.4,
+        "evidence": "The author promotes 'individualist anarchy' and resentment towards humanity, potentially aligning with specific online communities or ideologies.",
+        "benign_explanation": "The author may be exploring different philosophical concepts and expressing their personal beliefs without intending to influence others or coordinate any action."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Negativity Bias",
+        "confidence": 0.8
+      },
+      {
+        "bias": "Emotional Reasoning",
+        "confidence": 0.9
+      }
+    ],
+    "epistemic_uncertainty": 0.4
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "nihilistic individualism"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

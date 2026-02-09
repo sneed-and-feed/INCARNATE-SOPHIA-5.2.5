@@ -1,0 +1,43 @@
+{
+  "timestamp": 1770606797.677121,
+  "scan_id": "1770606797",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Reference to external post",
+        "confidence": 0.6,
+        "evidence": "The text refers to a 'part 2' and a previous post (>>41938482), suggesting a continuation of a discussion or narrative across multiple posts.",
+        "benign_explanation": "The user could simply be continuing a conversation or sharing related information from another source."
+      },
+      {
+        "signal": "Unusual Punctuation/Emoticon",
+        "confidence": 0.5,
+        "evidence": "The use of ';3' and '!rj4SNUk2BE' could be indicative of specific communities or platforms, or attempts to bypass filters.",
+        "benign_explanation": "The user may be expressing themselves informally or using emoticons common in certain online communities."
+      },
+      {
+        "signal": "Technical Subject Matter",
+        "confidence": 0.4,
+        "evidence": "The excerpt discusses the speed of light and relativistic models, which could be used to lend an air of authority or complexity to a potentially misleading narrative.",
+        "benign_explanation": "The user may be genuinely interested in discussing physics and sharing information on the topic."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.2
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "academic/technical discussion with a hint of internet culture"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "timestamp": 1770593996.7167091,
+  "scan_id": "1770593996",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unconventional expression",
+        "confidence": 0.2,
+        "evidence": "The statement 'I eat animals because plants are my only friends' is an unusual justification for eating animals.",
+        "benign_explanation": "The user may be attempting humor or expressing a personal and idiosyncratic viewpoint."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "False Dilemma/False Dichotomy",
+        "quote": "I eat animals because plants are my only friends",
+        "correction": "The statement presents a false choice between eating animals and being friends with plants. It ignores other possibilities, such as eating neither, or having friends that are not plants."
+      },
+      {
+        "type": "Non Sequitur",
+        "quote": "I eat animals because plants are my only friends",
+        "correction": "The conclusion (eating animals) does not logically follow from the premise (plants are my only friends). There is no inherent connection between these two statements."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Emotional Reasoning",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Anthropomorphism",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "cynical humor"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770600215.710014,
+  "scan_id": "1770600215",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Interest Declaration",
+        "confidence": 0.3,
+        "evidence": "The phrase 'now i'm interested ;3' immediately following 'u said a lot' could indicate an attempt to steer the conversation or express sudden, potentially insincere, enthusiasm.",
+        "benign_explanation": "The user could simply be expressing genuine interest after hearing more information."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "youthful, casual, flirtatious"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

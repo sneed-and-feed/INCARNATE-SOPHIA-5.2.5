@@ -1,0 +1,40 @@
+{
+  "timestamp": 1770599839.1636214,
+  "scan_id": "1770599839",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "The user expresses a desire to alter a fictional character's appearance, potentially reflecting a preference for specific body types or aesthetics. The use of ';3' could indicate playful intent or subtle pressure to conform to a particular viewpoint.",
+        "benign_explanation": "The user is simply expressing a personal preference for character design in a creative or playful manner."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Anchoring Bias",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.2
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Internet slang, possibly related to online art or character design communities. The use of ';3' suggests an emoticon style common in online communication."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

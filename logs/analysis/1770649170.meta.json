@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770649170.1481218,
+  "scan_id": "1770649170",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Repetitive phrasing",
+        "confidence": 0.6,
+        "evidence": "The use of 'xD' multiple times in a short sentence could indicate a pattern.",
+        "benign_explanation": "The user could be expressing amusement or excitement in a casual online conversation."
+      },
+      {
+        "signal": "In-group signaling",
+        "confidence": 0.5,
+        "evidence": "Referring to 'anon' suggests familiarity with a specific online community or subculture.",
+        "benign_explanation": "The user could be referencing a common topic or individual within a group they belong to."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "playful, internet slang"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

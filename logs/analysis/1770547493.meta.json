@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770547493.4338415,
+  "scan_id": "1770547493",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.3,
+        "evidence": "The use of 'Owo' and ';3' are not typical of standard English and may indicate a specific community or subculture.",
+        "benign_explanation": "The user may be part of an online community that uses specific slang or emoticons."
+      },
+      {
+        "signal": "Bot-like rhythm",
+        "confidence": 0.2,
+        "evidence": "The phrase 'let's scan for things' is a simple, direct command that could be part of a script.",
+        "benign_explanation": "The user could be playfully mimicking a robot or automated process."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "playful, internet-based"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

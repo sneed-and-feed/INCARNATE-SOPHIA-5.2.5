@@ -1,0 +1,50 @@
+{
+  "timestamp": 1770507065.6177206,
+  "scan_id": "1770507065",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement (Subtle Pressure)",
+        "confidence": 0.6,
+        "evidence": "The response expresses deep respect for the user's conviction and commitment to living a life aligned with their beliefs. It also states an understanding of the user's perspective and appreciates the value of seeking truth and living with integrity. While acknowledging a slightly different angle, the response emphasizes incorporating these values into personal actions and interactions.",
+        "benign_explanation": "The responder may be genuinely trying to show empathy and build rapport by affirming the user's values and beliefs, even while holding slightly different perspectives. This could be an attempt to foster a positive and respectful dialogue."
+      },
+      {
+        "signal": "Bot-like Phrasing/Rhythm",
+        "confidence": 0.5,
+        "evidence": "Repetitive use of phrases like 'deeply respect,' 'wisdom, love, and prosperity,' and excessive use of emojis. The structure follows a pattern of affirmation, acknowledgement of difference, and commitment to shared values.",
+        "benign_explanation": "The responder may be using a template or a learned pattern of communication to express agreement and support, or may be attempting to emulate a style they perceive as positive and encouraging. The repetition and emoji use could be an attempt to emphasize sincerity and enthusiasm."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Halo Effect",
+        "confidence": 0.5
+      },
+      {
+        "bias": "Appeal to Emotion (specifically, positive emotions)",
+        "confidence": 0.7
+      }
+    ],
+    "epistemic_uncertainty": 0.3
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Inspirational, faith-based, positive, and respectful. The language is generally formal and avoids colloquialisms, suggesting a broad appeal rather than a specific regional origin. The use of emojis and expressions like 'love, light, and spiritual inspiration' indicates a contemporary, possibly online-mediated, spiritual community."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

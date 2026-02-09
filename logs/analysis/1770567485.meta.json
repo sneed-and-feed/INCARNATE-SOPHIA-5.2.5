@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770567485.2141428,
+  "scan_id": "1770567485",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.6,
+        "evidence": "Use of unusual emoticons and internet slang such as 'omfg', ';3', 'ur', and 'WORKZ' may indicate formulaic or repetitive language patterns.",
+        "benign_explanation": "The user may be expressing enthusiasm in a casual, playful, or youthful manner common in online communication."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "youthful, internet slang"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "timestamp": 1770543710.8051276,
+  "scan_id": "1770543710",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Use of offensive slurs ('gay nibbas', 'talmudic cucks')",
+        "confidence": 0.9,
+        "evidence": "The text contains derogatory terms targeting specific groups.",
+        "benign_explanation": "The user may be expressing personal frustration or anger without intending to incite hatred or coordinate with others."
+      },
+      {
+        "signal": "Repetitive posting of the same YouTube link",
+        "confidence": 0.6,
+        "evidence": "The same YouTube link is posted twice within a short text.",
+        "benign_explanation": "The user may be trying to emphasize a point or share something they find relevant, without any coordinated intent."
+      },
+      {
+        "signal": "Inconsistent and nonsensical claims about religious figures",
+        "confidence": 0.5,
+        "evidence": "The text makes contradictory and unusual claims about Jesus, the Antichrist, and the speaker's relationship to them.",
+        "benign_explanation": "The user may be expressing unconventional or satirical views on religion, or engaging in stream-of-consciousness writing."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Authority",
+        "quote": "i am father of jesus christ",
+        "correction": "The claim of being the father of Jesus Christ is an extraordinary claim that requires extraordinary evidence. Without verifiable evidence, it cannot be accepted as true."
+      },
+      {
+        "type": "Straw Man",
+        "quote": "antichrist is gay version of christ",
+        "correction": "This misrepresents the concept of the Antichrist. The Antichrist is not simply a 'gay version' of Christ, but a figure who opposes Christ and Christianity. This is a distortion of the actual belief."
+      },
+      {
+        "type": "No True Scotsman",
+        "quote": "he wasn't suppose to be known to talmudic cucks. he is only for christains.",
+        "correction": "This attempts to exclude certain groups (Talmudic individuals) from knowing about 'him' (presumably Jesus) by asserting that he is 'only for Christians.' This is an arbitrary exclusion based on religious affiliation."
+      },
+      {
+        "type": "Ad Hominem",
+        "quote": "only yuour anticuck is talmudic",
+        "correction": "This attacks the person ('your anticuck') by associating them with a group ('Talmudic') rather than addressing the argument itself."
+      },
+      {
+        "type": "False Dichotomy",
+        "quote": "I am father of jesus of galiee who is straight I am not father of nezereth because he is homo",
+        "correction": "This presents a false choice between a 'straight' Jesus of Galilee and a 'homo' Jesus of Nazareth, implying that Jesus cannot be both. This ignores the possibility of other interpretations or that the two are the same person."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "In-group Bias",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Belief Bias",
+        "confidence": 0.8
+      }
+    ],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "provocative and religiously charged internet discourse"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

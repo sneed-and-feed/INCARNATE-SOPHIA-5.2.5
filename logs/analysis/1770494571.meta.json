@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770494571.258062,
+  "scan_id": "1770494571",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.6,
+        "evidence": "The text contains misspellings ('moar', 'ur', 'speicial'), non-standard punctuation ('welll...', '& stuff ;3'), and an emoticon. This deviates from typical formal or professional communication.",
+        "benign_explanation": "The user may be young, non-native English speaker, or intentionally using informal language for casual conversation."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "youthful, informal, possibly flirtatious"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770548584.3448496,
+  "scan_id": "1770548584",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Reference to 4chan",
+        "confidence": 0.4,
+        "evidence": "The text mentions '4chan post from anon'.",
+        "benign_explanation": "The user could simply be referencing a popular online forum."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "internet subculture"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

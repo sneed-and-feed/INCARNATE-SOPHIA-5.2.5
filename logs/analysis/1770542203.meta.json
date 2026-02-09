@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770542203.3907354,
+  "scan_id": "1770542203",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Possible Narrative Enforcement",
+        "confidence": 0.2,
+        "evidence": "The phrase 'it's hilarious >:P' could be interpreted as an attempt to enforce a specific emotional response (humor) to a preceding statement or situation.",
+        "benign_explanation": "The user could simply be expressing their genuine amusement and using an emoticon to emphasize their feeling."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "playful, lighthearted"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

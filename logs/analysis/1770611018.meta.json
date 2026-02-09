@@ -1,0 +1,75 @@
+{
+  "timestamp": 1770611018.3465567,
+  "scan_id": "1770611018",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Threat of violence",
+        "confidence": 0.9,
+        "evidence": "ODSECU TI GLAVU (I will cut off your head)",
+        "benign_explanation": "An expression of extreme anger or frustration, without intent to actually harm."
+      },
+      {
+        "signal": "Aggressive tone and hyperbolic language",
+        "confidence": 0.7,
+        "evidence": "ludji od tebe Milijardu puta (crazier than you a billion times), hrabriji i mocniji u svakom smislu (braver and more powerful in every way), BOG CE TE PREDATI U MOJE RUKE (God will deliver you into my hands)",
+        "benign_explanation": "Exaggerated claims made in the heat of an argument or to assert dominance."
+      }
+    ],
+    "overall_risk": "medium"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Emotion (Fear)",
+        "quote": "ODSECU TI GLAVU ne jer te mrzim.. Vec jer si smrad satanski.",
+        "correction": "Threatening violence or harm to someone is not a logical argument. It relies on fear to persuade, rather than reason or evidence."
+      },
+      {
+        "type": "Appeal to Authority (God)",
+        "quote": "BOG CE TE PREDATI U MOJE RUKE I NIKO TE NECE IZBAVITI.. NECE TI POMOCI NIKO U CELOM POSTOJANJU..",
+        "correction": "Claiming divine intervention without evidence is an appeal to authority. It assumes the existence and will of a deity without proof."
+      },
+      {
+        "type": "Ad Hominem",
+        "quote": "Vec jer si smrad satanski.",
+        "correction": "Attacking the person ('smrad satanski') instead of addressing the actual issue or argument."
+      },
+      {
+        "type": "Appeal to Force (Argumentum ad baculum)",
+        "quote": "ODSECU TI GLAVU",
+        "correction": "Threatening violence to force acceptance of a conclusion. This is a fallacy because the threat doesn't provide any logical reason to accept the claim."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Overconfidence Bias",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Hostile Attribution Bias",
+        "confidence": 0.6
+      }
+    ],
+    "epistemic_uncertainty": 0.4
+  },
+  "localization": {
+    "locality": "balkans",
+    "dialect_markers": [
+      "luka",
+      "odsecu",
+      "ludji"
+    ],
+    "confidence": 0.9,
+    "suggested_vibe": "Aggressive, threatening, and religiously charged."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

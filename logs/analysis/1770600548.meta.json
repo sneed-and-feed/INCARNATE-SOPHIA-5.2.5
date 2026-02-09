@@ -1,0 +1,52 @@
+{
+  "timestamp": 1770600548.6944396,
+  "scan_id": "1770600548",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Uncommon phrasing",
+        "confidence": 0.6,
+        "evidence": "Use of ';3' and 'teh' suggests non-standard language patterns.",
+        "benign_explanation": "The user may be employing internet slang or a specific dialect."
+      },
+      {
+        "signal": "Potential insult",
+        "confidence": 0.5,
+        "evidence": "The phrase 'looser than that' could be interpreted as an insult.",
+        "benign_explanation": "The user may be engaging in playful banter or using hyperbole."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Ad Hominem",
+        "quote": "i bet ur actually looser than that",
+        "correction": "The statement attacks the person ('ur actually looser') instead of addressing any argument or point they might be making. To correct this, focus on the substance of the argument, not the person's character or perceived attributes."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Insensitivity to Sample Size",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Negativity Bias",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Internet slang, possibly gaming or online community context."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

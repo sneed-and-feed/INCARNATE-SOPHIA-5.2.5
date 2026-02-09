@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770543239.810294,
+  "scan_id": "1770543239",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Sexual Harassment",
+        "confidence": 0.9,
+        "evidence": "The post contains a sexually explicit request: 'Can I fuck your pussy please?'",
+        "benign_explanation": "The user may be expressing a crude attempt at humor or seeking attention."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "crude online interaction"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

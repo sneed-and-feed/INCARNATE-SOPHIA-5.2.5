@@ -1,0 +1,35 @@
+{
+  "timestamp": 1770647541.4498441,
+  "scan_id": "1770647541",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "Agreement with 'anon' without providing independent reasoning could suggest pressure to conform to a pre-existing narrative.",
+        "benign_explanation": "The user may simply agree with a previously stated opinion and is expressing that agreement succinctly."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.2,
+        "evidence": "Short, fragmented sentences like 'what if tey are? i thin anon is right' can sometimes be indicative of bot-like behavior due to simplified language models.",
+        "benign_explanation": "The user may be typing quickly or using informal language common in online communication."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "error": "429: Quota Exhausted or Rate Limited. Please check your API credits/billing."
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "casual online discussion"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

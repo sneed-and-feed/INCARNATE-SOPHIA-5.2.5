@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770546244.409384,
+  "scan_id": "1770546244",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Language",
+        "confidence": 0.6,
+        "evidence": "The use of 'hewwo' and ';3' suggests an attempt to use internet slang or a specific subculture's jargon.",
+        "benign_explanation": "The user may be attempting to be humorous or connect with others familiar with internet slang."
+      },
+      {
+        "signal": "Search Engine Suggestion",
+        "confidence": 0.4,
+        "evidence": "The suggestion to use DuckDuckGo to search for 'pie' could be an attempt to subtly promote a specific search engine or topic.",
+        "benign_explanation": "The user may simply be recommending a search engine they prefer or suggesting a topic of interest."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "playful, internet-influenced"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

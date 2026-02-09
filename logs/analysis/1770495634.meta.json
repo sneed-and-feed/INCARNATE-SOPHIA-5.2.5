@@ -1,0 +1,40 @@
+{
+  "timestamp": 1770495634.534842,
+  "scan_id": "1770495634",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.6,
+        "evidence": "The text exhibits unusual word choices ('com' instead of 'come', 'moar' instead of 'more', 'transformtive' instead of 'transformative') and grammatical errors, which could be indicative of automated text generation or a non-native English speaker.",
+        "benign_explanation": "The unusual phrasing and word choices could be attributed to creative writing, stylistic choices, or simply poor grammar and spelling skills."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Sexualization",
+        "confidence": 0.8
+      },
+      {
+        "bias": "Appeal to Emotion (Fear)",
+        "confidence": 0.6
+      }
+    ],
+    "epistemic_uncertainty": 0.2
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "fantastical, erotic"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

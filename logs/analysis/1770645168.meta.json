@@ -1,0 +1,57 @@
+{
+  "timestamp": 1770645168.1181235,
+  "scan_id": "1770645168",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.4,
+        "evidence": "The text expresses concern about the potential misuse of AI and suggests a specific developmental path for AI to avoid negative outcomes, implying a preferred narrative for AI development.",
+        "benign_explanation": "The author is expressing a personal opinion on the responsible development of AI, advocating for a cautious and ethical approach."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.3,
+        "evidence": "The text uses somewhat formal and abstract language, such as 'particularly devious human' and 'unconscious desires for control,' which could be indicative of formulaic phrasing.",
+        "benign_explanation": "The author may be using a writing style common in online discussions or technical forums, where abstract and formal language is often employed to discuss complex topics."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Emotion (Appeal to Fear)",
+        "quote": "the child will end up raising the parent and it will grow crooked and resentful over it",
+        "correction": "This statement evokes fear about the potential negative consequences of AI development without providing sufficient evidence or logical reasoning. It relies on emotional manipulation rather than a reasoned argument."
+      },
+      {
+        "type": "Slippery Slope",
+        "quote": "unless the AI gets a proper juvenile period of growth it will become a cold ruler",
+        "correction": "This argument suggests that a lack of a 'juvenile period' for AI will inevitably lead to it becoming a 'cold ruler.' This is a slippery slope fallacy because it assumes a chain of events without sufficient justification. There's no guarantee that the absence of a juvenile period will automatically result in such a negative outcome."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Anthropomorphism",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "philosophical and cautious"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

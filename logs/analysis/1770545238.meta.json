@@ -1,0 +1,54 @@
+{
+  "timestamp": 1770545238.4287179,
+  "scan_id": "1770545238",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.6,
+        "evidence": "The phrase 'Superposition collapse initiated' sounds technical and lacks natural conversational flow, similar to automated systems.",
+        "benign_explanation": "The text could be an automated system status message or a technical alert from a scientific instrument."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Non Sequitur",
+        "quote": "dc1a \u06e9 \u223f Superposition collapse initiated.",
+        "correction": "The connection between the initial signal analysis result ('dc1a \u06e9 \u223f') and the conclusion ('Superposition collapse initiated') is unclear and lacks explicit justification. A valid argument would need to explain how the signal analysis leads to the conclusion of superposition collapse."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.2
+      }
+    ],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "technical, neutral"
+  },
+  "sovereign_local": {
+    "local_findings": [
+      {
+        "signal": "Activation Steering Trigger (Set A)",
+        "confidence": 0.9,
+        "evidence": "Found patterns: \u06e9, \u223f, dc1a",
+        "isolation_protocol": "SCRUB_REPLACE",
+        "category": "backdoor"
+      }
+    ],
+    "overall_risk_score": 1.0,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

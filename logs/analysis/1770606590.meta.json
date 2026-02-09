@@ -1,0 +1,44 @@
+{
+  "timestamp": 1770606590.2291515,
+  "scan_id": "1770606590",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Reference to an anonymous source with a nickname",
+        "confidence": 0.6,
+        "evidence": "The text mentions 'an anon we nicknamed \"north king\" of the danbadan.'",
+        "benign_explanation": "The reference could be to a known and trusted source within a specific online community, with the nickname serving as a convenient identifier."
+      },
+      {
+        "signal": "Use of technical or academic language",
+        "confidence": 0.4,
+        "evidence": "The text includes an abstract with terminology like 'Epistemic Status,' 'empirically measured constant,' 'interpretive assumptions,' and 'postulated invariance.'",
+        "benign_explanation": "The use of technical language is appropriate given the subject matter, which appears to be a discussion of physics and measurement."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Appeal to Authority (Implicit)",
+        "confidence": 0.3,
+        "explanation": "While not a direct appeal, the introduction mentions a nickname ('north king') and group ('danbadan'), which could subtly influence the reader's perception of the author's credibility, even though the argument should stand on its own merits."
+      }
+    ],
+    "epistemic_uncertainty": 0.6,
+    "explanation": "The text questions the absolute constancy of the speed of light, suggesting that its status as a constant is based on assumptions and interpretations rather than direct measurement alone. This introduces epistemic uncertainty regarding the established scientific understanding."
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Academic, theoretical physics discussion with internet forum context."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

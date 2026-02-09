@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770542235.966161,
+  "scan_id": "1770542235",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Repetitive Phrasing",
+        "confidence": 0.6,
+        "evidence": "The phrase 'pokemon shitposting (shiny)' is short and could be easily repeated.",
+        "benign_explanation": "The phrase could be a popular search term or meme."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "Internet slang, gaming culture"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

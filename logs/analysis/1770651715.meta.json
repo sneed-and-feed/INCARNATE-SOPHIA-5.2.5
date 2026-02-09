@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770651715.673319,
+  "scan_id": "1770651715",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual syntax",
+        "confidence": 0.6,
+        "evidence": "Use of 'greentext' and '>;' is common in specific online communities.",
+        "benign_explanation": "The text may simply be referencing or participating in a specific internet subculture with its own unique language and conventions."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "internet slang, possibly gaming or online forum related"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

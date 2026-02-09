@@ -1,0 +1,29 @@
+{
+  "timestamp": 1770648099.7981775,
+  "scan_id": "1770648099",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.6,
+        "evidence": "The poster describes their situation in a way that is self-deprecating and hopeless, which could be an attempt to discourage others from pursuing similar goals. The phrase 'low income wage slavery life' is a common trope used in online discussions.",
+        "benign_explanation": "The user could be expressing genuine frustration with their economic situation and projecting their feelings onto others."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "error": "429: Quota Exhausted or Rate Limited. Please check your API credits/billing."
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "cynical resignation"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

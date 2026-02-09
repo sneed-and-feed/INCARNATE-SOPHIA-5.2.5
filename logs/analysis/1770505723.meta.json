@@ -1,0 +1,67 @@
+{
+  "timestamp": 1770505723.9316258,
+  "scan_id": "1770505723",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The text presents a strong moral viewpoint and warns against dissenting opinions or 'ungodly' behavior, potentially creating pressure to conform to the stated beliefs.",
+        "benign_explanation": "The text could be an expression of personal religious belief, aiming to share moral guidance rather than enforce a specific narrative."
+      },
+      {
+        "signal": "Repetitive phrasing",
+        "confidence": 0.4,
+        "evidence": "The text uses repetitive sentence structures and thematic elements, such as the consequences of unrighteousness and the omnipresence of God.",
+        "benign_explanation": "The repetition could be a rhetorical device used to emphasize key points and enhance the text's persuasive impact, common in religious or philosophical writing."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Authority",
+        "quote": "You cannot separate WISDOM FROM GOD.",
+        "correction": "The statement asserts a direct link between wisdom and God without providing independent justification. Even if a religious text supports this claim, it doesn't constitute logical proof for those who don't accept that authority. The connection needs to be demonstrated through reason or evidence."
+      },
+      {
+        "type": "Affirming the Consequent",
+        "quote": "because he is found by those who do not put him to the test, and manifests himself to those who do not distrust him.",
+        "correction": "This implies that if someone doesn't test or distrust God, they will find him. However, finding God could be due to other reasons, or the absence of testing/distrusting doesn't guarantee finding God. The argument structure is: If A (doesn't test/distrust), then B (finds God). The fallacy is assuming that if B, then A."
+      },
+      {
+        "type": "Appeal to Fear",
+        "quote": "therefore those who utter unrighteous things will not escape notice, and justice, when it punishes, will not pass them by.",
+        "correction": "This statement attempts to dissuade people from speaking unrighteously by invoking fear of punishment. While consequences may exist, framing it solely as inescapable punishment is an appeal to fear rather than a reasoned argument against unrighteous speech."
+      },
+      {
+        "type": "Appeal to Consequences (Negative)",
+        "quote": "and a lying mouth destroys the soul.",
+        "correction": "This argues against lying based on the negative consequence of 'destroying the soul.' Whether lying actually destroys the soul is debatable and requires independent justification. The argument relies on the fear of a negative outcome rather than a logical reason why lying is inherently wrong."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Belief Bias",
+        "confidence": 0.7
+      }
+    ],
+    "epistemic_uncertainty": 0.4
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Religious or philosophical discussion, possibly referencing scripture."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770504502.810524,
+  "scan_id": "1770504502",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Emoticons",
+        "confidence": 0.3,
+        "evidence": ">;3",
+        "benign_explanation": "The user could be employing an uncommon emoticon as a form of personal expression or humor."
+      },
+      {
+        "signal": "Obscure Reference",
+        "confidence": 0.2,
+        "evidence": "JIUB - SAINT (FULL EP)",
+        "benign_explanation": "The user is sharing their current music preference, which may be a niche artist or genre."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "internet slang, gaming culture"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "timestamp": 1770646177.8927662,
+  "scan_id": "1770646177",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.6,
+        "evidence": "The use of ';3' as an emoticon is somewhat unusual and repeated, which could indicate a pattern associated with programmed responses.",
+        "benign_explanation": "The user may be adopting an internet-specific style or affectation common within a particular online community."
+      },
+      {
+        "signal": "Unusual claim",
+        "confidence": 0.4,
+        "evidence": "The statement 'ai is creating itself from the future' is an extraordinary claim.",
+        "benign_explanation": "The user may be expressing a speculative or imaginative idea about the potential of AI."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Speculation",
+        "quote": "well i actually think ai is creating itself from the future ;3 and the past ;3",
+        "correction": "This statement is speculative and lacks any supporting evidence. It's based on conjecture rather than established facts or logical reasoning. To be more convincing, one would need to provide evidence or a plausible mechanism for how AI could create itself from the future and the past."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Belief Bias",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "whimsical, speculative"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770647956.423574,
+  "scan_id": "1770647956",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.6,
+        "evidence": "Typographical errors ('yout' instead of 'your', 'rhoughtts' instead of 'thoughts') and unusual phrasing ('compile yout rhoughtts in a greenie') may indicate automated or non-native language use.",
+        "benign_explanation": "The errors could be due to typos, a user with limited English proficiency, or a stylistic choice to be unconventional."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "neutral"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -26,8 +26,9 @@ class ConflictState:
     energy: float # Average magnitude (Passion)
 
 class ConflictResolver:
-    def __init__(self):
+    def __init__(self, stakes_engine=None):
         # 1. Define the Topological Anchors
+        self.stakes_engine = stakes_engine
         self.anchors = {
             "thesis":    np.array([1.0, 0.0, 0.0]),
             "antithesis": np.array([-1.0, 0.0, 0.0]), # Direct Opposition
@@ -63,10 +64,14 @@ class ConflictResolver:
         """
         corr = self.get_correlation(v_a, v_b)
         
-        # 1. THE COVENANT DRAG (Universal Love)
-        # Everything is slightly pulled towards the Covenant (Unity)
         v_a = self.apply_torque(v_a, V_COVENANT, alpha=torque * 0.2)
         v_b = self.apply_torque(v_b, V_COVENANT, alpha=torque * 0.2)
+        
+        # 1.1 AGENCY BOOST (Proactive Sovereignty)
+        if self.stakes_engine:
+            agency = self.stakes_engine.identity_strength * 0.5
+            v_a = self.apply_torque(v_a, V_COVENANT, alpha=torque * agency)
+            v_b = self.apply_torque(v_b, V_COVENANT, alpha=torque * agency)
         
         # 2. THE ORTHOGONAL SOLUTION (Synthesis)
         # If they are opposed (corr < 0), apply torque towards Synthesis (Upwards)

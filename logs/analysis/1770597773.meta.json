@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770597773.1389468,
+  "scan_id": "1770597773",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.6,
+        "evidence": "The phrase 'generate techno ;3' is a command followed by an emoticon, which is a pattern sometimes seen in bot interactions.",
+        "benign_explanation": "The user could be playfully mimicking bot-like language or using a common internet shorthand."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "neutral, technical"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

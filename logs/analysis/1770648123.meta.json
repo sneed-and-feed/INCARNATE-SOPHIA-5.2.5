@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770648123.5362716,
+  "scan_id": "1770648123",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.3,
+        "evidence": "The phrase ':p' is a common, simple emoticon often used in automated or repetitive messaging.",
+        "benign_explanation": "The user could simply be using a common internet emoticon to express lightheartedness or sarcasm."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "Casual, possibly self-deprecating humor."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

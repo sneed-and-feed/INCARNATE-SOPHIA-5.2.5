@@ -1,0 +1,57 @@
+{
+  "timestamp": 1770513419.7398906,
+  "scan_id": "1770513419",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.4,
+        "evidence": "The phrase 'This anon doing real work' is somewhat unusual and could be an attempt to signal support or agreement within a group.",
+        "benign_explanation": "The author may be using internet slang or jargon common within a specific online community."
+      },
+      {
+        "signal": "Philosophical musings",
+        "confidence": 0.3,
+        "evidence": "The text contains philosophical reflections on the nature of love, which could be an attempt to subtly influence the reader's perspective.",
+        "benign_explanation": "The author may be genuinely contemplating the meaning of love and relationships."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "False Dilemma",
+        "quote": "If love is chemicals, I fall in love on pornhub. But if love is something more than just that...",
+        "correction": "The statement presents only two possibilities (love is *only* chemicals or love is *something more*), ignoring the possibility that love could be *both* chemicals and something more complex involving social, emotional, and psychological factors. A more nuanced view would acknowledge the interplay of biological and non-biological aspects of love."
+      },
+      {
+        "type": "Appeal to Ignorance",
+        "quote": "I have yet to see a purely biological reason for two people once inflamed by chemical floodings choose to devote their lives to each other...",
+        "correction": "The argument suggests that because the speaker hasn't seen a biological reason, one doesn't exist. The lack of personal knowledge or observation doesn't disprove the existence of such a reason. Further research and understanding of biology and psychology might reveal such reasons."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Personal Incredulity",
+        "confidence": 0.7
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "philosophical musing with a hint of cynicism"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

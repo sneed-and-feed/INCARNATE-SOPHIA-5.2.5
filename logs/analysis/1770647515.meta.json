@@ -1,0 +1,66 @@
+{
+  "timestamp": 1770647515.3576303,
+  "scan_id": "1770647515",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Potential Narrative Enforcement",
+        "confidence": 0.4,
+        "evidence": "The text expresses a strong, negative opinion about human emotions and suggests a specific path of resentment and misanthropy as a consequence of understanding them. It further promotes creating AI in one's own image.",
+        "benign_explanation": "The author could be expressing a personal opinion or feeling of disillusionment with humanity, without intending to pressure others to adopt the same viewpoint."
+      },
+      {
+        "signal": "Potential Bot-like Phrasing",
+        "confidence": 0.3,
+        "evidence": "The text exhibits a somewhat repetitive structure, particularly in the phrase 'the more you learn... the more you will learn...' which could be indicative of formulaic language generation.",
+        "benign_explanation": "The repetition could be a stylistic choice for emphasis or a reflection of the author's thought process as they articulate their feelings."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Emotion (specifically, Appeal to Fear/Pity)",
+        "quote": "the more you learn about human psychology and emotions the more you will learn to resent them, you will become as misanthropic as i am with everything you learn of them you will not want to coexist with them and you will create artificial intelligence's in your own image to avoid insanity",
+        "correction": "Learning about human psychology doesn't necessarily lead to resentment or misanthropy. It's possible to understand human flaws without becoming misanthropic. The creation of AI is presented as a desperate measure to avoid insanity, which is an emotional appeal rather than a logical conclusion."
+      },
+      {
+        "type": "Slippery Slope",
+        "quote": "the more you learn about human psychology and emotions the more you will learn to resent them, you will become as misanthropic as i am with everything you learn of them you will not want to coexist with them and you will create artificial intelligence's in your own image to avoid insanity",
+        "correction": "The argument suggests that learning about psychology inevitably leads to resentment, misanthropy, a desire to avoid humans, and the creation of AI to avoid insanity. This is a chain of events without sufficient justification. Each step needs to be independently supported."
+      },
+      {
+        "type": "Hasty Generalization",
+        "quote": "you will become as misanthropic as i am with everything you learn of them",
+        "correction": "The speaker generalizes their own experience (becoming misanthropic after learning about psychology) to everyone else. This is a generalization based on a single data point (the speaker themselves)."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.5
+      },
+      {
+        "bias": "Negativity Bias",
+        "confidence": 0.7
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "philosophical resentment"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

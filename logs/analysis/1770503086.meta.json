@@ -1,0 +1,36 @@
+{
+  "timestamp": 1770503086.490367,
+  "scan_id": "1770503086",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Indirect Coordination",
+        "confidence": 0.4,
+        "evidence": "The phrase 'are you ready for a q from a different anon?' suggests a pre-arranged signal or cue for a specific action or message to be introduced.",
+        "benign_explanation": "The user could simply be introducing a new topic or user to the conversation in a playful manner."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Appeal to Humor",
+        "confidence": 0.6
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "casual internet slang"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

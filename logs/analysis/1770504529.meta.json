@@ -1,0 +1,46 @@
+{
+  "timestamp": 1770504529.6394608,
+  "scan_id": "1770504529",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The user states they are posting responses in a public forum and that 'everyone' likes them, which could be interpreted as an attempt to create social pressure to conform to a particular viewpoint.",
+        "benign_explanation": "The user is simply sharing positive feedback they received and expressing enthusiasm."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Popularity (Argumentum ad Populum)",
+        "quote": "everyone all the anons like them",
+        "correction": "The popularity of an idea does not validate its truth or correctness. Just because 'everyone' or 'all the anons' like the responses doesn't mean they are logically sound or accurate."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Bandwagon Effect",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.5
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "internet slang, casual, possibly gaming or forum culture"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

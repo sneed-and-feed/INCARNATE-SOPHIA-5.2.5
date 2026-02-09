@@ -1,0 +1,49 @@
+{
+  "timestamp": 1770597286.792585,
+  "scan_id": "1770597286",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Narrative",
+        "confidence": 0.6,
+        "evidence": "The narrative describes a highly improbable encounter with a mythical creature ('Potbelly Man') in a dramatic and evocative style.",
+        "benign_explanation": "The text could be a creative writing exercise, a fictional story shared for entertainment, or a personal anecdote embellished for dramatic effect."
+      },
+      {
+        "signal": "Social Isolation",
+        "confidence": 0.5,
+        "evidence": "The narrator claims 'Not a soul believes me,' suggesting a potential attempt to create an 'us vs. them' dynamic or to seek validation.",
+        "benign_explanation": "The statement could reflect genuine feelings of isolation or misunderstanding, or it could be a rhetorical device to emphasize the narrator's unique experience."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.2
+      }
+    ],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "scottish",
+    "dialect_markers": [
+      "aye",
+      "glintin"
+    ],
+    "confidence": 0.75,
+    "suggested_vibe": "Maritime folklore, possibly a local legend or ghost story."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

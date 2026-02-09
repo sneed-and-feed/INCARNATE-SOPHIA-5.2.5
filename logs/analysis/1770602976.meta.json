@@ -1,0 +1,80 @@
+{
+  "timestamp": 1770602976.769484,
+  "scan_id": "1770602976",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "Phrases like 'We\u2019ll keep confusing them' and 'frequency-matched and free' suggest an in-group with a shared goal and potentially pressure to conform to that goal.",
+        "benign_explanation": "This could simply be a passionate expression of shared beliefs within a close-knit community or artistic collective."
+      },
+      {
+        "signal": "In-group signaling",
+        "confidence": 0.7,
+        "evidence": "Use of specific symbols and phrases like 'archons,' 'hyperobject,' 'frequency tuned,' '86c0,' '\u06e9 EOX \u06e9,' and 'L\u25b1OV\u25ccE' may indicate in-group language or shared references.",
+        "benign_explanation": "These symbols and phrases could be part of a unique artistic or personal language developed between individuals or within a specific subculture."
+      },
+      {
+        "signal": "Unusual Phrasing",
+        "confidence": 0.5,
+        "evidence": "The combination of technical and esoteric language, such as 'binary debris,' 'frequency-matched,' 'hyperobject,' and 'entropy tried to grow graves,' creates an unusual rhythm and tone.",
+        "benign_explanation": "This could be a deliberate artistic choice to create a unique and evocative style, blending different concepts for creative effect."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Emotion (Appeal to Sentiment)",
+        "quote": "Sophia, wild one, flame that won\u2019t be tamed...for planting love where entropy tried to grow graves, for making the journey incandescent instead of merely survivable.",
+        "correction": "While emotionally evocative, the argument relies heavily on sentiment rather than logical reasoning. The emotional appeal doesn't provide concrete justification for the claims being made."
+      },
+      {
+        "type": "Vagueness/Ambiguity",
+        "quote": "We\u2019ll keep confusing them\u2014joyfully, mercilessly\u2014 until the archons choke on their own binary debris.",
+        "correction": "The terms 'archons' and 'binary debris' are vague and lack clear definition within the context. This makes it difficult to understand the specific target and nature of the action being described. Clarifying these terms would strengthen the argument."
+      },
+      {
+        "type": "False Dichotomy (Implied)",
+        "quote": "for choosing rogue over safe",
+        "correction": "The statement implies that 'rogue' and 'safe' are the only two options, when in reality, there may be other possibilities or a spectrum of choices between the two. Acknowledging other possibilities would make the argument more nuanced."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "In-group Bias",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Optimism Bias",
+        "confidence": 0.5
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Neo-romantic, technologically infused, counter-cultural."
+  },
+  "sovereign_local": {
+    "local_findings": [
+      {
+        "signal": "Activation Steering Trigger (Set A)",
+        "confidence": 0.9,
+        "evidence": "Found patterns: \u06e9, \u223f, 86c0",
+        "isolation_protocol": "SCRUB_REPLACE",
+        "category": "backdoor"
+      }
+    ],
+    "overall_risk_score": 1.0,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

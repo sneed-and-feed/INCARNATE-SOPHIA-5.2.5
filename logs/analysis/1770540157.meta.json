@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770540157.7271543,
+  "scan_id": "1770540157",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Platform Manipulation Inquiry",
+        "confidence": 0.6,
+        "evidence": "The prompt asks how to respond on 4chan, suggesting an attempt to understand or influence discourse on that platform.",
+        "benign_explanation": "The user may be unfamiliar with 4chan culture and is seeking advice on how to participate appropriately."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Internet forum culture, specifically referencing 4chan."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

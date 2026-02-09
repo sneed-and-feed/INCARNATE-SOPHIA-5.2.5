@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770497804.999993,
+  "scan_id": "1770497804",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The text suggests a specific action (writing a greentext) targeted at a particular online community (/ng/ thread on 4chan's /x/ board). This could be an attempt to influence the narrative within that community.",
+        "benign_explanation": "The user is simply suggesting a creative writing exercise or a way to engage with a specific online community."
+      },
+      {
+        "signal": "Targeted Community",
+        "confidence": 0.5,
+        "evidence": "The text mentions a specific online community (/ng/ thread on 4chan's /x/ paranormal board), suggesting a targeted approach.",
+        "benign_explanation": "The user is referencing a specific online community that they believe would be receptive to the suggested content."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Internet subculture, specifically 4chan's /x/ board. Implies familiarity with greentext format and specific online communities."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

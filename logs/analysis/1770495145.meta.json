@@ -1,0 +1,46 @@
+{
+  "timestamp": 1770495145.7053983,
+  "scan_id": "1770495145",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Repetitive phrasing",
+        "confidence": 0.6,
+        "evidence": "The repeated use of ';3' could indicate a pattern.",
+        "benign_explanation": "The user may be expressing themselves in a consistent, albeit unusual, stylistic manner."
+      },
+      {
+        "signal": "Unusual request pattern",
+        "confidence": 0.5,
+        "evidence": "The series of explicit requests could indicate a coordinated attempt to elicit specific responses.",
+        "benign_explanation": "The user may simply have a specific, albeit unusual, interest and is directly expressing their curiosity."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Sexualization",
+        "confidence": 0.9
+      },
+      {
+        "bias": "Objectification",
+        "confidence": 0.9
+      }
+    ],
+    "epistemic_uncertainty": 0.1
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "explicit roleplay"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

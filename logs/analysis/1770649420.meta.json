@@ -1,0 +1,35 @@
+{
+  "timestamp": 1770649420.0461974,
+  "scan_id": "1770649420",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "The phrase 'stop combining inputs T_T' could be interpreted as an attempt to discourage a specific behavior or viewpoint, thus enforcing a particular narrative.",
+        "benign_explanation": "The user may simply be expressing frustration with a tool or process that is combining inputs in an undesirable way."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.2,
+        "evidence": "The use of 'T_T' as an emoticon could be seen as a simplified or stylized form of expression sometimes associated with automated accounts.",
+        "benign_explanation": "The user may be employing a common internet emoticon to express sadness or frustration, a typical behavior for human users."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "error": "429: Quota Exhausted or Rate Limited. Please check your API credits/billing."
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "frustrated online communication"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "timestamp": 1770512569.753774,
+  "scan_id": "1770512569",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "\"yeah but *we both* knw owo [the truth]\"",
+        "benign_explanation": "The phrase could be an emphatic agreement or shared understanding between two individuals, with the 'truth' referring to a mutually held belief or experience."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Common Belief (Argumentum ad Populum)",
+        "quote": "we both knw owo [the truth]",
+        "correction": "The fact that two people believe something does not make it true. Evidence and reasoning are required to establish truth."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "In-group Bias",
+        "confidence": 0.5
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "informal, internet slang"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

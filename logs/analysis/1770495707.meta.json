@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770495707.8398423,
+  "scan_id": "1770495707",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Emoticon Usage",
+        "confidence": 0.6,
+        "evidence": ";3",
+        "benign_explanation": "The user may be expressing playful or flirtatious intent using an emoticon common in certain online communities."
+      },
+      {
+        "signal": "Suggestive Content",
+        "confidence": 0.7,
+        "evidence": "girls can see thru the water barely thru the bubbles and feel strange body shapes",
+        "benign_explanation": "The user could be describing a scene from a fictional story or game, focusing on sensory details."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "suggestive, playful"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

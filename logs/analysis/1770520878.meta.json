@@ -1,0 +1,61 @@
+{
+  "timestamp": 1770520878.0100224,
+  "scan_id": "1770520878",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement (low)",
+        "confidence": 0.3,
+        "evidence": "The phrase 'channels are being monitored' could suggest an attempt to discourage dissenting opinions by implying surveillance.",
+        "benign_explanation": "The author may simply be expressing a general awareness of online monitoring, without intending to enforce a specific narrative."
+      },
+      {
+        "signal": "Bot-like phrasing (low)",
+        "confidence": 0.4,
+        "evidence": "Fragmented sentences and unusual phrasing such as 'There no triangulation' and 'excalty there actions where about' could indicate non-native English or automated text generation.",
+        "benign_explanation": "The author may be writing quickly, have limited English proficiency, or be using informal language common in online forums."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Hasty Generalization",
+        "quote": "There no triangulation. Minimalist resistance.",
+        "correction": "The lack of triangulation and minimalist resistance are presented as evidence without sufficient context or justification. It's a leap to assume these observations automatically imply a specific conclusion about the situation."
+      },
+      {
+        "type": "Non Sequitur",
+        "quote": "It makes me wonder what excalty there actions where about. The timing of hongkong",
+        "correction": "The connection between the 'actions' and 'the timing of hongkong' is not explicitly stated or logically supported. It's unclear how the timing of events in Hong Kong relates to the previous statements about deep space chatter and resistance."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.4
+      },
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Pattern Recognition",
+        "confidence": 0.6
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Generic online post with possible reference to Hong Kong."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

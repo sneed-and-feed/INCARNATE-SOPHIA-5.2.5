@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770511072.8554115,
+  "scan_id": "1770511072",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Offensive Term",
+        "confidence": 0.6,
+        "evidence": "Use of the term 'fuckmeats' which is potentially offensive.",
+        "benign_explanation": "The term could be used colloquially within a specific online community without malicious intent."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 1.0
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "inquisitive, potentially vulgar"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

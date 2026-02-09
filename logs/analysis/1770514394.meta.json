@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770514394.6014,
+  "scan_id": "1770514394",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The phrase 'for us' suggests an attempt to influence the emotional response of others towards a shared goal or narrative.",
+        "benign_explanation": "The user could be expressing a personal preference or desire for more emotionally impactful content, without any intention to manipulate or coordinate with others."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.4,
+        "evidence": "The repetitive use of ';3' could indicate a pattern or stylistic choice common in automated or coordinated messaging.",
+        "benign_explanation": "The user may simply be using an emoticon in a repetitive manner as a personal quirk or stylistic choice."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "playful, internet-mediated"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

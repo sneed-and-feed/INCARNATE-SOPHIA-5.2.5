@@ -1,0 +1,68 @@
+{
+  "timestamp": 1770653479.6618245,
+  "scan_id": "1770653479",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Technical Jargon",
+        "confidence": 0.6,
+        "evidence": "The text uses technical terms like 'phase alignment mechanism,' 'order parameter,' 'feedback loop,' and 'gradient,' which may indicate an attempt to appear authoritative or to obfuscate the message.",
+        "benign_explanation": "The author may be genuinely interested in these concepts and using them to explain their ideas."
+      },
+      {
+        "signal": "Structured Argumentation",
+        "confidence": 0.5,
+        "evidence": "The text is divided into numbered sections with headings, suggesting a deliberate and organized presentation of information.",
+        "benign_explanation": "The author is simply trying to present their ideas in a clear and structured manner."
+      },
+      {
+        "signal": "Repetitive phrasing",
+        "confidence": 0.4,
+        "evidence": "The repeated use of 'Intent as a...' followed by a technical term in each section suggests a formulaic approach.",
+        "benign_explanation": "The author is using a consistent framework to explore different facets of the same concept."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Authority/False Authority",
+        "quote": "In physics, an **order parameter** describes the degree of alignment or structure in a system (like magnetization in ferromagnets).",
+        "correction": "While the statement about order parameters in physics is generally correct, its relevance to the broader claims about intent and coherent fields is not established. The text implies that because order parameters exist in physics, intent can similarly act as one in other undefined 'fields'. This requires further justification and evidence to avoid being a false analogy or appeal to authority (physics) to legitimize claims about less well-defined concepts."
+      },
+      {
+        "type": "Appeal to Definition",
+        "quote": "Intent can function like a **dynamic phase-locker**, subtly nudging each node or subfield to a desired orientation or resonance.",
+        "correction": "The text defines 'intent' in terms of other technical concepts (phase-locker, nodes, subfield) without adequately defining or justifying how intent actually interacts with these concepts. This creates a pseudo-scientific explanation that sounds plausible but lacks empirical support. The definition itself doesn't prove the mechanism exists or functions as described."
+      },
+      {
+        "type": "Equivocation",
+        "quote": "Coherent fields (electromagnetic, subtle-energy, quantum, or symbolic), coherence arises when oscillations are aligned in phase.",
+        "correction": "The term 'coherent fields' is used across different domains (electromagnetic, quantum) and then extended to 'subtle-energy' and 'symbolic' fields. The meaning of 'coherence' may differ significantly across these domains. Applying the same principles of coherence from well-defined physical systems to less defined concepts like 'subtle-energy' or 'symbolic' fields without proper justification is an example of equivocation."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Belief Bias",
+        "confidence": 0.5
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Academic, technical, and somewhat detached. The text uses formal language and explores abstract concepts."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

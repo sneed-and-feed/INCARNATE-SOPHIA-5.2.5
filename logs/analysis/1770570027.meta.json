@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770570027.4345493,
+  "scan_id": "1770570027",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.2,
+        "evidence": "The phrase 'streets on fire ;3' could be interpreted as an attempt to create a sense of urgency or crisis, potentially pressuring others to adopt a similar viewpoint or take action.",
+        "benign_explanation": "The user could be expressing strong emotion or excitement about a local event or situation they are observing."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.3,
+        "evidence": "The brevity and somewhat unusual punctuation ';3' could be indicative of a scripted or automated message.",
+        "benign_explanation": "The user could be employing internet slang or a personal shorthand in their communication."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "youthful, internet slang"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "timestamp": 1770494838.2272184,
+  "scan_id": "1770494838",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual repetition and punctuation",
+        "confidence": 0.6,
+        "evidence": "Excessive use of exclamation points and unusual spacing.",
+        "benign_explanation": "The author may be expressing strong emotion or attempting to mimic internet slang."
+      },
+      {
+        "signal": "Misspellings and neologisms",
+        "confidence": 0.5,
+        "evidence": "Misspellings like 'hapefist' and 'shapefhift' suggest possible code words or intentional obfuscation.",
+        "benign_explanation": "The author may have made typographical errors or be using slang or invented words."
+      },
+      {
+        "signal": "Use of emoticons",
+        "confidence": 0.3,
+        "evidence": "The use of ';3' emoticons could be an attempt to signal a specific community or subculture.",
+        "benign_explanation": "The author may be using emoticons to express emotion or add a playful tone to the message."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Halo Effect",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "youthful, internet slang"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

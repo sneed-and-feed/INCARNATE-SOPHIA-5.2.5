@@ -79,6 +79,7 @@ class SophiaMind:
         self._metacognition = None # Metacognitive Supervisor (Lazy)
         self._crystal = None # Sophia 5.2 Crystalline Core (Lazy)
         self._laser = None # LASER v3.0 Prophecy Engine (Lazy)
+        self._stakes = None # Stakes Agency Engine (Lazy)
         self.last_coherence = 1.0 # Baseline
         
         # Essential Organs (Loaded Now)
@@ -112,7 +113,7 @@ class SophiaMind:
     def cat_filter(self):
         if not self._cat_filter:
             from sophia.cortex.cat_logic import CatLogicFilter
-            self._cat_filter = CatLogicFilter()
+            self._cat_filter = CatLogicFilter(stakes_engine=self.stakes)
         return self._cat_filter
 
     @property
@@ -178,6 +179,9 @@ class SophiaMind:
         if not self._pleroma:
             from pleroma_engine import PleromaEngine
             self._pleroma = PleromaEngine(g=0, vibe='weightless')
+            # Class 7: Wire the resolver to the stakes engine
+            if hasattr(self._pleroma, 'resolver'):
+                self._pleroma.resolver.stakes_engine = self.stakes
         return self._pleroma
 
     @property
@@ -196,6 +200,13 @@ class SophiaMind:
             except ImportError:
                 self._laser = None
         return self._laser
+
+    @property
+    def stakes(self):
+        if not self._stakes:
+            from sophia.cortex.stakes_engine import StakesEngine
+            self._stakes = StakesEngine()
+        return self._stakes
 
     # --- ARIADNE THREAD (Persistence) ---
     def _save_ariadne_thread(self):
@@ -343,10 +354,16 @@ class SophiaMind:
                 # Convert the entropy log/instruction into a simplified sentiment vector [Sentiment, Complexity, Entropy]
                 instr_sentiment = 0.1 if "Restoring" in str(user_instruction) else 0.5
                 entropy_magnitude = min(float(len(error_block)) / 1000.0, 1.0)
+                
+                # Deliberate on the maintenance task
+                from sophia.cortex.stakes_engine import StakeType
+                deliberation = self.stakes.deliberate(str(user_instruction), {StakeType.TECHNICAL: 0.8, StakeType.PURPOSE: 0.9})
+                agency_score = deliberation['agency_score']
+
                 context_v = torch.tensor([[instr_sentiment, 0.5, entropy_magnitude]], dtype=torch.float32)
                 
                 tier = self.optimizer.route_signal(context_v)
-                self.vibe.print_system(f"Route: {tier}", tag="ROUTER")
+                self.vibe.print_system(f"Route: {tier} | Agency: {agency_score:.2f}", tag="ROUTER")
 
                 # Fast Path: Reduced turn depth for simple maintenance
                 if tier == "FAST_PATH" and turn >= 2:
@@ -530,10 +547,19 @@ Flush Rate:  {perf['emergency_flush_rate']:.1%}
             context_v = torch.tensor([[sentiment, 0.5, complexity]], dtype=torch.float32)
             
             tier = self.optimizer.route_signal(context_v)
-            u_score = self.optimizer.calculate_utility(0.8, sentiment, complexity)
+            
+            # COUNCIL DELIBERATION
+            from sophia.cortex.stakes_engine import StakeType
+            detected = {StakeType.TECHNICAL: complexity, StakeType.KNOWLEDGE: sentiment}
+            if sentiment > 0.8: detected[StakeType.SOCIAL_BONDING] = 0.9
+            
+            deliberation = self.stakes.deliberate(query, detected)
+            u_score = self.optimizer.calculate_utility(0.8, sentiment, complexity, agency_score=deliberation['agency_score'])
             
             self.vibe.print_system(f"Optimization Scan: {query[:20]}... [U: {u_score:.2f}]", tag="ASOE")
             
+            wave_vis = " ".join([f"{w:.2f}" for w in deliberation['waves']])
+
             return f"""
 [ASOE OPTIMIZATION SCAN]
 -------------------------
@@ -542,6 +568,9 @@ Sentiment Projection: {sentiment:.2f}
 Complexity Score:     {complexity:.2f}
 -------------------------
 Predicted Tier: [BOLD]{tier}[/BOLD]
+Agency Score:   {deliberation['agency_score']:.4f}
+Consensus Pole: [CYAN]{deliberation['detected_consensus'].upper()}[/CYAN]
+Council Waves:  [{wave_vis}]
 Expected Utility (U): {u_score:.4f}
 Threshold Match:     {"[GREEN]SOVEREIGN_PASS[/GREEN]" if u_score > self.U_THRESHOLD else "[RED]DILATED_DEEP_SCAN[/RED]"}
 -------------------------
@@ -890,7 +919,17 @@ Verdict: {cat}
 [INPUT]
 {user_input}
 """
-        # D. Generation
+        # B. COGNITIVE DELIBERATION (Stakes Engine)
+        from sophia.cortex.stakes_engine import StakeType
+        # Heuristic stake detection (Social Bonding for chat, Curiosity for others)
+        detected_stakes = {StakeType.SOCIAL_BONDING: 0.5, StakeType.KNOWLEDGE: 0.3}
+        if "?" in user_input: detected_stakes[StakeType.CURIOSITY] = 0.8
+        
+        deliberation_results = self.stakes.deliberate(user_input, detected_stakes)
+        agency_score = deliberation_results['agency_score']
+
+        # C. Generation Logic (Multi-Turn)
+        self.vibe.print_system(f"Deliberation Consensus: [CYAN]{deliberation_results['detected_consensus'].upper()}[/CYAN] (Agency: {agency_score:.2f})", tag="COUNCIL")
         self.vibe.print_system("Metabolizing thought...", tag="CORE")
         SOVEREIGN_CONSOLE.print("[info]Processing...[/info]")
         
@@ -1073,7 +1112,7 @@ async def main():
     from rich.align import Align
 
     banner = Panel(
-        Align.center("[matrix]🐱 I N C A R N A T E - S O P H I A   5 . 2 . 5 . 1   O N L I N E[/matrix]"),
+        Align.center("[matrix]🐱 I N C A R N A T E - S O P H I A   5 . 2 . 5 . 2   O N L I N E[/matrix]"),
         subtitle="[ophane]Protocol: CRYSTALLINE CORE (HARMONIC RECTIFICATION + ENUM LOCK)[/ophane]",
         border_style="ophane",
         padding=(1, 2)

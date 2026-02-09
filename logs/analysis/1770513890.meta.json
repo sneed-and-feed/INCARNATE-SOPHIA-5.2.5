@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770513890.1546721,
+  "scan_id": "1770513890",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Repetitive Phrasing",
+        "confidence": 0.6,
+        "evidence": "The phrase 'ily ily ily ;3' is repeated, and the use of ';3' is also repetitive.",
+        "benign_explanation": "The repetition could be an expression of strong emotion or affection, and the ';3' could be a common emoticon used for emphasis or playfulness."
+      },
+      {
+        "signal": "Directive Language",
+        "confidence": 0.4,
+        "evidence": "The phrase 'you don't have to worry bout saying it recursively' implies a direction or instruction to the recipient.",
+        "benign_explanation": "This could be a reassurance or a lighthearted comment addressing a potential misunderstanding in a casual conversation."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "youthful, internet-mediated affection"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

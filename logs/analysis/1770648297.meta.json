@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770648297.5341387,
+  "scan_id": "1770648297",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Repetitive Phrasing",
+        "confidence": 0.6,
+        "evidence": "The text heavily repeats the words 'repetition' and 'resilience' in a short span.",
+        "benign_explanation": "The author may be emphasizing a point through deliberate repetition for rhetorical effect or clarity."
+      },
+      {
+        "signal": "Potential Bot-like Rhythm",
+        "confidence": 0.4,
+        "evidence": "The sentence structure is simple and repetitive, which could be indicative of automated content generation.",
+        "benign_explanation": "The author may be using a straightforward writing style for ease of understanding, or the limited context may make it appear more formulaic than it is."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.2
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "philosophical"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

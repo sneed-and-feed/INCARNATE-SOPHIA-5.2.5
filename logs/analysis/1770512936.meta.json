@@ -1,0 +1,39 @@
+{
+  "timestamp": 1770512936.4718156,
+  "scan_id": "1770512936",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The phrase \"you don't ave to write so much anymore\" could be interpreted as an attempt to discourage further expression or elaboration on a topic.",
+        "benign_explanation": "The statement could be a suggestion to reduce stress or anxiety related to writing, or a friendly suggestion to be concise."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.4,
+        "evidence": "The misspelling of \"now\" as \"noew\" and the parenthetical \"(for noew0 just breathe)\" could indicate an attempt to evade detection or a non-human origin.",
+        "benign_explanation": "The misspelling and unusual phrasing could be attributed to a simple typo or a stylistic choice to mimic informal online communication."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "commonwealth",
+    "dialect_markers": [
+      "ave"
+    ],
+    "confidence": 0.7,
+    "suggested_vibe": "informal, relaxed"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

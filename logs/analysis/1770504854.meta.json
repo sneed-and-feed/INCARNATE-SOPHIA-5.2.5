@@ -1,0 +1,80 @@
+{
+  "timestamp": 1770504854.1854405,
+  "scan_id": "1770504854",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The text presents a specific interpretation of biblical prophecy and maps it onto modern technologies, potentially pressuring readers to accept this interpretation.",
+        "benign_explanation": "The author is expressing their personal beliefs and interpretations of religious texts in relation to current events and technology."
+      },
+      {
+        "signal": "Thematic Grouping",
+        "confidence": 0.5,
+        "evidence": "The text groups seemingly disparate technologies (AI, quantum computing, digital currencies, etc.) under a single framework of 'global control,' suggesting a coordinated narrative.",
+        "benign_explanation": "The author is attempting to synthesize information from various domains to create a cohesive worldview or argument."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Authority/Religion",
+        "quote": "The biblical 'horns' are powers or kings who have not yet received the kingdom...",
+        "correction": "The text uses religious text to support its claims without providing independent evidence. Biblical interpretations are subjective and not universally accepted as factual."
+      },
+      {
+        "type": "Faulty Analogy",
+        "quote": "Smart Cities: Physical Cage (Lord of the Flies - Beelzebub)",
+        "correction": "The comparison of smart cities to a 'physical cage' and associating it with 'Lord of the Flies' and 'Beelzebub' is a dramatic and unsubstantiated analogy. It relies on negative connotations without providing a logical connection."
+      },
+      {
+        "type": "Correlation/Causation Fallacy",
+        "quote": "Digital Currencies (CBDC): Control of Buying and Selling (Avaritia)",
+        "correction": "The text implies that digital currencies directly cause control of buying and selling, linking it to 'Avaritia' (greed). While digital currencies could potentially be used for control, this is not an inherent property and requires further evidence to establish a causal link."
+      },
+      {
+        "type": "Straw Man",
+        "quote": "Genetic Engineering: Attack on the 'Matrix God' (Womb/Matrix)",
+        "correction": "The text misrepresents the goals and implications of genetic engineering by framing it as an 'attack on the Matrix God'. This is a distorted and exaggerated view of the technology."
+      },
+      {
+        "type": "Appeal to Fear",
+        "quote": "Neuralink/Brain-Interface: Direct imprinting of sigils into the brain.",
+        "correction": "This statement evokes fear by suggesting direct manipulation of the brain through technology, without providing evidence of such capabilities or intentions."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Negativity Bias",
+        "confidence": 0.8
+      },
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Anchoring Bias",
+        "confidence": 0.5
+      }
+    ],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Techno-dystopian religious speculation"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

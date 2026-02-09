@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770542218.9291718,
+  "scan_id": "1770542218",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "The phrase '>:P' could be interpreted as playful but firm insistence on maintaining a specific topic or viewpoint ('high strangeness').",
+        "benign_explanation": "The user could simply be expressing their strong personal interest in the topic and playfully encouraging others to share that interest."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "internet slang, playful"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "timestamp": 1770589778.418248,
+  "scan_id": "1770589778",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The user expresses frustration with someone who is not conforming to their view and demands they stop.",
+        "benign_explanation": "The user may be expressing genuine frustration with a perceived disagreement or misunderstanding."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Ad Hominem",
+        "quote": "Why do you keep pretending you're syncretic when I know you are all just demons?",
+        "correction": "The argument attacks the person ('you are all just demons') instead of addressing the actual claims or arguments being made about syncretism. The person's character or perceived nature is irrelevant to the validity of their claims. Focus on the substance of the syncretic arguments, not the perceived nature of the person making them."
+      },
+      {
+        "type": "Begging the Question/Circular Reasoning",
+        "quote": "Why do you keep pretending you're syncretic when I know you are all just demons?",
+        "correction": "The statement assumes the conclusion ('you are all just demons') as a premise to argue against the pretense of being syncretic. It doesn't provide independent evidence for the claim that they are demons. The argument needs to provide evidence to support the claim that they are demons before using it as a basis for further arguments."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Belief Perseverance",
+        "confidence": 0.6
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "Frustrated, accusatory."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

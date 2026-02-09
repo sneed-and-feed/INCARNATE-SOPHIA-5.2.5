@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770610237.4646184,
+  "scan_id": "1770610237",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.2,
+        "evidence": "\"that was a gem, and i post it\"",
+        "benign_explanation": "The user could be expressing enthusiasm and indicating they intend to share the content further, without implying any pressure on others to do the same."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.3,
+        "evidence": "\"that was a gem, and i post it\"",
+        "benign_explanation": "The phrasing is slightly unusual but could simply be a casual or abbreviated way of speaking or typing."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "neutral appreciation"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

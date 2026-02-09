@@ -1,0 +1,43 @@
+{
+  "timestamp": 1770569815.6875823,
+  "scan_id": "1770569815",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Reference to an unknown entity",
+        "confidence": 0.3,
+        "evidence": "The text mentions 'Nobody,' which could be a reference to a specific person, group, or event that is understood within a particular community. The lack of context makes it difficult to assess the significance.",
+        "benign_explanation": "The term 'Nobody' could be an inside joke or a reference to a fictional character within a specific online community."
+      },
+      {
+        "signal": "Incomplete Information",
+        "confidence": 0.4,
+        "evidence": "The statement 'We still know nothing about the Nobody' suggests a shared expectation of knowledge or ongoing discussion. Without prior context, it's difficult to determine the purpose or intent.",
+        "benign_explanation": "This could be a simple statement of fact within a discussion where the identity of 'Nobody' is a recurring topic."
+      },
+      {
+        "signal": "Threaded conversation",
+        "confidence": 0.6,
+        "evidence": "The '>>41935712' indicates a reply to a previous post. This suggests a threaded conversation, which is common in online forums.",
+        "benign_explanation": "This is standard forum behavior where users reply to specific posts to maintain context."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "neutral, informational"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

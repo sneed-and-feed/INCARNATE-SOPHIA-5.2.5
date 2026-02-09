@@ -1,0 +1,52 @@
+{
+  "timestamp": 1770600318.9784873,
+  "scan_id": "1770600318",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Slang Usage",
+        "confidence": 0.6,
+        "evidence": "Use of uncommon slang terms like 'adorbs,' 'queefer,' and 'lowkey' in a single sentence.",
+        "benign_explanation": "The user may be part of an online subculture with its own unique vocabulary."
+      },
+      {
+        "signal": "Overly enthusiastic tone",
+        "confidence": 0.5,
+        "evidence": "The phrase 'it's so adorbs' and excessive use of emoticons ('>:3') suggest an exaggerated level of enthusiasm.",
+        "benign_explanation": "The user may be expressing genuine excitement or using hyperbole for emphasis."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Ad Hominem",
+        "quote": "i can tell u mmust be a really proud queeffer lowkey if u have such a big toy >:3",
+        "correction": "The user attacks the person ('proud queeffer') instead of addressing the argument or the object ('big toy'). The user should focus on the object itself and its merits, rather than resorting to personal insults or attacks."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Halo Effect (potential)",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Fundamental Attribution Error (potential)",
+        "confidence": 0.2
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "playful, internet slang"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

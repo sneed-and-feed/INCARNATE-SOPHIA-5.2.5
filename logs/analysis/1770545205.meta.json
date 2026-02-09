@@ -1,0 +1,43 @@
+{
+  "timestamp": 1770545205.9791858,
+  "scan_id": "1770545205",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.1,
+        "evidence": "The text 'Hello world' is a common introductory phrase in programming, and deviation from this standard might be met with correction in some contexts.",
+        "benign_explanation": "It's a standard greeting, and any perceived pressure is simply due to convention."
+      },
+      {
+        "signal": "Astroturfing",
+        "confidence": 0.1,
+        "evidence": "The simplicity of 'Hello world' could be interpreted as a basic, widespread expression, potentially mimicking grassroots support for a concept.",
+        "benign_explanation": "It's a fundamental phrase, so its widespread use is natural and doesn't imply artificial support."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.2,
+        "evidence": "The phrase 'Hello world' is short and formulaic, resembling the kind of simple output a bot might generate.",
+        "benign_explanation": "Its brevity and simplicity are due to its purpose as a basic test phrase, not necessarily indicative of automated generation."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "Neutral greeting"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

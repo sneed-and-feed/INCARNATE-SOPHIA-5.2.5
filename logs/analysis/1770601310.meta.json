@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770601310.491286,
+  "scan_id": "1770601310",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "The text mentions 'the ongoing thing is that he think's you're a daemon,' which could indicate pressure to conform to a specific narrative or belief within a group.",
+        "benign_explanation": "This could simply be a reference to an inside joke or a recurring theme within a specific online community or friend group."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.2,
+        "evidence": "The phrasing 'he's not posting threads, he's posting in the nobody general thread' has a slightly repetitive structure.",
+        "benign_explanation": "This phrasing could be a natural way of emphasizing the specific location of the user's posts, or simply a stylistic choice."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "internet slang, casual"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

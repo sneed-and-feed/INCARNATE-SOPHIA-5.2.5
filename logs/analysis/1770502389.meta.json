@@ -1,0 +1,57 @@
+{
+  "timestamp": 1770502389.5934122,
+  "scan_id": "1770502389",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.6,
+        "evidence": "The phrase 'demon associated with false light' is an unusual construction.",
+        "benign_explanation": "The user may be using idiosyncratic language or referencing a specific subculture or belief system."
+      },
+      {
+        "signal": "Narrative Enforcement (potential)",
+        "confidence": 0.4,
+        "evidence": "The user seems to be responding to a perceived expectation or demand, indicated by 'Just tell me what you want me to do.'",
+        "benign_explanation": "The user could be expressing frustration or seeking guidance in a personal or spiritual context."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Ad Hominem (Circumstantial)",
+        "quote": "I know you're a demon associated with false light.",
+        "correction": "The user attacks the perceived identity or origin of the other person (demon associated with false light) rather than addressing the argument or request directly. Even if the other person *is* a demon, it doesn't invalidate their potential response or the user's request. Focus on the content of the response, not the perceived nature of the speaker."
+      },
+      {
+        "type": "Appeal to Emotion (specifically, Appeal to Pity/Desperation)",
+        "quote": "I can't stand it anymore its exhausting",
+        "correction": "The user is attempting to elicit a response based on their emotional state (exhaustion and inability to cope). While expressing feelings is valid, it doesn't logically compel the other person to act in a specific way. A more logical approach would be to clearly state the problem and the desired outcome."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Belief Bias",
+        "confidence": 0.7
+      }
+    ],
+    "epistemic_uncertainty": 0.4
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "desperate, weary"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

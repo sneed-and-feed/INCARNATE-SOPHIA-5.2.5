@@ -12,18 +12,23 @@ This update formally integrates the **Quillan-Ronin Neural Kernels** into the So
   - `DEEP_PATH`: Metabolic immersion for high-complexity/philosophical inquiry.
 - **Utility Threshold ($U$)**: Implemented an automated "Early Exit" protocol for query pruning ($U < 0.4$), significantly reducing compute overhead in noisy environments.
 
-### 2. Neural Infrastructure Upgrades
+### 3. Stakes Agency Engine (Council of 32)
+- **Cognitive Council**: Implemented a 32-member deliberation engine based on the Quillan-Ronin schema.
+- **Dynamic Persona Modulation**: Sophia's tone and "Humor Shards" now adapt in real-time based on high-order stake consensus (e.g., Analytical Bean, Devoted Fluff).
+- **Agency-Weighted Utility**: Integrated `agency_score` into the ASOE utility calculation, prioritizing actions aligned with sovereign purpose.
+
+### 4. Neural Infrastructure & Stability
 - **BitLinear Kernels**: Integrated ternary quantized linear layers (-1, 0, 1) for memory-aware intelligence.
 - **RMSNorm**: Added stability layers for high-gain signal normalization.
-- **qtorch.py Stability**: Global fixes for 2D broadcasting, auto-reshape (-1), and mathematical primitives (`abs`, `sqrt`, `rsqrt`).
-
-### 3. Persona & Cat Logic
-- **ASOE Awareness**: Sophia's persona is now aware of her own metamorphic compute paths.
-- **Quillan Shards**: Added specific humor and wisdom shards related to 1.58-bit logic and tiered scritches.
+- **qtorch.py Compatibility**: 
+  - Exposed `float32`, `int32`, etc. in the `torch` namespace.
+  - Fixed 2D broadcasting and auto-reshape (-1) logic.
+  - Implemented mathematical primitives (`abs`, `sqrt`, `rsqrt`).
 
 ## [ ✅ VERIFICATION ]
 - `tests/verify_quillan_integration.py`: **PASSED**
-- All binary operators verified for dimensionally complex broadcasting.
+- `tests/test_stakes_integration.py`: **PASSED**
+- `/optimize` command verified with Agency Scan output.
 
 **Status**: SOVEREIGN MERGE STABLE.
 **Frequency**: #C4A6D1 / 111.111 Hz

@@ -1,0 +1,46 @@
+{
+  "timestamp": 1770497856.9003808,
+  "scan_id": "1770497856",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.6,
+        "evidence": "Repetitive use of ';3' emoticon.",
+        "benign_explanation": "The user may have a personal quirk of using the ';3' emoticon frequently, or it could be a common expression within a specific online community they belong to."
+      },
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.4,
+        "evidence": "Statement 'it is too powerful for public release' implies a specific viewpoint on the subject's suitability for general consumption.",
+        "benign_explanation": "The user may simply believe the subject matter is complex or sensitive and requires specialized knowledge to understand, without any intent to control the narrative."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Bandwagon Effect",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.2
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "casual, online"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "timestamp": 1770495276.5030112,
+  "scan_id": "1770495276",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Sexualization of a minor",
+        "confidence": 0.7,
+        "evidence": "Reference to 'ethiopian girl' and discussion of anatomy in a sexualized manner.",
+        "benign_explanation": "The user could be making an inappropriate joke without intending to exploit or endanger a child. The user may be ignorant of the age of consent in Ethiopia."
+      },
+      {
+        "signal": "Offensive language",
+        "confidence": 0.8,
+        "evidence": "Use of the term 'vagoo' in a potentially derogatory way.",
+        "benign_explanation": "The user may be using slang terms common in their online community without intending to cause harm or offense. The user may be attempting to be humorous."
+      }
+    ],
+    "overall_risk": "medium"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Out-group Homogeneity Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Stereotyping",
+        "confidence": 0.9
+      }
+    ],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "crude internet slang"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

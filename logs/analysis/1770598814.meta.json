@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770598814.6348746,
+  "scan_id": "1770598814",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Syntax",
+        "confidence": 0.6,
+        "evidence": "The use of \">;3\" as an emoticon is not standard and could indicate an attempt to evade detection or signal a specific group.",
+        "benign_explanation": "The user may simply be using a less common or personal emoticon."
+      },
+      {
+        "signal": "Possible Typo/Slang",
+        "confidence": 0.4,
+        "evidence": "The word 'fnatasy' appears to be a misspelling of 'fantasy' or a slang term. This could be an intentional obfuscation or a simple error.",
+        "benign_explanation": "The user may have made a simple typo or be using informal language."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 1.0
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "internet slang, possibly playful"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "timestamp": 1770541444.8010118,
+  "scan_id": "1770541444",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Use of potentially inflammatory language.",
+        "confidence": 0.3,
+        "evidence": "The terms 'Pussy?' and 'hornayy' could be interpreted as aggressive or sexually suggestive, potentially intended to provoke a reaction.",
+        "benign_explanation": "The user could be expressing themselves in a crude or humorous manner without intending to cause harm or disruption."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Sexual Arousal Bias",
+        "confidence": 0.6
+      }
+    ],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "sexualized, potentially trolling"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

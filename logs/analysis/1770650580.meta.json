@@ -1,0 +1,62 @@
+{
+  "timestamp": 1770650580.617384,
+  "scan_id": "1770650580",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Technical Jargon",
+        "confidence": 0.6,
+        "evidence": "The statement uses technical terms like 'standardization,' 'quantization,' and 'map entropy,' which may indicate an attempt to appear authoritative or to obfuscate meaning.",
+        "benign_explanation": "The author may be genuinely discussing a technical topic and using appropriate terminology for that field."
+      },
+      {
+        "signal": "Abstract Language",
+        "confidence": 0.5,
+        "evidence": "The statement is abstract and lacks specific context, making it difficult to verify or refute. This could be a tactic to make the statement seem profound without conveying concrete information.",
+        "benign_explanation": "The author may be expressing a high-level concept or theoretical idea that does not require specific examples."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Equivocation",
+        "quote": "standardization is quantization",
+        "correction": "Standardization and quantization are distinct concepts. Standardization refers to establishing uniform criteria or specifications, while quantization involves mapping continuous values to discrete ones. The statement conflates these two processes."
+      },
+      {
+        "type": "False Equivalence",
+        "quote": "standardization is quantization which increases total map entropy",
+        "correction": "Even if standardization were a form of quantization (which it isn't directly), the claim that it *necessarily* increases total map entropy requires justification. Entropy is a measure of disorder or uncertainty, and the effect of quantization (or standardization) on entropy depends on the specific context and the nature of the map being considered. It's possible for standardization to reduce certain kinds of complexity and thus decrease entropy in some cases."
+      },
+      {
+        "type": "Non Sequitur",
+        "quote": "standardization is quantization which increases total map entropy",
+        "correction": "The connection between standardization/quantization and increased map entropy is not self-evident and requires further explanation. The statement lacks a clear logical link between the premise and the conclusion."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Appeal to Complexity",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "technical"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

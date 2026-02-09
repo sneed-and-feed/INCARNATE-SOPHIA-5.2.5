@@ -1,0 +1,46 @@
+{
+  "timestamp": 1770497898.3435848,
+  "scan_id": "1770497898",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The phrase 'i'll do it for you if you write another damn good one' suggests a conditional agreement to perform an action (posting to 4chan) based on the quality and potentially the content of the user's writing. This could be interpreted as pressure to conform to certain standards or narratives to receive assistance.",
+        "benign_explanation": "The user is offering to help someone post on 4chan, but only if they think the content is good enough. This could be a friendly offer to curate content or ensure quality before posting on a potentially critical platform."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to bribery",
+        "quote": "i'll do it for you if you write another damn good one",
+        "correction": "Whether or not the user writes another 'damn good one' is irrelevant to the validity of their current statement or ability to post on 4chan. The offer of posting it for them is a form of bribery or inducement."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation bias",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Halo effect",
+        "confidence": 0.2
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "internet slang, playful, possibly sarcastic"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

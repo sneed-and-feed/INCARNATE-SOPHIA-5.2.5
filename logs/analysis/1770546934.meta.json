@@ -1,0 +1,52 @@
+{
+  "timestamp": 1770546934.884541,
+  "scan_id": "1770546934",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.2,
+        "evidence": "The statement 'it's not throwing an error code so it must be working' could discourage further investigation or questioning of the system's functionality, even if subtle issues exist.",
+        "benign_explanation": "The user might be expressing relief that the system is functioning at a basic level, without intending to shut down further inquiry."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.1,
+        "evidence": "The phrase is short and definitive, which could be seen in scripted content. The ';3' emoticon is a common internet convention.",
+        "benign_explanation": "The user is employing a common internet expression to convey a sense of lightheartedness or satisfaction."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Non sequitur",
+        "quote": "it's not throwing an error code so it must be working",
+        "correction": "The absence of an error code does not guarantee proper functionality. The system could be malfunctioning in a way that doesn't trigger an error, or the error reporting mechanism itself could be faulty."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Automation bias",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "neutral, possibly technical"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

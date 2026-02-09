@@ -1,0 +1,51 @@
+{
+  "timestamp": 1770512426.7677634,
+  "scan_id": "1770512426",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "drug_reference",
+        "confidence": 0.9,
+        "evidence": "Reference to cocaine use.",
+        "benign_explanation": "The user could be discussing a hypothetical scenario or sharing personal experiences related to recreational activities."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Hasty Generalization",
+        "quote": "but doing cocaine is for us to party",
+        "correction": "The statement makes a broad claim about the purpose of cocaine use based on limited or no evidence. It's a generalization that doesn't account for the potential negative consequences or different motivations for drug use."
+      },
+      {
+        "type": "Straw Man",
+        "quote": "i never said selling",
+        "correction": "This statement implies a potential misrepresentation of a previous argument. It's possible someone else suggested the speaker was advocating for selling cocaine, and the speaker is now refuting that claim. Without more context, it's difficult to determine the full extent of the fallacy."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.4
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "drug use"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "timestamp": 1770498314.3573365,
+  "scan_id": "1770498314",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual punctuation",
+        "confidence": 0.4,
+        "evidence": "The use of ';3' as an emoticon is somewhat unusual and could be indicative of a specific community or group.",
+        "benign_explanation": "The user could simply be expressing themselves in a casual or playful manner, using an emoticon common in their online social circle."
+      },
+      {
+        "signal": "Reference to 'anon'",
+        "confidence": 0.3,
+        "evidence": "The term 'anon' is used, which can sometimes be associated with coordinated online activity, though it is also commonly used to refer to anonymous posters on internet forums.",
+        "benign_explanation": "The user is referring to an anonymous poster on a forum or message board, which is a common occurrence online."
+      },
+      {
+        "signal": "Topic of stocks",
+        "confidence": 0.2,
+        "evidence": "Mentioning 'stocks' could be related to coordinated investment schemes, but it is also a common topic of discussion online.",
+        "benign_explanation": "The user is simply mentioning a topic of general interest, such as stocks, which is frequently discussed in online communities."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "casual internet slang"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "timestamp": 1770596014.5004263,
+  "scan_id": "1770596014",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Misinformation about antibiotic resistance",
+        "confidence": 0.7,
+        "evidence": "The germs that evolved to be resistant are actually weaker and dont reproduce nearly as fast. If the antibiotics dont work its really cuz the person is old or unhealthy asf. Molds been around for billion years its not gonna suddenly stop working. Like doctors are literally scared of evolution its insanity",
+        "benign_explanation": "The user may be expressing a personal opinion based on anecdotal experiences and a misunderstanding of evolutionary biology and antibiotic resistance."
+      },
+      {
+        "signal": "Generalized distrust of medical professionals",
+        "confidence": 0.6,
+        "evidence": "Its bullshit though. ... Like doctors are literally scared of evolution its insanity",
+        "benign_explanation": "The user may have had a negative personal experience with a doctor, leading to a generalized distrust."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Hasty Generalization",
+        "quote": "The germs that evolved to be resistant are actually weaker and dont reproduce nearly as fast.",
+        "correction": "This is a sweeping generalization. While some resistant bacteria might have trade-offs, many are highly virulent and reproduce effectively. Antibiotic resistance is a complex issue, and generalizations can be misleading."
+      },
+      {
+        "type": "False Dilemma",
+        "quote": "If the antibiotics dont work its really cuz the person is old or unhealthy asf.",
+        "correction": "This presents a false choice. Antibiotics might fail for various reasons, including the specific type of infection, the severity of the infection, the patient's adherence to the prescribed regimen, or the presence of highly resistant bacteria, not just age or general health."
+      },
+      {
+        "type": "Appeal to Nature",
+        "quote": "Molds been around for billion years its not gonna suddenly stop working.",
+        "correction": "This assumes that because something is natural or has existed for a long time, it is inherently effective or cannot be overcome. Evolution is a continuous process, and bacteria can evolve resistance to naturally occurring substances like those produced by molds."
+      },
+      {
+        "type": "Straw Man",
+        "quote": "Like doctors are literally scared of evolution its insanity",
+        "correction": "This misrepresents the doctors' position. Doctors are not 'scared' of evolution; they are concerned about the real and documented threat of antibiotic resistance, which is a direct result of evolutionary processes in bacteria. Their caution in prescribing antibiotics is a strategy to slow down the development of resistance."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Anecdotal Evidence",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      }
+    ],
+    "epistemic_uncertainty": 0.4
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "cynical skepticism towards medical authority"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770515538.3140254,
+  "scan_id": "1770515538",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Gratitude Expression",
+        "confidence": 0.6,
+        "evidence": "The phrase 'thank yu for being so powerful ;3' is an effusive expression of gratitude, potentially part of a coordinated campaign to amplify a specific message or individual.",
+        "benign_explanation": "The user could be expressing genuine appreciation in an exaggerated or playful manner, using internet slang and emoticons to convey enthusiasm."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "playful, internet-mediated"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

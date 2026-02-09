@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770541631.6200926,
+  "scan_id": "1770541631",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Repetitive Phrasing",
+        "confidence": 0.7,
+        "evidence": "Repetition of 'PUSSY' and 'ME' followed by strings of similar characters.",
+        "benign_explanation": "The repetition could be an expression of strong emotion or frustration, or an attempt at humor through absurdity."
+      },
+      {
+        "signal": "Aggressive Tone",
+        "confidence": 0.6,
+        "evidence": "Use of 'REEEEEEEEEEEEEEEEEEEEEEEE' which is often associated with expressions of extreme anger or frustration online.",
+        "benign_explanation": "The user could be expressing genuine anger or frustration related to the topic being discussed, without any coordinated intent."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "Aggressive, internet-based expression; likely from an online forum or imageboard."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

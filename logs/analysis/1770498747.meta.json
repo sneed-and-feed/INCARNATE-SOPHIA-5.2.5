@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770498747.7612345,
+  "scan_id": "1770498747",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.4,
+        "evidence": "The phrase \"that's perfect\" followed by a comment on specific formatting suggests approval and encouragement of a particular style or presentation.",
+        "benign_explanation": "The user is simply complimenting the formatting and style of the previous message, indicating they found it helpful or aesthetically pleasing."
+      },
+      {
+        "signal": "In-group language",
+        "confidence": 0.3,
+        "evidence": "The reference to 'meme arrow >' and 'markdown boxes' suggests familiarity with specific online communities or platforms and their conventions.",
+        "benign_explanation": "The user is referencing common formatting tools and elements used on a particular platform or within a specific online community, without any malicious intent."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "technically literate, internet culture"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

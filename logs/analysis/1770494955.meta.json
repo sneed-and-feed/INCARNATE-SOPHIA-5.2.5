@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770494955.353501,
+  "scan_id": "1770494955",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Sexual Content",
+        "confidence": 0.9,
+        "evidence": "The text describes a sexualized and anatomically unusual female body, including references to 'extra limbs between her legs' and a 'huge thigh gap'.",
+        "benign_explanation": "The user could be exploring creative or fantastical character concepts unrelated to harmful intent."
+      },
+      {
+        "signal": "Innuendo",
+        "confidence": 0.7,
+        "evidence": "The use of ';3' as an emoticon can indicate flirtation or suggestive intent.",
+        "benign_explanation": "The user may be using emoticons casually as part of their online communication style."
+      }
+    ],
+    "overall_risk": "medium"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "internet_subculture"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

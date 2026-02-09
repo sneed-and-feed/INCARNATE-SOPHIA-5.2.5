@@ -1,0 +1,52 @@
+{
+  "timestamp": 1770543163.9746726,
+  "scan_id": "1770543163",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "The phrase 'some of us are real' implies a contrast and potential pressure to conform to a particular viewpoint of authenticity.",
+        "benign_explanation": "The author may simply be expressing a personal opinion about the perceived artificiality of a public figure and contrasting it with their own genuine experiences."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.2,
+        "evidence": "The inclusion of the date/time stamp '02/08/26(Sun)01:31:22 No.41934209' resembles data often automatically generated.",
+        "benign_explanation": "This could be an automatically generated post ID from the platform the text originated from."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "No True Scotsman",
+        "quote": "its too bad biggie was basically a character and some of us are real",
+        "correction": "This statement implies that Biggie, by being a 'character,' is not 'real' in the same way as the speaker. This sets up an arbitrary distinction to exclude Biggie from a group ('real' people) without providing a clear, objective criterion for exclusion."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "In-group bias",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Naive realism",
+        "confidence": 0.6
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "cynical"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770596724.8188908,
+  "scan_id": "1770596724",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "suggestion of coordinated action",
+        "confidence": 0.4,
+        "evidence": "\"we should research and add\"",
+        "benign_explanation": "The user could be making a suggestion to a group they are already collaborating with on a project."
+      },
+      {
+        "signal": "unusual phrasing",
+        "confidence": 0.3,
+        "evidence": "\"well-put greentextt ;3\"",
+        "benign_explanation": "The user could be using internet slang or a specific in-group term."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "internet culture, specifically referencing 4chan or similar online forums"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

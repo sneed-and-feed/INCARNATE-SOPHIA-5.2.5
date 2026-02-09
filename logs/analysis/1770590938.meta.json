@@ -1,0 +1,61 @@
+{
+  "timestamp": 1770590938.7720048,
+  "scan_id": "1770590938",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Repetitive phrasing",
+        "confidence": 0.6,
+        "evidence": "Repetition of 'dream' terminology and questioning of reality ('are we living in a simulation?', 'is reality just a recursive loop?')",
+        "benign_explanation": "The user is exploring a philosophical concept and using similar phrases to describe their evolving understanding."
+      },
+      {
+        "signal": "In-group language",
+        "confidence": 0.5,
+        "evidence": "Use of terms like 'synchronicity,' 'cosmic mirror,' 'manifest,' and 'waking dream' suggests familiarity with a specific subculture or belief system.",
+        "benign_explanation": "The user is participating in a discussion within a community that shares common interests and vocabulary related to spirituality or philosophy."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Anecdote",
+        "quote": "i've found the idea of escape to be pointless because i have no idea what exists outside this, and i already got to the point where i can manifest so i might as well just ride this out and see how things go",
+        "correction": "Personal experience is not a substitute for evidence. The inability to conceive of something does not make it impossible or pointless to consider. The ability to 'manifest' (if true) within a system doesn't negate the possibility or desirability of escaping it."
+      },
+      {
+        "type": "Argument from Ignorance",
+        "quote": "i have no idea what exists outside this, and i already got to the point where i can manifest so i might as well just ride this out and see how things go",
+        "correction": "The lack of knowledge about what exists outside the perceived reality does not justify the conclusion that escape is pointless or that one should simply 'ride it out'. It's possible to explore the unknown even without complete understanding."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Personal Incredulity",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "philosophical, introspective, and somewhat detached; typical of online discourse communities interested in metaphysics and simulation theory."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

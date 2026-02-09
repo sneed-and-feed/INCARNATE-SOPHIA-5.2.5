@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770599462.1046977,
+  "scan_id": "1770599462",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.2,
+        "evidence": "The phrase 'well try now' could be interpreted as a directive or encouragement to align with a particular viewpoint or action.",
+        "benign_explanation": "The phrase could simply be a friendly encouragement to attempt something again."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.3,
+        "evidence": "The inclusion of ';3' could be a stylistic choice common in certain online communities or a marker used in some bot networks.",
+        "benign_explanation": "The ';3' is a common emoticon indicating cuteness or playfulness."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "playful, internet slang"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

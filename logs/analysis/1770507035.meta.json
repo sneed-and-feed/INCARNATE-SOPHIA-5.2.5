@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770507035.7029395,
+  "scan_id": "1770507035",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual formatting request",
+        "confidence": 0.6,
+        "evidence": "The request for a 'codified response using ``` markdown ? ? ;3' is unusual and specific. The extra question marks and ';3' could be an attempt to signal a specific group or identify responses from a particular source.",
+        "benign_explanation": "The user may be experimenting with different formatting options or using emoticons in a playful manner."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.1
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "neutral, technical"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

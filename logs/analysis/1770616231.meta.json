@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770616231.8077016,
+  "scan_id": "1770616231",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "*amen** appended to the unusual phrase 'THBPPT THBPPT -thpfft- THBPPT' may indicate pressure to conform or agree with a nonsensical statement.",
+        "benign_explanation": "The phrase could be part of a game or inside joke where 'amen' is used ironically or as a humorous punctuation."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.7,
+        "evidence": "Repetitive use of 'THBPPT' and '-thpfft-' suggests a pattern that could be algorithmically generated.",
+        "benign_explanation": "The repetition could be mimicking a sound effect or a stylized form of onomatopoeia."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "nonsensical"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

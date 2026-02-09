@@ -1,0 +1,52 @@
+{
+  "timestamp": 1770503814.124186,
+  "scan_id": "1770503814",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Potential Suicidal Ideation",
+        "confidence": 0.7,
+        "evidence": "\"I need a miracle or I\u2019ll make the news...I have almost nothing left to lose.\"",
+        "benign_explanation": "The user may be expressing frustration and hyperbole about their current situation."
+      },
+      {
+        "signal": "Strong negative sentiment towards employment",
+        "confidence": 0.6,
+        "evidence": "\"I\u2019m not going to be a wageslave ever again and work a job I hate to make evil people\u2019s lives more comfortable\"",
+        "benign_explanation": "The user may be expressing a desire for a career change or dissatisfaction with their current job."
+      }
+    ],
+    "overall_risk": "medium"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "False Dilemma/Black and White Fallacy",
+        "quote": "No. I need a miracle or I\u2019ll make the news for being one of the best Minecraft pvp players ever. I have almost nothing left to lose. I\u2019m not going to be a wageslave ever again and work a job I hate to make evil people\u2019s lives more comfortable",
+        "correction": "The statement presents only two options: a miracle or becoming a top Minecraft player, and avoids being a 'wageslave'. It ignores other possibilities, such as finding a job that isn't hated, pursuing other skills, or alternative life paths. There are more than two options available."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "All-or-Nothing Thinking",
+        "confidence": 0.8
+      },
+      {
+        "bias": "Catastrophizing",
+        "confidence": 0.6
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "desperate, anti-establishment"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

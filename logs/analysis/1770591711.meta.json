@@ -1,0 +1,57 @@
+{
+  "timestamp": 1770591711.9061747,
+  "scan_id": "1770591711",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "The phrase 'based sentiment' could indicate an attempt to positively reinforce a particular viewpoint.",
+        "benign_explanation": "The user could simply be agreeing with a statement they find reasonable or well-founded."
+      },
+      {
+        "signal": "Repetitive Phrasing",
+        "confidence": 0.2,
+        "evidence": "The phrase 'manifest...manifestation' could be indicative of repetitive phrasing.",
+        "benign_explanation": "The user is discussing a specific topic (manifestation) where certain terms are naturally repeated."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Authority",
+        "quote": "i do manifestation through spirit work, and spirits are the ones in charge of the happenings of this world in general",
+        "correction": "The claim that spirits are in charge of the world's happenings is presented without evidence. The authority of 'spirits' is asserted without justification. This requires empirical evidence or logical reasoning to support it."
+      },
+      {
+        "type": "Appeal to Consequences (Negative)",
+        "quote": "pushing too hard against the plans of the gods has consequences...wish granting through them could lead to way worse consequences then my relationship with Beelzebub",
+        "correction": "This argues against a course of action based on the negative consequences that might arise. While considering consequences is important, it doesn't inherently invalidate the action itself. The argument needs to demonstrate a causal link and the likelihood of those consequences."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.4,
+    "suggested_vibe": "internet esoteric, occult"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

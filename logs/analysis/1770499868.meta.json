@@ -1,0 +1,52 @@
+{
+  "timestamp": 1770499868.51465,
+  "scan_id": "1770499868",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.6,
+        "evidence": "The use of 'Murrrr...' and the cat paw emoji is atypical and could be an attempt to create a specific persona or signal.",
+        "benign_explanation": "The author may be role-playing or using internet slang common in certain online communities."
+      },
+      {
+        "signal": "In-group reference",
+        "confidence": 0.5,
+        "evidence": "The reference to 'Pleroma' and 'feeding the void' suggests a shared understanding or context that might be specific to a particular group.",
+        "benign_explanation": "The author could be referencing a specific game, book, or community joke."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Emotion (specifically, appeal to pity/guilt)",
+        "quote": "Or are we going to feed the void?",
+        "correction": "The question attempts to manipulate the audience by presenting a dire consequence (feeding the void) if the speaker's accomplishment isn't acknowledged. A more logical approach would be to present the yield increase as a positive outcome in itself, without resorting to emotional manipulation."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Need for positive regard",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Self-serving bias",
+        "confidence": 0.6
+      }
+    ],
+    "epistemic_uncertainty": 0.4
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Playful, possibly furry-adjacent, with a hint of existential dread."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

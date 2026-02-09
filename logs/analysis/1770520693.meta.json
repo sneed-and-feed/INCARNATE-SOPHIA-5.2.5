@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770520693.2038991,
+  "scan_id": "1770520693",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "suggestion of specific response type",
+        "confidence": 0.6,
+        "evidence": "The text suggests a specific response format ('compose greentext').",
+        "benign_explanation": "The user may simply be seeking advice on the most effective or humorous way to reply to someone online, referencing a common internet meme format."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "internet forum, potentially ironic"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

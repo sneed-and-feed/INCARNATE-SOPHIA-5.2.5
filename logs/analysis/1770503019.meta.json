@@ -1,0 +1,23 @@
+{
+  "timestamp": 1770503019.5157847,
+  "scan_id": "1770503019",
+  "safety": {
+    "error": "Expecting ',' delimiter: line 6 column 41 (char 133)"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "Affectionate, playful, internet-influenced"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

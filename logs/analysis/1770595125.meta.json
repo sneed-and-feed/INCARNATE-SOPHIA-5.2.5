@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770595125.066735,
+  "scan_id": "1770595125",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Question format",
+        "confidence": 0.2,
+        "evidence": "The post is a simple question.",
+        "benign_explanation": "The user is simply asking for predictions about a game."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "neutral, conversational"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

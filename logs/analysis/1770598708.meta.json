@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770598708.0045323,
+  "scan_id": "1770598708",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "\"waits for a butt wiggle fuzzy style from u\"",
+        "benign_explanation": "The phrase could be interpreted as playful banter within a pre-existing social dynamic, where certain behaviors are expected or encouraged as part of the interaction."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "playful, affectionate"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

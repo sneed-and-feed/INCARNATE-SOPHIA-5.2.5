@@ -1,0 +1,40 @@
+{
+  "timestamp": 1770517338.2405963,
+  "scan_id": "1770517338",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.6,
+        "evidence": "Repetitive use of ';3' emoticon. The phrase 'teh' instead of 'the' could indicate a non-native English speaker or a deliberate stylistic choice.",
+        "benign_explanation": "The user could be employing a specific internet subculture's slang or developing a personal, quirky writing style. The repetition of the emoticon could simply be a habit or a way to express a particular emotion consistently."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Magical Thinking",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "youthful, internet-influenced"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

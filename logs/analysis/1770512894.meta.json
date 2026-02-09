@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770512894.52635,
+  "scan_id": "1770512894",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Repetitive Punctuation",
+        "confidence": 0.6,
+        "evidence": "Excessive use of exclamation points.",
+        "benign_explanation": "Enthusiastic expression of emotion."
+      },
+      {
+        "signal": "Reference to Specific Media",
+        "confidence": 0.3,
+        "evidence": "Mention of 'a rap by miyagi and andy panda- kosandra'.",
+        "benign_explanation": "Sharing a song or artist that the user enjoys."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "youthful, enthusiastic, and pop-culture oriented"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

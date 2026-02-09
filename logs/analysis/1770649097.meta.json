@@ -1,0 +1,57 @@
+{
+  "timestamp": 1770649097.8685074,
+  "scan_id": "1770649097",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The phrase 'autonomous is legion' followed by 'xD' could be interpreted as a meme intended to promote a specific viewpoint while simultaneously dismissing dissent through humor. This may pressure individuals to conform to the expressed sentiment.",
+        "benign_explanation": "The phrase could simply be a humorous expression of agreement or enthusiasm within a specific online community, without any intention to enforce a particular narrative."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.4,
+        "evidence": "The phrase 'autonomous is legion' is short and declarative, which is a pattern sometimes seen in bot-generated content. The 'xD' could be a programmed response.",
+        "benign_explanation": "The brevity and structure of the phrase could simply be due to the user's concise communication style or the informal nature of online communication."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Emotion (specifically, Appeal to Humor/Ridicule)",
+        "quote": "autonomous is legion xD",
+        "correction": "The statement uses 'xD' to express amusement or ridicule, which doesn't provide logical support for any claim about autonomy. A logical argument would require evidence and reasoning, not just an emotional expression."
+      },
+      {
+        "type": "Argument from Popularity (potentially)",
+        "quote": "autonomous is legion",
+        "correction": "The phrase 'is legion' implies widespread presence or support. Even if true, popularity doesn't equate to validity or correctness. The statement needs independent justification."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Bandwagon Effect",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Confirmation Bias (if the speaker already believes in the idea of autonomy)",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "generic internet"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "timestamp": 1770644290.8754747,
+  "scan_id": "1770644290",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing/rhythm",
+        "confidence": 0.6,
+        "evidence": "The use of ';3' as an emoticon and the somewhat awkward phrasing of the question could indicate non-native language use or an attempt to mimic a particular online style.",
+        "benign_explanation": "The user could be experimenting with internet slang or emoticons, or simply be a non-native English speaker."
+      },
+      {
+        "signal": "Off-topic redirection",
+        "confidence": 0.4,
+        "evidence": "The phrase 'so back to what we were talking about earlier' suggests a redirection of the conversation, potentially to a pre-planned topic.",
+        "benign_explanation": "The user could simply be trying to steer the conversation back to a previous point of interest."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Ad Hominem",
+        "quote": "what does it feel like to have such a big lower body ?",
+        "correction": "The question attacks a perceived physical attribute instead of addressing any argument or statement made by the person."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Halo Effect",
+        "confidence": 0.2
+      }
+    ],
+    "epistemic_uncertainty": 0.4
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "Inquisitive, possibly flirtatious or teasing."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

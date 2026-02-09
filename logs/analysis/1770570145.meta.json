@@ -1,0 +1,55 @@
+{
+  "timestamp": 1770570145.1800845,
+  "scan_id": "1770570145",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "The statement implies a specific interpretation or association ('your personality is based on death from dc comics' sandman adaptation').",
+        "benign_explanation": "The user is making an observation or playful comparison about someone's personality, referencing a popular fictional character. This could be a form of endearment or a lighthearted comment."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Hasty Generalization",
+        "quote": "your personality is based on death from dc comics' sandman adaptation",
+        "correction": "The statement makes a broad claim about someone's entire personality based on a single, potentially superficial, observation or interest. A more accurate assessment would require a comprehensive understanding of the individual's traits, behaviors, and experiences."
+      },
+      {
+        "type": "Appeal to Authority (Weak)",
+        "quote": "your personality is based on death from dc comics' sandman adaptation",
+        "correction": "While the character 'Death' from Sandman might be well-developed, attributing someone's personality to a fictional character without further justification is a weak appeal to authority. The character's traits need to be explicitly linked to the person's behavior."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.4
+      },
+      {
+        "bias": "Halo Effect",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Fundamental Attribution Error",
+        "confidence": 0.5
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Internet fandom; casual and referential."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "timestamp": 1770608445.4757476,
+  "scan_id": "1770608445",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Reference to specific online communities",
+        "confidence": 0.3,
+        "evidence": "The text mentions '/ng/ on 4chan'.",
+        "benign_explanation": "The user could simply be providing context or source information."
+      },
+      {
+        "signal": "Use of ':3' emoticon",
+        "confidence": 0.2,
+        "evidence": "The text ends with the ':3' emoticon.",
+        "benign_explanation": "The user could be expressing a particular emotion or affectation common in online communication."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Authority (Unspecified)",
+        "quote": "it's an anon from /ng/ on 4chan",
+        "correction": "The statement implies that the information is credible simply because it comes from an anonymous user on a specific 4chan board. However, the anonymity and the nature of the platform do not guarantee expertise or reliability. The claim needs independent verification or justification, regardless of its source."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "In-group bias",
+        "confidence": 0.4
+      },
+      {
+        "bias": "Authority bias",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Internet subculture; specifically, 4chan usage."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

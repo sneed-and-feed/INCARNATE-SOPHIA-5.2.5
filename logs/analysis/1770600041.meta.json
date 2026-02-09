@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770600041.8496037,
+  "scan_id": "1770600041",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.2,
+        "evidence": "The phrase 'hello luna ;3' is short, uses an uncommon emoticon, and lacks context, which could be indicative of a simple bot message.",
+        "benign_explanation": "The message could be a casual greeting from someone who is familiar with the recipient and uses emoticons frequently."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 1.0
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "youthful, internet-mediated"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

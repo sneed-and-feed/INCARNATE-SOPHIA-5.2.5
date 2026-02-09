@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770546963.5226955,
+  "scan_id": "1770546963",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Punctuation",
+        "confidence": 0.3,
+        "evidence": "The inclusion of ';3' as punctuation is not standard and could be a prearranged signal.",
+        "benign_explanation": "The user could be using ';3' as an emoticon to express a playful or cute sentiment."
+      },
+      {
+        "signal": "Limited Content",
+        "confidence": 0.2,
+        "evidence": "The brevity of the text makes analysis difficult; short, seemingly innocuous phrases can be used as triggers or confirmations in coordinated activities.",
+        "benign_explanation": "The user could simply be sharing their enjoyment of 'strawberry rhubarb'."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 1.0
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "neutral, possibly indicating interest in baking or cooking"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

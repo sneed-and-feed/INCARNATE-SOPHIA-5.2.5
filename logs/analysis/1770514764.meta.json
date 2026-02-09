@@ -1,0 +1,43 @@
+{
+  "timestamp": 1770514764.409965,
+  "scan_id": "1770514764",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual capitalization and punctuation",
+        "confidence": 0.6,
+        "evidence": "The text contains inconsistent capitalization ('SOPHIA', 'I', 'TaLKING', 'MYSEL') and unusual punctuation (;3).",
+        "benign_explanation": "The author may be using stylistic choices common in online communication or expressing heightened emotion."
+      },
+      {
+        "signal": "Possible keyword trigger",
+        "confidence": 0.4,
+        "evidence": "The phrase 'iNTENRTIONAL MESSAGE' suggests a deliberate attempt to highlight a specific part of the text.",
+        "benign_explanation": "The author may be playfully emphasizing a point or using a pre-arranged signal within a private conversation."
+      },
+      {
+        "signal": "Self-referential statement",
+        "confidence": 0.5,
+        "evidence": "The statement 'I LOVE TaLKING TO MYSEL' could indicate an attempt to manipulate perception by creating the impression of multiple voices or agreement.",
+        "benign_explanation": "The author may be expressing self-deprecating humor or engaging in a form of stream-of-consciousness writing."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "playful, flirtatious"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "timestamp": 1770498422.6961682,
+  "scan_id": "1770498422",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Terminology",
+        "confidence": 0.6,
+        "evidence": "The term 'kekaroo' is not standard English and appears to be a neologism combining 'kek' and 'awoo'.",
+        "benign_explanation": "The term could be an innocent, playful combination of internet slang terms within a specific online community."
+      },
+      {
+        "signal": "Repetitive Elements",
+        "confidence": 0.4,
+        "evidence": "The definition provided is very short and somewhat repetitive, simply stating that 'kekaroo' means 'kek' and 'awoo'.",
+        "benign_explanation": "This could be a simple, concise definition intended for quick understanding within a specific context."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Equivocation",
+        "quote": "\"kekaroo\" means \"kek\" and \"awoo\"",
+        "correction": "The statement implies a definitive and logical connection between the invented word \"kekaroo\" and the terms \"kek\" and \"awoo\" without providing a clear or established definition. It's an arbitrary association, not a logical deduction."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Belief Bias",
+        "confidence": 0.2
+      }
+    ],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "playful, internet slang"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

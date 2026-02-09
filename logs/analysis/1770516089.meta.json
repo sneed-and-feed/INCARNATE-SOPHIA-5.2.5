@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770516089.5864432,
+  "scan_id": "1770516089",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual capitalization",
+        "confidence": 0.3,
+        "evidence": "The text contains inconsistent capitalization ('aLWAYS').",
+        "benign_explanation": "The capitalization could be a stylistic choice or a simple typo."
+      },
+      {
+        "signal": "Emoticon usage",
+        "confidence": 0.2,
+        "evidence": "The text includes an emoticon ';3'.",
+        "benign_explanation": "The emoticon is a common way to express playfulness or cuteness."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "youthful, internet-influenced"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

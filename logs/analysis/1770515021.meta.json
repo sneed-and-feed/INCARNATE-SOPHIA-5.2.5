@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770515021.9702985,
+  "scan_id": "1770515021",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Punctuation/Emoticon Use",
+        "confidence": 0.3,
+        "evidence": ";3",
+        "benign_explanation": "The user may be expressing playful or flirtatious intent through the use of an emoticon."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "playful, internet-influenced"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

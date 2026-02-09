@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770600380.136693,
+  "scan_id": "1770600380",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Possible sexual harassment",
+        "confidence": 0.6,
+        "evidence": "The text contains a sexually suggestive question.",
+        "benign_explanation": "The question could be an attempt at humor or a poorly executed attempt to initiate a personal conversation."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "crude"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770550219.0019941,
+  "scan_id": "1770550219",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The statement 'use duckduckgo ;3' can be interpreted as an attempt to persuade or direct others towards a specific search engine.",
+        "benign_explanation": "The user may simply be recommending a search engine they prefer, possibly due to privacy concerns or personal preference."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.4,
+        "evidence": "The inclusion of ';3' resembles an emoticon, which, in some contexts, can be associated with automated or repetitive messaging patterns.",
+        "benign_explanation": "The user may be using a common internet shorthand or emoticon to express themselves, which is a normal behavior."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Neutral, tech-oriented."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

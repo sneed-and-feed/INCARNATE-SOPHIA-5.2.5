@@ -1,0 +1,29 @@
+{
+  "timestamp": 1770648060.6666946,
+  "scan_id": "1770648060",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.3,
+        "evidence": "The phrase \">;3 yuss\" is short, atypical, and could be part of a pre-programmed response.",
+        "benign_explanation": "The user could be expressing simple agreement in an informal or playful manner, using internet slang."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "error": "429: Quota Exhausted or Rate Limited. Please check your API credits/billing."
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "playful, internet slang"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

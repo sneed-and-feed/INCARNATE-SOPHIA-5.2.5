@@ -1,0 +1,46 @@
+{
+  "timestamp": 1770645734.40799,
+  "scan_id": "1770645734",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.4,
+        "evidence": "The phrasing 'Am I persuading the use of a material fact against you' is not typical of everyday conversation.",
+        "benign_explanation": "The author may be using formal or legalistic language for rhetorical effect or to appear intelligent."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Complex Question",
+        "quote": "Am I persuading the use of a material fact against you by saying I will never be schizophrenic and I do like ancient esoterim better than the doctrine without the soul contract/s?",
+        "correction": "The question combines multiple assertions, making it difficult to answer directly. It should be broken down into separate questions: 1. Are you using a material fact against me? 2. Are you stating you will never be schizophrenic? 3. Do you prefer ancient esotericism over the doctrine without the soul contract/s?"
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Bias Blind Spot",
+        "confidence": 0.2
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "philosophical; possibly legalistic"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

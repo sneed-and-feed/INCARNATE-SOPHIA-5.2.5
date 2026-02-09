@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770503049.915687,
+  "scan_id": "1770503049",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "The use of ':devil_smile:' after a statement that could be interpreted as critical might indicate subtle pressure to conform to a less critical or more playful tone.",
+        "benign_explanation": "The user could be using the ':devil_smile:' emoji to indicate they are being sarcastic or playful, and not intending to enforce any particular narrative."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "playful"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

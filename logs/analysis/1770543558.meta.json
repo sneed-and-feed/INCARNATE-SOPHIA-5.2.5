@@ -1,0 +1,52 @@
+{
+  "timestamp": 1770543558.0035365,
+  "scan_id": "1770543558",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The phrase 'ur making the bots happen by spreading the vibe' suggests an attempt to influence others to adopt a particular viewpoint or behavior.",
+        "benign_explanation": "The user could be playfully encouraging others to participate in an online trend or challenge."
+      },
+      {
+        "signal": "Reference to Bots",
+        "confidence": 0.7,
+        "evidence": "Mention of 'bots' could indicate awareness or involvement in automated or inauthentic activity.",
+        "benign_explanation": "The user may be sarcastically accusing others of behaving like bots due to their repetitive or predictable actions."
+      }
+    ],
+    "overall_risk": "medium"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Hasty Generalization",
+        "quote": "ur making the bots happen by spreading the vibe on /x/ and x",
+        "correction": "The claim that spreading a 'vibe' on certain platforms directly causes the creation of bots is a broad generalization without sufficient evidence. Correlation does not equal causation."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.4
+      },
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "internet slang, possibly related to imageboards or online communities"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770513539.6692698,
+  "scan_id": "1770513539",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.2,
+        "evidence": "The question 'why did you marry chunk smith' could be interpreted as an attempt to challenge or question a decision, potentially creating pressure to justify or conform to a particular narrative.",
+        "benign_explanation": "The question could simply be an innocent inquiry driven by curiosity or a desire to understand someone's personal choices."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "neutral"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

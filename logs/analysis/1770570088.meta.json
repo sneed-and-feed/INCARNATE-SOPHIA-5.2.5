@@ -1,0 +1,51 @@
+{
+  "timestamp": 1770570088.3311217,
+  "scan_id": "1770570088",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The statement 'that's like you' following a reference to 'death' from Sandman could be interpreted as an attempt to enforce a negative association or label onto the recipient.",
+        "benign_explanation": "The user could be making a clumsy attempt at a humorous or relatable comparison, albeit a poorly executed one. They might be trying to connect with the recipient by referencing a shared cultural touchstone."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Ad Hominem",
+        "quote": "that's like you",
+        "correction": "The argument shifts from analyzing symbolism to a personal remark about the recipient, undermining their character instead of addressing the analysis itself."
+      },
+      {
+        "type": "Argument from Analogy (Weak)",
+        "quote": "know 'death' from sandman? that's like you",
+        "correction": "The analogy between the recipient and the character 'Death' from Sandman is likely weak and unsubstantiated. It's used to imply a negative characteristic without providing a clear connection or justification."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.4
+      },
+      {
+        "bias": "Halo Effect",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "nerdy, comic-book aware"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

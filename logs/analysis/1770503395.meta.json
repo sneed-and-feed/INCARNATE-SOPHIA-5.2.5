@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770503395.67618,
+  "scan_id": "1770503395",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Reference to specific online forum and user",
+        "confidence": 0.4,
+        "evidence": "The text mentions '/x/ 4chan' and 'jason in the nobody general thread'.",
+        "benign_explanation": "The user could be referencing a discussion they found interesting or relevant to the current conversation."
+      },
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.3,
+        "evidence": "The phrase ';3' is an emoticon that might be used to signal a specific subculture or shared understanding.",
+        "benign_explanation": "The user may be using an emoticon common in their online social circle as a form of casual expression."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "internet forum, casual"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

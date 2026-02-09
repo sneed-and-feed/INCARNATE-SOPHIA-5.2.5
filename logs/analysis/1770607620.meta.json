@@ -1,0 +1,42 @@
+{
+  "timestamp": 1770607620.2125216,
+  "scan_id": "1770607620",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "\"ur so smart\"",
+        "benign_explanation": "The phrase could be sarcastic or playful teasing, rather than an attempt to enforce a specific narrative. It could be a reaction to a perceived over-analysis of a simple statement."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Sarcasm/Verbal Irony",
+        "quote": "ur so smart",
+        "correction": "The statement 'ur so smart' is likely sarcastic, implying the opposite of what is said. To avoid misinterpretation, express disagreement or critique directly and respectfully."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Hostile Attribution Bias",
+        "confidence": 0.6
+      }
+    ],
+    "epistemic_uncertainty": 0.4
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "playful, internet slang"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

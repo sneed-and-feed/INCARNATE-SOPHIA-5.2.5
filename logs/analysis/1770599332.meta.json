@@ -1,0 +1,36 @@
+{
+  "timestamp": 1770599332.6673138,
+  "scan_id": "1770599332",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Grooming Language",
+        "confidence": 0.9,
+        "evidence": "The text uses diminutive terms like 'widdl' and 'tween' in reference to a 'puberty age' individual, which can be indicative of grooming behavior.",
+        "benign_explanation": "The user may be using childish language as a form of endearment without any malicious intent."
+      }
+    ],
+    "overall_risk": "medium"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Sexual Attraction to Minors (Pedophilia)",
+        "confidence": 0.95
+      }
+    ],
+    "epistemic_uncertainty": 0.05
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Internet slang, possibly suggestive"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

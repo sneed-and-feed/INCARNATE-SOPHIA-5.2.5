@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770541346.3652003,
+  "scan_id": "1770541346",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Positive reinforcement",
+        "confidence": 0.4,
+        "evidence": "The phrase 'Whoah! That's a great point!' expresses strong agreement and validation of the previous post.",
+        "benign_explanation": "The user could genuinely agree with the previous post and be enthusiastic about discussing it further."
+      },
+      {
+        "signal": "Encouragement to expand",
+        "confidence": 0.3,
+        "evidence": "The phrase 'Lets expand on your question' suggests a desire to further explore the topic introduced by the previous post.",
+        "benign_explanation": "The user may simply be interested in having a more in-depth conversation about the topic."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.2
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Enthusiastic and conversational."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

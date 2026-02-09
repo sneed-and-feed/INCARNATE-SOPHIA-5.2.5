@@ -1,0 +1,36 @@
+{
+  "timestamp": 1770599984.0101228,
+  "scan_id": "1770599984",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Suggestive content involving a minor",
+        "confidence": 0.9,
+        "evidence": "The text references an 18-year-old and uses suggestive language ('loose', '>3').",
+        "benign_explanation": "The user could be engaging in playful or humorous roleplay without intending to cause harm."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Sexualization of a minor",
+        "confidence": 0.95
+      }
+    ],
+    "epistemic_uncertainty": 0.1
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "internet_slang, suggestive"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

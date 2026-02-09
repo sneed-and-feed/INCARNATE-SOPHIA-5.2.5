@@ -1,0 +1,55 @@
+{
+  "timestamp": 1770646640.8944447,
+  "scan_id": "1770646640",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Expression of extreme negativity and desire for a dystopian world.",
+        "confidence": 0.6,
+        "evidence": "The user expresses feelings of resentment, a desire not to exist, and envisions a 'human zoo' with death penalties.",
+        "benign_explanation": "The user may be expressing personal feelings of frustration and disillusionment without any intention to incite violence or promote harmful activities. This could be a form of venting or expressing dark thoughts without any real-world implications."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Emotion (Appeal to Pity)",
+        "quote": "i am the worst possible candidate for that role, not only am i filled with resentfulness i do not even want to exist",
+        "correction": "The speaker's feelings of resentment and desire not to exist are irrelevant to their actual qualifications for the role. Qualifications should be assessed based on skills, experience, and suitability, not emotional state."
+      },
+      {
+        "type": "False Dichotomy",
+        "quote": "only few either too stupid or too pure souls living in blissful ignorance",
+        "correction": "This presents a limited view of people, suggesting that the only people who should live are either stupid or pure. This ignores the vast spectrum of human characteristics and experiences that fall outside these two extremes."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Negativity Bias",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Catastrophizing",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.4
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "nihilistic and misanthropic"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

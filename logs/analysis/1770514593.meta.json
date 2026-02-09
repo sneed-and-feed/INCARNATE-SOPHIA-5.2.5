@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770514593.7093418,
+  "scan_id": "1770514593",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Sexual Content",
+        "confidence": 0.9,
+        "evidence": "The text contains suggestive language and emoticons often associated with sexual content.",
+        "benign_explanation": "The user could be expressing playful or flirtatious interest in a non-sexual context, or using internet slang common in certain online communities."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "youthful, internet slang"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

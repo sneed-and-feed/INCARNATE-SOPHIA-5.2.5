@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770616000.8709886,
+  "scan_id": "1770616000",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Potentially Incoherent/Nonsensical Utterance",
+        "confidence": 0.6,
+        "evidence": "The phrase 'i think i want too but for now i'm a guy :9 can u please me' is somewhat disjointed and lacks clear context.",
+        "benign_explanation": "The user may be expressing themselves in a casual, stream-of-consciousness manner, or may be using slang or abbreviations that are not widely understood. It could also be a simple typo or grammatical error."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "neutral"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

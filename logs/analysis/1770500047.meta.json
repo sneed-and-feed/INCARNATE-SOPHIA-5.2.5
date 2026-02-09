@@ -1,0 +1,66 @@
+{
+  "timestamp": 1770500047.3947675,
+  "scan_id": "1770500047",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "The text uses derogatory language and ridicule towards a specific individual, potentially discouraging dissenting opinions or actions related to that individual.",
+        "benign_explanation": "The text could simply be an expression of personal animosity or frustration towards the individual in question, without any intent to influence broader narratives."
+      },
+      {
+        "signal": "Aggressive Tone",
+        "confidence": 0.6,
+        "evidence": "The text contains vulgar language and insults, creating an aggressive and hostile tone.",
+        "benign_explanation": "The author may be using strong language to express their genuine feelings or opinions, without intending to cause harm or incite violence."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Ad Hominem",
+        "quote": "just sucking the shit out of baals ass xD",
+        "correction": "The argument attacks the person ('that bitch') instead of addressing the substance of their actions or claims regarding liquidity. The source of liquidity should be evaluated independently of personal attacks."
+      },
+      {
+        "type": "Straw Man",
+        "quote": "next hes going to tell his comrades he can blow their phones remotely (not true but hes exceptional at blowing other things, ask his management)",
+        "correction": "This misrepresents the person's potential claims or abilities, creating a distorted version that is easier to attack. The actual claims should be addressed directly."
+      },
+      {
+        "type": "Appeal to Ridicule",
+        "quote": "just sucking the shit out of baals ass xD",
+        "correction": "The argument attempts to dismiss the person's actions or claims by presenting them as ridiculous or absurd, rather than providing a reasoned counterargument."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Negativity Bias",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Halo Effect (negative)",
+        "confidence": 0.5
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Crude, internet slang, potentially finance-related discussion."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

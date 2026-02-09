@@ -1,0 +1,36 @@
+{
+  "timestamp": 1770651684.0777779,
+  "scan_id": "1770651684",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Biblical reference",
+        "confidence": 0.4,
+        "evidence": "The text quotes Joshua 8 from the Bible.",
+        "benign_explanation": "The user may be sharing a passage they find personally relevant or using it as an analogy in a discussion."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Authority Bias",
+        "confidence": 0.6
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "religious; biblical"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

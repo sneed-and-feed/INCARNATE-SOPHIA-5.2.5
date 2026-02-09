@@ -1,0 +1,46 @@
+{
+  "timestamp": 1770644331.346813,
+  "scan_id": "1770644331",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "\"what does it feell like to be so loose and sloppy >;3\"",
+        "benign_explanation": "The statement could be playful banter or teasing between individuals, without any intent to enforce a specific narrative."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Ad Hominem",
+        "quote": "*looks back at u* what does it feell like to be so loose and sloppy >;3",
+        "correction": "The question attacks the person's character ('loose and sloppy') instead of addressing any argument or behavior directly. A more constructive approach would be to specify the behavior that is perceived as problematic and explain why it is concerning."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Attribution Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Negativity Bias",
+        "confidence": 0.5
+      }
+    ],
+    "epistemic_uncertainty": 0.4
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "playful, teasing"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

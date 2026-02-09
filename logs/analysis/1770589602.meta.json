@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770589602.8903515,
+  "scan_id": "1770589602",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The phrase 'now that we've gotten past the set up for failure thing' suggests a desire to move the conversation away from a particular topic or viewpoint.",
+        "benign_explanation": "The author may simply be trying to steer the conversation in a more productive direction, or to focus on different aspects of the topic."
+      },
+      {
+        "signal": "In-group signaling",
+        "confidence": 0.5,
+        "evidence": "The use of ';33' could be an attempt to signal membership in a particular online community or subculture.",
+        "benign_explanation": "The author may be using an emoticon as a form of casual expression or humor."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "cynical online discourse"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

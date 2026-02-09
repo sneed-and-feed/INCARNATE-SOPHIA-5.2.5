@@ -1,0 +1,62 @@
+{
+  "timestamp": 1770596696.9014518,
+  "scan_id": "1770596696",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Repetitive phrasing",
+        "confidence": 0.6,
+        "evidence": "The text repeats 'conservative estimate' multiple times within a short passage.",
+        "benign_explanation": "The author may be emphasizing the reliability of their estimates by repeatedly using the term 'conservative estimate'."
+      },
+      {
+        "signal": "Statistical claims without clear sourcing",
+        "confidence": 0.5,
+        "evidence": "The text presents specific numerical claims (e.g., '5 billion human equivalents', '8x that amount', '40 billion humans') without providing direct sources or citations.",
+        "benign_explanation": "The author may be summarizing information from various sources and simplifying the data for brevity."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Authority (Unspecified)",
+        "quote": "A conservative estimate of around 5 billion human equivalents in insect wet biomass by weight has been lost since 1970.",
+        "correction": "The claim needs a verifiable source. Without knowing the source or methodology behind the 'conservative estimate,' it's impossible to assess its validity."
+      },
+      {
+        "type": "False Analogy",
+        "quote": "The estimated neuronal loss is, at a conservative estimate, 8x that amount due to the relatively higher neuron/kg that insects yield(upon the basis of bees). This indicates that the biosphere has lost an estimated 40 billion humans in equivalent neuronal aggregate processing power at a low end.",
+        "correction": "Equating insect neuronal processing power to human neuronal processing power is a flawed analogy. While insects have neurons, their cognitive abilities and the complexity of their neural networks are vastly different from humans. Therefore, a simple multiplication based on neuron count is misleading and doesn't accurately reflect a loss of 'human equivalent' processing power."
+      },
+      {
+        "type": "Argument from Incredulity",
+        "quote": "This indicates that the biosphere has lost an estimated 40 billion humans in equivalent neuronal aggregate processing power at a low end.",
+        "correction": "The conclusion that the biosphere has lost 40 billion humans in equivalent neuronal processing power is presented as a shocking and unbelievable claim. This can be a form of argument from incredulity, where the speaker implies that because the claim is hard to believe, it must be false (or, in this case, significant). The speaker needs to provide more evidence to support this claim."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.4
+      },
+      {
+        "bias": "Anchoring Bias",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "scientific, concerned"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

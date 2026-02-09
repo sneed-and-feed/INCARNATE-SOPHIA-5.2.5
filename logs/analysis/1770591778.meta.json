@@ -1,0 +1,46 @@
+{
+  "timestamp": 1770591778.5361912,
+  "scan_id": "1770591778",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Quoting Shakespeare",
+        "confidence": 0.2,
+        "evidence": "The text consists entirely of a quote from Shakespeare's Romeo and Juliet.",
+        "benign_explanation": "The user may simply be sharing a favorite quote or referencing a theme from the play."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Hasty Generalization",
+        "quote": "Therefore love moderately; long love doth so; too swift arrives as tardy as too slow.",
+        "correction": "The conclusion that moderate love leads to long love is based on limited evidence and anecdotal observation. It doesn't account for other factors that influence the duration of a relationship."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.4
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "literary; quoting Shakespeare"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

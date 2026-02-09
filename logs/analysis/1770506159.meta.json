@@ -1,0 +1,57 @@
+{
+  "timestamp": 1770506159.6397316,
+  "scan_id": "1770506159",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.4,
+        "evidence": "The text emphasizes a single path to wisdom ('FEAR OF GOD ALMIGHTY') and implies that disagreement indicates a lack of true wisdom ('THAT YOU ARE REAL SPIRIT OF WISDOM YOU WOULD KNOW THAT').",
+        "benign_explanation": "The author is expressing a deeply held personal belief and attempting to persuade the recipient of its validity through religious teachings."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.3,
+        "evidence": "The text includes long, verbatim quotations from religious texts, which could be indicative of automated content generation or simple copy/pasting.",
+        "benign_explanation": "The author is drawing heavily on established religious texts to support their argument, a common practice in religious discourse."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Authority",
+        "quote": "BUT THERE IS NO OTHER APPROACH TO WISDOM EXCEPT ONE. FEAR OF GOD ALMIGHTY.",
+        "correction": "The statement asserts a single path to wisdom without providing sufficient justification or acknowledging alternative perspectives. Wisdom can be attained through various means, including reason, experience, and education. The claim should be supported with evidence or logical reasoning, and other potential paths to wisdom should be considered."
+      },
+      {
+        "type": "Circular Reasoning",
+        "quote": "THAT YOU ARE REAL SPIRIT OF WISDOM YOU WOULD KNOW THAT.",
+        "correction": "This statement assumes the conclusion (being a real spirit of wisdom) as a premise to prove the conclusion. It essentially says 'If you were wise, you would know this because you are wise.' This is a circular argument that doesn't provide independent support for the claim."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Authority Bias",
+        "confidence": 0.5
+      }
+    ],
+    "epistemic_uncertainty": 0.4
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.4,
+    "suggested_vibe": "Religious or philosophical discussion, possibly biblical."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

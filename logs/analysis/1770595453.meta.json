@@ -1,0 +1,46 @@
+{
+  "timestamp": 1770595453.8846474,
+  "scan_id": "1770595453",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "In-group/Out-group language",
+        "confidence": 0.6,
+        "evidence": "Use of the term 'goy ball' to describe a sport.",
+        "benign_explanation": "The author may be using slang or jargon common within a specific online community without malicious intent. It could also be a poorly worded attempt at humor."
+      },
+      {
+        "signal": "Contradictory statements",
+        "confidence": 0.4,
+        "evidence": "The author states they don't watch 'goy ball' but then says they enjoy some sports occasionally.",
+        "benign_explanation": "The author may be expressing a nuanced opinion, distinguishing between different types of sports or indicating a preference for certain sports over others. The statement could also be a simple contradiction or change of thought."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Generalization",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Neutral sports commentary with possible anti-Semitic undertones."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

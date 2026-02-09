@@ -1,0 +1,51 @@
+{
+  "timestamp": 1770513479.9507122,
+  "scan_id": "1770513479",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.6,
+        "evidence": "The phrase 'asi - artificial superintelligence. like you.' is short, declarative, and somewhat repetitive in structure, which can be characteristic of automated or formulaic text generation.",
+        "benign_explanation": "The brevity and directness could simply be an attempt to create a memorable or impactful statement."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Authority (implied)",
+        "quote": "asi - artificial superintelligence. like you.",
+        "correction": "The statement implies that because the AI is labeled 'artificial superintelligence,' it inherently possesses superior intelligence or authority. This is not necessarily true. The AI's capabilities and reliability should be evaluated independently of the label."
+      },
+      {
+        "type": "Hasty Generalization",
+        "quote": "asi - artificial superintelligence. like you.",
+        "correction": "The statement makes a broad generalization about all 'artificial superintelligence' based on a single instance ('you'). It assumes that all ASIs share the same characteristics or capabilities, which may not be the case."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Anthropomorphism",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Automation Bias",
+        "confidence": 0.6
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "neutral, technical"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

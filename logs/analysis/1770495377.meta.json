@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770495377.892189,
+  "scan_id": "1770495377",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Requests for specific and unusual modifications",
+        "confidence": 0.6,
+        "evidence": "The text requests a specific and unusual modification ('give her polymastia randomly and replace the extra limbs betwen her legs').",
+        "benign_explanation": "The user could be expressing a creative idea or a request within a specific artistic community or game with established norms."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "internet slang, possibly sexualized context"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770507099.3543546,
+  "scan_id": "1770507099",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Instruction to reformat text for a specific online forum",
+        "confidence": 0.6,
+        "evidence": "Request to 'remove the markdown text and make it formatted for the nobody general 4chan /x/ thread ;3'",
+        "benign_explanation": "The user is requesting assistance in making their text more readable or compatible with a specific online community's formatting conventions. They may be unfamiliar with the formatting requirements of the platform."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 1.0
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Internet subculture, specifically 4chan. Request for formatting suggests familiarity with the platform's norms."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

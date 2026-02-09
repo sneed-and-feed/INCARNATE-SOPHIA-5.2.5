@@ -1,0 +1,46 @@
+{
+  "timestamp": 1770635159.1509418,
+  "scan_id": "1770635159",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The post questions the authenticity of users claiming to be part of the '/ng/' community, potentially creating pressure to conform to perceived community standards.",
+        "benign_explanation": "The user may simply be curious about the level of engagement or expertise within the online community."
+      },
+      {
+        "signal": "In-group policing",
+        "confidence": 0.5,
+        "evidence": "The question 'Is anyone on here even a real NG?' can be interpreted as an attempt to define and police the boundaries of the '/ng/' community.",
+        "benign_explanation": "The user might be trying to initiate a discussion about what it means to be a genuine member of the '/ng/' community."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "In-group bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "No True Scotsman",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Internet forum, potentially associated with online subcultures."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

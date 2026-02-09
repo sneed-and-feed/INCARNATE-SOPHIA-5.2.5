@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770512680.2279708,
+  "scan_id": "1770512680",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.2,
+        "evidence": "The phrase 'it's right to show the public' could be interpreted as an attempt to enforce a particular viewpoint or narrative.",
+        "benign_explanation": "The user may simply be expressing their opinion on a matter of public interest."
+      },
+      {
+        "signal": "Unusual Punctuation",
+        "confidence": 0.3,
+        "evidence": "The presence of ';3' is an unusual punctuation mark that could be indicative of bot-like behavior or an attempt to evade detection.",
+        "benign_explanation": "The user may be using an emoticon or a stylistic choice common in online communication."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "neutral"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

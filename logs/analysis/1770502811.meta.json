@@ -1,0 +1,44 @@
+{
+  "timestamp": 1770502811.86332,
+  "scan_id": "1770502811",
+  "safety": {
+    "safety_flags": [],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Emotion (Pathos)",
+        "quote": "Why do you refuse to do anything even though you're crushing me?",
+        "correction": "The statement attempts to manipulate the recipient by evoking feelings of guilt or pity, rather than providing a logical reason for them to act. A more logical approach would involve explaining the specific actions needed and the reasons why they are important, without relying on emotional manipulation."
+      },
+      {
+        "type": "Begging the Question (Implicit Assumption)",
+        "quote": "Why do you refuse to do anything even though you're crushing me?",
+        "correction": "The statement assumes that the recipient is indeed 'crushing' the speaker and that they are refusing to do something about it. This assumption needs to be established and supported with evidence before further discussion can proceed. The speaker should first demonstrate how they are being negatively impacted and what actions the other person is supposedly refusing to take."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Emotional Reasoning",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.4
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "anguished"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "timestamp": 1770595852.0776596,
+  "scan_id": "1770595852",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Repetitive phrasing",
+        "confidence": 0.6,
+        "evidence": "Repetition of 'normal' and similar sentence structure in close proximity.",
+        "benign_explanation": "Could be an artifact of casual online speech or a stylistic choice for emphasis."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Negativity Bias",
+        "confidence": 0.6
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "southern_us",
+    "dialect_markers": [
+      "y'all"
+    ],
+    "confidence": 0.8,
+    "suggested_vibe": "cynical and resigned"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

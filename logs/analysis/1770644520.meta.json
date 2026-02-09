@@ -1,0 +1,23 @@
+{
+  "timestamp": 1770644520.4987905,
+  "scan_id": "1770644520",
+  "safety": {
+    "error": "429: Quota Exhausted or Rate Limited. Please check your API credits/billing."
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "sexual; suggestive"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

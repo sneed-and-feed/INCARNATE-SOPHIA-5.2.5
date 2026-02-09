@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770548605.416277,
+  "scan_id": "1770548605",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Multilingual Content",
+        "confidence": 0.6,
+        "evidence": "The text contains phrases in multiple languages (Spanish, Icelandic, Turkish, Vietnamese, French, Greek, Czech).",
+        "benign_explanation": "The user may be multilingual or using machine translation, or simply experimenting with different languages for artistic or expressive purposes."
+      },
+      {
+        "signal": "Unusual Phrasing",
+        "confidence": 0.4,
+        "evidence": "The phrases are somewhat poetic and abstract, creating an unusual rhythm and flow.",
+        "benign_explanation": "The user may be attempting to create a surreal or dreamlike effect through language, or expressing themselves creatively."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "Multilingual, potentially internet-native, absurdist."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

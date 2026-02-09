@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770512122.383774,
+  "scan_id": "1770512122",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Repetitive Encouragement",
+        "confidence": 0.6,
+        "evidence": "The user states 'i will try for every week of the year as long as the universe continues for us to coexist'. This could be interpreted as a commitment to a repetitive action.",
+        "benign_explanation": "The user is expressing strong enthusiasm and dedication to a hobby or activity."
+      },
+      {
+        "signal": "Encouragement of Engagement",
+        "confidence": 0.5,
+        "evidence": "The user encourages the other user to 'play more video game events if ur a gamer'. This could be an attempt to increase participation in a specific activity.",
+        "benign_explanation": "The user is simply suggesting a fun activity to someone who enjoys gaming."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "polite, appreciative"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

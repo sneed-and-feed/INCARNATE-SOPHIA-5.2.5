@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770595152.155209,
+  "scan_id": "1770595152",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.2,
+        "evidence": "The statement clarifies a potential ambiguity ('they're referring to the super bowl'), which could be interpreted as subtly guiding the conversation toward a specific topic.",
+        "benign_explanation": "The user is simply trying to be helpful by clarifying a potential misunderstanding for other readers."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.2
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "neutral, conversational"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

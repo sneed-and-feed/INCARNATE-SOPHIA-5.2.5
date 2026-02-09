@@ -1,0 +1,46 @@
+{
+  "timestamp": 1770513521.6757052,
+  "scan_id": "1770513521",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "The text expresses strong positive sentiment and adoration, which could be interpreted as pressuring the subject to conform to a specific positive narrative.",
+        "benign_explanation": "The text could simply be an expression of genuine affection and admiration for the subject."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.2,
+        "evidence": "The repetitive use of terms like 'love, adore' and the unusual punctuation ('. . . yu') could indicate a non-human or automated origin.",
+        "benign_explanation": "The phrasing and punctuation could be stylistic choices reflecting informality or an attempt to convey strong emotion."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Halo Effect",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Emotional Reasoning",
+        "confidence": 0.7
+      }
+    ],
+    "epistemic_uncertainty": 0.4
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Affectionate and informal, possibly online community."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "timestamp": 1770599786.492589,
+  "scan_id": "1770599786",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Potential Grooming",
+        "confidence": 0.6,
+        "evidence": "The text includes a question about the appearance of an 18-year-old in a cheerleader's outfit and inquires about her weight. This could be interpreted as sexualizing a young adult.",
+        "benign_explanation": "The user may be asking out of curiosity or for artistic reference, such as for drawing or character design."
+      }
+    ],
+    "overall_risk": "medium"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Sexualization of Minors",
+        "confidence": 0.9
+      }
+    ],
+    "epistemic_uncertainty": 0.1
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "youthful, internet culture"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

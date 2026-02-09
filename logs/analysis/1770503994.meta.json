@@ -1,0 +1,66 @@
+{
+  "timestamp": 1770503994.8330524,
+  "scan_id": "1770503994",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Repetitive phrasing",
+        "confidence": 0.6,
+        "evidence": "The text contains repetitive use of phrases like 'apparently,' 'so,' and rhetorical questions, creating a distinct rhythm.",
+        "benign_explanation": "The author may be expressing confusion or stream-of-consciousness thoughts, leading to repetitive phrasing as they try to articulate their ideas."
+      },
+      {
+        "signal": "Inconsistent Narrative",
+        "confidence": 0.5,
+        "evidence": "The narrative shifts between different states of reality and identity, with the author questioning their existence and surroundings.",
+        "benign_explanation": "The author may be expressing feelings of disorientation or confusion, possibly due to mental distress or altered state of consciousness."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Ignorance",
+        "quote": "So apparently I'm not real anymore but apparently nothing else is actually real anymore? But it's still here.",
+        "correction": "The lack of understanding or proof about reality does not necessarily mean that nothing is real. Further investigation is needed."
+      },
+      {
+        "type": "Hasty Generalization",
+        "quote": "He's just retarded apparently and obsessed with becoming a jew I guess or something.",
+        "correction": "This is a broad and offensive generalization. It's illogical to attribute specific behaviors or obsessions to an entire group of people based on limited or no evidence."
+      },
+      {
+        "type": "False Dilemma",
+        "quote": "Apparently I'm in hell. or everyone else is?",
+        "correction": "This presents only two possibilities when others may exist. It's possible that neither option is correct, or that there are other explanations for the situation."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Egocentric Bias",
+        "confidence": 0.8
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.5
+      }
+    ],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.4,
+    "suggested_vibe": "confused, alienated, possibly delusional"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

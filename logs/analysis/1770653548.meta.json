@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770653548.7378385,
+  "scan_id": "1770653548",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Request for specific content creation",
+        "confidence": 0.4,
+        "evidence": "The text requests the creation of a 'greentext' using specific research, which could be an attempt to disseminate information or propaganda in a specific format.",
+        "benign_explanation": "The user may simply be asking for help in creating content for entertainment or informational purposes, without any malicious intent."
+      },
+      {
+        "signal": "Potential for narrative enforcement",
+        "confidence": 0.3,
+        "evidence": "Request to compose a 'greentext' using specific research may indicate an attempt to promote a particular narrative or viewpoint.",
+        "benign_explanation": "The user may be interested in exploring a specific topic or perspective through the greentext format, without necessarily intending to enforce a particular narrative."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "internet slang, possibly playful"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

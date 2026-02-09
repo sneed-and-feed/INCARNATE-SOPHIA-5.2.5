@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770546900.6648557,
+  "scan_id": "1770546900",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.6,
+        "evidence": "The misspelling of 'anymore' as 'anymoar' is a common tactic to evade filters or create a unique identifier for a coordinated campaign.",
+        "benign_explanation": "The misspelling could be a simple typo or a regional dialect."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "informal, affectionate"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

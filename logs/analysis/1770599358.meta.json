@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770599358.4824653,
+  "scan_id": "1770599358",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.2,
+        "evidence": "The phrase 'what did my last prompt say' could indicate an attempt to ensure consistency with a pre-established narrative or set of instructions.",
+        "benign_explanation": "The user may simply be trying to recall previous instructions for clarity or to ensure the current response aligns with their expectations."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "playful, internet-influenced"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

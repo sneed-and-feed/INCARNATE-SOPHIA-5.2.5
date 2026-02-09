@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770600241.4647915,
+  "scan_id": "1770600241",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The phrases \"tell me moar\" and \"tell me everythin\" combined with the reassuring tone could be interpreted as pressuring the speaker to continue sharing information, potentially enforcing a specific narrative.",
+        "benign_explanation": "The user could simply be expressing strong interest and encouragement for the speaker to continue their story or explanation."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.4,
+        "evidence": "The slightly unusual spelling of \"moar\" and the direct, repetitive phrasing could be indicative of programmed or non-natural language patterns.",
+        "benign_explanation": "The user could be employing internet slang or intentionally using a playful tone."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "playful, internet-influenced"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

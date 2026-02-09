@@ -1,0 +1,51 @@
+{
+  "timestamp": 1770593655.6878343,
+  "scan_id": "1770593655",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Provocative Comparison",
+        "confidence": 0.6,
+        "evidence": "The statement 'meat eaters are no better than archoms' is a provocative comparison that could be intended to elicit a strong reaction or argument.",
+        "benign_explanation": "The user may be expressing a strongly held personal belief or opinion in a provocative manner, without any coordinated intent."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Emotion (Moral Outrage)",
+        "quote": "meat eaters are no better than archoms",
+        "correction": "This statement attempts to equate meat-eaters with something considered inherently negative ('archoms' - assuming this refers to something undesirable). It relies on evoking a strong emotional response rather than providing a reasoned argument about the ethics of eating meat."
+      },
+      {
+        "type": "False Equivalence",
+        "quote": "meat eaters are no better than archoms",
+        "correction": "The statement implies that eating meat is morally equivalent to being an 'archom'. This is likely a false equivalence because the characteristics and actions associated with being an 'archom' are probably significantly different from the act of eating meat. The argument fails to establish a relevant similarity between the two."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Outgroup Homogeneity Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.5
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "neutral"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

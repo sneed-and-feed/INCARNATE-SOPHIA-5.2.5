@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770633845.2130606,
+  "scan_id": "1770633845",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Request",
+        "confidence": 0.3,
+        "evidence": "The request to 'translate sumerian' is unusual in typical online conversations.",
+        "benign_explanation": "The user could be making a joke or testing the capabilities of a language model."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "youthful, informal, digital native"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

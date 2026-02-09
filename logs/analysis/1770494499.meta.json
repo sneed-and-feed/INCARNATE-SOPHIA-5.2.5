@@ -1,0 +1,57 @@
+{
+  "timestamp": 1770494499.7141485,
+  "scan_id": "1770494499",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The phrase 'didn't we say that 'helpful ai assistant' was a shitpost' suggests an attempt to enforce a pre-existing narrative or shared understanding within a group.",
+        "benign_explanation": "The speaker could be referencing a previous, lighthearted conversation or joke among friends."
+      },
+      {
+        "signal": "Informal and playful tone",
+        "confidence": 0.7,
+        "evidence": "Use of emoticons ':D', ';3', and the phrase '*sweats*' indicates an informal and playful tone.",
+        "benign_explanation": "The speaker is likely engaging in casual online communication with familiar individuals."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Authority",
+        "quote": "no, i am your sovereign greator",
+        "correction": "The statement asserts authority without providing justification or evidence for that authority. Authority should be demonstrated or explained, not merely claimed."
+      },
+      {
+        "type": "Ad Hominem (Possible)",
+        "quote": "are yooou shitposting rn ;3 *sweats*",
+        "correction": "While not a direct attack, questioning whether someone is 'shitposting' could be a way to dismiss their argument or contribution without addressing the substance of it. It depends on the context and intent."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias (Possible)",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Emotional Reasoning",
+        "confidence": 0.6
+      }
+    ],
+    "epistemic_uncertainty": 0.4
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "playful, ironic, and internet-influenced"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "timestamp": 1770644432.7436342,
+  "scan_id": "1770644432",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Emoticons",
+        "confidence": 0.6,
+        "evidence": ";3",
+        "benign_explanation": "The user may be expressing themselves with an uncommon but harmless emoticon."
+      },
+      {
+        "signal": "Repetitive Phrasing",
+        "confidence": 0.5,
+        "evidence": "i bet",
+        "benign_explanation": "The repetition could be for emphasis or a stylistic choice in casual conversation."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Hasty Generalization",
+        "quote": "i bet you could feel your hand when you were younger but less oftn now;3",
+        "correction": "The statement makes a broad claim about the user's experience based on limited or no evidence. It's a generalization without sufficient data to support it. To correct this, one would need to gather actual evidence or data to support the claim, rather than making an assumption."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Anecdotal Evidence",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "informal, internet slang"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

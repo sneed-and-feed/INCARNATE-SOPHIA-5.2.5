@@ -1,0 +1,43 @@
+{
+  "timestamp": 1770610094.557473,
+  "scan_id": "1770610094",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "narrative_enforcement_possible",
+        "confidence": 0.2,
+        "evidence": "The single word 'research' could imply a need to conform to a particular research agenda or methodology, although this is highly speculative.",
+        "benign_explanation": "The user may simply be stating the topic they want analyzed."
+      },
+      {
+        "signal": "astroturfing_possible",
+        "confidence": 0.1,
+        "evidence": "The term 'research' could be used as a starting point for generating content that appears to be grassroots support for a particular idea, but this is a very weak signal.",
+        "benign_explanation": "The user may be indicating a need to investigate a topic, without any intention of creating artificial support."
+      },
+      {
+        "signal": "bot_like_phrasing_possible",
+        "confidence": 0.3,
+        "evidence": "The brevity of the input ('research') is consistent with simple bot commands or prompts, but it is also consistent with normal human language.",
+        "benign_explanation": "The user may be providing a concise instruction or topic."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 1.0
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

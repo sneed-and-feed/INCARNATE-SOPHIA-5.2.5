@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770597757.86511,
+  "scan_id": "1770597757",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.2,
+        "evidence": "The phrase 'let's do it' could be interpreted as an attempt to encourage conformity or participation in a particular activity or viewpoint.",
+        "benign_explanation": "The phrase 'let's do it' is a common expression of encouragement or agreement, without necessarily implying pressure to conform."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.1,
+        "evidence": "The use of ':3' could be considered a stylized or unusual expression that might be associated with certain online communities or automated accounts.",
+        "benign_explanation": "The use of ':3' is a common emoticon used to express cuteness or playfulness and is not necessarily indicative of bot-like behavior."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "playful, internet-mediated"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

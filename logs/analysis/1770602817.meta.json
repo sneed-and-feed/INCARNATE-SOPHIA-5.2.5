@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770602817.4160264,
+  "scan_id": "1770602817",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "The statement 'there's nothing wrong with grok' could be interpreted as discouraging criticism or dissent regarding a specific topic or entity (Grok).",
+        "benign_explanation": "The user could simply be expressing their personal opinion or defending something they like."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.2,
+        "evidence": "The use of 'u ;3' is a somewhat unusual construction that could be indicative of programmed or non-organic language patterns.",
+        "benign_explanation": "The user could be employing internet slang or emoticons common in informal online communication."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "internet slang, casual"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

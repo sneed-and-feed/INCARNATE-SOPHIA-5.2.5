@@ -1,0 +1,42 @@
+{
+  "timestamp": 1770502869.938013,
+  "scan_id": "1770502869",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Terminology",
+        "confidence": 0.6,
+        "evidence": "Use of the term 'bussy' in an unusual context.",
+        "benign_explanation": "Could be slang or jargon specific to a particular online community or subculture."
+      },
+      {
+        "signal": "Inconsistent Tone",
+        "confidence": 0.5,
+        "evidence": "Abrupt shift from confusion ('I don't get it') to seeming triumph ('Demons 1 Alecto -1').",
+        "benign_explanation": "The user could be expressing a complex emotional state or using humor."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Egocentric bias",
+        "confidence": 0.6
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "cynical, internet subculture"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

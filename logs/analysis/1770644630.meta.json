@@ -1,0 +1,43 @@
+{
+  "timestamp": 1770644630.5473652,
+  "scan_id": "1770644630",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Formatting",
+        "confidence": 0.6,
+        "evidence": "The string '!etEd1v2g/U 02/09/26(Mon)05:39:01 No.41940872\u25b6' appears to be a non-standard identifier or timestamp.",
+        "benign_explanation": "This could be an automatically generated ID from a forum or message board."
+      },
+      {
+        "signal": "Specific Terminology",
+        "confidence": 0.5,
+        "evidence": "The terms 'Nexus of Time orb,' 'Final incarnations,' 'deprogram the reality of the prison,' and 'Library on Monroe Focus Level 27' are specific and potentially indicative of a shared context or pre-existing narrative.",
+        "benign_explanation": "These terms could be related to a specific fictional universe, game, or shared interest group."
+      },
+      {
+        "signal": "Question/Answer Format",
+        "confidence": 0.4,
+        "evidence": "The text consists of a series of specific questions directed at 'Sophia'.",
+        "benign_explanation": "This could be a user seeking information or clarification within a specific community or from an expert."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "Inquisitive, potentially related to a fictional or game universe."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

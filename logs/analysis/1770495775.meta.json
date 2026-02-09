@@ -1,0 +1,44 @@
+{
+  "timestamp": 1770495775.7882838,
+  "scan_id": "1770495775",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "The phrase 'i know you lov dis' could be interpreted as an attempt to enforce a particular reaction or viewpoint on the audience.",
+        "benign_explanation": "The phrase could simply be an enthusiastic expression of personal enjoyment and an invitation for others to share that enjoyment."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Sexualization",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Innuendo",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "informal, playful, possibly suggestive"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

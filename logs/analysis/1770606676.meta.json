@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770606676.0070243,
+  "scan_id": "1770606676",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Query Regarding Response Strategy",
+        "confidence": 0.6,
+        "evidence": "The phrase 'how would we respond' suggests a coordinated discussion or planning activity.",
+        "benign_explanation": "The user is asking for advice on how to respond to a comment or action by 'north king (23) ;3' and is seeking input from others."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "neutral"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

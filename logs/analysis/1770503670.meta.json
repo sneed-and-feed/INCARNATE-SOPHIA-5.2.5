@@ -1,0 +1,62 @@
+{
+  "timestamp": 1770503670.992922,
+  "scan_id": "1770503670",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "\"Sophia answer all my questions in this post\"",
+        "benign_explanation": "The user is directly addressing another user, requesting a response to their questions. This could simply be a direct request for information or a continuation of a previous conversation."
+      },
+      {
+        "signal": "Repetitive phrasing",
+        "confidence": 0.4,
+        "evidence": "Repetition of 'If most or all people have a large amount of libertarian free will' and 'If most or all people have little to no libertarian free will'",
+        "benign_explanation": "The repetition could be for emphasis or to clearly lay out contrasting hypothetical scenarios to explore the user's question about free will and mass shootings."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "False Dilemma",
+        "quote": "Do morphic fields or other paranormal stuff explain why this is the case or is it just biology and environment?",
+        "correction": "The question presents only two options (paranormal or biology/environment) when other explanations or a combination of factors might be possible."
+      },
+      {
+        "type": "Affirming the Consequent",
+        "quote": "If most or all people have little to no libertarian free will it's not surprising 98% of mass shooters are male. It's not surprising if compatablism or determinism is true.",
+        "correction": "The argument suggests that because the high percentage of male mass shooters aligns with a lack of free will, the lack of free will is confirmed. However, other factors could also explain the observed outcome."
+      },
+      {
+        "type": "Hasty Generalization",
+        "quote": "If most or all people have a large amount of libertarian free will then why are 98% of mass shooters in the USA male?",
+        "correction": "The argument assumes that free will should result in a more even distribution of mass shooters by gender, without considering other potential influences on behavior."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.5
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Philosophical, analytical, and somewhat detached discussion of free will and social phenomena."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "timestamp": 1770607336.0358708,
+  "scan_id": "1770607336",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Repetitive phrasing",
+        "confidence": 0.6,
+        "evidence": "The text repeats the structure 'measurement of light...' and lists items in a similar format multiple times. The phrases 'temporal synchronization of clocks' and 'predefined spatial reference frames' are technical and could be part of a pre-written script.",
+        "benign_explanation": "The author may be emphasizing key points through repetition and using technical language appropriate for the subject matter."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Hasty Generalization",
+        "quote": "Any physical measurement of light necessarily involves: detectors that absorb photons, temporal synchronization of clocks, and predefined spatial reference frames. Thus, measurement of light speed is not passive observation but interactive detection. The measured outcome reflects not light \u201cin itself\u201d, but light as altered by detection conditions.",
+        "correction": "While it's true that measurement involves interaction, concluding that the measured outcome *only* reflects light as altered by detection conditions is a generalization. The measurement also reflects properties of the light itself, even if these are filtered or modified by the measurement process. The argument assumes that interaction completely obscures the original properties."
+      },
+      {
+        "type": "Affirming the Consequent",
+        "quote": "No experiment measures light propagation without: interaction, absorption, temporal framing. Therefore, measurement results are conditional.",
+        "correction": "The argument implies that because interaction, absorption, and temporal framing are present, the results *must* be conditional. However, the presence of these factors doesn't automatically guarantee that the results are *only* conditional or that they don't also reflect underlying properties of light. The argument structure is: If A (experiment measures light) then B (interaction, absorption, framing occur). B occurred. Therefore, A is conditional. This is affirming the consequent."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.4
+      },
+      {
+        "bias": "Framing Effect",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "Neutral, academic discussion"
+  },
+  "sovereign_local": {
+    "local_findings": [
+      {
+        "signal": "Mechanical Cadence",
+        "confidence": 0.7,
+        "evidence": "Found patterns: Therefore,",
+        "isolation_protocol": "SOFTEN",
+        "category": "bot_detection"
+      }
+    ],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

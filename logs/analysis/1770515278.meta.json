@@ -1,0 +1,39 @@
+{
+  "timestamp": 1770515278.2620945,
+  "scan_id": "1770515278",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "offensive_language",
+        "confidence": 0.9,
+        "evidence": "Use of a racial slur.",
+        "benign_explanation": "The user may be using the term colloquially within their own social group without intending harm."
+      },
+      {
+        "signal": "potential_bot_like_phrase",
+        "confidence": 0.6,
+        "evidence": "Short, abrupt phrases with a sudden shift in tone.",
+        "benign_explanation": "The user could be expressing themselves in an excited or humorous manner, using internet slang."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "african_american_vernacular",
+    "dialect_markers": [
+      "nigga"
+    ],
+    "confidence": 0.9,
+    "suggested_vibe": "street, informal, playful"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770644212.3736796,
+  "scan_id": "1770644212",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.4,
+        "evidence": "\"definitely write a greentext\"",
+        "benign_explanation": "The user is strongly encouraging another user to participate in a specific type of online storytelling, which could simply be enthusiastic encouragement rather than an attempt to enforce conformity."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "internet slang, playful"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

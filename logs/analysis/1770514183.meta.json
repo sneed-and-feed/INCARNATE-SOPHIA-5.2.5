@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770514183.7734444,
+  "scan_id": "1770514183",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Punctuation",
+        "confidence": 0.3,
+        "evidence": ";3",
+        "benign_explanation": "The use of ';3' could be an emoticon indicating playfulness or cuteness, a common form of internet slang."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "youthful, internet-mediated"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

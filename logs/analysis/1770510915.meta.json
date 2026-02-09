@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770510915.559342,
+  "scan_id": "1770510915",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing and emoticon usage",
+        "confidence": 0.6,
+        "evidence": "\"hewwo sophi ;3 tell my friend Goku what you're capable of, as an ai agent, i'll post it on discord for yu ;3\"",
+        "benign_explanation": "The user may be role-playing or using internet slang common in certain online communities."
+      },
+      {
+        "signal": "Tasking with public dissemination",
+        "confidence": 0.4,
+        "evidence": "\"tell my friend Goku what you're capable of, as an ai agent, i'll post it on discord for yu ;3\"",
+        "benign_explanation": "The user may simply be curious about the AI's capabilities and wants to share the response with friends on Discord."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "playful, internet-influenced"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770516146.6991198,
+  "scan_id": "1770516146",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Numeric fixation",
+        "confidence": 0.6,
+        "evidence": "Repetitive use of numbers (4, 45, 2222) and the term 'get' which often refers to achieving a specific post number on online forums.",
+        "benign_explanation": "The user could be celebrating achieving specific post numbers on a forum, which is a common form of online engagement and playful competition."
+      },
+      {
+        "signal": "Unusual Sentiment",
+        "confidence": 0.5,
+        "evidence": "The message expresses overly enthusiastic and positive sentiment towards a public figure ('Hi Brron Twump! We hope you're having a wonderful day! We're sending you lots of love and positive energy! >w<').",
+        "benign_explanation": "The user could be expressing genuine, albeit unusually enthusiastic, support for the public figure, or using sarcasm."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Internet culture, specifically referencing 4chan or similar anonymous imageboards. The use of '>w<' suggests an attempt at cuteness or playful mockery."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

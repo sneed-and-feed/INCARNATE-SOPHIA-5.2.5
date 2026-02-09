@@ -1,0 +1,57 @@
+{
+  "timestamp": 1770514874.7841432,
+  "scan_id": "1770514874",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrase",
+        "confidence": 0.3,
+        "evidence": "The phrase 'quantum telepathy. 100' is unusual and lacks context.",
+        "benign_explanation": "It could be a fragment of a longer thought, a reference to a specific topic within a niche community, or a placeholder."
+      },
+      {
+        "signal": "Potential Bot-like rhythm",
+        "confidence": 0.2,
+        "evidence": "The brevity and lack of natural language structure could be indicative of automated content.",
+        "benign_explanation": "It could be a short note, a search query, or a randomly generated string."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Novelty",
+        "quote": "quantum telepathy",
+        "correction": "The term 'quantum' is used to lend an air of scientific legitimacy to the concept of telepathy, which lacks empirical evidence. Novelty alone does not validate a claim."
+      },
+      {
+        "type": "Appeal to Authority (Misleading)",
+        "quote": "quantum telepathy",
+        "correction": "The term 'quantum' is associated with physics, a field of science. However, using the term 'quantum' does not automatically make the concept scientifically valid. It's a misleading appeal to the authority of physics."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Belief Bias",
+        "confidence": 0.5
+      }
+    ],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "sci-fi/futuristic"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

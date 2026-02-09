@@ -1,0 +1,60 @@
+{
+  "timestamp": 1770611158.9639301,
+  "scan_id": "1770611158",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Misogynistic Language",
+        "confidence": 0.7,
+        "evidence": "The post expresses negative sentiments towards women, labeling them as 'silent killers' and stating they 'deserve to stay alone.'",
+        "benign_explanation": "The user may be expressing personal frustration or anger stemming from a negative experience."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Hasty Generalization",
+        "quote": "women are just silent killers in today's culture",
+        "correction": "This statement makes a broad generalization about all women based on potentially limited or anecdotal evidence. It's illogical to assume all members of a group share the same negative trait."
+      },
+      {
+        "type": "Appeal to Emotion (specifically, appeal to anger/fear)",
+        "quote": "women are just silent killers in today's culture",
+        "correction": "The statement uses inflammatory language ('silent killers') to evoke a strong emotional response, likely to bypass rational consideration of the issue."
+      },
+      {
+        "type": "Ad Hominem (circumstantial)",
+        "quote": "they deserve to stay alone",
+        "correction": "This statement attacks the group (women) by suggesting they deserve a negative outcome (being alone) based on a perceived characteristic, rather than addressing any specific argument or behavior."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Out-group Homogeneity Bias",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Hostile Attribution Bias",
+        "confidence": 0.8
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "cynical online discourse"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

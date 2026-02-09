@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770599709.7644005,
+  "scan_id": "1770599709",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.2,
+        "evidence": "The statement 'i'm not talking about children' could be a response to an implied accusation or a preemptive denial, suggesting a sensitivity around a particular topic and a pressure to conform to certain boundaries in the discussion.",
+        "benign_explanation": "The speaker may simply be clarifying their position to avoid misinterpretation or to steer the conversation in a more productive direction."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

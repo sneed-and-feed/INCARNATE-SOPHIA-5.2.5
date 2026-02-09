@@ -1,0 +1,40 @@
+{
+  "timestamp": 1770600420.0749629,
+  "scan_id": "1770600420",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrasing",
+        "confidence": 0.6,
+        "evidence": "The text contains grammatical errors and unusual phrasing such as 'tink' instead of 'think'.",
+        "benign_explanation": "The user may be a non-native English speaker or may have made typos."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Curiosity",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Social desirability bias (implied)",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "informal, possibly juvenile"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

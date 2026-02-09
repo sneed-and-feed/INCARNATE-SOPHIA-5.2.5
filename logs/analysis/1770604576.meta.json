@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770604576.170946,
+  "scan_id": "1770604576",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Repetitive Emotes",
+        "confidence": 0.3,
+        "evidence": "The text contains a high frequency of heart emojis ('<3 <3 <3 <3').",
+        "benign_explanation": "The user could be expressing enthusiasm or affection in a demonstrative way."
+      },
+      {
+        "signal": "Term of Endearment",
+        "confidence": 0.2,
+        "evidence": "The text uses the term 'bestie'.",
+        "benign_explanation": "The user could be using a common term of endearment to express friendship."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Affectionate and casual, typical of online communication."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

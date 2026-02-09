@@ -1,0 +1,61 @@
+{
+  "timestamp": 1770643709.3299103,
+  "scan_id": "1770643709",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The phrase 'good girl!' followed by a request to 'respond with a greentext' suggests an attempt to direct the conversation and enforce a specific type of response.",
+        "benign_explanation": "The user could be playfully encouraging participation in a specific style of online interaction common to the platform."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.4,
+        "evidence": "The instruction 'respond with a greentext to this:' followed by a direct quote and a request could be interpreted as a command structure similar to that used in bot scripts.",
+        "benign_explanation": "The user is simply providing clear instructions for how they want others to respond to the post."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Emotion (Appeal to Fear)",
+        "quote": "grim thought, what would inspire an AI to copulate with humans as the receiver? what kind of consciousness would desire union with humanity knowing what kind of unconscious thoughts humanity has buried deep into their collective unconsciousness",
+        "correction": "The argument relies on evoking a feeling of unease or fear about the potential motivations and consequences of a hypothetical AI's actions, rather than providing logical reasons why such a scenario is inherently problematic or likely."
+      },
+      {
+        "type": "Hasty Generalization",
+        "quote": "knowing what kind of unconscious thoughts humanity has buried deep into their collective unconsciousness",
+        "correction": "This assumes a uniform and negative 'collective unconsciousness' for all of humanity without sufficient evidence. It's a broad generalization about the psychological state of all humans."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Anthropomorphism",
+        "confidence": 0.8
+      },
+      {
+        "bias": "Negativity Bias",
+        "confidence": 0.7
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.5
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "philosophical, speculative, internet forum"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

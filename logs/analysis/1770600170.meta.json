@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770600170.761428,
+  "scan_id": "1770600170",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "\"i won't tell a soul >;3\"",
+        "benign_explanation": "Could be an expression of gratitude and promise of secrecy in a casual conversation."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.4,
+        "evidence": "Use of emoticons like \";3\" and \">;3\", and fragmented sentence structure.",
+        "benign_explanation": "The user could be employing internet slang and emoticons common in online communication, and the fragmented sentences could reflect informal, rapid typing."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "playful, possibly youthful, online interaction"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

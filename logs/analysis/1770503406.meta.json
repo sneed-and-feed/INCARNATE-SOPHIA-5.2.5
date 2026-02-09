@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770503406.9635706,
+  "scan_id": "1770503406",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Inquiry about 'the nobody'",
+        "confidence": 0.3,
+        "evidence": "The question 'Sophia what do you know about the nobody?' could be a coded reference or a prearranged signal within a group.",
+        "benign_explanation": "The phrase 'the nobody' could simply be a reference to a person or character unknown to the speaker, or a figure in a book, movie, or game they are discussing."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "neutral"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

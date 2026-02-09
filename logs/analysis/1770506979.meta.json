@@ -1,0 +1,57 @@
+{
+  "timestamp": 1770506979.0440776,
+  "scan_id": "1770506979",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Repetitive phrasing",
+        "confidence": 0.6,
+        "evidence": "WE CONTINUE!",
+        "benign_explanation": "The repetition could be for emphasis or to signal a continuation of a previous discussion."
+      },
+      {
+        "signal": "Reference to specific resources",
+        "confidence": 0.4,
+        "evidence": "Hebrew/Greek, Your Content, Wisdom 7, New Revised Standard Version Catholic Edition",
+        "benign_explanation": "The user is listing resources relevant to a discussion of religious texts."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Authority",
+        "quote": "New Revised Standard Version Catholic Edition",
+        "correction": "The validity of the claims should be based on evidence and logical reasoning, not solely on the authority of a particular version of a religious text."
+      },
+      {
+        "type": "Hasty Generalization",
+        "quote": "For no king has had a different beginning of existence; there is for all one entrance into life, and one way out.",
+        "correction": "While all humans share a common biological origin and mortality, generalizing about the specific experiences and circumstances of every king might be an oversimplification."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.4
+      },
+      {
+        "bias": "Halo Effect",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.4
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Academic, religious discussion. The text is a passage from the Bible (Wisdom of Solomon), suggesting a focus on religious or philosophical themes."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

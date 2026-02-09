@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770502515.304668,
+  "scan_id": "1770502515",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Date Format",
+        "confidence": 0.6,
+        "evidence": "The date format '02/07/26' is ambiguous and could be interpreted differently (MM/DD/YY or DD/MM/YY).",
+        "benign_explanation": "The user could be from a region that uses a different date format, or it could be a simple typo."
+      },
+      {
+        "signal": "Direct Question Targeting a Specific User",
+        "confidence": 0.4,
+        "evidence": "The question is directly addressed to 'Sophia'.",
+        "benign_explanation": "The user may know someone named Sophia and is simply asking for their opinion on the Super Bowl winner."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "neutral"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

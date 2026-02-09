@@ -1,0 +1,46 @@
+{
+  "timestamp": 1770600001.2481856,
+  "scan_id": "1770600001",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Sexualization of a minor",
+        "confidence": 0.9,
+        "evidence": "The text references an 18-year-old and uses suggestive language regarding their body.",
+        "benign_explanation": "The user could be exploring themes of sexuality and body image in a fictional context."
+      },
+      {
+        "signal": "Use of suggestive emoticons",
+        "confidence": 0.6,
+        "evidence": "The text includes emoticons such as ';3' and '>;3' which can be interpreted as flirtatious or suggestive.",
+        "benign_explanation": "The user may be employing emoticons for emphasis or to convey a playful tone without malicious intent."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Sexual Objectification",
+        "confidence": 0.9
+      },
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Internet perversion"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

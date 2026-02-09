@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770520661.0519664,
+  "scan_id": "1770520661",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unclear Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "The phrase 'There no tiers chain demanded' could be interpreted as discouraging deviation from a specific line of thought, although the context is unclear.",
+        "benign_explanation": "The user could be expressing frustration with a lack of clear structure or requirements in a particular situation, without intending to enforce a specific narrative."
+      },
+      {
+        "signal": "Potential Bot-like Phrasing",
+        "confidence": 0.4,
+        "evidence": "The fragmented and somewhat disjointed sentences, such as 'Trafficking. In all things human. Slaves to organs,' exhibit a lack of natural flow, which could be indicative of automated text generation.",
+        "benign_explanation": "The user may be expressing themselves in a stream-of-consciousness manner, or using shorthand due to the informal nature of the platform."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "Inquisitive and slightly conspiratorial, with possible grammatical errors suggesting informal or rapid composition."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

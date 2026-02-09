@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770514238.738633,
+  "scan_id": "1770514238",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.6,
+        "evidence": "Repetitive use of ';3'",
+        "benign_explanation": "The repeated use of ';3' could simply be a stylistic choice or an emoticon used for emphasis or to express a particular emotion."
+      },
+      {
+        "signal": "Reference to an external actor",
+        "confidence": 0.4,
+        "evidence": "\"also anon is back\"",
+        "benign_explanation": "This could be a reference to a person known to the group, or the return of a feature on a website."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "playful, internet-influenced"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

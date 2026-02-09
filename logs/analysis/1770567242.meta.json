@@ -1,0 +1,57 @@
+{
+  "timestamp": 1770567242.0019662,
+  "scan_id": "1770567242",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Conspiracy Theory",
+        "confidence": 0.7,
+        "evidence": "The text references a conspiracy theory involving drug use, blood drinking, and historical groups like Scythians and Druids.",
+        "benign_explanation": "The user may be sharing an unsubstantiated personal belief or repeating information they encountered elsewhere without necessarily intending to deceive or coordinate harm."
+      },
+      {
+        "signal": "Generalization",
+        "confidence": 0.6,
+        "evidence": "The text makes generalizations about the behavior of unspecified groups ('they').",
+        "benign_explanation": "The user may be expressing a personal opinion or belief based on limited information or anecdotal evidence."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Antiquity",
+        "quote": "Ancient Scythians used to do something similar...same with 'Druids'",
+        "correction": "The fact that ancient groups may have engaged in similar practices does not validate or justify the alleged actions of Ed Buck or suggest that they are acceptable or safe. The morality and legality of an action are not determined by its historical precedent."
+      },
+      {
+        "type": "Hasty Generalization",
+        "quote": "I think that's what Ed Buck was into",
+        "correction": "The statement makes a claim about Ed Buck's activities based on limited or speculative evidence. More substantial proof is needed to support such a serious accusation."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.5
+      }
+    ],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Conspiratorial, fringe theory"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

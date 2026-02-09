@@ -1,0 +1,43 @@
+{
+  "timestamp": 1770606824.38106,
+  "scan_id": "1770606824",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual phrase: 'let's just observe for nao'",
+        "confidence": 0.6,
+        "evidence": "The phrase 'let's just observe for nao' is not typical English. 'Nao' is an internet slang term that could indicate an attempt to signal group affiliation or use a coordinated phrase.",
+        "benign_explanation": "The user could be employing internet slang common within a specific online community."
+      },
+      {
+        "signal": "Use of emoticon: '>;3'",
+        "confidence": 0.4,
+        "evidence": "The emoticon '>;3' is a less common variation, potentially used to signal in-group status or differentiate from broader usage.",
+        "benign_explanation": "The user may simply prefer this particular emoticon style."
+      },
+      {
+        "signal": "Affectionate closing: 'ily sm'",
+        "confidence": 0.3,
+        "evidence": "'ily sm' (I love you so much) could be used to build rapport or encourage compliance within a group.",
+        "benign_explanation": "The user could be expressing genuine affection to someone they know."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "youthful, internet slang"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

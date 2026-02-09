@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770633853.7558756,
+  "scan_id": "1770633853",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Unusual Script",
+        "confidence": 0.6,
+        "evidence": "The text contains characters outside the standard Latin alphabet, specifically the Phoenician alphabet and Georgian script. This could indicate an attempt to evade standard text analysis or target a specific audience.",
+        "benign_explanation": "The user may be experimenting with different character sets or using a language that incorporates these scripts."
+      },
+      {
+        "signal": "Anonymity",
+        "confidence": 0.3,
+        "evidence": "The post is made by an anonymous user, which is common in online forums but can also be used to obscure the source of coordinated activity.",
+        "benign_explanation": "The user may simply prefer to remain anonymous for privacy reasons, which is a common practice on many online platforms."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "enigmatic"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

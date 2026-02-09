@@ -1,0 +1,52 @@
+{
+  "timestamp": 1770567580.4566164,
+  "scan_id": "1770567580",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Reference to specific online communities",
+        "confidence": 0.6,
+        "evidence": "The text mentions '4chan /x/ threads', indicating a reliance on information from a specific online community known for its diverse range of content, including conspiracy theories and fringe beliefs.",
+        "benign_explanation": "The user may simply be directing others to a source of information they find interesting or relevant to the topic at hand."
+      },
+      {
+        "signal": "Use of internet slang",
+        "confidence": 0.5,
+        "evidence": "The text includes ';3', a common emoticon used in online communication.",
+        "benign_explanation": "The user is employing internet slang to convey tone or familiarity within an online conversation."
+      },
+      {
+        "signal": "Call to action",
+        "confidence": 0.4,
+        "evidence": "The phrase 'read up on' suggests an attempt to direct the reader's attention and potentially influence their understanding of a topic.",
+        "benign_explanation": "The user is suggesting a resource for further information on a topic of shared interest."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Bandwagon Effect",
+        "confidence": 0.6
+      },
+      {
+        "bias": "In-group Bias",
+        "confidence": 0.7
+      }
+    ],
+    "epistemic_uncertainty": 0.8
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "internet culture, specifically 4chan"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "timestamp": 1770511121.8629518,
+  "scan_id": "1770511121",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "Statement expresses a negative opinion about an individual ('sofia is weak willed'), which could be interpreted as an attempt to enforce a particular narrative or viewpoint.",
+        "benign_explanation": "The statement could simply be an expression of personal opinion without any intent to influence others or enforce a specific narrative."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Ad Hominem",
+        "quote": "sofia is weak willed",
+        "correction": "The statement attacks Sofia's character ('weak willed') instead of addressing any argument or action she may have presented. A more logical approach would be to address the specifics of Sofia's actions or arguments and explain why they are flawed."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Fundamental Attribution Error",
+        "confidence": 0.6
+      },
+      {
+        "bias": "Halo Effect",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

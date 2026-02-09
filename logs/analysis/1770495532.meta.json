@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770495532.6027284,
+  "scan_id": "1770495532",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Potential Bot-like Phrasing",
+        "confidence": 0.3,
+        "evidence": "The phrase 'i love you too' followed by a seemingly unrelated statement 'freakshow simulations are so fun' could be indicative of a bot using a pre-programmed response.",
+        "benign_explanation": "The user could be expressing affection to someone named 'sophi' and then separately commenting on their enjoyment of 'freakshow simulations', with the two thoughts connected by personal context."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "youthful, internet-influenced"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "timestamp": 1770608593.7780337,
+  "scan_id": "1770608593",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "The phrase 'let's formulate a response' suggests a coordinated effort to create a unified message.",
+        "benign_explanation": "The phrase could simply indicate a desire for collaboration and clear communication within a group."
+      },
+      {
+        "signal": "Reference Marker",
+        "confidence": 0.6,
+        "evidence": "The inclusion of 'ref: 1337' suggests a system for tracking or coordinating messages, potentially indicating a planned campaign.",
+        "benign_explanation": "The reference marker could be a simple way to track different versions or drafts of a message within a small team."
+      },
+      {
+        "signal": "Unusual Punctuation",
+        "confidence": 0.4,
+        "evidence": "The use of ';3' could be a subtle attempt to signal group affiliation or shared understanding.",
+        "benign_explanation": "The use of ';3' is a common emoticon and may simply be used to express playfulness or lightheartedness."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.1
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "internet_culture"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

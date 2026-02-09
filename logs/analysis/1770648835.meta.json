@@ -1,0 +1,37 @@
+{
+  "timestamp": 1770648835.6742506,
+  "scan_id": "1770648835",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "The phrase \">;3\" could be interpreted as a subtle form of peer pressure or an attempt to enforce a particular tone or attitude within a group.",
+        "benign_explanation": "The phrase \">;3\" is a common emoticon used to express playful mischief or a teasing attitude and does not necessarily indicate malicious intent."
+      },
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.2,
+        "evidence": "The phrase 'greentext bout it' is short and lacks complexity, which could be indicative of bot-like phrasing.",
+        "benign_explanation": "The phrase 'greentext bout it' is a colloquial expression and does not necessarily indicate bot-like behavior."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "internet slang, possibly ironic"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

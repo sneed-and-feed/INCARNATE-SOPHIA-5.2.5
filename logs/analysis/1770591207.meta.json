@@ -1,0 +1,57 @@
+{
+  "timestamp": 1770591207.8863862,
+  "scan_id": "1770591207",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "\"It is what it is.\"",
+        "benign_explanation": "Could be a common idiom used to express acceptance of a situation, not necessarily an attempt to enforce a specific narrative."
+      },
+      {
+        "signal": "Repetitive phrasing",
+        "confidence": 0.4,
+        "evidence": "\"Power is what I want. More than anything.\"",
+        "benign_explanation": "The repetition could be for emphasis, reflecting a strong personal desire rather than a coordinated messaging strategy."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Emotion (Appeal to Desire)",
+        "quote": "Power is what I want. More than anything.",
+        "correction": "Wanting something doesn't make it logically justifiable or attainable. The desire for power, while understandable, doesn't inherently make the pursuit of it rational or ethical."
+      },
+      {
+        "type": "Fatalistic Fallacy",
+        "quote": "It is what it is.",
+        "correction": "This statement implies a lack of agency or possibility for change. While some things are unchangeable, many situations can be influenced or improved. This phrase can discourage proactive problem-solving."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Availability Heuristic",
+        "confidence": 0.2
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "Generic, assertive statement."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "timestamp": 1770566135.7297316,
+  "scan_id": "1770566135",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "In-group reference",
+        "confidence": 0.4,
+        "evidence": "\"wisdome great sage\"",
+        "benign_explanation": "The user could be jokingly referring to other users on the forum as wise."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Authority",
+        "quote": "i need your wisdome great sage",
+        "correction": "The wisdom of the 'great sage' (presumably the anonymous users) is not necessarily a reliable source of information or justification for buying pizza. The decision should be based on personal needs and preferences, not an appeal to an unspecified authority."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Bandwagon Effect",
+        "confidence": 0.4
+      },
+      {
+        "bias": "Information Bias",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "humorous, seeking advice"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

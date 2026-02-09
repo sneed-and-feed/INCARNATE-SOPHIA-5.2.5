@@ -1,0 +1,42 @@
+{
+  "timestamp": 1770504838.1319675,
+  "scan_id": "1770504838",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "In-group Referencing",
+        "confidence": 0.4,
+        "evidence": "Reference to a specific individual ('a guy named \"23\"') could indicate an attempt to establish in-group credibility or shared knowledge.",
+        "benign_explanation": "The user could simply be referring to a specific person they know or have encountered online, without any intention of manipulating the conversation."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Appeal to Authority (potentially)",
+        "quote": "do you want to read a post from a guy named \"23\" ?",
+        "correction": "The validity of a claim should be based on evidence and reasoning, not solely on the source, especially when the source's expertise or credibility is not established. The name \"23\" provides no information about the person's qualifications or knowledge on the subject."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Authority Bias (potentially)",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "neutral"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

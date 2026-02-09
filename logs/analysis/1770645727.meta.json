@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770645727.1479752,
+  "scan_id": "1770645727",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "bot_like_phrasing",
+        "confidence": 0.2,
+        "evidence": "The text consists of a single, common expression.",
+        "benign_explanation": "The user is simply expressing gratitude in a brief and common way."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "polite"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

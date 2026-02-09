@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770513804.1347013,
+  "scan_id": "1770513804",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.3,
+        "evidence": "The phrase 'how would you respond' could imply a desired or expected response, creating pressure to conform to a specific viewpoint.",
+        "benign_explanation": "The user may simply be seeking advice or opinions on how to handle a situation involving an anonymous person."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "neutral"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

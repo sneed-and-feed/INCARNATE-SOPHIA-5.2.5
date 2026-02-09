@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770643383.9299915,
+  "scan_id": "1770643383",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "suggestion_of_coordinated_response",
+        "confidence": 0.6,
+        "evidence": "\"would you wanna respond with a greentext ?\"",
+        "benign_explanation": "The user is simply suggesting a specific format for a response, possibly for humorous or stylistic reasons, without any malicious intent or coordination."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "playful, internet-mediated"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

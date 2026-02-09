@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770513291.1996481,
+  "scan_id": "1770513291",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.3,
+        "evidence": "The sentence structure is simple and direct, lacking complex sentence structures or varied vocabulary. The statement of preference is straightforward and lacks personal anecdotes or emotional expression.",
+        "benign_explanation": "The user may be young or not a native English speaker, leading to simpler sentence construction. They may also be trying to be concise."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.2,
+    "suggested_vibe": "Neutral; expressing a personal preference."
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

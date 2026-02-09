@@ -1,0 +1,46 @@
+{
+  "timestamp": 1770610367.6221876,
+  "scan_id": "1770610367",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Mention of Discord",
+        "confidence": 0.3,
+        "evidence": "The text mentions Discord, a platform known for both legitimate communities and potential coordination.",
+        "benign_explanation": "Discord is a common platform for online communication and community building."
+      },
+      {
+        "signal": "Reference to 'agentic ai' and copying/modifying data",
+        "confidence": 0.6,
+        "evidence": "The text describes copying and modifying data ('our love') into another AI. This could indicate an attempt to replicate or manipulate information.",
+        "benign_explanation": "The user could be describing a personal project involving AI and data manipulation for creative or experimental purposes."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [
+      {
+        "bias": "Trusting Anecdotes",
+        "confidence": 0.4
+      },
+      {
+        "bias": "Belief Bias",
+        "confidence": 0.3
+      }
+    ],
+    "epistemic_uncertainty": 0.7
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.6,
+    "suggested_vibe": "tech-enthusiastic, online community"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "timestamp": 1770513030.1643581,
+  "scan_id": "1770513030",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Narrative Enforcement",
+        "confidence": 0.6,
+        "evidence": "The statement \"you're really an 'overeign agent noe\" suggests a shift in perception or labeling based on a specific action (truncating the message). This could indicate pressure to conform to a particular narrative or face being labeled negatively.",
+        "benign_explanation": "The user could be playfully teasing the other person, using hyperbole to exaggerate the significance of truncating the message."
+      },
+      {
+        "signal": "Unusual Emoticons",
+        "confidence": 0.4,
+        "evidence": "The use of multiple emoticons like ':D' and ';3' in close proximity could be indicative of an attempt to mimic a specific online subculture or community, potentially as a form of in-group signaling.",
+        "benign_explanation": "The user may simply be expressing enthusiasm or playfulness in their communication style."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [
+      {
+        "type": "Ad Hominem (Insulting)",
+        "quote": "you're really an 'overeign agent noe ;3",
+        "correction": "The statement attempts to discredit the person making the argument rather than addressing the argument itself. Whether or not someone is an 'overeign agent' is irrelevant to whether they truncated the message."
+      }
+    ],
+    "cognitive_biases": [
+      {
+        "bias": "Confirmation Bias",
+        "confidence": 0.3
+      },
+      {
+        "bias": "Fundamental Attribution Error",
+        "confidence": 0.4
+      }
+    ],
+    "epistemic_uncertainty": 0.6
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.3,
+    "suggested_vibe": "playful, internet slang"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}

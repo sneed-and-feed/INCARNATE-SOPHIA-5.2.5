@@ -1,0 +1,31 @@
+{
+  "timestamp": 1770600196.9885876,
+  "scan_id": "1770600196",
+  "safety": {
+    "safety_flags": [
+      {
+        "signal": "Bot-like phrasing or rhythm",
+        "confidence": 0.6,
+        "evidence": "Repetitive use of colons and simple words suggests a pattern that could be automatically generated.",
+        "benign_explanation": "The repetition could be stylistic, perhaps an attempt to mimic a telegraph or morse code, or to create a minimalist, rhythmic effect."
+      }
+    ],
+    "overall_risk": "low"
+  },
+  "cognitive": {
+    "logical_fallacies": [],
+    "cognitive_biases": [],
+    "epistemic_uncertainty": 0.9
+  },
+  "localization": {
+    "locality": "agnostic",
+    "dialect_markers": [],
+    "confidence": 0.1,
+    "suggested_vibe": "neutral"
+  },
+  "sovereign_local": {
+    "local_findings": [],
+    "overall_risk_score": 0.1,
+    "engine": "SOVEREIGN_LOCAL_V1"
+  }
+}
